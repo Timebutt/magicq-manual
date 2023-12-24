@@ -65,21 +65,20 @@ async function run() {
             }
 
             // TO-DO: remove
-            if (htmlFile !== 'midi.html') {
-                return;
-            }
+            // if (htmlFile !== 'midi.html') {
+            //     return;
+            // }
 
             const content = await fetch(`https://secure.chamsys.co.uk/help/documentation/magicq/${htmlFile}`).then((response) =>
                 response.text(),
             );
-            // const parsedHtml = parse(await format(content?.toString() ?? '', prettierConfig));
-            // If you don't run Prettier the results are better it seems
 
             if (!content) {
                 return;
             }
 
-            const document = new JSDOM(content.toString()).window.document;
+            const processedContent = content.replaceAll('style=""', '');
+            const document = new JSDOM(processedContent).window.document;
 
             const title = document.querySelector<HTMLDivElement>('.titlepage .title')?.textContent?.trim();
             const index = parseInt((title ?? '').match(/\d+/)?.[0] ?? '', 10);
@@ -88,9 +87,30 @@ async function run() {
                 title,
                 ...(typeof index === 'number' && index >= 0 ? { sidebar_position: index } : {}),
             });
-            const titleNode = document.querySelector('.titlepage');
-            if (titleNode) {
-                titleNode.remove();
+
+            const titlePageNodes = document.querySelectorAll('.titlepage');
+            for (const titlePageNode of titlePageNodes) {
+                const titleNode = titlePageNode.querySelector('.title');
+                if (!titleNode) {
+                    return;
+                }
+
+                const tagName = titleNode.tagName;
+                const tagTitle = titleNode.textContent;
+
+                console.log(tagTitle);
+
+                if (tagName === 'H1') {
+                    titlePageNode.replaceWith(`# ${tagTitle}`);
+                } else if (tagName === 'H2') {
+                    titlePageNode.replaceWith(`## ${tagTitle}`);
+                } else if (tagName === 'H3') {
+                    titlePageNode.replaceWith(`### ${tagTitle}`);
+                } else if (tagName === 'H4') {
+                    titlePageNode.replaceWith(`#### ${tagTitle}`);
+                } else if (tagName === 'H5') {
+                    titlePageNode.replaceWith(`##### ${tagTitle}`);
+                }
             }
 
             const articleContent = document.querySelector('.chapter');
@@ -105,10 +125,9 @@ async function run() {
                 const style = node.getAttribute('style');
 
                 if (style) {
-                    JSON.stringify(getStyleObjectFromString(style));
+                    const jo = JSON.stringify(getStyleObjectFromString(style));
                     node.removeAttribute('style');
                 }
-                // TO-DO: remove style="" tags as well - they cause crashes!
             });
 
             // Fix image URLs
@@ -120,10 +139,9 @@ async function run() {
                 }
             });
 
-            // TO-DO: er is nog iets raar met die Prettier parsing dawe moeten fixen
-            // Mogelijks moeten we eerst Prettier runnen over hun files vooraleer we ze binnentrekken ofzo kweenie
-            // const formattedContent = await format(articleContent?.toString() ?? '', prettierConfig);
-            const formattedContent = await format(articleContent.innerHTML, prettierConfig);
+            let formattedContent = await format(articleContent.innerHTML, prettierConfig);
+            formattedContent = formattedContent.replaceAll(/<\/pre\n.*\>/gm, `\n</pre>`);
+            // .replaceAll('&nbsp;', ' ')
 
             writeFileSync(`./docs/${htmlFile.split('.html')[0]}.md`, `---\n${articleHeader}---\n\n${formattedContent}`);
         }),

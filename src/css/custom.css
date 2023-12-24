@@ -6,7 +6,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-    --ifm-color-primary: #0047bb;
+    --ifm-color-primary: #06003e;
     --ifm-color-primary-dark: #29784c;
     --ifm-color-primary-darker: #277148;
     --ifm-color-primary-darkest: #205d3b;
@@ -16,11 +16,14 @@
     --ifm-code-font-size: 95%;
     --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
     font-family: Exo, sans-serif;
+    --ifm-font-family-base: Exo, sans-serif;
+    --doc-sidebar-width: 360px !important;
+    --ifm-footer-background-color: #06003e !important;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-    --ifm-color-primary: #25c2a0;
+    --ifm-color-primary: #06003e;
     --ifm-color-primary-dark: #21af90;
     --ifm-color-primary-darker: #1fa588;
     --ifm-color-primary-darkest: #1a8870;
@@ -28,4 +31,15 @@
     --ifm-color-primary-lighter: #32d8b4;
     --ifm-color-primary-lightest: #4fddbf;
     --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+    --ifm-heading-color: white;
+    --ifm-font-color-base-inverse: white;
+}
+
+.hero-image {
+    max-height: 240px;
+}
+
+.footer--dark {
+    --ifm-footer-background-color: #06003e;
+    --ifm-footer-link-hover-color: white;
 }
