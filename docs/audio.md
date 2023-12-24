@@ -4,20 +4,20 @@ title: Chapter 38. Audio
 sidebar_position: 38
 ---
 
-# Chapter&nbsp;38.&nbsp;Audio
+# Chapter 38. Audio
 <div class="section">
-    ## 38.1.&nbsp;Audio Input
+    ## 38.1. Audio Input
     <p>
         Audio input can be used in many ways on MagicQ - to bump a Cue Stack from step to step, to set a Cue Stack tempo, to set the virtual
         level of the playback fader and as part of the MagicQ Pixelmapper.
     </p>
     <p>
         Audio bump functions can also triggered from the
-        <a class="link" href="remote-input.html" title="Chapter&nbsp;42.&nbsp;Remote Input port">remote input port</a>
+        <a class="link" href="remote-input.html" title="Chapter 42. Remote Input port">remote input port</a>
         .
     </p>
     <div class="section">
-        ### 38.1.1.&nbsp;Audio input ports
+        ### 38.1.1. Audio input ports
         <p>
             Audio input can be achieved on both MagicQ consoles and MagicQ PC via a sound card. On PC systems, a ChamSys Wing, Connect or
             Interface (not MagicDMX) is required to enable Audio input functionality.
@@ -45,7 +45,7 @@ sidebar_position: 38
         </p>
     </div>
     <div class="section">
-        ### 38.1.2.&nbsp;Audio input options
+        ### 38.1.2. Audio input options
         <p>
             The audio input signal is analysed in 7 different frequency bands: 63Hz, 160Hz, 400Hz, 1KHz, 2.5KHz, 6.2KHz, 16KHz. The levels
             for each channel can be used on MagicQ to set the level of Playbacks, to step through cue stacks and to set the speed of chases.
@@ -63,7 +63,7 @@ sidebar_position: 38
         </p>
     </div>
     <div class="section">
-        ### 38.1.3.&nbsp;Global audio settings
+        ### 38.1.3. Global audio settings
         <p>In order to use audio input on MagicQ set the setting Setup, View Settings, Ports, Audio, Audio Input. The options are</p>
         <div class="itemizedlist">
             <ul class="itemizedlist">
@@ -101,7 +101,7 @@ sidebar_position: 38
         </p>
     </div>
     <div class="section">
-        ### 38.1.4.&nbsp;Cue Stack audio options
+        ### 38.1.4. Cue Stack audio options
         <p>
             In the Cue Stack options there are five possible audio modes – Audio Controls fader level, Audio bumps GO/FX, Audio sets BPM,
             Audio level jumps to Cue Step, and Audio beat step.
@@ -153,30 +153,30 @@ sidebar_position: 38
         </p>
     </div>
     <div class="section">
-        ### 38.1.5.&nbsp;Pixel Mapper and Audio
+        ### 38.1.5. Pixel Mapper and Audio
         <p>
             The
-            <a class="link" href="pixel-mapping.html#_pixel_map_audio_fx" title="24.3.14.&nbsp;Pixel Map Audio FX">Pixel Mapper Audio FX</a>
+            <a class="link" href="pixel-mapping.html#_pixel_map_audio_fx" title="24.3.14. Pixel Map Audio FX">Pixel Mapper Audio FX</a>
             support comprehensive Pixel Mapping using audio triggering.
         </p>
     </div>
 </div>
 <div class="section">
-    ## 38.2.&nbsp;Audio playback
+    ## 38.2. Audio playback
     <p>
         MagicQ supports playback of audio files directly from Cue Stacks. Documentation for this can be found in the
-        <a class="link" href="cue-stacks.html#audio-in-cue-stacks" title="15.16.&nbsp;Audio in Cue Stacks">Audio in Cue Stacks</a>
+        <a class="link" href="cue-stacks.html#audio-in-cue-stacks" title="15.16. Audio in Cue Stacks">Audio in Cue Stacks</a>
         section.
     </p>
     <div class="section">
-        ### 38.2.1.&nbsp;Audio output ports
+        ### 38.2.1. Audio output ports
         <p>
             Audio output is supported from MagicQ consoles with a dedicated audio output port, and MagicQ PC systems using the internal
             sound card.
         </p>
         <p>
             Audio output is also supported via an
-            <a class="link" href="audio.html#_usb_sound_cards" title="38.3.&nbsp;USB sound cards">external USB sound card</a>
+            <a class="link" href="audio.html#_usb_sound_cards" title="38.3. USB sound cards">external USB sound card</a>
             on supported consoles.
         </p>
         <p>
@@ -186,7 +186,7 @@ sidebar_position: 38
         </p>
     </div>
     <div class="section">
-        ### 38.2.2.&nbsp;MagicQ PC
+        ### 38.2.2. MagicQ PC
         <p>
             On Windows, macOS and Linux, you can select the device for both audio input and audio output by using the "Audio input device"
             and "Audio output device" settings.
@@ -198,7 +198,7 @@ sidebar_position: 38
     </div>
 </div>
 <div class="section">
-    ## 38.3.&nbsp;USB sound cards
+    ## 38.3. USB sound cards
     <p>Instead of the built-in audio connections on consoles, a USB sound card can be used with the following consoles:</p>
     <p>MQ50, MQ70, MQ80*, MQ250M, MQ500, MQ500M.</p>
     <p>This can be useful if you need low noise and/or balanced outputs.</p>
@@ -246,12 +246,12 @@ sidebar_position: 38
     </p>
     <p>
         *The MQ80 will also need a Linux Kernel upgrade - follow
-        <a class="link" href="upgrading.html#mq80-kernel-v2" title="52.3.&nbsp;MQ80 Kernel v2 upgrade">these steps</a>
+        <a class="link" href="upgrading.html#mq80-kernel-v2" title="52.3. MQ80 Kernel v2 upgrade">these steps</a>
         .
     </p>
 </div>
 <div class="section">
-    ## 38.4.&nbsp;Control of Winamp
+    ## 38.4. Control of Winamp
     <p>
         MagicQ supports control of a Winamp instance on the same PC by patching a Winamp personality. The Winamp personality can control
         track number, play mode, track position, volume, and audio pan.

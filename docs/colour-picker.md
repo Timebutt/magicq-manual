@@ -4,7 +4,7 @@ title: Chapter 25. Colour Picker
 sidebar_position: 25
 ---
 
-# Chapter&nbsp;25.&nbsp;Colour Picker
+# Chapter 25. Colour Picker
 <p>
     From version 1.8.6.4 MagicQ includes an advanced colour picker system able to mix colour using all available emitters of any
     colour-mixing fixtures, including those with extended emitter sets (amber, lime, UV, etc).
@@ -15,14 +15,14 @@ sidebar_position: 25
 </p>
 <p>
     Colourimetry data can also be provided by the user; to do this, refer to
-    <a class="link" href="head-editor.html#head-editor-colourimetry" title="27.13.4.&nbsp;Adding colourimetry data to a head">
+    <a class="link" href="head-editor.html#head-editor-colourimetry" title="27.13.4. Adding colourimetry data to a head">
         Adding colourimetry data to a head
     </a>
 </p>
 <div class="section">
-    ## 25.1.&nbsp;Concepts
+    ## 25.1. Concepts
     <div class="section">
-        ### 25.1.1.&nbsp;Colour Spaces
+        ### 25.1.1. Colour Spaces
         <p>
             A number of different models exist to define individual colours; the most commonly used by colour-mixing fixtures are
             red-green-blue (RGB), cyan-magenta-yellow (CMY), with some including a mode for hue-saturation-intensity (HSI) as well. These
@@ -104,7 +104,7 @@ sidebar_position: 25
         </div>
     </div>
     <div class="section">
-        ### 25.1.2.&nbsp;Gamut &amp; Colourimetry
+        ### 25.1.2. Gamut &amp; Colourimetry
         <p>
             You can measure a light source (such as a fixture) to determine the exact colours each emitter gives off; this process is called
             colourimetry.
@@ -128,7 +128,7 @@ sidebar_position: 25
         <p>Michael Horvath (SharkD), Christoph Lipka / Wikimedia Commons / CC BY-SA 4.0</p>
     </div>
     <div class="section">
-        ### 25.1.3.&nbsp;Brightness, luminosity
+        ### 25.1.3. Brightness, luminosity
         <p>The different meanings of "brightness" and "luminosity" should be noted carefully.</p>
         <p>
             Luminosity is the scientific measure of the intensity of a light source, regardless of its colour; it can be measured with a
@@ -150,14 +150,14 @@ sidebar_position: 25
     </div>
 </div>
 <div class="section">
-    ## 25.2.&nbsp;Views
+    ## 25.2. Views
     <p>
         The colour picker window is divided into two separate views; the colour wheel or graph on the left, and a separate set of controls
         on the right. If the colour picker window is too small to display both, the wheel is hidden by default; the "SHOW WHEEL" soft button
         is then enabled, and can be used to toggle between the wheel and the other view.
     </p>
     <div class="section">
-        ### 25.2.1.&nbsp;Wheel
+        ### 25.2.1. Wheel
         <p>
             The left-hand view is a 2D representation of the colour space. This can be switched between different modes using the E soft
             button. This cycles through three modes: CIE 1931, a Hue-Saturation wheel, and a special chart for choosing colour-corrected
@@ -204,7 +204,7 @@ sidebar_position: 25
         </p>
     </div>
     <div class="section">
-        ### 25.2.2.&nbsp;Faders
+        ### 25.2.2. Faders
         <p>
             The faders view shows one fader for each available colour channel. The colour channels available depends on the current wheel
             mode; for instance, the RGB faders are not available in CIE 1931 mode, and most faders are not available in CCT mode.
@@ -223,7 +223,7 @@ sidebar_position: 25
         </p>
     </div>
     <div class="section">
-        ### 25.2.3.&nbsp;Gels
+        ### 25.2.3. Gels
         <p>
             In VIEW GELS the colour picker can be used to simulate the colours of popular lighting gels. By default, this shows generic
             colours. Press the Gel Type button (soft button A), the library can be switched between: Lee, Rosco, Apollo, or GAM.
@@ -231,10 +231,10 @@ sidebar_position: 25
     </div>
 </div>
 <div class="section">
-    ## 25.3.&nbsp;Selection modes
+    ## 25.3. Selection modes
     <p>There are also three selection modes which determine how the colours influence the colour of the selected fixtures:</p>
     <div class="section">
-        ### 25.3.1.&nbsp;Select Single
+        ### 25.3.1. Select Single
         <p>
             The simplest mode, all fixtures and their fixture elements are set to the selected colour, if possible. If different types of
             fixtures are selected, the DMX values of each one will be set so that the closest possible representation of the selected colour
@@ -242,7 +242,7 @@ sidebar_position: 25
         </p>
     </div>
     <div class="section">
-        ### 25.3.2.&nbsp;Select Fan
+        ### 25.3.2. Select Fan
         <p>
             This mode is for creating colour fans. The currently chosen colour is interpreted as being the START of the fan. Selecting a new
             colour (by any method) will choose the end of the fan. Once a fan is selected, you can use the SELECTED START / SELECTED END
@@ -265,7 +265,7 @@ sidebar_position: 25
         </p>
     </div>
     <div class="section">
-        ### 25.3.3.&nbsp;Select Relative
+        ### 25.3.3. Select Relative
         <p>
             When in "SELECT RELATIVE" mode, the faders change function to adjust the colours already in the colour picker. For instance, if
             one already has a colour fan set up, one can use the saturation fader to make this fan smoothly fade to white. This can also be
@@ -274,7 +274,7 @@ sidebar_position: 25
     </div>
 </div>
 <div class="section">
-    ## 25.4.&nbsp;Other functions
+    ## 25.4. Other functions
     <p>
         The colour picker supports timed colour fades, using the same syntax as the rest of MagicQ. To do this, type in a fade time, and
         select a new colour; the output will fade over time. Note that for faders entering numbers sets their value instead of setting time.

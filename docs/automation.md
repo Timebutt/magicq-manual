@@ -4,9 +4,9 @@ title: Chapter 22. Automation
 sidebar_position: 22
 ---
 
-# Chapter&nbsp;22.&nbsp;Automation
+# Chapter 22. Automation
 <div class="section">
-    ## 22.1.&nbsp;MagicQ Automation Window
+    ## 22.1. MagicQ Automation Window
     <p>
         MagicQ supports an automation system to enable it to automatically respond to both external, internal and timed events. MagicQ can
         trigger on external events such as MIDI notes, DMX input, serial input, timecode, and the remote contact input. MagicQ can also
@@ -34,7 +34,7 @@ sidebar_position: 22
     <p>Automations can be globally enabled or disabled from the Autom setting in Setup, Vierw Settings, Mode.</p>
     <p>From MagicQ v1.9.0.0 onwards Automations were expanded, so that MagicQ now supports up to 1000 Automations.</p>
     <div class="section">
-        ### 22.1.1.&nbsp;Autom Events
+        ### 22.1.1. Autom Events
         <p>Each event can have up to 3 parameters (P1,P2,P3) to filter the event further.</p>
         <div class="informaltable">
             <table class="informaltable" cellpadding="4px">
@@ -164,7 +164,7 @@ sidebar_position: 22
         <p>For emergency hot takeover, use SHIFT and SET EMERGENCY ON and SET EMERGENCY OFF suft buttons in Setup, View DMX I/O.</p>
     </div>
     <div class="section">
-        ### 22.1.2.&nbsp;Autom Functions
+        ### 22.1.2. Autom Functions
         <p>The following functions are supported with each function having up to 3 function parameters F1, F2, F3.</p>
         <div class="informaltable">
             <table class="informaltable" cellpadding="4px">
@@ -396,7 +396,7 @@ sidebar_position: 22
         <p>The current state of the function is shown in the Status field.</p>
     </div>
     <div class="section">
-        ### 22.1.3.&nbsp;MIDI events
+        ### 22.1.3. MIDI events
         <p>If you add MIDI events then these override the miditable.txt file – the file is completely ignored.</p>
         <p>
             The MIDI Clock enables triggering from the MIDI clock. The divisor can be specified to trigger on half note, full note or
@@ -404,7 +404,7 @@ sidebar_position: 22
         </p>
     </div>
     <div class="section">
-        ### 22.1.4.&nbsp;Serial Port events
+        ### 22.1.4. Serial Port events
         <p>
             If you add serial port events then these override the normal ChamSys serial remote protocol functions. The serial port settings
             in Setup, View Settings, Ports must be set up with Serial Remote Protocol set to ChamSys RX.
@@ -441,7 +441,7 @@ sidebar_position: 22
         <p>F1 1</p>
     </div>
     <div class="section">
-        ### 22.1.5.&nbsp;MIDI Sysex events
+        ### 22.1.5. MIDI Sysex events
         <p>MagicQ matches MIDI Sysex messages in a similar way to serial messages above</p>
         <p>
             MagicQ matches the MIDI Sysex messages to the string you specify in the P2 field using the same format as in the Cue Stack
@@ -470,7 +470,7 @@ sidebar_position: 22
     </div>
 </div>
 <div class="section">
-    ## 22.2.&nbsp;Scheduled Events
+    ## 22.2. Scheduled Events
     <p>
         MagicQ supports timed events for trigger Cues at specific times of the day or days of the week. Any Cue in a Cue Stack can be set to
         trigger based on a scheduled event rather than following on from the previous Cue. This enables time of day and date based events to
@@ -502,7 +502,7 @@ sidebar_position: 22
         Macro enable option in Setup.
     </p>
     <div class="section">
-        ### 22.2.1.&nbsp;Dates and days of the week
+        ### 22.2.1. Dates and days of the week
         <p>It is also possible to set dates in P2 using the following format:</p>
         <p><code class="literal">day/month/year</code></p>
         <p>
@@ -529,7 +529,7 @@ sidebar_position: 22
         <p><code class="literal">AB</code></p>
     </div>
     <div class="section">
-        ### 22.2.2.&nbsp;Sunrise + Sunset (astronomical)
+        ### 22.2.2. Sunrise + Sunset (astronomical)
         <p>MagicQ has the capability to trigger events based on the sunrise and sunset at the particular location.</p>
         <p>
             In order for sunrise and sunset events to occur correctly MagicQ must be configured with the correct longitude, latitude and
@@ -547,7 +547,7 @@ sidebar_position: 22
         <p>S-0/30/0</p>
     </div>
     <div class="section">
-        ### 22.2.3.&nbsp;Tracker
+        ### 22.2.3. Tracker
         <p>
             MagicQ can trigger events based on a XYZ Tracker position related to a MagicVis object. This enables receive XYZ position from
             an external system and using that position information to control other attributes - e.g. ramping up intensity of a fixed
@@ -568,14 +568,14 @@ sidebar_position: 22
     </div>
 </div>
 <div class="section">
-    ## 22.3.&nbsp;Automated Start of Playbacks / Executes
+    ## 22.3. Automated Start of Playbacks / Executes
     <p>
         MagicQ includes several options for automated start of Playbacks and Executes. These options are available on MagicQ consoles and on
         MagicQ PC systems when connected to a MagicQ USB Wing or Interface. See Setup, View Settings, Playback, Activate Playbacks On Start.
     </p>
 </div>
 <div class="section">
-    ## 22.4.&nbsp;Keyboard macros
+    ## 22.4. Keyboard macros
     <p>
         Keyboard macros enable you to record sequences of key presses and to replay the sequence at the press of a single button. Keyboard
         macros can be assigned to any button on the console (including to a SHIFT+button and CTRL+button) or to buttons on an external
@@ -583,7 +583,7 @@ sidebar_position: 22
     </p>
     <p>Macros can be inhibited from the Setup Window using the "Inhibit Macros" option.</p>
     <div class="section">
-        ### 22.4.1.&nbsp;Recording keyboard macros
+        ### 22.4.1. Recording keyboard macros
         <p>
             To record a keyboard macro, go to the Macro Window, press RECORD and select a macro to record. Alternatively moe the cursor to a
             free item in the window and press the START MACRO soft button.
@@ -605,7 +605,7 @@ sidebar_position: 22
         <p>Choose the Record Options by pressing soft button A in the Macro window. The options are "Keys", "MQ Keys" and "Functions".</p>
     </div>
     <div class="section">
-        ### 22.4.2.&nbsp;Playing keyboard macros
+        ### 22.4.2. Playing keyboard macros
         <p>Macros can be played by simply pressing the item in the Macro Window.</p>
         <p>
             To stop a macro that is playing open the Macro Window, View Macros, put the cursor on the macro and press the STOP MACRO soft
@@ -614,7 +614,7 @@ sidebar_position: 22
         <p>Keyboard macros can be triggered from Cue Stacks using the Cue Stack Macro B, e.g. B1 plays macro B1. B0 stops all macros.</p>
     </div>
     <div class="section">
-        ### 22.4.3.&nbsp;Keyboard macro timing
+        ### 22.4.3. Keyboard macro timing
         <p>
             Playback of keyboard macros can use the times that the macro was recorded with or using external time code sources. By default
             macros are played back using "Step per tick" timing. Use the SET TIMING soft button to change the timing. The options are:
@@ -661,7 +661,7 @@ sidebar_position: 22
         </p>
     </div>
     <div class="section">
-        ### 22.4.4.&nbsp;Editing keyboard macros
+        ### 22.4.4. Editing keyboard macros
         <p>
             Times can be modified in the View Data view of the Macro Window using the keypad and Encoder E. Multiple items in the macro can
             be changed at one time using SHIFT and the cursor keys to select the items.
@@ -685,7 +685,7 @@ sidebar_position: 22
         </p>
     </div>
     <div class="section">
-        ### 22.4.5.&nbsp;Assigning keyboard macros
+        ### 22.4.5. Assigning keyboard macros
         <p>
             To assign a macro to a button, press the ASSIGN MACRO soft button and press a key to assign it to (e.g. one of the 6 spare
             keys). Keyboard macros can also be assigned to a combination of keys – for example if you hold one key and press another key.
@@ -699,7 +699,7 @@ sidebar_position: 22
         <p>A macro assignment can be removed using the DEASSIGN MACRO soft button.</p>
     </div>
     <div class="section">
-        ### 22.4.6.&nbsp;Quick Macro Toolbar
+        ### 22.4.6. Quick Macro Toolbar
         <p>
             The Quick Macro Tool Bar is accessed by pressing the screen in the Status Display (the area of the screen above Playbacks PB1 to
             PB5 with the Clock). The Macro Tool Bar can be closed by pressing in the Status Display again.
@@ -707,7 +707,7 @@ sidebar_position: 22
         <p>The Macro Tool Bar shows the Key Macros 1 to 10.</p>
     </div>
     <div class="section">
-        ### 22.4.7.&nbsp;Recording Playback faders
+        ### 22.4.7. Recording Playback faders
         <p>
             Macros support fader moves and encoder changes as well as button presses. This enables complete recording and playback of macro
             segments. Macro timing and playback uses a high resolution internal clock enabling accurate playback of recorded sequences.
@@ -715,7 +715,7 @@ sidebar_position: 22
         <p>MagicQ optimises fader moves to remove redundant steps.</p>
     </div>
     <div class="section">
-        ### 22.4.8.&nbsp;In built Macros
+        ### 22.4.8. In built Macros
         <p>
             MagicQ supports a number of in-built macros which carry out common programming key sequences including quite a few that would
             normally require multiple key presses or simultaneous pressing of more than one key. The In-built Macros can be useful on touch
@@ -724,12 +724,12 @@ sidebar_position: 22
         <p>Press the In built Macro soft button and choose the macro to assign to the current item in the Macro Window.</p>
     </div>
     <div class="section">
-        ### 22.4.9.&nbsp;Scheduled events in Cue Stacks
+        ### 22.4.9. Scheduled events in Cue Stacks
         <p>
             Cue Stacks can be used to program a list of scheduled events. To use this feature, set the Halt field of each of the Cues in the
             Cue Stack Window to "Sched". Double click to change the field. Then enter the time in the Wait field. The times can have
             wildcards and sunrise/sunset times as per
-            <a class="link" href="automation.html#scheduled-events" title="22.2.&nbsp;Scheduled Events">Autom</a>
+            <a class="link" href="automation.html#scheduled-events" title="22.2. Scheduled Events">Autom</a>
             events.
         </p>
         <p>

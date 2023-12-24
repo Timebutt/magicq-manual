@@ -5,7 +5,6 @@ sidebar_position: 36
 ---
 
 # Chapter 36. Controlling MagicQ using UDP/IP
-
 <p>
     MagicQ consoles and MagicQ PC/Mac software supports the use of an network protocol for controlling external devices, such as media
     servers, video or automation computers.
@@ -101,5 +100,145 @@ byte data;
 <div class="section">
     ## 36.4. Sample code fragments
     <p>The code fragments below show you could connect to MagicQ using simple C programming.</p>
-    
+    <pre class="programlisting">
+#define REMOTE_ETHER_PORT 0x1999
+#define MAX_CREP_MSG 1000
+
+typedef struct &#123;
+  long32 chamsys;
+  word16 version;
+  byte seq_fwd;
+  byte seq_bkwd;
+  word16 length;
+  byte data;
+&#125; remote_ether_message_t;
+
+
+int remote_ether_sock = 0;
+word16 remote_ether_fwd = 0;
+word16 remote_ether_bkwd = 0;
+
+
+int remote_ether_init(void)
+&#123;
+  struct sockaddr_in name;
+  char opts[100];
+  socklen_t optlen = 100;
+  int flags;
+  int i;
+
+  // For Windows OS we need to start winsocket
+#ifndef LINUX
+  &#123;
+    WSAData ws;
+    int code;
+    code = WSAStartup(MAKEWORD(1,1),&amp;ws);
+  &#125;
+#endif
+
+  if (remote_ether_sock)
+    return (TRUE);
+
+  remote_ether_sock = socket (PF_INET, SOCK_DGRAM, 0);
+  getsockopt (remote_ether_sock,SOL_SOCKET,SO_REUSEADDR, opts, &amp;optlen);
+  opts[0] = 1;
+  setsockopt (remote_ether_sock,SOL_SOCKET,SO_REUSEADDR, opts, optlen);
+
+  /* Give the socket a name. */
+  name.sin_family = AF_INET;
+  name.sin_port = htons (REMOTE_ETHER_PORT);
+  name.sin_addr.s_addr = htonl (INADDR_ANY);
+
+  if (bind (remote_ether_sock, (struct sockaddr *) &amp;name, sizeof (name)) &lt;)
+  &#123;
+    closesocket(remote_ether_sock);
+    return (FALSE);
+  &#125;
+
+  getsockopt (remote_ether_sock,SOL_SOCKET,SO_BROADCAST, opts, &amp;optlen);
+  opts[0] = 1;
+  setsockopt (remote_ether_sock,SOL_SOCKET,SO_BROADCAST, opts, optlen);
+  &#123;
+    u_long block;
+    block = 1;
+    ioctlsocket(remote_ether_sock,FIONBIO,&amp;block);
+  &#125;
+
+  return TRUE;
+&#125;
+
+int remote_ether_rx(char *data, word16 size)
+&#123;
+  char message[MAX_CREP_MSG];
+  int nbytes;
+  remote_ether_message_t *rem = (remote_ether_message_t *) message;
+  struct sockaddr_in name;
+  int name_len = sizeof(name);
+
+  if (!remote_ether_sock) return (0);
+
+  nbytes = recvfrom (remote_ether_sock,
+                   message,
+                   MAX_CREP_MSG,
+                   0,
+                   (struct sockaddr *) &amp;name,
+                   &amp;name_len);
+
+  if (nbytes &gt; 0)
+  &#123;
+    if (rem-&gt;chamsys == (('C'&lt;&lt;24)|('R'&lt;&lt;16)|('E'&lt;&lt;8)|('P')))
+    &#123;
+      int len = wswap(rem-&gt;length);
+      remote_ether_bkwd = rem-&gt;seq_fwd;
+
+      if (len&lt;(MAX_CREP_MSG-(sizeof(remote_ether_message_t)+1)))
+      &#123;
+        if (len&gt;size) len = size;
+        memcpy(data,&amp;(rem-&gt;data),len);
+        return (len);
+      &#125;
+    &#125;
+  &#125;
+
+  return (0);
+&#125;
+
+char remote_ether_tx(char *data, word16 size)
+&#123;
+  // Format the message
+  byte message[MAX_CREP_MSG];
+  remote_ether_message_t *rem = (remote_ether_message_t *) message;
+
+  int nbytes;
+  struct sockaddr_in name;
+
+  if (!remote_ether_sock) return (FALSE);
+
+  if (size&gt;(MAX_CREP_MSG-sizeof(remote_ether_message_t)+1))
+    size = MAX_CREP_MSG-sizeof(remote_ether_message_t)+1;
+
+  rem-&gt;chamsys = (('C'&lt;&lt;24)|('R'&lt;&lt;16)|('E'&lt;&lt;8)|('P'));
+  rem-&gt;version = wswap(0);
+  rem-&gt;seq_fwd = remote_ether_fwd;
+  rem-&gt;seq_bkwd = remote_ether_bkwd;
+  rem-&gt;length = wswap(size);
+  memcpy(&amp;(rem-&gt;data),data,size);
+
+  my_broadcast_address.s_addr = ip_address | ~subnet_address;
+  name.sin_family = AF_INET;
+  name.sin_port = htons (REMOTE_ETHER_PORT);
+  name.sin_addr.s_addr = dwswap (my_broadcast_address.s_addr);
+
+  nbytes = sendto (remote_ether_sock,
+                 message,
+                 size(sizeof(remote_ether_message_t)-1),
+                 0,
+                 (struct sockaddr *) &amp; name, sizeof(name)
+                );
+
+  if (nbytes&gt;0) remote_ether_fwd++;
+
+  return (TRUE);
+&#125;
+</pre>
 </div>

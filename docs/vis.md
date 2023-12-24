@@ -4,9 +4,9 @@ title: Chapter 46. MagicQ Visualiser
 sidebar_position: 46
 ---
 
-# Chapter&nbsp;46.&nbsp;MagicQ Visualiser
+# Chapter 46. MagicQ Visualiser
 <div class="section">
-    ## 46.1.&nbsp;MagicVis
+    ## 46.1. MagicVis
     <p>MagicQ includes a visualiser called MagicVis available for Windows, Mac and Linux.</p>
     <p>
         <span class="inlinemediaobject">
@@ -31,11 +31,11 @@ sidebar_position: 46
     <p>
         In order to render the beams MagicVis uses the graphics card in your PC / Mac - the better the performance of your graphics card
         then the better performance of the visualiser. PCs and Macs with shared graphics memory will perform slowly and will only be able to
-        render small lighting rigs. A Nvidia or ATI/Radeon graphics card costing £100/£120€/160$ will make all the difference to your
+        render small lighting rigs. A Nvidia or ATI/Radeon graphics card costing £100/£120€/160&#36; will make all the difference to your
         system.
     </p>
     <div class="section">
-        ### 46.1.1.&nbsp;Using the Separate MagicVis Application
+        ### 46.1.1. Using the Separate MagicVis Application
         <p>
             The separate MagicVis application can connect to a console or a separate PC running MagicQ software. The show will be
             automatically loaded from the console over the network.
@@ -120,7 +120,7 @@ sidebar_position: 46
         </p>
     </div>
     <div class="section">
-        ### 46.1.2.&nbsp;Using MagicVis with other consoles
+        ### 46.1.2. Using MagicVis with other consoles
         <p>
             MagicVis can be used with third-party consoles other than MagicQ. The visualisation show must first be created in MagicQ and
             then loaded into MagicVis for use with the other console.
@@ -156,7 +156,7 @@ sidebar_position: 46
         </div>
     </div>
     <div class="section">
-        ### 46.1.3.&nbsp;Using the Visualiser in MagicQ
+        ### 46.1.3. Using the Visualiser in MagicQ
         <p>
             Run the MagicQ software then go to the
             <span class="emphasis"><em>Visualiser</em></span>
@@ -173,7 +173,7 @@ sidebar_position: 46
     </div>
 </div>
 <div class="section">
-    ## 46.2.&nbsp;Using MagicVis
+    ## 46.2. Using MagicVis
     <p>
         MagicVis provides five views – Perspective, Top, Side, Front, and Free. The view can be changed either from the
         <span class="emphasis"><em>View</em></span>
@@ -222,7 +222,7 @@ sidebar_position: 46
         </table>
     </div>
     <div class="section">
-        ### 46.2.1.&nbsp;Patching Heads in the Visualiser
+        ### 46.2.1. Patching Heads in the Visualiser
         <p>When you patch the first head in your show, MagicQ will prompt you whether you wish to auto insert heads into the visualiser.</p>
         <p>
             <span class="inlinemediaobject">
@@ -252,7 +252,7 @@ sidebar_position: 46
         </p>
     </div>
     <div class="section">
-        ### 46.2.2.&nbsp;View Vis View
+        ### 46.2.2. View Vis View
         <p>
             <span class="white black-background">Patch</span>
             → VIEW VIS
@@ -283,7 +283,7 @@ sidebar_position: 46
         </p>
     </div>
     <div class="section">
-        ### 46.2.3.&nbsp;Positioning the Heads in the Visualisation
+        ### 46.2.3. Positioning the Heads in the Visualisation
         <p>When you patch heads they automatically become selected so that in</p>
         <p>
             <span class="white black-background">Patch</span>
@@ -307,7 +307,7 @@ sidebar_position: 46
         </p>
     </div>
     <div class="section">
-        ### 46.2.4.&nbsp;Transform Modes
+        ### 46.2.4. Transform Modes
         <p>
             All items can be positioned and orientated using the encoders as described in the above section, "Positioning the Heads in the
             Visualisation". The behaviour of the encoders can be changed using the Transform Mode soft button.
@@ -346,7 +346,7 @@ sidebar_position: 46
         </p>
     </div>
     <div class="section">
-        ### 46.2.5.&nbsp;Objects
+        ### 46.2.5. Objects
         <p>
             <span class="inlinemediaobject">
                 <img src="https://secure.chamsys.co.uk/help/documentation/magicq/images/patchselectedheads.png" alt="image" />
@@ -411,7 +411,7 @@ sidebar_position: 46
         </div>
     </div>
     <div class="section">
-        ### 46.2.6.&nbsp;Drapes
+        ### 46.2.6. Drapes
         <p>
             To add a drape to the scene press the INSERT soft button, then select
             <span class="emphasis"><em>Drape</em></span>
@@ -429,7 +429,7 @@ sidebar_position: 46
         </p>
     </div>
     <div class="section">
-        ### 46.2.7.&nbsp;Custom Models
+        ### 46.2.7. Custom Models
         <p>
             To add a custom model, press the INSERT button, then select
             <span class="emphasis"><em>Model</em></span>
@@ -489,7 +489,7 @@ sidebar_position: 46
         </div>
     </div>
     <div class="section">
-        ### 46.2.8.&nbsp;Attaching Heads to Objects
+        ### 46.2.8. Attaching Heads to Objects
         <p>
             Heads can be attached to trusses or pipes at any time. Select the heads you wish to attach using groups or the keypad. Change to
             VIEW VIS → Selected Heads tab and press the FIT TO OBJECT soft button.
@@ -509,7 +509,7 @@ sidebar_position: 46
         </p>
     </div>
     <div class="section">
-        ### 46.2.9.&nbsp;Modifying Beam Angle and Head Shape
+        ### 46.2.9. Modifying Beam Angle and Head Shape
         <p>
             In Patch, View Heads it is possible to set specific shapes and beam angles for generic heads. When set these fields override the
             defaults from the chosen personality. The shape is also shown in the Fixture Patch report.
@@ -520,7 +520,7 @@ sidebar_position: 46
         </p>
     </div>
     <div class="section">
-        ### 46.2.10.&nbsp;Visualising Media Servers
+        ### 46.2.10. Visualising Media Servers
         <p>
             MagicVis can preview the output from media servers, including MagicHD. First of all make sure that the Media window on the
             console is displaying a live preview of the media server output. Then, in the
@@ -555,7 +555,7 @@ sidebar_position: 46
         </p>
     </div>
     <div class="section">
-        ### 46.2.11.&nbsp;Moving Trusses
+        ### 46.2.11. Moving Trusses
         <p>
             To make an attach object movable via DMX patch a Generic Movement head into MagicQ. Then in Patch, View Vis set the attach
             object for the Generic Movement to be the Attach object to move. Any heads hung from the truss will move along with the truss.
@@ -593,7 +593,7 @@ sidebar_position: 46
         </div>
     </div>
     <div class="section">
-        ### 46.2.12.&nbsp;Coloured objects
+        ### 46.2.12. Coloured objects
         <p>In MagicVis it is possible to set a Head item to colour an attach object, for truss warmers or for coloured scenic pieces.</p>
         <p>
             In Patch, View Vis on the Selected Heads or Vis Heads tab page right to get to the Col Apply column and set it to Yes. If there
@@ -605,7 +605,7 @@ sidebar_position: 46
         </p>
     </div>
     <div class="section">
-        ### 46.2.13.&nbsp;DMX Controlled Camera
+        ### 46.2.13. DMX Controlled Camera
         <p>
             The Generic Camera head enables the Visualiser view to be modified from within MagicQ programming. When a Generic Camera is
             patched in MagicQ and the Mode Attribute is non zero then the Visualiser view comes under the control of the Camera. The Generic
@@ -641,7 +641,7 @@ sidebar_position: 46
         </div>
     </div>
     <div class="section">
-        ### 46.2.14.&nbsp;Removing Visualiser Heads and Objects
+        ### 46.2.14. Removing Visualiser Heads and Objects
         <p>
             To remove a visualiser head go to VIEW VIS → Vis Heads and put the cursor on the item. Press REMOVE. Use SHIFT/CTRL and the
             cursor keys to cursor select multiple visualiser heads for removal. To remove an attach object go to VIEW VIS → Attach Objects
@@ -653,7 +653,7 @@ sidebar_position: 46
         </p>
     </div>
     <div class="section">
-        ### 46.2.15.&nbsp;Changing the Size of the Room
+        ### 46.2.15. Changing the Size of the Room
         <p>
             It is possible to change the size of the room by adding a Room Object. By default MagicQ uses a room 20 x 20 x 20 metres. If you
             add a room object then MagicVis will use the dimensions of the room object instead. The datum is always on the floor in the
@@ -666,7 +666,7 @@ sidebar_position: 46
         </p>
     </div>
     <div class="section">
-        ### 46.2.16.&nbsp;Paperwork
+        ### 46.2.16. Paperwork
         <p>
             You can use MagicVis to create plots and patch sheets. In the MagicVis window click on
             <span class="emphasis"><em>File</em></span>
@@ -701,7 +701,7 @@ sidebar_position: 46
         </p>
     </div>
     <div class="section">
-        ### 46.2.17.&nbsp;Converting an Existing MagicQ Show File
+        ### 46.2.17. Converting an Existing MagicQ Show File
         <p>
             Old MagicQ show files can be loaded into MagicQ, but they will not have any visualiser heads defined. It is easy to take heads
             from an existing show file and create a visualisation.
@@ -727,7 +727,7 @@ sidebar_position: 46
         </p>
     </div>
     <div class="section">
-        ### 46.2.18.&nbsp;Converting a MagicQ Grid Into a Visualisation
+        ### 46.2.18. Converting a MagicQ Grid Into a Visualisation
         <p>
             It is possible to convert a grid from the MagicQ Plan View into a visualisation. In the Output Window, View Plan press SHIFT +
             ARRANGE VIS. MagicQ will prompt you for the positioning within the visualisation.
@@ -747,7 +747,7 @@ sidebar_position: 46
         </p>
     </div>
     <div class="section">
-        ### 46.2.19.&nbsp;Visualiser Settings
+        ### 46.2.19. Visualiser Settings
         <p>MagicVis includes settings for how the visualisation looks.</p>
         <p>
             <span class="inlinemediaobject">
@@ -766,7 +766,7 @@ sidebar_position: 46
     </div>
 </div>
 <div class="section">
-    ## 46.3.&nbsp;Plot Window
+    ## 46.3. Plot Window
     <p>
         MagicQ incorporates a Plot Window displaying the position and orientation of heads within the lighting rig. The Plot Window can show
         Front, Overhead and Side elevations, restricted to either Flown or Floor heads and the view can be moved and zoomed. The view can be
@@ -775,7 +775,7 @@ sidebar_position: 46
         Patch Window.
     </p>
     <div class="section">
-        ### 46.3.1.&nbsp;Focus Functions
+        ### 46.3.1. Focus Functions
         <p>
             It is possible to set the pan and tilt of selected heads from the Plot window so that the heads are focused on a point on the
             stage. To quickly focus the lights on a point press the FOCUS ON TARGET soft button then click on a point on the plot. The
@@ -828,7 +828,7 @@ sidebar_position: 46
         </p>
     </div>
     <div class="section">
-        ### 46.3.2.&nbsp;Converting the Plot View into a MagicQ Grid
+        ### 46.3.2. Converting the Plot View into a MagicQ Grid
         <p>
             It is possible to convert a plot into a grid using the CREATE GRID soft button in the Plot Window. MagicQ takes the heads from
             the current view and current filter in the Plot View and creates a new Grid in the Output Window.

@@ -4,14 +4,14 @@ title: Chapter 12. Programmer
 sidebar_position: 12
 ---
 
-# Chapter&nbsp;12.&nbsp;Programmer
+# Chapter 12. Programmer
 <p>
     The programmer is the function of MagicQ where show data is configured for recording. The programmer takes priority over all playbacks.
     It can also be used during live running to override the outputs – for example, for changing the colour or gobo of intelligent heads.
 </p>
 <p>MagicQ outputs any channels that are active in the programmer at highest priority – i.e. they over-ride all other playbacks.</p>
 <div class="section">
-    ## 12.1.&nbsp;What is in the programmer?
+    ## 12.1. What is in the programmer?
     <p>
         The Prog Window enables you to determine exactly what is in the programmer and how it is configured. Press PROG to open the window.
         The programmer stores three types of data
@@ -45,7 +45,7 @@ sidebar_position: 12
     </p>
 </div>
 <div class="section">
-    ## 12.2.&nbsp;Clearing the programmer
+    ## 12.2. Clearing the programmer
     <p>
         <span class="inlinemediaobject">
             <img src="https://secure.chamsys.co.uk/help/documentation/magicq/images/progcleared.png" alt="image" />
@@ -67,7 +67,7 @@ sidebar_position: 12
     </p>
 </div>
 <div class="section">
-    ## 12.3.&nbsp;Activation by Channel or by Head?
+    ## 12.3. Activation by Channel or by Head?
     <p>
         After CLEAR has been pressed, the programmer is empty - i.e. there are no channels active in the programmer. When the level of a
         dimmer channel or an attribute of an intelligent head is changed for the first time then it becomes active in the programmer.
@@ -93,7 +93,7 @@ sidebar_position: 12
     </p>
 </div>
 <div class="section">
-    ## 12.4.&nbsp;Recording a Cue
+    ## 12.4. Recording a Cue
     <p>The basic unit of storage on the console is the Cue, which stores</p>
     <div class="itemizedlist">
         <ul class="itemizedlist">
@@ -119,7 +119,7 @@ sidebar_position: 12
     <p>To view a recorded Cue, press the SELECT button for the Playback, and then press CUE to open the Cue Window.</p>
     <p>The Cue Window is very similar to the Programmer Window - it has the same views for Levels, Timing and FX.</p>
     <div class="section">
-        ### 12.4.1.&nbsp;Levels
+        ### 12.4.1. Levels
         <p>
             All active channels in the programmer are transferred into the Cue. Thus if "Activation by Head" is in use then all the
             attributes of activated heads will be stored.
@@ -130,7 +130,7 @@ sidebar_position: 12
         </p>
     </div>
     <div class="section">
-        ### 12.4.2.&nbsp;Timing
+        ### 12.4.2. Timing
         <p>
             The timing information in the programmer is copied into the Cue. Cue timing can be set up before or after the Cue is recorded.
         </p>
@@ -144,12 +144,12 @@ sidebar_position: 12
         </p>
     </div>
     <div class="section">
-        ### 12.4.3.&nbsp;FX
+        ### 12.4.3. FX
         <p>The Cue stores FX information for each of the FX that is in the programmer.</p>
     </div>
 </div>
 <div class="section">
-    ## 12.5.&nbsp;Split Cue Times
+    ## 12.5. Split Cue Times
     <p>
         It is possible to add Split Cue times (different times for different heads) both before a Cue is programmed in the Programmer Window
         and afterwards in the Cue Window.
@@ -161,7 +161,7 @@ sidebar_position: 12
         for a particular head one by one.
     </p>
     <div class="section">
-        ### 12.5.1.&nbsp;View Simple
+        ### 12.5.1. View Simple
         <p>
             The View Simple shows both General Times and Individual Times. The General Times are the times that are applied by default to
             attributes in the Cue – i.e. if you do not specify any Individual Time for an attribute on a head then the General Times will be
@@ -213,7 +213,7 @@ sidebar_position: 12
         </div>
     </div>
     <div class="section">
-        ### 12.5.2.&nbsp;View Advanced
+        ### 12.5.2. View Advanced
         <p>
             In the View Advanced you can set delay and fade times on a per head and per attribute basis one at a time. It is also possible
             to set multiple heads and multiple attributes by highlighting multiple items using SHIFT and the cursor keys. To fan times
@@ -222,7 +222,7 @@ sidebar_position: 12
     </div>
 </div>
 <div class="section">
-    ## 12.6.&nbsp;Recording to a specific Cue Id
+    ## 12.6. Recording to a specific Cue Id
     <p>
         To Record to a specific Cue Id in a Cue Stack, enter the Cue Id number on the keypad before you press RECORD and select the Playback
         S button.
@@ -239,7 +239,7 @@ sidebar_position: 12
     <p>For example 6/2.0 ENTER records to Playback 6, Cue Id 2.0.</p>
 </div>
 <div class="section">
-    ## 12.7.&nbsp;Snapshot Icons
+    ## 12.7. Snapshot Icons
     <p>
         MagicQ stores Snapshot images of the Visualisation, Media or Pixel Mapping output when recording Cues and Palettes enabling easy
         identification of the contents of Cues and Palettes. MagicQ grabs Snapshots directly from MagicVis and MagicHD. MagicQ can also grab
@@ -254,7 +254,7 @@ sidebar_position: 12
     <p>MagicQ will only store snapshot icons when the relevant Visualiser / Media Server is active and connected.</p>
 </div>
 <div class="section">
-    ## 12.8.&nbsp;Record Options
+    ## 12.8. Record Options
     <p>
         Record options can be accessed when recording by pressing SHIFT and RECORD or at any time using the REC OPTIONS soft button in the
         Programmer Window.
@@ -265,7 +265,7 @@ sidebar_position: 12
         </span>
     </p>
     <div class="section">
-        ### 12.8.1.&nbsp;Record Short cuts
+        ### 12.8.1. Record Short cuts
         <p>There are many short-cuts keys for recording</p>
         <p>Record Merge</p>
         <div class="informaltable">
@@ -342,7 +342,7 @@ sidebar_position: 12
         </div>
     </div>
     <div class="section">
-        ### 12.8.2.&nbsp;Masking
+        ### 12.8.2. Masking
         <p>
             The console supports comprehensive masking facilities to enable the operator to select which attributes are recorded from the
             programmer into Cues.
@@ -374,7 +374,7 @@ sidebar_position: 12
         </p>
     </div>
     <div class="section">
-        ### 12.8.3.&nbsp;Options
+        ### 12.8.3. Options
         <p>
             The console supports several additional options for recording Cues. These include recording all the channels from heads
             regardless of whether they are active in the programmer and recording only heads that are currently selected. Press the REC
@@ -384,7 +384,7 @@ sidebar_position: 12
     </div>
 </div>
 <div class="section">
-    ## 12.9.&nbsp;Active
+    ## 12.9. Active
     <p>
         MagicQ has an Active function for loading attributes into the programmer at their current value. This can be used to ensure that the
         programmer contains all the attributes of the selected heads, or to add in individual attributes to the programmer.
@@ -403,9 +403,9 @@ sidebar_position: 12
     </p>
 </div>
 <div class="section">
-    ## 12.10.&nbsp;Removing channels from the Programmer
+    ## 12.10. Removing channels from the Programmer
     <div class="section">
-        ### 12.10.1.&nbsp;Removing channels using the REMOVE button
+        ### 12.10.1. Removing channels using the REMOVE button
         <p>To remove (knock out) items from the programmer.</p>
         <div class="itemizedlist">
             <ul class="itemizedlist">
@@ -439,7 +439,7 @@ sidebar_position: 12
         </div>
     </div>
     <div class="section">
-        ### 12.10.2.&nbsp;Removing channels using the Programmer Window
+        ### 12.10.2. Removing channels using the Programmer Window
         <p>It is also possible to remove attributes from the programmer by editing the spread sheet view in the Programmer Window.</p>
         <p>Select the item (s) with the cursor that you wish to remove from the programmer and then press the REMOVE soft button.</p>
         <p>For example, to remove the iris attributes for all heads in the programmer:</p>
@@ -471,7 +471,7 @@ sidebar_position: 12
     </div>
 </div>
 <div class="section">
-    ## 12.11.&nbsp;Making channels hard values
+    ## 12.11. Making channels hard values
     <p>
         Channels in the programmer can be set to have hard values instead of palette values. This function can be accessed in the Programmer
         Window, View Levels with SHIFT + MAKE HARD. All attributes of the currently selected heads that are active in the programmer are
@@ -514,7 +514,7 @@ sidebar_position: 12
     </div>
 </div>
 <div class="section">
-    ## 12.12.&nbsp;Copy between heads
+    ## 12.12. Copy between heads
     <p>
         You can copy between heads using the keypad. To copy the head data, select some heads from the keypad, press COPY and then enter the
         destination heads. For example, to copy from heads 1 to 2 to heads 5 to 8
@@ -566,7 +566,7 @@ sidebar_position: 12
     </p>
 </div>
 <div class="section">
-    ## 12.13.&nbsp;Blind programming
+    ## 12.13. Blind programming
     <p>
         A show can be programmed without affecting the state of the outputs using blind programming mode. In this mode the programmer will
         operate as normal (with the current levels being displayed in the Prog Window) but the contents of the programmer will not be
@@ -583,7 +583,7 @@ sidebar_position: 12
     <p>You can enter and exit blind mode with times. For example, press 10 BLIND to enter blind mode over 10 seconds.</p>
 </div>
 <div class="section">
-    ## 12.14.&nbsp;Parking (freezing) channels
+    ## 12.14. Parking (freezing) channels
     <p>It is possible to park (freeze) channels using the PARK soft button in the Group Window. Press SHIFT + PARK to unpark channels.</p>
     <p>
         All attributes of selected heads that are in the programmer are parked. To make all the attributes of the selected heads active, go

@@ -4,7 +4,7 @@ title: Chapter 34. Remote control of MagicQ
 sidebar_position: 34
 ---
 
-# Chapter&nbsp;34.&nbsp;Remote control of MagicQ
+# Chapter 34. Remote control of MagicQ
 <p>
     MagicQ supports the remote control of other MagicQ consoles and PC/Mac systems. Any MagicQ console or any MagicQ PC system can be
     controlled from any other MagicQ console or MagicQ PC system on the network. This enables complete remote management of any system from
@@ -16,7 +16,7 @@ sidebar_position: 34
     Settings, Multi Console settings, Enable Remote Control.
 </p>
 <div class="section">
-    ## 34.1.&nbsp;MagicQ Remote Control (Windows/Mac/Linux)
+    ## 34.1. MagicQ Remote Control (Windows/Mac/Linux)
     <p>
         When you install MagicQ on PC or Mac there is a MagicQ Remote Control option under the ChamSys menu that enables MagicQ to run
         solely in remote control mode.
@@ -37,7 +37,7 @@ sidebar_position: 34
     <p>To stop remote control of a MagicQ console and choose a different console press CTRL CLOSE.</p>
 </div>
 <div class="section">
-    ## 34.2.&nbsp;Remote control from MagicQ
+    ## 34.2. Remote control from MagicQ
     <p>
         <span class="inlinemediaobject">
             <img src="https://secure.chamsys.co.uk/help/documentation/magicq/images/setupremotecontrol.png" alt="image" />
@@ -80,7 +80,7 @@ sidebar_position: 34
     </p>
 </div>
 <div class="section">
-    ## 34.3.&nbsp;iOS / Android Remote App
+    ## 34.3. iOS / Android Remote App
     <p>MagicQ systems can be used together with an Apple iPhone, iPad, iPod Touch or Android phone or tablet for remote control.</p>
     <p>
         All MagicQ consoles support remote control. On MagicQ PC systems remote control support is only unlocked when connected to a MagicQ
@@ -118,7 +118,7 @@ sidebar_position: 34
         to "Enabled".
     </p>
     <div class="section">
-        ### 34.3.1.&nbsp;Setting up an access point
+        ### 34.3.1. Setting up an access point
         <p>
             In order to use a wireless access point with MagicQ you must configure the access point with an SSID, password, IP address and
             subnet mask.
@@ -158,7 +158,7 @@ sidebar_position: 34
         </p>
     </div>
     <div class="section">
-        ### 34.3.2.&nbsp;Inbuilt wireless
+        ### 34.3.2. Inbuilt wireless
         <p>These consoles have an inbuilt wireless access point:</p>
         <div class="itemizedlist">
             <ul class="itemizedlist">
@@ -187,7 +187,7 @@ sidebar_position: 34
         <p>The rest of the settings can be left at their default values.</p>
         <p>
             See
-            <a class="link" href="settings.html#_wifi_settings" title="50.16.&nbsp;WIFI Settings">WIFI Settings</a>
+            <a class="link" href="settings.html#_wifi_settings" title="50.16. WIFI Settings">WIFI Settings</a>
             for more information on the settings in this window.
         </p>
         <p>
@@ -226,7 +226,7 @@ sidebar_position: 34
         </div>
     </div>
     <div class="section">
-        ### 34.3.3.&nbsp;Connecting the remote app via ethernet
+        ### 34.3.3. Connecting the remote app via ethernet
         <p>
             In environments where there are a large number of WiFi devices or other devices that may interfere with WiFi signals and when
             the remote app is being used next to the console (eg as an additional screen) it can be beneficial to connect via ethernet
@@ -279,7 +279,7 @@ sidebar_position: 34
             <span class="emphasis"><em>Ethernet</em></span>
             Option will need to be disabled and should be enabled once the changes have been made. Some Android devices do not allow a
             static IP to be set. If you still require to connect the device directly to the console then you can do so via the
-            <a class="link" href="networking.html#control-network" title="32.13.&nbsp;Control network">Control Net</a>
+            <a class="link" href="networking.html#control-network" title="32.13. Control network">Control Net</a>
             secondary network interface. This should be set to a mode with the DHCP server enabled.
         </p>
         <p>
@@ -299,7 +299,7 @@ sidebar_position: 34
         <p>To use an ethernet adaptor you may need to disable WiFi on the device.</p>
     </div>
     <div class="section">
-        ### 34.3.4.&nbsp;Making a connection to MagicQ
+        ### 34.3.4. Making a connection to MagicQ
         <p>In the case of inbuilt WiFi, you can scan the QR code in the WiFi settings tab using the MagicQ Remote app.</p>
         <p>If you are using your own access point you need to connect manually:</p>
         <div class="itemizedlist">
@@ -343,7 +343,7 @@ sidebar_position: 34
         </p>
     </div>
     <div class="section">
-        ### 34.3.5.&nbsp;Modifying palettes with the remote app
+        ### 34.3.5. Modifying palettes with the remote app
         <p>It is easy to modify palettes with the remote application.</p>
         <p>
             In the Focus tab (Key tab on iPad), select your heads (e.g. GROUP 1 ENTER) then select the position palette (e.g. POS 5 ENTER).
@@ -360,7 +360,7 @@ sidebar_position: 34
         </p>
     </div>
     <div class="section">
-        ### 34.3.6.&nbsp;Using the Execute Window
+        ### 34.3.6. Using the Execute Window
         <p>
             We recommend you use the Execute Window on the remote app for shortcuts, group selections, focus test, etc… Items from the
             Group, Position, Colour, Beam, Cue Stack Store, Cue Store, Playback and Macro windows can all be copied into the Execute Window
@@ -381,11 +381,11 @@ sidebar_position: 34
         </p>
     </div>
     <div class="section">
-        ### 34.3.7.&nbsp;Restricting Access (Execute Mode)
+        ### 34.3.7. Restricting Access (Execute Mode)
         <p>
             The app can be limited to only have access to the Execute Window by modifying the "Enable Remote App" setting in the user
             settings on MagicQ. (This mode was formally called Install Mode). Access can also limited to selected users. See
-            <a class="link" href="system-management.html#restricting-remote" title="51.19.&nbsp;Restricting Remote App Access">
+            <a class="link" href="system-management.html#restricting-remote" title="51.19. Restricting Remote App Access">
                 the section on Restricting Remote App Access
             </a>
             for more information. A particular console IP address can also be specified in the app Settings View to ensure the app always
@@ -393,7 +393,7 @@ sidebar_position: 34
         </p>
     </div>
     <div class="section">
-        ### 34.3.8.&nbsp;In App Settings
+        ### 34.3.8. In App Settings
         <p>The Settings View in the app has the following options:</p>
         <div class="itemizedlist">
             <ul class="itemizedlist">
@@ -434,7 +434,7 @@ sidebar_position: 34
         </div>
     </div>
     <div class="section">
-        ### 34.3.9.&nbsp;In App Help
+        ### 34.3.9. In App Help
         <p>
             The top section of the Help View in the app displays the release notes and copyright notices for the app. Below this are the
             details of the version of the app and (if the device has an internet connection) the details of the latest available stable and
@@ -454,7 +454,7 @@ sidebar_position: 34
         </div>
     </div>
     <div class="section">
-        ### 34.3.10.&nbsp;Key &amp; Focus View
+        ### 34.3.10. Key &amp; Focus View
         <p>
             These two views can be combined into a single Focus view. This is the default on tablets and other large screen devices and can
             be toggled view the Large Screen Mode control in Settings.
@@ -468,11 +468,11 @@ sidebar_position: 34
         </p>
     </div>
     <div class="section">
-        ### 34.3.11.&nbsp;Pos View
+        ### 34.3.11. Pos View
         <p>The Position View provides pan and tilt bars and a set of controls specific to positioning.</p>
     </div>
     <div class="section">
-        ### 34.3.12.&nbsp;Exec View
+        ### 34.3.12. Exec View
         <p>
             The Execute Window replicates the window from MagicQ. Custom images will be downloaded from MagicQ. The page shown can be
             changed by assigning Exec Page, Exec Pg Up and Exec Pg Down special button or by setting the Execute Page # in Settings. From
@@ -480,7 +480,7 @@ sidebar_position: 34
         </p>
     </div>
     <div class="section">
-        ### 34.3.13.&nbsp;Win View
+        ### 34.3.13. Win View
         <p>
             Select the window type and its sub view to display the view. Using the Photo button in the top bar a photo can be taken to
             assign to a button as its icon. The Win Status Display at the bottom of the view can be hidden view the Settings view.
@@ -488,7 +488,7 @@ sidebar_position: 34
     </div>
 </div>
 <div class="section">
-    ## 34.4.&nbsp;Remote control via web server
+    ## 34.4. Remote control via web server
     <p>
         MagicQ includes an in-built web server for enabling access to MagicQ from web browsers on external computers, pocket PCs and mobile
         phones with web browsers. The web server includes web pages for monitoring of the status of the MagicQ, remote control, and access
@@ -556,7 +556,7 @@ sidebar_position: 34
         to a MagicQ wing or MagicQ interface.
     </p>
     <div class="section">
-        ### 34.4.1.&nbsp;Custom Web Server pages
+        ### 34.4.1. Custom Web Server pages
         <p>
             There is now support for user HTML pages. These pages should be stored in the web folder and their name should start with "user"
             e.g. user1.html, user2.html. The MagicQ remote commands can be sent from the HTML using the button/input types to submit.
@@ -595,7 +595,7 @@ command in the name after "cmd" --&gt;
     </div>
 </div>
 <div class="section">
-    ## 34.5.&nbsp;Remote control using Magic Wand simulator
+    ## 34.5. Remote control using Magic Wand simulator
     <p>MagicQ supports a Magic Wand simulator which acts like the MagicQ Playback Wand.</p>
     <p>
         To use the Magic Wand simulator start MagicQ with the command line argument "wand". MagicQ will run just a simulation of the Magic

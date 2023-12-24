@@ -4,7 +4,7 @@ title: Chapter 21. Execute Window
 sidebar_position: 21
 ---
 
-# Chapter&nbsp;21.&nbsp;Execute Window
+# Chapter 21. Execute Window
 <p>
     The Execute Window is a special window designed to allow customisation of the look and feel of the MagicQ. This layout of the window is
     configurable by the user and can contain Groups, Palettes, Macros, Cues and Cue Stacks and other special items.
@@ -12,9 +12,9 @@ sidebar_position: 21
 <p>
     The Execute Window is also automatically accessible on the MagicQ remote iOS and Android applications and items in the Execute Window
     can be trigger from
-    <a class="link" href="osc.html#cue-stack-macros" title="45.3.1.&nbsp;Cue stack macros">Cue Stack Macros</a>
+    <a class="link" href="osc.html#cue-stack-macros" title="45.3.1. Cue stack macros">Cue Stack Macros</a>
     and from external systems using the
-    <a class="link" href="rpc.html" title="Chapter&nbsp;35.&nbsp;ChamSys Remote Protocol Commands">ChamSys Remote Protocol Commands</a>
+    <a class="link" href="rpc.html" title="Chapter 35. ChamSys Remote Protocol Commands">ChamSys Remote Protocol Commands</a>
     .
 </p>
 <p>
@@ -26,7 +26,7 @@ sidebar_position: 21
     Use View Execute for playback, or View Max for full screen playback.
 </p>
 <div class="section">
-    ## 21.1.&nbsp;Design View
+    ## 21.1. Design View
     <p>
         Use the Set Grid Size soft button to specify a grid size and then copy the relevant items from other windows. For example, to place
         a Group in the Execute Window; go to the Group Window, press Copy, select the Group, and then go to the Execute Window and select
@@ -53,7 +53,7 @@ sidebar_position: 21
     </p>
 </div>
 <div class="section">
-    ## 21.2.&nbsp;Full Screen View
+    ## 21.2. Full Screen View
     <p>
         The Execute Window can be run in full-screen mode (View Max), allowing the whole of the screen to be customised. The size of the
         full screen Execute Window can be set via GRID OPTIONS soft button and selecting Win Size – this defaults to 1024 by 768 for MagicQ
@@ -74,7 +74,7 @@ sidebar_position: 21
     <p>Note that View Max is only supported on the first Execute Window.</p>
 </div>
 <div class="section">
-    ## 21.3.&nbsp;Password Protection
+    ## 21.3. Password Protection
     <p>
         It is possible to protect the Execute Window so that operators only see the Execute Window and can not use the main MagicQ
         application windows. From the Execute Window set up a password using the Set Password soft button. If an operator tries to close the
@@ -95,14 +95,14 @@ sidebar_position: 21
     </p>
 </div>
 <div class="section">
-    ## 21.4.&nbsp;Automated Start
+    ## 21.4. Automated Start
     <p>
         MagicQ includes several options for automated start of Playbacks and Executes. These options are available on MagicQ consoles and on
         MagicQ PC systems when connected to a MagicQ USB Wing or Interface. See Setup, View Settings, Playback, Activate Playbacks On Start.
     </p>
 </div>
 <div class="section">
-    ## 21.5.&nbsp;Sizing of items
+    ## 21.5. Sizing of items
     <p>
         Items in the Execute window so that different items can have different sizes. This is particularly useful for laying out buttons
         around faders.
@@ -115,7 +115,7 @@ sidebar_position: 21
     <p>The overall grid size can be set to up to 40 by 40 items - which enables detailed grid layouts to be constructed.</p>
 </div>
 <div class="section">
-    ## 21.6.&nbsp;Faders
+    ## 21.6. Faders
     <p>
         The Execute Window supports faders as well as buttons. Cue Stacks and Cues can be represented as faders. To set a Cue Stack or Cue
         as a fader, move the cursor to the item and press SOFT button E to toggle the Type between button and fader. A ‘F’ appears in the
@@ -134,7 +134,7 @@ sidebar_position: 21
     <p>Use SHIFT or CTRL and the cursor keys to cursor select multiple items to set the type for multiple items in one go.</p>
 </div>
 <div class="section">
-    ## 21.7.&nbsp;Buttons
+    ## 21.7. Buttons
     <p>
         By default buttons in the Execute Window are set to toggle their function on and off each time the button is pressed. It is possible
         to set a button in the Execute Window that is controlling a Cue or a Cue Stack to momentary rather than toggling. Move the cursor to
@@ -156,7 +156,7 @@ sidebar_position: 21
     <p>Use SHIFT or CTRL and the cursor keys to cursor select multiple items to set the type for multiple items in one go.</p>
 </div>
 <div class="section">
-    ## 21.8.&nbsp;Regions
+    ## 21.8. Regions
     <p>
         Added Regions to the Execute Window to enable easier control of multiple items for attribute selection and soloing. Items in the
         Execute Window can be made part of the Region by selecting them with the cursor keys and pressing the SET REGION soft button.
@@ -183,7 +183,7 @@ sidebar_position: 21
     <p>If RELEASE is included in a region it only affects the Cues and Cues Stacks in that region.</p>
 </div>
 <div class="section">
-    ## 21.9.&nbsp;Timing
+    ## 21.9. Timing
     <p>
         It is possible to add Timing items to the Execute Window via the Assign Special, Timing button. The timings affect how Palettes are
         played back in the Execute Window. The options include setting a time in seconds for Palette fades, setting a split fade, and
@@ -205,7 +205,7 @@ sidebar_position: 21
     </p>
 </div>
 <div class="section">
-    ## 21.10.&nbsp;Rate and parameters
+    ## 21.10. Rate and parameters
     <p>
         It is possible to add Rate items to the Excecute Window via the Assign Special, Rate Params button. The rate items affect how Cues,
         Cue Stacks and Programmer FX in the Execute Window are controlled. The Rate items include a Rate Tap to set the speed, controls to
@@ -231,7 +231,7 @@ sidebar_position: 21
     </p>
 </div>
 <div class="section">
-    ## 21.11.&nbsp;Execute Window FX
+    ## 21.11. Execute Window FX
     <p>
         It is possible to add simple FX items directly to the Execute Window via the Assign Special, FX button. The FX items generate FX for
         Intensity chase, Zoom chase, Colour flick, 2 Colour chase, 3 Colour chase and White Flick. In addition it is possible to add Colour
@@ -253,7 +253,7 @@ sidebar_position: 21
     </p>
 </div>
 <div class="section">
-    ## 21.12.&nbsp;Execute Window Soft Palettes
+    ## 21.12. Execute Window Soft Palettes
     <p>
         The Execute Window supports Soft Palettes. These are Palettes that can easily be updated from other Palettes so that Cues and Chases
         can be immediately changed to have new values. This is useful for instance when running Cue Stacks with colour chases and wanting to
@@ -274,7 +274,7 @@ sidebar_position: 21
     </p>
 </div>
 <div class="section">
-    ## 21.13.&nbsp;Execute Window sequencing
+    ## 21.13. Execute Window sequencing
     <p>
         It is possible to set items within the Execute Window to automatically sequence through the items according to defined time.
         Sequencing is possible for Positions, Colours, Beams, FX, Cue Stacks, Cues, Macros, and Groups. The sequence can be in sequential
@@ -301,7 +301,7 @@ sidebar_position: 21
     </p>
 </div>
 <div class="section">
-    ## 21.14.&nbsp;Execute Window Group
+    ## 21.14. Execute Window Group
     <p>
         Each Execute Grid can have a Group assigned to it. This operates in a similar way to regions, except that the Group applies to the
         whole window without the need to set regions.
@@ -315,7 +315,7 @@ sidebar_position: 21
     <p>By default no Group is assigned. When a Group is assigned then by default it expands to the Group.</p>
 </div>
 <div class="section">
-    ## 21.15.&nbsp;Button appearance
+    ## 21.15. Button appearance
     <p>
         The appearance of the boxes can be set using Soft button B "Appearance". The options are "Boxes" or "Coloured" for the appearance of
         the buttons, faders and encoders. "Coloured" colours the buttons according to function. When that function is active the button
@@ -373,7 +373,7 @@ sidebar_position: 21
     <p>Button images used withing MagicQ shows are stored in the .xhw show file.</p>
 </div>
 <div class="section">
-    ## 21.16.&nbsp;Speed Encoders
+    ## 21.16. Speed Encoders
     <p>
         The Execute Window supports encoders for speed control of Cue Stacks. Use Insert Special, and select Encoder to insert an encoder
         below a recorded Cue Stack. The Encoder will only be active when the Cue Stack directly above is active.
@@ -385,14 +385,14 @@ sidebar_position: 21
     </p>
 </div>
 <div class="section">
-    ## 21.17.&nbsp;Attribute Encoders
+    ## 21.17. Attribute Encoders
     <p>
         The attribute encoder acts like the encoders in the Intensity, Position, Colour, Beam windows, affecting the currently selected
         heads.
     </p>
 </div>
 <div class="section">
-    ## 21.18.&nbsp;Preload
+    ## 21.18. Preload
     <p>
         The Preload function allows execute window items to be selected before the change is applied. Press the PRELOAD soft button to start
         selecting/deselecting items. MagicQ will show the items selected/deselected but will not apply them until the PRELOAD GO soft button
@@ -400,13 +400,13 @@ sidebar_position: 21
     </p>
 </div>
 <div class="section">
-    ## 21.19.&nbsp;Background
+    ## 21.19. Background
     <p>It is possible to set a background using the GRID OPTIONS soft button and selecting Set Background</p>
     <p>The background should be a bmp or jpeg of the size set by the WIN SIZE button.</p>
     <p>Use GRID OPTIONS soft button and and Clear Background to remove the background.</p>
     <p>Background images used withing MagicQ shows are stored in the .xhw show file.</p>
     <div class="section">
-        ### 21.19.1.&nbsp;Assigning Execute Pages to Users
+        ### 21.19.1. Assigning Execute Pages to Users
         <p>Execute Pages can be assigned to a specific user - enabling some pages to be hidden from some users.</p>
         <p>
             Press the GRID OPTIONS soft button and select Set User. The User for the page is shown in the title bar of the Execute Window.
@@ -420,7 +420,7 @@ sidebar_position: 21
     </div>
 </div>
 <div class="section">
-    ## 21.20.&nbsp;Special Options
+    ## 21.20. Special Options
     <p>There are a number of special options that can be assigned as buttons using the ASSIGN SPECIAL soft button. These include:</p>
     <div class="informaltable">
         <table class="informaltable" cellpadding="4px">
@@ -517,7 +517,7 @@ sidebar_position: 21
         </table>
     </div>
     <div class="section">
-        ### 21.20.1.&nbsp;Changing Execute Page
+        ### 21.20.1. Changing Execute Page
         <p>
             It is possible to build up multiple execute grids and to change between them using the Exec Page, Exec Page Up and Exec Page
             Down special options.
@@ -529,7 +529,7 @@ sidebar_position: 21
         <p>Exec Page items for specific Execute Pages are hidden for users that do not have access those Execute Pages.</p>
     </div>
     <div class="section">
-        ### 21.20.2.&nbsp;Automating Setup options
+        ### 21.20.2. Automating Setup options
         <p>
             Setup options can be changed from the Execute Window without having to write keyboard macros. In the Execute Window – press
             ASSIGN SPECIAL and select Setup Option in order to assign the changing of a Setup Option to a single button.
@@ -540,7 +540,7 @@ sidebar_position: 21
         </p>
     </div>
     <div class="section">
-        ### 21.20.3.&nbsp;Multi Console Control shortcuts
+        ### 21.20.3. Multi Console Control shortcuts
         <p>
             In Net Session (Multi Console) mode these shortcuts enable quick selection of which console controls the output to which
             heads/channels on the lighting rig. These options are normally found in Setup, View DMX I/O, MULTIPROG SEL CHANS.
@@ -558,7 +558,7 @@ sidebar_position: 21
         <p>The None, All, User options do not depend on selection state.</p>
     </div>
     <div class="section">
-        ### 21.20.4.&nbsp;Timecode and Timings
+        ### 21.20.4. Timecode and Timings
         <p>
             It is possible to add the TC simulator and supporting buttons to the Execute Window. This enables, for example, a large display
             of the current timecode value.
@@ -575,14 +575,14 @@ sidebar_position: 21
         <p>Select ASSIGN SPECIAL and then select Timecode + Clock + PB.</p>
     </div>
     <div class="section">
-        ### 21.20.5.&nbsp;User
+        ### 21.20.5. User
         <p>
             This allows the User to be changed from the Execute Window. If passwords are configured for the users then MagicQ prompts for
             the password before changing user.
         </p>
     </div>
     <div class="section">
-        ### 21.20.6.&nbsp;Execute Window Playback / Cue Stack information
+        ### 21.20.6. Execute Window Playback / Cue Stack information
         <p>
             MagicQ supports special items in the Execute Window that indicate the current Cue name, Cue ID, Cue comment or Cue time
             remaining of a Playback or Cue Stack. This could be used, for example, to display special comments from a Cue Stack in the
@@ -603,7 +603,7 @@ sidebar_position: 21
         <p>The current Page and next Page can also be shown.</p>
     </div>
     <div class="section">
-        ### 21.20.7.&nbsp;Speed Masters
+        ### 21.20.7. Speed Masters
         <p>
             Speed Masters can be assigned to Exec Grids in the Exec Window using the ASSIGN SPECIAL soft button. This enables the specific
             Speed Master to be controlled and updated.
@@ -695,12 +695,12 @@ sidebar_position: 21
         </p>
         <p>
             There is more info on Speed Masters in the
-            <a class="link" href="busking.html#busking-speed-masters" title="19.12.5.&nbsp;Speed Masters">Busking section</a>
+            <a class="link" href="busking.html#busking-speed-masters" title="19.12.5. Speed Masters">Busking section</a>
             .
         </p>
     </div>
     <div class="section">
-        ### 21.20.8.&nbsp;Execute Grid Use Speed Master
+        ### 21.20.8. Execute Grid Use Speed Master
         <p>
             The inbuilt FX in the Execute Window are applied into the Programmer. Since the default for the Programmer Speed Master is
             "Ignore", the speed for these FX will normally be directly controlled by the Rate Params items in the Exec Window - ie. the TAP
@@ -731,7 +731,7 @@ sidebar_position: 21
     </div>
 </div>
 <div class="section">
-    ## 21.21.&nbsp;Execute Window on iOS/Android remote
+    ## 21.21. Execute Window on iOS/Android remote
     <p>Execute windows are automatically available on the iOS/Android remote apps.</p>
     <p>
         Each iOS/Android device can access different Execute Pages on the MagicQ system. We recommend using the Execute Page Up, Execute
@@ -740,7 +740,7 @@ sidebar_position: 21
     <p>The iOS/Android device downloads any custom images used in the Execute Window from the MagicQ system.</p>
 </div>
 <div class="section">
-    ## 21.22.&nbsp;Execute Buttons on Go/Pause buttons
+    ## 21.22. Execute Buttons on Go/Pause buttons
     <p>The GO and Pause buttons for Playbacks 1 to 10 can be set to be Execute buttons from Execute Grid 1.</p>
     <p>When this function is in use then Execute Grid should be set to size 10/2 giving a total of 20 items.</p>
     <p>
@@ -769,7 +769,7 @@ sidebar_position: 21
     </p>
 </div>
 <div class="section">
-    ## 21.23.&nbsp;Multiple Execute windows
+    ## 21.23. Multiple Execute windows
     <p>
         It is possible to have up to three execute windows open at any one time on MagicQ systems. To open a second or third Execute window,
         type either 2 or 3 before pressing the EXEC window button.

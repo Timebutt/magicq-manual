@@ -4,7 +4,7 @@ title: Chapter 26. Controlling Media Servers
 sidebar_position: 26
 ---
 
-# Chapter&nbsp;26.&nbsp;Controlling Media Servers
+# Chapter 26. Controlling Media Servers
 <p>
     MagicQ is ideally suited to controlling media servers through its dedicated Media window - the eight encoder wheels enable quick and
     easy access to a large numbers of control parameters.
@@ -37,7 +37,7 @@ sidebar_position: 26
 </p>
 <p>MagicQ supports many different types of Media Server including MagicHD - a free Media Player inbuilt into the MagicQ software.</p>
 <div class="section">
-    ## 26.1.&nbsp;Patching Media Servers on MagicQ
+    ## 26.1. Patching Media Servers on MagicQ
     <p>
         Media servers generally consist of a number of layers of one or more types. Each type of layer has a different personality. Each
         layer is treated as a different head on MagicQ with a different head number. To patch a media server each of the layers must be
@@ -56,7 +56,7 @@ sidebar_position: 26
     <p>Each media server should have unique head numbers. The layers in the media server should have asscending head numbers.</p>
 </div>
 <div class="section">
-    ## 26.2.&nbsp;Connecting via network
+    ## 26.2. Connecting via network
     <p>Connect the Media Server to MagicQ using a network cable.</p>
     <p>
         Ensure that the Media server and the MagicQ system are using IP addresses in the same network range - for example if using Art-Net
@@ -73,7 +73,7 @@ sidebar_position: 26
         of the network port on the media server and check there is no firewall software on the media server.
     </p>
     <div class="section">
-        ### 26.2.1.&nbsp;Setting up control of the Media Server
+        ### 26.2.1. Setting up control of the Media Server
         <p>
             In Setup, View DMX I/O configure the MagicQ universe where the Media Server is patched. Set up the Output type to be the
             appropriate protocol - e.g. Art-Net, Pathport or ACN.
@@ -86,9 +86,9 @@ sidebar_position: 26
     </div>
 </div>
 <div class="section">
-    ## 26.3.&nbsp;Configuring the Media Window
+    ## 26.3. Configuring the Media Window
     <div class="section">
-        ### 26.3.1.&nbsp;Simple Media Setup
+        ### 26.3.1. Simple Media Setup
         <p>
             In the Media Window press the Media Server you wish to configure. If the Media Server has not been configured at all then MagicQ
             will give a menu of options to choose from. If the Media Server has been previously configured then press the SERVER SETUP soft
@@ -100,7 +100,7 @@ sidebar_position: 26
         </p>
     </div>
     <div class="section">
-        ### 26.3.2.&nbsp;Advanced Media Setup
+        ### 26.3.2. Advanced Media Setup
         <p>
             If you have patched using the Choose Media Server method above then the parameters should mostly be set up correctly for you. It
             is only necessary to enter the IP address of the media server.
@@ -141,7 +141,7 @@ sidebar_position: 26
         </p>
     </div>
     <div class="section">
-        ### 26.3.3.&nbsp;MagicHD
+        ### 26.3.3. MagicHD
         <p>MagicHD is fully integrated with MagicQ. Set the Media Server type to MagicHD. Set the version number to 0.</p>
         <p>
             If MagicHD is being run from within MagicQ then set the Media Server IP address to 0 - this will appear as "Local". MagicHD will
@@ -153,7 +153,7 @@ sidebar_position: 26
         </p>
     </div>
     <div class="section">
-        ### 26.3.4.&nbsp;Arkaos
+        ### 26.3.4. Arkaos
         <p>
             For Arkaos 3.6 and above and Media Master choose MSEX (Arkaos). For Arkaos 3.5 select Arkaos. Set the version number to 0.
             Arkaos supports 8 layers.
@@ -162,14 +162,14 @@ sidebar_position: 26
         <p>MagicQ includes the mediamasterdemo.shw in the demos folder.</p>
     </div>
     <div class="section">
-        ### 26.3.5.&nbsp;Catalyst
+        ### 26.3.5. Catalyst
         <p>
             Select Catalyst and set the version number to 0. Thumbnails are retrieved from Catalyst using html to the inbuilt Mac web
             server. Catalyst does not support live preivews.
         </p>
     </div>
     <div class="section">
-        ### 26.3.6.&nbsp;Coolux
+        ### 26.3.6. Coolux
         <p>Select Coolux and set the version number to 0. The number of layers should be set to the total number of layers patched.</p>
         <p>
             Arkaos uses MSEX protocol for retrieval of thumbnails, part of CITP protocol stack. In Setup, View Media, the Coolux option is
@@ -177,7 +177,7 @@ sidebar_position: 26
         </p>
     </div>
     <div class="section">
-        ### 26.3.7.&nbsp;Hippotizer
+        ### 26.3.7. Hippotizer
         <p>Hippotizers now support MSEX - this is the recommended protocol to use.</p>
         <p>
             For older Hippotizer choose either Hippo Stage or Hippo Express depending on which type you are using. For Hippo HD use Hippos
@@ -185,11 +185,11 @@ sidebar_position: 26
         </p>
     </div>
     <div class="section">
-        ### 26.3.8.&nbsp;Maxedia
+        ### 26.3.8. Maxedia
         <p>For Maxedia choose MSEX and set the version number to 0.</p>
     </div>
     <div class="section">
-        ### 26.3.9.&nbsp;Mbox
+        ### 26.3.9. Mbox
         <p>For Mbox choose Mbox and set the version number to 0.</p>
         <p>
             Note that the head numbers for the text and object layers are allocated lower numbers than the ancillary layers such as the
@@ -202,7 +202,7 @@ sidebar_position: 26
         </p>
     </div>
     <div class="section">
-        ### 26.3.10.&nbsp;Megapixel VR Helios support
+        ### 26.3.10. Megapixel VR Helios support
         <p>
             MagicQ has support for the Megapixel VR Helios LED processor. Within MagicQ the Megapixel VR Helios is treated like a media
             server with control of multi layers (referred to as MP Groups) each with intensity, position and colour control.
@@ -311,7 +311,7 @@ sidebar_position: 26
         </p>
     </div>
     <div class="section">
-        ### 26.3.11.&nbsp;Other Media Servers
+        ### 26.3.11. Other Media Servers
         <p>
             MagicQ supports the MSEX (Media Server Exchange) protocol which enables it to communicate with any media servers that support
             this protocol. Select MSEX (Arkaos) and set the version number to 0.
@@ -323,7 +323,7 @@ sidebar_position: 26
     </div>
 </div>
 <div class="section">
-    ## 26.4.&nbsp;Thumbnail view
+    ## 26.4. Thumbnail view
     <p>
         MagicQ retrieves thumbnails from the media server and shows them on the screen for easy selection of media banks and media images.
         The media server must be enabled in the Setup Window, Media View for it to retrieve thumbnails. MagicQ can handle different media on
@@ -347,7 +347,7 @@ sidebar_position: 26
     </p>
 </div>
 <div class="section">
-    ## 26.5.&nbsp;Live Previews
+    ## 26.5. Live Previews
     <p>
         MagicQ can connect to a media server to retrieve a live preview of the master output or of the individual layers. This is very
         useful where the media server is remote to the console, or in a multiple media server configuration.
@@ -368,7 +368,7 @@ sidebar_position: 26
     </p>
 </div>
 <div class="section">
-    ## 26.6.&nbsp;Media Window View
+    ## 26.6. Media Window View
     <p>
         It is possible to configure the View in the Media Window – View Servers (defaults), View Groups, View Libraries and View Outputs.
         View Groups is useful when using a large number of media servers and controlling using groups of media servers rather than
@@ -380,9 +380,9 @@ sidebar_position: 26
     </p>
 </div>
 <div class="section">
-    ## 26.7.&nbsp;Using MagicQ and Media Server software on the same PC
+    ## 26.7. Using MagicQ and Media Server software on the same PC
     <div class="section">
-        ### 26.7.1.&nbsp;Using MagicHD
+        ### 26.7.1. Using MagicHD
         <p>
             MagicQ supports the inbuilt Media Player MagicHD. This is fully integrated with MagicQ and can be used to play back media to a
             2nd monitor attached to your MagicQ PC/Mac.
@@ -390,7 +390,7 @@ sidebar_position: 26
         <p>From the toolbar select Media Player, View Media Output and a MagicHD window will be opened.</p>
     </div>
     <div class="section">
-        ### 26.7.2.&nbsp;Using the loopback IP address
+        ### 26.7.2. Using the loopback IP address
         <p>
             It is possible to use MagicQ and 3rd party Media Server software (e.g. ArKaos) on the same PC by altering some of the settings
             given above. In the Media View of the Setup Window, set the IP address of the media server to 127.0.0.1. This is the local
@@ -407,7 +407,7 @@ sidebar_position: 26
     </div>
 </div>
 <div class="section">
-    ## 26.8.&nbsp;CITP (MSEX) live feeds and MagicCap
+    ## 26.8. CITP (MSEX) live feeds and MagicCap
     <p>
         MagicQ supports live feeds over CITP (MSEX) for use in the MagicQ Pixel Mapper and for user display on MagicQ. Live feeds do not
         have to come from a Media Server, they can come from any CITP (MSEX) source such as PixelBeetle or MSexLord. Multiple different live
@@ -438,7 +438,7 @@ sidebar_position: 26
     </p>
 </div>
 <div class="section">
-    ## 26.9.&nbsp;Troubleshooting
+    ## 26.9. Troubleshooting
     <p>If you do not have control of the Media Server check:</p>
     <div class="itemizedlist">
         <ul class="itemizedlist">

@@ -4,7 +4,7 @@ title: Chapter 47. Blind Visualisation
 sidebar_position: 47
 ---
 
-# Chapter&nbsp;47.&nbsp;Blind Visualisation
+# Chapter 47. Blind Visualisation
 <p>
     MagicQ supports Blind Visualisation and Preview Visualisation when used together with MagicVis, Capture or WYSIWYG. This enables a
     Visualiser to show the contents of the Programmer during BLIND mode or to preview a Playback that is not active on the real outputs.
@@ -40,7 +40,7 @@ sidebar_position: 47
     console output.
 </p>
 <div class="section">
-    ## 47.1.&nbsp;Split Visualisation in MagicVis
+    ## 47.1. Split Visualisation in MagicVis
     <p>
         MagicVis now supports split visualisation where it is possible to show simultaneously both the Live Output and the Blind
         Visualisation.
@@ -58,7 +58,7 @@ sidebar_position: 47
     </p>
 </div>
 <div class="section">
-    ## 47.2.&nbsp;Automatic Source Selection
+    ## 47.2. Automatic Source Selection
     <p>In Setup, View Settings, Mode set the Visualiser option to "Auto insert, auto Previs" for automatic pre visualisation.</p>
     <p>
         When MagicVis is running with the 3D view with Output as the source and BLIND is pressed on the console, then MagicVis automatically

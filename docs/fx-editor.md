@@ -4,7 +4,7 @@ title: Chapter 29. FX Editor
 sidebar_position: 29
 ---
 
-# Chapter&nbsp;29.&nbsp;FX Editor
+# Chapter 29. FX Editor
 <p>
     MagicQ includes a FX editor added to enable users to create their own waveform FX and to edit existing waveform FX. The FX editor edits
     the core MagicQ waveform FX stored on the console – distinct from the combination FX stored in the FX Window. Waveform FX are not
@@ -37,7 +37,7 @@ sidebar_position: 29
 </p>
 <p>It is possible to remove all user Waveform FX from a console. Press SHIFT + REMOVE USER FX.</p>
 <div class="section">
-    ## 29.1.&nbsp;View General
+    ## 29.1. View General
     <p>
         In View General you can configure properties for the FX. For FX that only use 1 attribute setting the "Apply to any attribute"
         enables the FX to be used on any attribute rather than being tied to a specific attribute such as dimmer.
@@ -53,7 +53,7 @@ sidebar_position: 29
     </p>
 </div>
 <div class="section">
-    ## 29.2.&nbsp;View Chans
+    ## 29.2. View Chans
     <p>
         Each step in the FX consists of a value between 0 and 255 and a curve. The curve specifies how the level changes from one step to
         the next. The valid curves are:
@@ -74,7 +74,7 @@ sidebar_position: 29
     </p>
 </div>
 <div class="section">
-    ## 29.3.&nbsp;Palette FX
+    ## 29.3. Palette FX
     <p>
         In the FX Editor in View General, set up "Use Palettes" to be either "Pos", "Col" or "Beam". Then in View Chans, the values become
         Palette entries rather than absolute values.

@@ -4,7 +4,7 @@ title: Chapter 17. Cue Stack Options
 sidebar_position: 17
 ---
 
-# Chapter&nbsp;17.&nbsp;Cue Stack Options
+# Chapter 17. Cue Stack Options
 <p>The Cue Stack Window has three Views – View Cue Stack, View Options and View Defaults.</p>
 <p>
     The View Options view shows the settings for the Cue Stack on the current Playback. Changing these settings immediately affects the
@@ -20,9 +20,9 @@ sidebar_position: 17
     are modified to use the multiple step defaults.
 </p>
 <div class="section">
-    ## 17.1.&nbsp;Faders
+    ## 17.1. Faders
     <div class="section">
-        ### 17.1.1.&nbsp;Fader activates stack
+        ### 17.1.1. Fader activates stack
         <p>
             When set to Yes raising the fader from 0 to above the activation threshold activates the Cue Stack. When set to No the fader
             does not activate the Cue Stack.
@@ -30,7 +30,7 @@ sidebar_position: 17
         <p>The activation threshold defaults to 0. It is a global setting which is set in Setup, View Settings, Hardware.</p>
     </div>
     <div class="section">
-        ### 17.1.2.&nbsp;Fader releases stack
+        ### 17.1.2. Fader releases stack
         <p>
             When set to Yes lowering the fader to the activation threshold releases the Cue Stack. When set to No the fader does Not release
             the Cue Stack.
@@ -38,7 +38,7 @@ sidebar_position: 17
         <p>The activation threshold defaults to 0. It is a global setting which is set in Setup, View Settings, Hardware.</p>
     </div>
     <div class="section">
-        ### 17.1.3.&nbsp;Fader controls HTP chans
+        ### 17.1.3. Fader controls HTP chans
         <p>When set to Yes the fader will control the level of all channels from the Playback that are patched as HTP channels.</p>
         <p>
             When set to No then all HTP channels will be activated at 100% of the their level within the Playback, ignoring the level of the
@@ -57,7 +57,7 @@ sidebar_position: 17
         </p>
     </div>
     <div class="section">
-        ### 17.1.4.&nbsp;Fader controls LTP (IPCB) chans
+        ### 17.1.4. Fader controls LTP (IPCB) chans
         <p>
             When set to Yes the fader will crossfade all channels that are operating as LTP channels (generally this is everything apart
             from Intensity).
@@ -79,7 +79,7 @@ sidebar_position: 17
         </p>
     </div>
     <div class="section">
-        ### 17.1.5.&nbsp;Fader blocks FX on LTP chans
+        ### 17.1.5. Fader blocks FX on LTP chans
         <p>
             When set to Yes any LTP channels that are under control of the fader also block FX from other playbacks according to the level
             of the fader - at 100% they completely block FX
@@ -87,7 +87,7 @@ sidebar_position: 17
         <p>When set to No any FX on the channels from other playbacks keep running without change.</p>
     </div>
     <div class="section">
-        ### 17.1.6.&nbsp;Fader controls Absolute chans
+        ### 17.1.6. Fader controls Absolute chans
         <p>
             When set to Yes the fader will control the value of all LTP chans in an absolute way - when the fader is at 0% then the channels
             are at 0% - when at 100% the channels are at the programmed value. This allows direct control of the attributes from the fader.
@@ -98,7 +98,7 @@ sidebar_position: 17
         </p>
     </div>
     <div class="section">
-        ### 17.1.7.&nbsp;Fader controls FX size
+        ### 17.1.7. Fader controls FX size
         <p>
             When this setting is set to Yes the fader controls the size of any FX that are running in the Cue Stack – this includes FX from
             the current Cue and also any FX that are tracking from previous Cues in the Cue Stack.
@@ -114,7 +114,7 @@ sidebar_position: 17
         </p>
     </div>
     <div class="section">
-        ### 17.1.8.&nbsp;Fader controls FX speed
+        ### 17.1.8. Fader controls FX speed
         <p>
             When this setting is set to Yes the fader controls the speed of any FX that are running in the Cue Stack – this includes FX from
             the current Cue and also any FX that are tracking from previous Cues in the Cue Stack.
@@ -130,7 +130,7 @@ sidebar_position: 17
         </p>
     </div>
     <div class="section">
-        ### 17.1.9.&nbsp;Fader controls manual crossfades
+        ### 17.1.9. Fader controls manual crossfades
         <p>
             When set to Yes then the fader performs a manual crossfade on the Cue Stack in a similar way to the dedicated manual crossfader.
             This enables multiple Cue Stacks to be manually crossfaded.
@@ -141,27 +141,27 @@ sidebar_position: 17
         </p>
     </div>
     <div class="section">
-        ### 17.1.10.&nbsp;Fader controls timing
+        ### 17.1.10. Fader controls timing
         <p>This setting controls timing of Cue Stack steps.</p>
         <p>When the fader is at 0 the Cue Stack snaps with 0 time, when at full it fades with 10 seconds.</p>
         <p>If the Cue has split timing then the split timing is respected within the overall fade time set by the fader.</p>
     </div>
     <div class="section">
-        ### 17.1.11.&nbsp;Fader controls audio volume
+        ### 17.1.11. Fader controls audio volume
         <p>
             When set to Yes, the level of the fader will affect the volume of any audio played from both the "Audio File" Cue Stack option
             and "Audio" fields on the Cues within the given Cue Stack.
         </p>
     </div>
     <div class="section">
-        ### 17.1.12.&nbsp;Fader jumps to Cue Step
+        ### 17.1.12. Fader jumps to Cue Step
         <p>
             When set to Yes and the Cue Stack has multiple steps then raising the fader will step through the Cue Stack - at 0% it will be
             on step 1 and at 100% it will be on the last step.
         </p>
     </div>
     <div class="section">
-        ### 17.1.13.&nbsp;Encoder mode
+        ### 17.1.13. Encoder mode
         <p>On Stadium consoles the playback encoders can be used for many different functions including:</p>
         <div class="itemizedlist">
             <ul class="itemizedlist">
@@ -186,7 +186,7 @@ sidebar_position: 17
         </p>
     </div>
     <div class="section">
-        ### 17.1.14.&nbsp;Control type
+        ### 17.1.14. Control type
         <p>
             On Stadium consoles it is possible to chose to control one or more different Playbacks or even a separate Cue Stack to control
             in which case the encoder is not related to the specific Playback. The following options are available from Cue Stack options,
@@ -211,14 +211,14 @@ sidebar_position: 17
         </p>
     </div>
     <div class="section">
-        ### 17.1.15.&nbsp;Control item
+        ### 17.1.15. Control item
         <p>On Stadium consoles specifies the Playback ID or Cue Stack ID when Control type is et to Other Playback or Other Cue Stack.</p>
     </div>
 </div>
 <div class="section">
-    ## 17.2.&nbsp;Buttons
+    ## 17.2. Buttons
     <div class="section">
-        ### 17.2.1.&nbsp;Flash activates stack
+        ### 17.2.1. Flash activates stack
         <p>When set to Yes pressing the Flash button activates the Cue Stack and sets the level of the Playback to 100%.</p>
         <p>When set to No pressing the Flash button sets the level of the Playback to 100% but does not activate the Cue Stack.</p>
         <p>
@@ -227,7 +227,7 @@ sidebar_position: 17
         </p>
     </div>
     <div class="section">
-        ### 17.2.2.&nbsp;Flash releases stack
+        ### 17.2.2. Flash releases stack
         <p>When set to Yes releasing the Flash button releases the Cue Stack and sets the level of the Playback to 0%.</p>
         <p>When set to No pressing the Flash button sets the level of the Playback to 0% but does not release the Cue Stack.</p>
         <p>Note that if the option Fader Activates Stack is set to Yes then releasing of the Playback is also dependent on the fader.</p>
@@ -239,7 +239,7 @@ sidebar_position: 17
         </p>
     </div>
     <div class="section">
-        ### 17.2.3.&nbsp;Flash always swaps
+        ### 17.2.3. Flash always swaps
         <p>
             When set to Yes, pressing the Flash button will always act as a Swap rather than an Add, regardless of the state of the Add/Swap
             button.
@@ -251,7 +251,7 @@ sidebar_position: 17
         <p>When this option is set Yes then the LED in the Flash button will always be red.</p>
     </div>
     <div class="section">
-        ### 17.2.4.&nbsp;Flash acts as Go/Pause
+        ### 17.2.4. Flash acts as Go/Pause
         <p>
             When set to Yes, pressing the Flash button acts as if the Go button had been pressed and pressing Shift + the Flash button acts
             as if the Pause button had been pressed. When set this way the button does not act as a bump button.
@@ -261,7 +261,7 @@ sidebar_position: 17
         <p>When set to Yes the settings "Flash activates Stack", "Flash releases Stack" and "Flash toggles" are ignored.</p>
     </div>
     <div class="section">
-        ### 17.2.5.&nbsp;Flash acts as Flash + Go
+        ### 17.2.5. Flash acts as Flash + Go
         <p>When set to Yes the Flash button acts as both a Flash button and a Go button.</p>
         <p>
             Pressing the Flash button performs the Go function – this will active the Cue Stack, or if the Cue Stack is already active, it
@@ -276,7 +276,7 @@ sidebar_position: 17
         <p>When set to Yes, the setting "Flash acts as Go/Pause" is ignored.</p>
     </div>
     <div class="section">
-        ### 17.2.6.&nbsp;Flash toggles
+        ### 17.2.6. Flash toggles
         <p>
             When set to Yes the Flash button acts as a toggle rather than a bump. Pressing the button the first time activates the Playback.
             Pressing the button again releases the Playback.
@@ -287,7 +287,7 @@ sidebar_position: 17
         <p>When set to Yes, the settings "Flash activates Stack" and "Flash releases Stack" are ignored.</p>
     </div>
     <div class="section">
-        ### 17.2.7.&nbsp;Flash acts like fader
+        ### 17.2.7. Flash acts like fader
         <p>
             When set to Yes the Flash button has the same effect as if the fader has temporarily been raised to 100%. This is useful for
             enabling the Flash button to control attributes other than Intensity.
@@ -298,7 +298,7 @@ sidebar_position: 17
         </p>
     </div>
     <div class="section">
-        ### 17.2.8.&nbsp;Go activates stack
+        ### 17.2.8. Go activates stack
         <p>When set to Yes the GO button activates the Cue Stack if it is not already active.</p>
         <p>
             When set to No the Go and the Cue Stack is inactive, then the GO button steps the Cue Stack without activating it - as per the
@@ -307,18 +307,18 @@ sidebar_position: 17
         <p>The default is Yes.</p>
     </div>
     <div class="section">
-        ### 17.2.9.&nbsp;Go jumps out of loop
+        ### 17.2.9. Go jumps out of loop
         <p>This setting affects Cues that are set to Chase Timing which are in a loop.</p>
         <p>When set to Yes, pressing Go will exit the loop – jumping to the step after the Cue that loops back to an earlier Cue.</p>
         <p>When set to No, pressing Go will step one step within the chase.</p>
     </div>
     <div class="section">
-        ### 17.2.10.&nbsp;Go stop/starts
+        ### 17.2.10. Go stop/starts
         <p>When set to Yes then pressing GO stops a Cue that is already running or starts a Cue that is stopped.</p>
         <p>When set to No then pressing GO starts the next Cue.</p>
     </div>
     <div class="section">
-        ### 17.2.11.&nbsp;Go uses Exec Grid 1
+        ### 17.2.11. Go uses Exec Grid 1
         <p>This enables the GO button on Playbacks 1 to 10 to control the first ten items in Exec Grid 1.</p>
         <p>
             When set to Yes then pressing the GO button toggles the Exec Grid item corresponding to this Playback - for example GO on
@@ -327,7 +327,7 @@ sidebar_position: 17
         <p>When set to No the GO button acts normally.</p>
     </div>
     <div class="section">
-        ### 17.2.12.&nbsp;Pause swaps
+        ### 17.2.12. Pause swaps
         <p>When set to Yes the Pause button acts as a Flash button in Swap mode.</p>
         <p>
             Pressing the Pause button the Playback will be set to 100% and the Intensity of all other active Playbacks will be set to 0%.
@@ -336,11 +336,11 @@ sidebar_position: 17
         <p>This setting enables a Playback to have both an Add button and a Swap button.</p>
     </div>
     <div class="section">
-        ### 17.2.13.&nbsp;Pause releases
+        ### 17.2.13. Pause releases
         <p>When set to Yes the Pause button releases the Cue Stack.</p>
     </div>
     <div class="section">
-        ### 17.2.14.&nbsp;Pause uses Exec Grid 1
+        ### 17.2.14. Pause uses Exec Grid 1
         <p>This enables the Pause button on Playbacks 1 to 10 to control items 11 to 20 in Exec Grid 1.</p>
         <p>
             When set to Yes then pressing the Pause button toggles the Exec Grid item corresponding to this Playback - for example Pause on
@@ -350,9 +350,9 @@ sidebar_position: 17
     </div>
 </div>
 <div class="section">
-    ## 17.3.&nbsp;Function
+    ## 17.3. Function
     <div class="section">
-        ### 17.3.1.&nbsp;Cue Stack is an Intensity Master
+        ### 17.3.1. Cue Stack is an Intensity Master
         <p>
             When this setting is set to Yes then the Cue Stack behaves as an Intensity Master. The Cue Stack normal Cue execution behaviour
             is disabled.
@@ -383,7 +383,7 @@ sidebar_position: 17
         <p>When this setting is set to No then the Cue Stack behaves normally.</p>
     </div>
     <div class="section">
-        ### 17.3.2.&nbsp;Cue Stack is a FX Size Master
+        ### 17.3.2. Cue Stack is a FX Size Master
         <p>
             When this setting is set to Yes then the Cue Stack behaves as an FX Size Master. The Cue Stack normal Cue execution behaviour is
             disabled.
@@ -414,7 +414,7 @@ sidebar_position: 17
         <p>When this setting is set to No then the Cue Stack behaves normally.</p>
     </div>
     <div class="section">
-        ### 17.3.3.&nbsp;Cue Stack is a FX Speed Master
+        ### 17.3.3. Cue Stack is a FX Speed Master
         <p>
             When this setting is set to Yes then the Cue Stack behaves as an FX Speed Master. The Cue Stack normal Cue execution behaviour
             is disabled.
@@ -445,7 +445,7 @@ sidebar_position: 17
         <p>When this setting is set to No then the Cue Stack behaves normally.</p>
     </div>
     <div class="section">
-        ### 17.3.4.&nbsp;Group ID (0 is not used)
+        ### 17.3.4. Group ID (0 is not used)
         <p>
             This setting is used when the Cue Stack is an Intensity Master, FX Size Master or FX Speed Master. It specifies the group to use
             for the Master.
@@ -456,7 +456,7 @@ sidebar_position: 17
         </p>
     </div>
     <div class="section">
-        ### 17.3.5.&nbsp;Group Attributes
+        ### 17.3.5. Group Attributes
         <p>
             This setting is used when the Cue Stack is an FX Size Master or FX Speed Master and the Group ID is non zero. It specifies which
             attributes the FX Speed or FX Size master should control for the heads in the Group.
@@ -471,27 +471,27 @@ sidebar_position: 17
         </p>
     </div>
     <div class="section">
-        ### 17.3.6.&nbsp;Intensity Master to 200%
+        ### 17.3.6. Intensity Master to 200%
         <p>
             When Cue Stack is an Intensity Master is set to yes, then the fader will operate from 0% to 200% intensity. Above 100% the level
             recorded in the Cue will be boosted - although the maximum output level will always be 100%.
         </p>
     </div>
     <div class="section">
-        ### 17.3.7.&nbsp;Cue Stack is a Prog Master
+        ### 17.3.7. Cue Stack is a Prog Master
         <p>
             The Playback with this Cue Stack operates as a Programmer Master. The Programmer master enables level control of the contents of
             the Programmer on the fader and stepping between different Programmer states.
         </p>
         <p>
             See
-            <a class="link" href="busking.html#_programmer_master" title="19.14.&nbsp;Programmer Master">Programmer Master</a>
+            <a class="link" href="busking.html#_programmer_master" title="19.14. Programmer Master">Programmer Master</a>
             .
         </p>
         <p>The Cue Stack normal Cue execution behaviour is disabled.</p>
     </div>
     <div class="section">
-        ### 17.3.8.&nbsp;Cue Stack is a Speed Master
+        ### 17.3.8. Cue Stack is a Speed Master
         <p>
             When this setting is set to a Speed Master SPx then the Cue Stack behaves as a Speed Master. The flash button is a tap to time,
             the fader controls the speed relative to the tap to time. GO halts the speed master whilst PAUSE resumes.
@@ -499,7 +499,7 @@ sidebar_position: 17
         <p>The Cue Stack normal Cue execution behaviour is disabled.</p>
     </div>
     <div class="section">
-        ### 17.3.9.&nbsp;Cue Stack is a Live Copy Master
+        ### 17.3.9. Cue Stack is a Live Copy Master
         <p>When this setting is set to yes, the Cue Stack behaves as a Live Copy Master.</p>
         <p>
             The Group Id settings specifies the group of channels that are copied to - i.e. that are controlled by this Master. Updating the
@@ -514,11 +514,11 @@ sidebar_position: 17
         <p>The Cue Stack normal Cue execution behaviour is disabled.</p>
     </div>
     <div class="section">
-        ### 17.3.10.&nbsp;Live Copy Group ID
+        ### 17.3.10. Live Copy Group ID
         <p>This setting is used when the Cue Stack is an Live Copy Master. It specifies the group to use for copying channels from.</p>
     </div>
     <div class="section">
-        ### 17.3.11.&nbsp;Col Tag
+        ### 17.3.11. Col Tag
         <p>
             When a Col Tag is set for a Cue Stack then that Col Tag is shown in the Playback legend above the Playback faders and buttons.
         </p>
@@ -529,19 +529,19 @@ sidebar_position: 17
     </div>
 </div>
 <div class="section">
-    ## 17.4.&nbsp;Activate/Release
+    ## 17.4. Activate/Release
     <div class="section">
-        ### 17.4.1.&nbsp;Halt at last step
+        ### 17.4.1. Halt at last step
         <p>When set to Yes the Cue Stack halts at the last step in the Cue Stack.</p>
         <p>When set to No then the Cue Stack will return to the first step after the last step.</p>
     </div>
     <div class="section">
-        ### 17.4.2.&nbsp;Release after last step
+        ### 17.4.2. Release after last step
         <p>When set to Yes the Cue Stack automatically releases after the last step in the Cue Stack has completed fading.</p>
         <p>When set to No the Cue Stack must be released manually.</p>
     </div>
     <div class="section">
-        ### 17.4.3.&nbsp;Release resets to first step
+        ### 17.4.3. Release resets to first step
         <p>
             When set to Yes the Cue Stack always starts from the first step when the Cue Stack is activated. The setting "Release steps 1
             step" is ignored.
@@ -549,12 +549,12 @@ sidebar_position: 17
         <p>When set to No the Cue Stack activates at the step it was on when it was last released.</p>
     </div>
     <div class="section">
-        ### 17.4.4.&nbsp;Release steps 1 step
+        ### 17.4.4. Release steps 1 step
         <p>When set to Yes the Cue Stack activates at the step following the step the Cue Stack was on when it was last released.</p>
         <p>When the setting "Release resets to first step" is set to Yes, this setting has no effect.</p>
     </div>
     <div class="section">
-        ### 17.4.5.&nbsp;Release time
+        ### 17.4.5. Release time
         <p>
             This is the time for channels to release when the Cue Stack is released (using the REL button or via fader/flash button). The
             exact behaviour depends upon whether channels are active on other Playbacks. Intensity channels not used by other channels will
@@ -567,13 +567,13 @@ sidebar_position: 17
         <p>This setting can also be set in the End field in View Cue in the Cue Stack Window.</p>
     </div>
     <div class="section">
-        ### 17.4.6.&nbsp;Release attributes
+        ### 17.4.6. Release attributes
         <p>This setting determines which attributes are released with time when a Cue Stack is released with time.</p>
         <p>Individual attribute types - "Int", "Pos", "Col", "Beam" can be selected together with combinations.</p>
         <p>The default is "All" which will fade out all attribute types except for attributes that are set to Instant.</p>
     </div>
     <div class="section">
-        ### 17.4.7.&nbsp;Release uses last step times
+        ### 17.4.7. Release uses last step times
         <p>
             When set to Yes the step times of the last step in the Cue Stack are used when releasing. This enables releasing using complex
             fan times and different fade / delay times on different attributes and heads.
@@ -592,7 +592,7 @@ sidebar_position: 17
         </p>
     </div>
     <div class="section">
-        ### 17.4.8.&nbsp;Release fades audio
+        ### 17.4.8. Release fades audio
         <p>
             By default, when the Cue Stack has audio playback enabled, if the Cue Stack has a release time configured, the audio will fade
             out over the same time.
@@ -604,7 +604,7 @@ sidebar_position: 17
         <p>The default is "Yes"</p>
     </div>
     <div class="section">
-        ### 17.4.9.&nbsp;Release executes last step
+        ### 17.4.9. Release executes last step
         <p>
             When the Playback is released then MagicQ executes the last step of the Cue Stack before releasing. Any macros in the last step
             of the Cue Stack are also executed.
@@ -615,7 +615,7 @@ sidebar_position: 17
         </p>
     </div>
     <div class="section">
-        ### 17.4.10.&nbsp;Activate on page change
+        ### 17.4.10. Activate on page change
         <p>When set to Yes, then this Cue Stack is activated when the page is changed to the page that this Cue Stack is assigned to.</p>
         <p>
             If there is an active Cue Stack on this Playback then the new Cue Stack will only be activated if the old Cue Stack is set to
@@ -623,14 +623,14 @@ sidebar_position: 17
         </p>
     </div>
     <div class="section">
-        ### 17.4.11.&nbsp;Release on page change
+        ### 17.4.11. Release on page change
         <p>
             When set to Yes, then this Cue Stack is released when the page is changed to any page other than the page that this Cue Stack is
             assigned to.
         </p>
     </div>
     <div class="section">
-        ### 17.4.12.&nbsp;HTP always active (Use HTP)
+        ### 17.4.12. HTP always active (Use HTP)
         <p>
             When set to Yes then the fader always controls the Intensity (HTP) channels from the Cue Stack regardless of whether the Cue
             Stack is activated. Whenever the fader is raised above zero the Intensity channels will affect the Output. The highest level
@@ -640,7 +640,7 @@ sidebar_position: 17
         <p>This setting is similar to the Use HTP setting on some other consoles.</p>
     </div>
     <div class="section">
-        ### 17.4.13.&nbsp;Activate and Release on DJ System
+        ### 17.4.13. Activate and Release on DJ System
         <p>
             When set to Yes, this Cue Stack will automatically activate and release when a DJ deck is playing the corresponding track
             configured in the "DJ Track" setting. If the Cue Stack is only in the Stack Store, then the stack will activate form the Stack
@@ -649,9 +649,9 @@ sidebar_position: 17
     </div>
 </div>
 <div class="section">
-    ## 17.5.&nbsp;Advanced
+    ## 17.5. Advanced
     <div class="section">
-        ### 17.5.1.&nbsp;All chans controlled LTP
+        ### 17.5.1. All chans controlled LTP
         <p>
             When set to Yes all HTP channels under control of the Playback act as if they were LTP channels. When the Playback with this Cue
             Stack is the latest activated and highest priority Playback then the Playback has complete control of all HTP channels
@@ -667,7 +667,7 @@ sidebar_position: 17
         </p>
     </div>
     <div class="section">
-        ### 17.5.2.&nbsp;Block FX from other playbacks
+        ### 17.5.2. Block FX from other playbacks
         <p>When set to Yes then any channels controlled by this Playback block FX on those channels from other Playbacks.</p>
         <p>
             Channels controlled by this Playback that have levels but no FX are not affected by FX on other Playbacks. In effect an implicit
@@ -679,7 +679,7 @@ sidebar_position: 17
         </p>
     </div>
     <div class="section">
-        ### 17.5.3.&nbsp;Ignore Masters
+        ### 17.5.3. Ignore Masters
         <p>
             When set to Yes, then the levels of HTP channels ignore grand master and sub master faders. They also ignore DBO and SHIFT
             RELEASE and will not be automatically activated and released by timecode.
@@ -688,7 +688,7 @@ sidebar_position: 17
         <p>When set to No then then levels and FX are affected by Masters, DBO,SHIFT RELEASE and timecode as normal.</p>
     </div>
     <div class="section">
-        ### 17.5.4.&nbsp;Playback priority
+        ### 17.5.4. Playback priority
         <p>The Playback priority can be set to Normal, Mid, High, Programmer and Above Programmer.</p>
         <p>When all Playbacks are set to priority Normal then the latest Playback to be activated/reasserted will control the channels.</p>
         <p>Playbacks set to Mid priority always have higher priority than Playbacks set to Normal priority.</p>
@@ -705,7 +705,7 @@ sidebar_position: 17
         </p>
     </div>
     <div class="section">
-        ### 17.5.5.&nbsp;Move when dark
+        ### 17.5.5. Move when dark
         <p>When set to Yes, then MagicQ checks after each Cue is executed whether it should perform a move when dark.</p>
         <p>
             Any heads that are used in the next Cue but which have 0% intensity in the current Cue are checked to see whether the Position,
@@ -716,7 +716,7 @@ sidebar_position: 17
         <p>The time taken for the Move when dark is specified in Setup, View Settings, Cue Storage, Default mark/move when dark time.</p>
     </div>
     <div class="section">
-        ### 17.5.6.&nbsp;Recalculate state on jumps
+        ### 17.5.6. Recalculate state on jumps
         <p>This option specifies how MagicQ calculates the Cue State when playing back a Cue Stack.</p>
         <p>
             When set to Yes, MagicQ recalculates the Cue State whenever a jump is made in the Cue Stack. The Output of a particular Cue
@@ -730,7 +730,7 @@ sidebar_position: 17
         <p>In tracking modes this setting defaults to Yes. In non-tracking modes this setting defaults to No.</p>
     </div>
     <div class="section">
-        ### 17.5.7.&nbsp;Stomp other playbacks
+        ### 17.5.7. Stomp other playbacks
         <p>Stomping enables Playbacks that have been completely overridden by other Playbacks to be automatically released.</p>
         <p>
             This option only has an effect when the Setup, Playback setting "Stomp Playbacks" is set. When "Stomp Playbacks" is set to No
@@ -743,7 +743,7 @@ sidebar_position: 17
         </p>
     </div>
     <div class="section">
-        ### 17.5.8.&nbsp;Sync next Playback to this one
+        ### 17.5.8. Sync next Playback to this one
         <p>This setting enables one or more playbacks to be synchronised together so that they step the same Cue Ids at the same time.</p>
         <p>Setting this option to Yes forces the next Playback (higher number) to synchronise to this Playback.</p>
         <p>If enabled for playback PB10 then Wing 1 PB1 will be synced to it.</p>
@@ -761,7 +761,7 @@ sidebar_position: 17
         </p>
     </div>
     <div class="section">
-        ### 17.5.9.&nbsp;Send playback state to other consoles
+        ### 17.5.9. Send playback state to other consoles
         <p>When set to Yes then the state of this Playback is sent to other MagicQ consoles on the network.</p>
         <p>
             If Net Sessions, Playback sync is set then the state of all Playbacks is sent to other consoles regardless of this Cue Stack
@@ -770,7 +770,7 @@ sidebar_position: 17
         <p>This setting requires Setup, Network, Ethernet Remote Protocol to be set to "ChamSys TX" or "ChamSys TX and RX".</p>
     </div>
     <div class="section">
-        ### 17.5.10.&nbsp;Rate Divisor
+        ### 17.5.10. Rate Divisor
         <p>
             Cue Stacks can be set to use a divisor of the tapped time - by default it is set to "Normal" and takes the tapped time. Options
             include "Div by 2" to "Div by 8" and "Mult by 2".
@@ -785,12 +785,12 @@ sidebar_position: 17
         </p>
     </div>
     <div class="section">
-        ### 17.5.11.&nbsp;Speed Master
+        ### 17.5.11. Speed Master
         <p>Selects which Speed Master this Cue Stack uses to control Chase and FX Speed - from SP1 to SP100.</p>
         <p>If set to "Ignore" it ignores Speed Masters.</p>
     </div>
     <div class="section">
-        ### 17.5.12.&nbsp;External timecode
+        ### 17.5.12. External timecode
         <p>This setting affects any steps in this Cue Stack that have their Halt field set to "Timecode".</p>
         <p>
             When set to Yes this Cue Stack is controlled by external timecode. When set to No then this Cue Stack is controlled by internal
@@ -799,7 +799,7 @@ sidebar_position: 17
         <p>This setting can also be changed from an encoder soft button.</p>
     </div>
     <div class="section">
-        ### 17.5.13.&nbsp;Timecode offset
+        ### 17.5.13. Timecode offset
         <p>
             This can be used to add a positive or negative timecode offset to all timecode values within a Cue Stack including all TC Tracks
             associated with that Cue Stack.
@@ -820,7 +820,7 @@ sidebar_position: 17
         <p>The timecode offset can be modified using an encoder in the Cue Stack window by holding SHIFT and turning encoder D.</p>
     </div>
     <div class="section">
-        ### 17.5.14.&nbsp;Enable timecode loop
+        ### 17.5.14. Enable timecode loop
         <p>
             When set to Yes this will enable the internal timecode of the playback to loop between the "Timecode loop in" and "Timecode loop
             out" points. This only works with the internal timecode function and cannot control external timecode sources. Manually setting
@@ -829,11 +829,11 @@ sidebar_position: 17
         </p>
     </div>
     <div class="section">
-        ### 17.5.15.&nbsp;Timecode loop in
+        ### 17.5.15. Timecode loop in
         <p>This is the start timecode of the section of timecode which will be looped when "Enable timecode loop" is set to Yes.</p>
     </div>
     <div class="section">
-        ### 17.5.16.&nbsp;Timecode loop out
+        ### 17.5.16. Timecode loop out
         <p>
             This is the end timecode of the section of timecode which will be looped when "Enable timecode loop" is set to Yes. When the
             timecode reaches this value or higher, the internal timecode will be set to the value of the
@@ -842,7 +842,7 @@ sidebar_position: 17
         </p>
     </div>
     <div class="section">
-        ### 17.5.17.&nbsp;DJ Track
+        ### 17.5.17. DJ Track
         <p>
             This will show the title and artist of an associated DJ System track when configured. To set this, make sure the relevant track
             you wish to associate is currently playing on a connected DJ system, then use the "Copy" function to copy the cue stack onto the
@@ -850,7 +850,7 @@ sidebar_position: 17
         </p>
     </div>
     <div class="section">
-        ### 17.5.18.&nbsp;Track DJ Deck timecode
+        ### 17.5.18. Track DJ Deck timecode
         <p>
             When set to yes, and when the DJ Track is configured above, the timecode for this cue stack will be taken from the relevant DJ
             deck on which the configured track is playing. This is automatically set to Yes when associating a DJ Track above.
@@ -858,9 +858,9 @@ sidebar_position: 17
     </div>
 </div>
 <div class="section">
-    ## 17.6.&nbsp;Chase Options
+    ## 17.6. Chase Options
     <div class="section">
-        ### 17.6.1.&nbsp;Skip first times
+        ### 17.6.1. Skip first times
         <p>
             When this setting is set to Yes, then when the Cue Stack is activated the fade times for the first step are ignored and the
             levels bumped straight in.
@@ -868,44 +868,44 @@ sidebar_position: 17
         <p>This only affects Cue steps set to "Chase Timing".</p>
     </div>
     <div class="section">
-        ### 17.6.2.&nbsp;Speed
+        ### 17.6.2. Speed
         <p>
             This controls the speed of any Cue Steps in the Cue Stack set to "Chase Timing". This setting can also be controlled via encoder
             X in the Cue Stack view.
         </p>
     </div>
     <div class="section">
-        ### 17.6.3.&nbsp;Xfade
+        ### 17.6.3. Xfade
         <p>
             This controls the crossfade of any Cue Steps in the Cue Stack set to "Chase Timing". This setting can also be controlled via the
             Y encoder in the Cue Stack view.
         </p>
     </div>
     <div class="section">
-        ### 17.6.4.&nbsp;Direction
+        ### 17.6.4. Direction
         <p>
             This controls the direction (forward or backward) of any Cue Steps in the Cue Stack set to "Chase Timing". This setting can also
             be controlled via encoder C in the Cue Stack view.
         </p>
     </div>
     <div class="section">
-        ### 17.6.5.&nbsp;Repeat type
+        ### 17.6.5. Repeat type
         <p>
             The options are Normal, Bounce and Random. Bounce executes the Chase alternating backward and forward direction. This setting
             can also be controlled via encoder D in the Cue Stack view.
         </p>
     </div>
     <div class="section">
-        ### 17.6.6.&nbsp;Number of repeats
+        ### 17.6.6. Number of repeats
         <p>This setting specifies how many repeats of the Chase should take place.</p>
         <p>When set to 0 then the Chase will continue until the chase is exited manually.</p>
     </div>
     <div class="section">
-        ### 17.6.7.&nbsp;Running
+        ### 17.6.7. Running
         <p>This setting specifies whether Chases start running or halted.</p>
     </div>
     <div class="section">
-        ### 17.6.8.&nbsp;HTP in fade, HTP out fade, Position fade, Colour fade, Beam fade
+        ### 17.6.8. HTP in fade, HTP out fade, Position fade, Colour fade, Beam fade
         <p>
             The fade times for any Cue Steps in the Cue Stack set to "Chase Timing". These times generally match the Chase speed. These
             times can also be controlled via encoder C in the Cue Stack view.
@@ -914,16 +914,16 @@ sidebar_position: 17
         <p>The overall Chase speed corresponds to attribute group with the biggest combined delay and fade time.</p>
     </div>
     <div class="section">
-        ### 17.6.9.&nbsp;HTP in delay, HTP out delay, Position delay, Colour delay, Beam delay
+        ### 17.6.9. HTP in delay, HTP out delay, Position delay, Colour delay, Beam delay
         <p>The delay times for any Cue Steps in the Cue Stack set to "Chase Timing".</p>
         <p>These times can be used to make one or more attribute groups snap at end.</p>
         <p>The overall Chase speed corresponds to attribute group with the biggest combined delay and fade time.</p>
     </div>
 </div>
 <div class="section">
-    ## 17.7.&nbsp;Audio
+    ## 17.7. Audio
     <div class="section">
-        ### 17.7.1.&nbsp;Audio controls fader level
+        ### 17.7.1. Audio controls fader level
         <p>
             When set to Yes, the level of the playback is controlled by the received audio level on the chosen. The level of the real fader
             is ignored. The effect on the Playback is determined by the Cue Stack, Fader settings.
@@ -936,7 +936,7 @@ sidebar_position: 17
         </p>
     </div>
     <div class="section">
-        ### 17.7.2.&nbsp;Audio level jumps to Cue Step
+        ### 17.7.2. Audio level jumps to Cue Step
         <p>
             "Audio level jumps to Cue Step" enables the level of the specified audio channel to determine which step in the Cue Stack is
             executed – for example if you have a Cue Stack with 10 steps, then a level of 0% will execute step 1, 10% will execute step 2
@@ -951,7 +951,7 @@ sidebar_position: 17
         </p>
     </div>
     <div class="section">
-        ### 17.7.3.&nbsp;Audio bumps GO/FX
+        ### 17.7.3. Audio bumps GO/FX
         <p>
             When set to Yes, the Cue Stack bumps to the next step every time a peak in the audio is detected on the specified channel. This
             enables a Cue Stack to follow the beat of the music.
@@ -969,7 +969,7 @@ sidebar_position: 17
         <p>Audio parameter 2 should be set to 0.</p>
     </div>
     <div class="section">
-        ### 17.7.4.&nbsp;Audio beat step
+        ### 17.7.4. Audio beat step
         <p>
             When set to yes, the Cue Stack will use the currently detected beat number (whether from the Audio Input BPM beat tracker, or
             from an external DJ system), to jump to the Cue with the corresponding Cue ID for the beat number.
@@ -977,7 +977,7 @@ sidebar_position: 17
         <p>When this setting is set to Yes, the settings "Audio sets BPM" and "Audio level jumps to Cue Step" should be set to No.</p>
     </div>
     <div class="section">
-        ### 17.7.5.&nbsp;Audio beat step length
+        ### 17.7.5. Audio beat step length
         <p>
             In conjunction with the "Audio beat step" setting, this value specifies after how many beats the Cue Stack should loop. By
             default this value is 4, but can be overridden to any value required. Cue IDs which are outside of this range will never be
@@ -985,7 +985,7 @@ sidebar_position: 17
         </p>
     </div>
     <div class="section">
-        ### 17.7.6.&nbsp;Audio sets BPM
+        ### 17.7.6. Audio sets BPM
         <p>
             When set to Yes, then the chase speed of the Cue Stack is set to the timing of the peaks on the specified audio channel. The Cue
             Stack should be set to Chase Timing.
@@ -998,13 +998,13 @@ sidebar_position: 17
         <p>Audio level, audio parameter 1, and audio parameter 2 should be set to 0.</p>
     </div>
     <div class="section">
-        ### 17.7.7.&nbsp;Audio channel
+        ### 17.7.7. Audio channel
         <p>This setting specifies the audio channel that the Playback will respond to.</p>
         <p>The ChamSys audio interface supports 7 different frequency bands on two audio inputs (left and right).</p>
         <p>Selecting the option "Energy" uses all frequency bands mixed together.</p>
     </div>
     <div class="section">
-        ### 17.7.8.&nbsp;Audio level
+        ### 17.7.8. Audio level
         <p>
             When "Audio controls fader level" is set to Yes then the settings Audio parameter 1 and Audio Parameter 2 can be set to control
             the response:
@@ -1022,7 +1022,7 @@ sidebar_position: 17
         </p>
     </div>
     <div class="section">
-        ### 17.7.9.&nbsp;Audio parameter 1
+        ### 17.7.9. Audio parameter 1
         <p>Audio P1 = 0 Normal (direct trigger from level)</p>
         <p>Audio P1 = 1 Decayed (decays by Audio P2 each sample)</p>
         <p>Audio P1 = 2 Pulse (triggers at Audio Level, Audio P2 is duration of pulse)</p>
@@ -1031,7 +1031,7 @@ sidebar_position: 17
         <p>Audio P1 = 5 Slow (increases/decreases by Audio P2 each sample)</p>
     </div>
     <div class="section">
-        ### 17.7.10.&nbsp;Audio parameter 2
+        ### 17.7.10. Audio parameter 2
         <p>Audio P2 is dependent on Audio P1</p>
         <p>Audio P1 = 1 Decayed (decays by Audio P2 each sample)</p>
         <p>Audio P1 = 2 Pulse (triggers at Audio Level, Audio P2 is duration of pulse)</p>
@@ -1039,11 +1039,11 @@ sidebar_position: 17
         <p>Audio P1 = 5 Slow (increases/decreases by Audio P2 each sample)</p>
     </div>
     <div class="section">
-        ### 17.7.11.&nbsp;Audio file
+        ### 17.7.11. Audio file
         <p>This specifies an audio file to be associated with the Cue Stack.</p>
     </div>
     <div class="section">
-        ### 17.7.12.&nbsp;Audio play mode
+        ### 17.7.12. Audio play mode
         <p>In "Normal" mode, the audio file specified will play upon the playback being activated, and stops when deactivated.</p>
         <p>
             In "Stack Audio Muted" mode, the audio file will be shown in the Audio Timeline window to allow timecode based Cue Stacks to be
@@ -1053,20 +1053,20 @@ sidebar_position: 17
     </div>
 </div>
 <div class="section">
-    ## 17.8.&nbsp;Step (View Defaults only)
+    ## 17.8. Step (View Defaults only)
     <div class="section">
-        ### 17.8.1.&nbsp;Step controlled as a chase
+        ### 17.8.1. Step controlled as a chase
         <p>When set to Yes, the step defaults to Chase timing. When set to No the step defaults to Cue timing.</p>
     </div>
     <div class="section">
-        ### 17.8.2.&nbsp;Step follows last
+        ### 17.8.2. Step follows last
         <p>
             When set to Yes, the step executes after the completion of the previous step. When set to No the step executes after the wait
             time specified in the Cue step.
         </p>
     </div>
     <div class="section">
-        ### 17.8.3.&nbsp;Step halts before executing
+        ### 17.8.3. Step halts before executing
         <p>When set to Yes, the step halts and waits for the user to pres GO before executing the Cue step.</p>
         <p>
             When set to No the step executes immediately after the previous step has completed – this is either after it has completed
@@ -1082,13 +1082,13 @@ sidebar_position: 17
         </p>
     </div>
     <div class="section">
-        ### 17.8.4.&nbsp;Zero old HTP (from previous steps)
+        ### 17.8.4. Zero old HTP (from previous steps)
         <p>When set to Yes, any HTP channels from previous Cues that are not in this Cue step are faded out.</p>
         <p>In tracking modes this setting defaults to No. In non-tracking mode this setting defaults to Yes.</p>
         <p>The Tracking flag "H" corresponds to the inverse of this setting.</p>
     </div>
     <div class="section">
-        ### 17.8.5.&nbsp;Zero old FX (from previous steps)
+        ### 17.8.5. Zero old FX (from previous steps)
         <p>
             When set to Yes, any FX on channels from previous Cues that are not controlled by a FX in this Cue step have the FX faded out.
         </p>
@@ -1096,78 +1096,78 @@ sidebar_position: 17
         <p>The Tracking flag "F" corresponds to the inverse of this setting.</p>
     </div>
     <div class="section">
-        ### 17.8.6.&nbsp;Release old chans
+        ### 17.8.6. Release old chans
         <p>When set to Yes, any channels used in previous Cues but not used in this Cue step are released.</p>
         <p>This setting defaults to No in all modes.</p>
         <p>The Tracking flag "L" corresponds to the inverse of this setting.</p>
     </div>
 </div>
 <div class="section">
-    ## 17.9.&nbsp;Step Times (View Defaults only)
+    ## 17.9. Step Times (View Defaults only)
     <div class="section">
-        ### 17.9.1.&nbsp;HTP in fade
+        ### 17.9.1. HTP in fade
         <p>The default fade times used when new Cues are recorded in a Cue Stack. Used by Cues in the Cue Stack set to "Cue Timing".</p>
         <p>Once Cues have been recorded then the times for Specific Cues are edited in the Cue Window, View Times.</p>
     </div>
     <div class="section">
-        ### 17.9.2.&nbsp;HTP out fade
+        ### 17.9.2. HTP out fade
         <p>The default fade times used when new Cues are recorded in a Cue Stack. Used by Cues in the Cue Stack set to "Cue Timing".</p>
         <p>Once Cues have been recorded then the times for Specific Cues are edited in the Cue Window, View Times.</p>
     </div>
     <div class="section">
-        ### 17.9.3.&nbsp;Position fade
+        ### 17.9.3. Position fade
         <p>The default fade times used when new Cues are recorded in a Cue Stack. Used by Cues in the Cue Stack set to "Cue Timing".</p>
         <p>Once Cues have been recorded then the times for Specific Cues are edited in the Cue Window, View Times.</p>
     </div>
     <div class="section">
-        ### 17.9.4.&nbsp;Colour fade
+        ### 17.9.4. Colour fade
         <p>The default fade times used when new Cues are recorded in a Cue Stack. Used by Cues in the Cue Stack set to "Cue Timing".</p>
         <p>Once Cues have been recorded then the times for Specific Cues are edited in the Cue Window, View Times.</p>
     </div>
     <div class="section">
-        ### 17.9.5.&nbsp;Beam fade
+        ### 17.9.5. Beam fade
         <p>The default fade times used when new Cues are recorded in a Cue Stack. Used by Cues in the Cue Stack set to "Cue Timing".</p>
         <p>Once Cues have been recorded then the times for Specific Cues are edited in the Cue Window, View Times.</p>
     </div>
     <div class="section">
-        ### 17.9.6.&nbsp;HTP in delay
+        ### 17.9.6. HTP in delay
         <p>The default delay times used when new Cues are recorded in a Cue Stack. Used by Cues in the Cue Stack set to "Cue Timing".</p>
         <p>Once Cues have been recorded then the times for Specific Cues are edited in the Cue Window, View Times.</p>
     </div>
     <div class="section">
-        ### 17.9.7.&nbsp;HTP out delay
+        ### 17.9.7. HTP out delay
         <p>The default delay times used when new Cues are recorded in a Cue Stack. Used by Cues in the Cue Stack set to "Cue Timing".</p>
         <p>Once Cues have been recorded then the times for Specific Cues are edited in the Cue Window, View Times.</p>
     </div>
     <div class="section">
-        ### 17.9.8.&nbsp;Position delay
+        ### 17.9.8. Position delay
         <p>The default delay times used when new Cues are recorded in a Cue Stack. Used by Cues in the Cue Stack set to "Cue Timing".</p>
         <p>Once Cues have been recorded then the times for Specific Cues are edited in the Cue Window, View Times.</p>
     </div>
     <div class="section">
-        ### 17.9.9.&nbsp;Colour delay
+        ### 17.9.9. Colour delay
         <p>The default delay times used when new Cues are recorded in a Cue Stack. Used by Cues in the Cue Stack set to "Cue Timing".</p>
         <p>Once Cues have been recorded then the times for Specific Cues are edited in the Cue Window, View Times.</p>
     </div>
     <div class="section">
-        ### 17.9.10.&nbsp;Beam delay
+        ### 17.9.10. Beam delay
         <p>The default delay times used when new Cues are recorded in a Cue Stack. Used by Cues in the Cue Stack set to "Cue Timing".</p>
         <p>Once Cues have been recorded then the times for Specific Cues are edited in the Cue Window, View Times.</p>
     </div>
 </div>
 <div class="section">
-    ## 17.10.&nbsp;FX (View Defaults Only)
+    ## 17.10. FX (View Defaults Only)
     <p>Default speed</p>
     <p>This is the default FX speed used when creating new Waveform FX in the FX Editor Window.</p>
     <div class="section">
-        ### 17.10.1.&nbsp;Default in fade
+        ### 17.10.1. Default in fade
         <p>
             This is the default FX fade in used when setting a specific FX fade in time. Note that by default FX are faded in using the fade
             times of the Cue step.
         </p>
     </div>
     <div class="section">
-        ### 17.10.2.&nbsp;Default out fade
+        ### 17.10.2. Default out fade
         <p>
             This is the default FX fade in used when setting a specific FX fade out time. Note that by default FX are faded out using the
             fade times of the Cue step.

@@ -4,9 +4,9 @@ title: Chapter 2. Installing MagicQ Software & Drivers
 sidebar_position: 2
 ---
 
-# Chapter&nbsp;2.&nbsp;Installing MagicQ Software &amp; Drivers
+# Chapter 2. Installing MagicQ Software &amp; Drivers
 <div class="section">
-    ## 2.1.&nbsp;MagicQ software
+    ## 2.1. MagicQ software
     <p>
         MagicQ software runs on PCs and Macs and can be downloaded free from the ChamSys web site
         <a class="ulink" href="https://secure.chamsys.co.uk/download" target="_top">www.chamsys.co.uk/download</a>
@@ -14,7 +14,7 @@ sidebar_position: 2
     </p>
 </div>
 <div class="section">
-    ## 2.2.&nbsp;MagicDMX
+    ## 2.2. MagicDMX
     <p>
         MagicDMX devices do NOT need any additional drivers – they use HID drivers within the operating system. Simply plug in the device
         and start MagicQ.
@@ -38,7 +38,7 @@ sidebar_position: 2
     </p>
 </div>
 <div class="section">
-    ## 2.3.&nbsp;MagicQ Wings &amp; Interfaces
+    ## 2.3. MagicQ Wings &amp; Interfaces
     <p>
         Current MagicQ Wings &amp; Interfaces including Stadium Connect, Compact Connect and Mini Connect and the older PC Wing Compact and
         Extra Wing Compact do not require special driver installation.
@@ -56,17 +56,17 @@ sidebar_position: 2
     </p>
 </div>
 <div class="section">
-    ## 2.4.&nbsp;MagicQ on Windows
+    ## 2.4. MagicQ on Windows
     <p>MagicQ supports Windows 8, Windows 10 and Windows 11.</p>
     <p>MagicQ Connect products do not need any drivers installed.</p>
     <p>
         MagicDMX devices do not need any drivers - see
-        <a class="xref" href="installing.html#_magicdmx" title="2.2.&nbsp;MagicDMX">Section&nbsp;2.2, “MagicDMX”</a>
+        <a class="xref" href="installing.html#_magicdmx" title="2.2. MagicDMX">Section 2.2, “MagicDMX”</a>
         .
     </p>
     <p>MagicQ runs on all types of Windows PC including both Intel and ARM based Microsoft Surface.</p>
     <div class="section">
-        ### 2.4.1.&nbsp;Drivers for older MagicQ products
+        ### 2.4.1. Drivers for older MagicQ products
         <p>The drivers for older MagicQ products are included in the MagicQ download.</p>
         <p><code class="literal">C:\Program Files (x86)\ChamSys Ltd\MagicQ\MagicQ Wing Drivers</code></p>
         <p>Disconnect all MagicQ Wings and Interfaces except the one you are trying to install the driver for.</p>
@@ -156,7 +156,7 @@ sidebar_position: 2
         </p>
     </div>
     <div class="section">
-        ### 2.4.2.&nbsp;User permissions on Windows
+        ### 2.4.2. User permissions on Windows
         <p>
             On new installs of MagicQ, show files are stored in
             <span class="strong">
@@ -214,7 +214,7 @@ sidebar_position: 2
     </div>
 </div>
 <div class="section">
-    ## 2.5.&nbsp;MagicQ on Mac
+    ## 2.5. MagicQ on Mac
     <p>MagicQ Supports macOS 10.12 and 10.13, 10.14, 10.15, 11 and 12.</p>
     <p>Note when using Apple M1 hardware ensure that MagicQ is installed via Rosetta.</p>
     <p>No driver installation is required for MagicQ wings and interfaces.</p>
@@ -238,7 +238,7 @@ sidebar_position: 2
         page.
     </p>
     <div class="section">
-        ### 2.5.1.&nbsp;Turning off App Nap
+        ### 2.5.1. Turning off App Nap
         <p>On all versions we recommend you disable Computer sleep and turn off App Nap to avoid MagicQ being shut down inadvertently.</p>
         <div class="itemizedlist">
             <ul class="itemizedlist">
@@ -261,7 +261,7 @@ sidebar_position: 2
         </p>
     </div>
     <div class="section">
-        ### 2.5.2.&nbsp;Making the MagicQ folder writeable
+        ### 2.5.2. Making the MagicQ folder writeable
         <p>
             If you get the message "Cannot write file" when trying to save a show file, or your settings changes are not saved then check
             that the MagicQ folder and all its subfolders have both read and write permission.
@@ -272,7 +272,7 @@ sidebar_position: 2
             <a
                 class="link"
                 href="troubleshooting.html#mac_permissions"
-                title='55.13.&nbsp;"MagicQ needs to write to the install folder…" message on Mac'>
+                title='55.13. "MagicQ needs to write to the install folder…" message on Mac'>
                 detailed steps
             </a>
             in the troubleshooting chapter.
@@ -280,7 +280,7 @@ sidebar_position: 2
     </div>
 </div>
 <div class="section">
-    ## 2.6.&nbsp;MagicQ on Linux
+    ## 2.6. MagicQ on Linux
     <p>MagicQ can be installed on current Ubuntu LTS releases (14.04, 16.04 18.04 and 20.04) 64 bit.</p>
     <p>
         You can download MagicQ for Linux from the
@@ -316,13 +316,13 @@ sidebar_position: 2
         </table>
     </div>
     <div class="section">
-        ### 2.6.1.&nbsp;Installing
+        ### 2.6.1. Installing
         <p>To install the downloaded .deb file, run the following command in a terminal:</p>
         <pre class="literallayout">sudo dpkg -i magicq_ubuntu_vx_x_x_x.deb</pre>
         <p>Replacing the filename above the the name of the downloaded file.</p>
     </div>
     <div class="section">
-        ### 2.6.2.&nbsp;High DPI screens
+        ### 2.6.2. High DPI screens
         <p>
             Automatic scaling for high resolution screens is disabled by default as with some screens it made the MagicQ user interface too
             big.

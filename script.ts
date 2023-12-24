@@ -44,6 +44,8 @@ export const getStyleObjectFromString = (str: string) => {
 };
 
 async function run() {
+    console.log('Starting Migration!');
+
     const htmlContent = await fetch(startUrl).then((response) => response.text());
     const root = parse(htmlContent);
 
@@ -60,10 +62,6 @@ async function run() {
                 return;
             }
 
-            if (htmlFile === 'installing.html') {
-                console.log('running it now!');
-            }
-
             // TO-DO: remove
             // if (htmlFile !== 'midi.html') {
             //     return;
@@ -77,7 +75,7 @@ async function run() {
                 return;
             }
 
-            const processedContent = content.replaceAll('style=""', '');
+            const processedContent = content.replaceAll('style=""', '').replaceAll('{', '&#123;').replaceAll('}', '&#125;');
             const document = new JSDOM(processedContent).window.document;
 
             const title = document.querySelector<HTMLDivElement>('.titlepage .title')?.textContent?.trim();
@@ -98,8 +96,6 @@ async function run() {
                 const tagName = titleNode.tagName;
                 const tagTitle = titleNode.textContent;
 
-                console.log(tagTitle);
-
                 if (tagName === 'H1') {
                     titlePageNode.replaceWith(`# ${tagTitle}`);
                 } else if (tagName === 'H2') {
@@ -115,8 +111,6 @@ async function run() {
 
             const articleContent = document.querySelector('.chapter');
             if (!articleContent) {
-                console.log(htmlFile);
-                console.log('hmm');
                 return;
             }
 
@@ -140,14 +134,20 @@ async function run() {
             });
 
             let formattedContent = await format(articleContent.innerHTML, prettierConfig);
-            formattedContent = formattedContent.replaceAll(/<\/pre\n.*\>/gm, `\n</pre>`);
-            // .replaceAll('&nbsp;', ' ')
+            formattedContent = formattedContent
+                .replaceAll(/<\/pre\n.*\>/gm, `\n</pre>`)
+                // TO-DO: this would be nice as well
+                // .replaceAll('#', '&#64;')
+                .replaceAll('$', '&#36;')
+                .replaceAll('{', '&#123;')
+                .replaceAll('}', '&#125;')
+                .replaceAll('&nbsp;', ' ');
 
             writeFileSync(`./docs/${htmlFile.split('.html')[0]}.md`, `---\n${articleHeader}---\n\n${formattedContent}`);
         }),
     );
 
-    console.log('done');
+    console.log('Done!');
 }
 
 run();

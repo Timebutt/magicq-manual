@@ -4,7 +4,7 @@ title: Chapter 23. Motorisation and Customisation
 sidebar_position: 23
 ---
 
-# Chapter&nbsp;23.&nbsp;Motorisation and Customisation
+# Chapter 23. Motorisation and Customisation
 <p>
     MagicQ Stadium Series products with motorised faders enable many different functions to be applied to the faders with MagicQ changing
     the fader levels when the functions are changed.
@@ -14,7 +14,7 @@ sidebar_position: 23
     banks to enable access to more playbacks on a page.
 </p>
 <div class="section">
-    ## 23.1.&nbsp;Stadium Playback banking
+    ## 23.1. Stadium Playback banking
     <p>
         The Stadium playback section is split into two with fader and encoder playbacks. The fader playback section consists of motorised
         fader, FLASH, GO, PAUSE and S buttons. The execute playback section consists of encoders with inbuilt button and FLASH buttons.
@@ -45,7 +45,7 @@ sidebar_position: 23
     </p>
 </div>
 <div class="section">
-    ## 23.2.&nbsp;Fader modes
+    ## 23.2. Fader modes
     <p>
         The current function of the faders is determined by the fader mode which can be selected by pressing and holding down the NEXT PAGE
         or PREV PAGE buttons. This shows a dual height shortcut toolbar with the top row showing the different modes and the bottom row
@@ -135,7 +135,7 @@ sidebar_position: 23
     </p>
     <p>In all modes pressing SHIFT + BIG PAUSE deactivates all the faders for the mode across all pages.</p>
     <div class="section">
-        ### 23.2.1.&nbsp;Programmer modes
+        ### 23.2.1. Programmer modes
         <p>
             In the Programmer modes all changes affect the programmer just as if the heads had been selected from the keypad, encoders or
             palette windows. Pressing CLEAR resets all faders.
@@ -168,7 +168,7 @@ sidebar_position: 23
         </p>
     </div>
     <div class="section">
-        ### 23.2.2.&nbsp;Master modes
+        ### 23.2.2. Master modes
         <p>
             In Intensity Master mode the faders are used to control the master intensity of any of the patched heads starting from the
             lowest head number. Adjusting the fader sets the master intensity for that head. The master intensity operates at the output
@@ -207,12 +207,12 @@ sidebar_position: 23
         </p>
         <p>
             In Speed Master mode the faders and buttons control the global
-            <a class="link" href="busking.html#busking-speed-masters" title="19.12.5.&nbsp;Speed Masters">Speed Masters</a>
+            <a class="link" href="busking.html#busking-speed-masters" title="19.12.5. Speed Masters">Speed Masters</a>
             .
         </p>
     </div>
     <div class="section">
-        ### 23.2.3.&nbsp;Cue modes
+        ### 23.2.3. Cue modes
         <p>
             These modes operate in a similar way to the Intensities mode and the Sel Intensities mode - you can page through the different
             heads - but they operate on the Cue data rather than programmer data.
@@ -243,7 +243,7 @@ sidebar_position: 23
         </p>
     </div>
     <div class="section">
-        ### 23.2.4.&nbsp;Preset modes
+        ### 23.2.4. Preset modes
         <p>
             In Preset mode the faders are used to control preset intensities - as per the View Preset in the Intensity window. Preset
             intensities operate independently of the programmer and are used for setting fixed values - for example during changeovers or
@@ -253,7 +253,7 @@ sidebar_position: 23
         <p>Presing FLASH puts the intensity to 100% and then on release returns it to the fader level.</p>
     </div>
     <div class="section">
-        ### 23.2.5.&nbsp;Shortcuts to fader mode
+        ### 23.2.5. Shortcuts to fader mode
         <p>The fader mode and bank can be selected from a pop up menu by pressing and holding the PAGE UP or PAGE DOWN buttons.</p>
         <p>
             The current fader mode and bank can be recorded as items in the Execute window which can then be operated from the 4x3 Execute
@@ -277,14 +277,14 @@ sidebar_position: 23
         </p>
     </div>
     <div class="section">
-        ### 23.2.6.&nbsp;Fader Touch
+        ### 23.2.6. Fader Touch
         <p>
             MagicQ can tell when users touch the motorised fader knobs. As an option this can be used to change selected playback or to
             pre-visualise that playback in MagicVis.
         </p>
     </div>
     <div class="section">
-        ### 23.2.7.&nbsp;Disabling motorisation
+        ### 23.2.7. Disabling motorisation
         <p>
             Motorised faders have moving parts which can wear out with excessive use. Users should avoid creating macros or tracks that
             cause motors to constantly move.
@@ -296,7 +296,7 @@ sidebar_position: 23
         <p>All motors can be disabled in Setup, View Settings, Hardware, Motorisation.</p>
     </div>
     <div class="section">
-        ### 23.2.8.&nbsp;Illuminated Faders
+        ### 23.2.8. Illuminated Faders
         <p>
             In Playbacks mode the illuminated faders are used to indicate the function of the fader – blue for normal HTP level control,
             green for LTP faders, red for Intensity Masters and orange for FX Speed and FX size masters.
@@ -314,7 +314,7 @@ sidebar_position: 23
     </div>
 </div>
 <div class="section">
-    ## 23.3.&nbsp;Playback Encoders
+    ## 23.3. Playback Encoders
     <p>The playback encoders can be used for many different functions including:</p>
     <div class="itemizedlist">
         <ul class="itemizedlist">
@@ -358,7 +358,7 @@ sidebar_position: 23
         Speed this will only take effect if the Cue Stack is already active on a Playback or within an Execute Grid or the Stack Store.
     </p>
     <div class="section">
-        ### 23.3.1.&nbsp;Illuminated Playback Encoders
+        ### 23.3.1. Illuminated Playback Encoders
         <p>
             In Playbacks mode the illuminated encoders are used to indicate the function of the encoder – blue for normal HTP level control,
             green for LTP faders, red for Intensity Masters and orange for FX Speed and FX size masters. The encoders can be set to use the

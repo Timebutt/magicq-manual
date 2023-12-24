@@ -4,7 +4,7 @@ title: Chapter 16. Playback
 sidebar_position: 16
 ---
 
-# Chapter&nbsp;16.&nbsp;Playback
+# Chapter 16. Playback
 <p>
     MagicQ consoles support 10 main playbacks situated immediately below the touch screen. Up to 192 additional playbacks are available on
     up to 8 expansion wings.
@@ -13,7 +13,7 @@ sidebar_position: 16
 <p>The 10 main playbacks also have GO and PAUSE buttons for control of Cue Stacks.</p>
 <p>Cue Stacks on wings have GO buttons. SHIFT + GO gives PAUSE function.</p>
 <div class="section">
-    ## 16.1.&nbsp;Playback Display
+    ## 16.1. Playback Display
     <p>
         The area above each of the main playbacks on the display is used to provide information about the status of the playback. This
         includes the name of the Cue Stack that is loaded on the playback, the current Cue and the next Cue. The status of the Cue is shown
@@ -27,7 +27,7 @@ sidebar_position: 16
     </p>
 </div>
 <div class="section">
-    ## 16.2.&nbsp;Activating and Releasing Playbacks
+    ## 16.2. Activating and Releasing Playbacks
     <p>
         Playbacks are activated and released by pressing the associated buttons and raising the associated faders depending on the options
         of the Cue Stack. Once a playback is activated it affects the output of the console until it is released.
@@ -65,7 +65,7 @@ sidebar_position: 16
     </p>
 </div>
 <div class="section">
-    ## 16.3.&nbsp;Fader control
+    ## 16.3. Fader control
     <p>
         By default the playback fader controls the level of any HTP channels recorded into the current Cue on the Cue Stack. If the "Fader
         controls HTP chans" option is set to "No" then the fader will no longer control the HTP channels – the Playback will automatically
@@ -88,7 +88,7 @@ sidebar_position: 16
     </p>
 </div>
 <div class="section">
-    ## 16.4.&nbsp;Playback Buttons
+    ## 16.4. Playback Buttons
     <p>In a Cue Stack set to Chase timing, GO runs the chase whilst PAUSE stops it.</p>
     <p>
         In a Cue Stack set to Theatre timing, GO steps to the next step in the Cue Stack. When a Cue Stack is fading, pressing PAUSE stops
@@ -152,7 +152,7 @@ sidebar_position: 16
         </table>
     </div>
     <div class="section">
-        ### 16.4.1.&nbsp;Playbacks without faders
+        ### 16.4.1. Playbacks without faders
         <p>MagicQ Extra Wings and Execute Wings have some playbacks without faders and without GO or PAUSE buttons.</p>
         <p>On these playbacks the FLASH buttons can be set to toggle on/off in the Cue Stack Options, Buttons, Flash toggles.</p>
         <p>
@@ -161,11 +161,11 @@ sidebar_position: 16
         </p>
     </div>
     <div class="section">
-        ### 16.4.2.&nbsp;Grand Master &amp; Sub Master
+        ### 16.4.2. Grand Master &amp; Sub Master
         <p>
             To the left of the 10 playbacks are two master faders - a Grand Master which controls the overall HTP output level of the
             console, and a Sub Master which controls the HTP output level of the playbacks. In addition the Sub Master can be
-            <a class="link" href="settings.html#setting-grand-master-function" title="50.13.1.&nbsp;Grand Master function">configured</a>
+            <a class="link" href="settings.html#setting-grand-master-function" title="50.13.1. Grand Master function">configured</a>
             to control the level of the FLASH buttons.
         </p>
         <p>
@@ -175,14 +175,14 @@ sidebar_position: 16
         <p>LTP channels are not affected by the master faders.</p>
     </div>
     <div class="section">
-        ### 16.4.3.&nbsp;Dead Black Out (DBO)
+        ### 16.4.3. Dead Black Out (DBO)
         <p>
             Above the Grand Master there is a DBO button. Pressing this button causes all HTP values to be set to zero, thus generating a
             black out. Releasing the button causes the original HTP levels to be restored. LTP channels are not affected by the DBO button.
         </p>
     </div>
     <div class="section">
-        ### 16.4.4.&nbsp;Add / Swap
+        ### 16.4.4. Add / Swap
         <p>
             Above the Grand Master there is an ADD / SWAP button which controls the function of the playback FLASH buttons. When set to ADD,
             pressing a FLASH button causes the playback to be added to the output. When set to SWAP, pressing a FLASH button again causes
@@ -192,7 +192,7 @@ sidebar_position: 16
         <p>
             The ADD / SWAP functionality only affects HTP channels on the playbacks - LTP channels are not affected by the FLASH buttons.
             The level of the playback is determined by the master faders – see
-            <a class="link" href="settings.html#setting-grand-master-function" title="50.13.1.&nbsp;Grand Master function">
+            <a class="link" href="settings.html#setting-grand-master-function" title="50.13.1. Grand Master function">
                 configuring the masters
             </a>
             .
@@ -207,7 +207,7 @@ sidebar_position: 16
         </p>
     </div>
     <div class="section">
-        ### 16.4.5.&nbsp;Page Select
+        ### 16.4.5. Page Select
         <p>MagicQ supports 500 pages of playbacks for recoding different Cue Stacks for different songs.</p>
         <p>
             The NEXT PAGE and a PREV PAGE buttons control which playback page is active, and hence which Cue Stacks the physical playback
@@ -236,7 +236,7 @@ sidebar_position: 16
         </p>
     </div>
     <div class="section">
-        ### 16.4.6.&nbsp;Page Levels
+        ### 16.4.6. Page Levels
         <p>
             It is now possible to save levels associated with the main playbacks and additional wing playbacks that are tied to the main
             playbacks. Whenever the main page is changed to a new page it will set the levels for the playbacks according to the saved state
@@ -257,7 +257,7 @@ sidebar_position: 16
         </p>
     </div>
     <div class="section">
-        ### 16.4.7.&nbsp;Current Playback
+        ### 16.4.7. Current Playback
         <p>
             The current playback is the one that has its SELECT button illuminated. The current playback is used by the Cue and Cue Stack
             windows to determine the Cue and Cue Stack to view / modify.
@@ -280,7 +280,7 @@ sidebar_position: 16
         </p>
     </div>
     <div class="section">
-        ### 16.4.8.&nbsp;Playbacks across multiple Pages
+        ### 16.4.8. Playbacks across multiple Pages
         <p>
             Multiple Playbacks can be active at one time from different pages. By default a particular Playback can only be active on one
             Page – it is not possible to activate Playback 1 on Page 1 and Playback 1 on Page 2 at the same time. To activate two Cue Stacks
@@ -297,7 +297,7 @@ sidebar_position: 16
         </p>
     </div>
     <div class="section">
-        ### 16.4.9.&nbsp;Page Holdover
+        ### 16.4.9. Page Holdover
         <p>
             From v1.8.2.0 MagicQ supports "Two Page Holdover" whereby it is possible for two Cue Stacks from different pages on a single
             Playback to be active simultaneously. Previously it was not possible to access Cue Stacks from different pages on the same
@@ -346,7 +346,7 @@ sidebar_position: 16
         <p>The Cue Stack Macro R999 can also be used to release held over Cue Stacks for this playback.</p>
     </div>
     <div class="section">
-        ### 16.4.10.&nbsp;Playback Banking
+        ### 16.4.10. Playback Banking
         <p>
             MagicQ supports playback banking to access the different playbacks. On Compact consoles the main bank consists of 10 fader
             playbacks PB1 to PB10. On MQ500 it consists of fader playbacks PB1 to PB15 and button playbacks PB16 to PB30. Additional
@@ -363,12 +363,12 @@ sidebar_position: 16
         </p>
         <p>
             See
-            <a class="link" href="motor.html#motor-banking" title="23.1.&nbsp;Stadium Playback banking">MQ500M Playback banking</a>
+            <a class="link" href="motor.html#motor-banking" title="23.1. Stadium Playback banking">MQ500M Playback banking</a>
             .
         </p>
     </div>
     <div class="section">
-        ### 16.4.11.&nbsp;Manual Control
+        ### 16.4.11. Manual Control
         <p>
             To the right of the 10 playbacks is the manual control section, consisting of a Manual Fader, four buttons (GO, PAUSE, FWD,
             BKWD) and an extra large GO button below the fader. This section controls the current playback – that is the playback whose
@@ -406,7 +406,7 @@ sidebar_position: 16
         <p>As the fader reaches the limits of the Cue Stack it moves to the next Cue.</p>
     </div>
     <div class="section">
-        ### 16.4.12.&nbsp;Goto
+        ### 16.4.12. Goto
         <p>
             The GO buttons in the manual section can also be used to jump to a different Cue id in a Cue Stack – enter the Cue ID in the Cue
             Stack and press the Go button in the manual section.
@@ -414,7 +414,7 @@ sidebar_position: 16
         <p>It is also possible to perform a Goto and a Preload of the next step to got to in the Cue Stack Window.</p>
     </div>
     <div class="section">
-        ### 16.4.13.&nbsp;Manual Split Crossfade
+        ### 16.4.13. Manual Split Crossfade
         <p>Two faders may be assigned as theatre style split crossfade masters.</p>
         <p>
             When enabled from the Setup Window, playbacks faders 9 and 10 become Crossfade Masters for manual Fade In and Fade Out. Pressing
@@ -425,7 +425,7 @@ sidebar_position: 16
         <p>When enabled, playbacks faders 9 and 10 can not be used as normal playbacks.</p>
     </div>
     <div class="section">
-        ### 16.4.14.&nbsp;Rate Sub Master
+        ### 16.4.14. Rate Sub Master
         <p>
             It is possible in the Setup Window to set the function of manual crossfade fader to be a rate sub-master to control the
             execution rate of the current playback, or the global execution rate of all playbacks. The rate is shown in the bottom right of
@@ -452,7 +452,7 @@ sidebar_position: 16
         </p>
     </div>
     <div class="section">
-        ### 16.4.15.&nbsp;Tap to time
+        ### 16.4.15. Tap to time
         <p>
             It is possible to change the chase speed or FX speed using Tap to Time. Holding the S button of the playback and then pressing
             soft button Y (2nd soft button up on right side of touch screen).
@@ -471,12 +471,12 @@ sidebar_position: 16
         </p>
         <p>
             Tap to Time can also be triggered from
-            <a class="link" href="osc.html#_automation" title="45.2.2.&nbsp;Automation">Autom</a>
+            <a class="link" href="osc.html#_automation" title="45.2.2. Automation">Autom</a>
             events.
         </p>
         <p>
             The
-            <a class="link" href="remote-input.html" title="Chapter&nbsp;42.&nbsp;Remote Input port">remote input</a>
+            <a class="link" href="remote-input.html" title="Chapter 42. Remote Input port">remote input</a>
             can also be set to always tap to time the currently selected playback.
         </p>
         <p>
@@ -487,7 +487,7 @@ sidebar_position: 16
         </p>
     </div>
     <div class="section">
-        ### 16.4.16.&nbsp;Global Tap to Time
+        ### 16.4.16. Global Tap to Time
         <p>
             When the Crossfade button function is set to "Global Tap to Time" then the absolute rate of all active playbacks can be
             controlled. This is also possible through a Global Tap button in the Execute Window.
@@ -511,7 +511,7 @@ sidebar_position: 16
     </div>
 </div>
 <div class="section">
-    ## 16.5.&nbsp;Playbacks Window
+    ## 16.5. Playbacks Window
     <p>
         The Playbacks Window enables management of all 202 playbacks regardless of how many physical wings are attached. This ensures that
         shows that will be run on consoles with wings can be programmed on a MagicQ system without wings. It also provides an ideal way of
@@ -535,7 +535,7 @@ sidebar_position: 16
         instead of selecting a playback SELECT button, just press the appropriate button in the Playbacks Window.
     </p>
     <div class="section">
-        ### 16.5.1.&nbsp;Testing playbacks
+        ### 16.5.1. Testing playbacks
         <p>
             Any playback can be tested, by pressing the button in the Playbacks Window. This has the same effect as raising the physical
             fader from zero to full. Pressing the button again sets the fader back to zero. We will refer to this as a virtual playback.
@@ -563,11 +563,11 @@ sidebar_position: 16
         </p>
     </div>
     <div class="section">
-        ### 16.5.2.&nbsp;Naming playbacks
+        ### 16.5.2. Naming playbacks
         <p>Playbacks can be named in the Playbacks Window as per naming of any Windows item.</p>
     </div>
     <div class="section">
-        ### 16.5.3.&nbsp;Copying and moving playbacks
+        ### 16.5.3. Copying and moving playbacks
         <p>
             Playbacks can be moved and copied in the Playbacks Window just like any Window item. You can also change the Playback Window
             page between selecting the source and destination, so that you can copy or move between pages.
@@ -589,11 +589,11 @@ sidebar_position: 16
         </p>
     </div>
     <div class="section">
-        ### 16.5.4.&nbsp;Removing playbacks
+        ### 16.5.4. Removing playbacks
         <p>Playbacks can be removed in the Playbacks Window as per removing of any Windows item.</p>
     </div>
     <div class="section">
-        ### 16.5.5.&nbsp;Playback Rate
+        ### 16.5.5. Playback Rate
         <p>
             It is possible to set the playback rate of a Playback using Encoder X in the Playback Window. Press the S button of the required
             playback to choose which playback to change.
@@ -610,7 +610,7 @@ sidebar_position: 16
         </p>
     </div>
     <div class="section">
-        ### 16.5.6.&nbsp;Checking Active playbacks
+        ### 16.5.6. Checking Active playbacks
         <p>
             Playbacks can only be active on one page at a time. To view which page a playback is active on press the VIEW ACTIVE soft
             button.
@@ -622,7 +622,7 @@ sidebar_position: 16
         </p>
     </div>
     <div class="section">
-        ### 16.5.7.&nbsp;Moving Playbacks for all pages
+        ### 16.5.7. Moving Playbacks for all pages
         <p>
             It is possible to move playbacks on all pages to a new playback number. This is particularly useful when converting a show from
             Compact console (10 main faders) to MQ500 (15 main faders).
@@ -635,7 +635,7 @@ sidebar_position: 16
         </p>
     </div>
     <div class="section">
-        ### 16.5.8.&nbsp;Speed Masters
+        ### 16.5.8. Speed Masters
         <p>Press VIEW SPD MASTERS to view and change Speed Masters. The following fields are supported:</p>
         <div class="informaltable">
             <table class="informaltable" cellpadding="4px">
@@ -710,13 +710,13 @@ sidebar_position: 16
         <p>To remove a Speed Master use the REMOVE button.</p>
         <p>
             There is more info on Speed Masters in the
-            <a class="link" href="busking.html#busking-speed-masters" title="19.12.5.&nbsp;Speed Masters">Busking section</a>
+            <a class="link" href="busking.html#busking-speed-masters" title="19.12.5. Speed Masters">Busking section</a>
             .
         </p>
     </div>
 </div>
 <div class="section">
-    ## 16.6.&nbsp;Bank Pages
+    ## 16.6. Bank Pages
     <p>
         Banks of playbacks can operate on different pages. This is a very powerful feature as it allows the playbacks to be split into
         separate sections without forcing all the playbacks to be on the same page.
@@ -750,7 +750,7 @@ sidebar_position: 16
     </p>
 </div>
 <div class="section">
-    ## 16.7.&nbsp;Default Cue Stacks
+    ## 16.7. Default Cue Stacks
     <p>
         Cue Stacks can be made to appear on all pages of a Playback. To use this feature, record a Cue Stack on Page 1 and then in the
         Playbacks Window set "Default Cue Stack" to "On" for the selected Playback.
@@ -758,7 +758,7 @@ sidebar_position: 16
     <p>The Cue Stack on Page 1 then appears on any Pages which do not have a Cue Stack assigned.</p>
 </div>
 <div class="section">
-    ## 16.8.&nbsp;Synchronising Playbacks
+    ## 16.8. Synchronising Playbacks
     <p>
         It is possible to synchronise the Cue Stacks on two or more Playbacks. Set the "Sync next playback to this one" option. MagicQ
         matches the Cue Ids in the Cue Stack so it is possible to have different numbers of Cues in the Stacks. If there is no Cue Id
@@ -771,7 +771,7 @@ sidebar_position: 16
     </p>
 </div>
 <div class="section">
-    ## 16.9.&nbsp;Set lists
+    ## 16.9. Set lists
     <p>
         It is possible to save and load set lists in the Page Window. Set lists are simply text files with a list of page names. When the
         set list is loaded, MagicQ rearranges the pages so that they are in the order specified in the set list. Pages that are not

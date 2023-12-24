@@ -4,9 +4,9 @@ title: Chapter 51. System Management
 sidebar_position: 51
 ---
 
-# Chapter&nbsp;51.&nbsp;System Management
+# Chapter 51. System Management
 <div class="section">
-    ## 51.1.&nbsp;Starting Up
+    ## 51.1. Starting Up
     <p>On PC and Mac systems click on the MagicQ application icon. On MagicQ console systems hold the power button on for 1 second.</p>
     <p>
         On first start up an introductory window is displayed on the screen. You are prompted to choose demo shows or to continue the last
@@ -18,7 +18,7 @@ sidebar_position: 51
     </p>
 </div>
 <div class="section">
-    ## 51.2.&nbsp;Shutting Down
+    ## 51.2. Shutting Down
     <p>
         To shut MagicQ down, press the QUIT soft button in the Setup Window. When asked for confirmation, select yes. MagicQ consoles
         automatically power off when the shutdown sequence is complete.
@@ -43,7 +43,7 @@ sidebar_position: 51
     </p>
 </div>
 <div class="section">
-    ## 51.3.&nbsp;Saving Shows
+    ## 51.3. Saving Shows
     <p>
         When you are programming a show the show is stored in memory. In order to store your show on the disk you need to press the SAVE
         SHOW soft button in the Setup Window.
@@ -69,7 +69,7 @@ sidebar_position: 51
     <p>The Setup Window indicates when the show has not been saved (or autosaved) for over 10 minutes.</p>
     <p>MagicQ consoles have a large hard disk to enable storage of a virtually infinite number of shows.</p>
     <div class="section">
-        ### 51.3.1.&nbsp;Show file name auto increment
+        ### 51.3.1. Show file name auto increment
         <p>
             MagicQ supports auto incrementing show file names. To start an auto incrementing show file, save a show file with the last part
             of the name set as _001. When you next press SAVE SHOW, MagicQ will suggest saving to _002. Press ENTER to accept, or edit the
@@ -90,7 +90,7 @@ sidebar_position: 51
     </div>
 </div>
 <div class="section">
-    ## 51.4.&nbsp;Backing up to an external system
+    ## 51.4. Backing up to an external system
     <p>
         It is a good idea to back up your show to an external system. This ensures that should the unexpected happen you can transfer your
         show to another console. In a touring environment where the console is being moved every day we recommend you back up your show to
@@ -98,7 +98,7 @@ sidebar_position: 51
     </p>
     <p>
         You can either backup by
-        <a class="link" href="system-management.html#_transferring_files_over_network" title="51.11.&nbsp;Transferring files over network">
+        <a class="link" href="system-management.html#_transferring_files_over_network" title="51.11. Transferring files over network">
             transferring files over network
         </a>
         or via USB memory stick. To backup to USB memory stick, first insert a USB memory stick into the USB slot in the front or the back
@@ -110,7 +110,7 @@ sidebar_position: 51
     </p>
 </div>
 <div class="section">
-    ## 51.5.&nbsp;Loading Shows
+    ## 51.5. Loading Shows
     <p>
         You can load a show that you have previously saved using the LOAD SHOW soft button in the Setup Window. If you load a new show it
         will erase any existing programming. The console will prompt you for confirmation.
@@ -153,7 +153,7 @@ sidebar_position: 51
         <a
             class="link"
             href="system-management.html#loading-show-onto-smaller-console"
-            title="51.16.1.&nbsp;Loading a show onto a smaller console">
+            title="51.16.1. Loading a show onto a smaller console">
             Loading a show onto a smaller console
         </a>
         .
@@ -165,7 +165,7 @@ sidebar_position: 51
     </p>
 </div>
 <div class="section">
-    ## 51.6.&nbsp;Erasing
+    ## 51.6. Erasing
     <p>
         To erase the entire show from memory, go to the Setup Window and press the NEW SHOW (was ERASE SHOW) soft button. You will be asked
         to confirm by selecting YES. You will then be asked for which initial mode you want the console to be set up for, Normal, Theatre
@@ -177,7 +177,7 @@ sidebar_position: 51
     </p>
 </div>
 <div class="section">
-    ## 51.7.&nbsp;Show extras file
+    ## 51.7. Show extras file
     <p>
         In order to allow MagicQ shows with additional media such as icon snapshots, image files and audio files to be transferred onto
         other MagicQ systems, MagicQ uses a separate show extras file with the extension ".xhw". If a show contains extra data such as icon
@@ -204,7 +204,7 @@ sidebar_position: 51
     </p>
 </div>
 <div class="section">
-    ## 51.8.&nbsp;Import and Export of Show Data and Show Merging
+    ## 51.8. Import and Export of Show Data and Show Merging
     <p>
         MagicQ supports advanced features for merging shows together, taking selections from particular shows and adding them to other
         shows.
@@ -215,7 +215,7 @@ sidebar_position: 51
         files, with MagicQ repatching the data as required.
     </p>
     <div class="section">
-        ### 51.8.1.&nbsp;Exporting Shows
+        ### 51.8.1. Exporting Shows
         <p>
             Press SHIFT and SAVE SHOW (EXPORT SHOW) to export part of the current show. Only the currently selected heads are exported. All
             groups, palettes, cues and cue stacks that contain one or more of the selected heads are exported – but only with the data from
@@ -228,7 +228,7 @@ sidebar_position: 51
         </p>
     </div>
     <div class="section">
-        ### 51.8.2.&nbsp;Merging / Importing Shows
+        ### 51.8.2. Merging / Importing Shows
         <p>
             Select SHIFT + IMPORT SHOW to merge or import a show. MagicQ gives you a simple menu of Entire Show, Palettes, Show Structure or
             Advanced.
@@ -244,7 +244,7 @@ sidebar_position: 51
         </p>
     </div>
     <div class="section">
-        ### 51.8.3.&nbsp;Advanced Merging
+        ### 51.8.3. Advanced Merging
         <p>
             With Advanced Merging the imported data can be specified, including Settings, Patch, Palettes, FX Library, Cues, Cue Stacks,
             Playbacks, Grids, Curves are Vis data.
@@ -284,7 +284,7 @@ sidebar_position: 51
         </p>
     </div>
     <div class="section">
-        ### 51.8.4.&nbsp;Merging in part of another show file
+        ### 51.8.4. Merging in part of another show file
         <p>
             If you wish to merge in only specific items, such as Cues, Cue Stacks or Palettes, or just selected heads then you can use
             Setup, SHIFT + IMPORT SHOW and select Advanced as above.
@@ -306,7 +306,7 @@ sidebar_position: 51
         </div>
     </div>
     <div class="section">
-        ### 51.8.5.&nbsp;Merging different versions of the same show
+        ### 51.8.5. Merging different versions of the same show
         <p>To merge two versions of a show together select Advanced and then Merge Heads.</p>
         <p>
             MagicQ will merge in Cues and Cue Stacks from the selected show file that are different to the Cues and Cue Stacks in the
@@ -320,7 +320,7 @@ sidebar_position: 51
         </p>
     </div>
     <div class="section">
-        ### 51.8.6.&nbsp;Importing Cues from a different version of the same show
+        ### 51.8.6. Importing Cues from a different version of the same show
         <p>
             To import a newer version of a Cue from another show file go to Cue Stack Window and press SHIFT IMPORT CUE or to the Cue Store
             Window and cursor select one or more Cues and press the IMPORT CUE soft button.
@@ -338,7 +338,7 @@ sidebar_position: 51
         </p>
     </div>
     <div class="section">
-        ### 51.8.7.&nbsp;USITT ASCII file import
+        ### 51.8.7. USITT ASCII file import
         <p>
             MagicQ supports import of dimmer patch, group, cue level and timing information from USITT ASCII files. In the Patch Window,
             View Chans, Import USITT.
@@ -354,7 +354,7 @@ sidebar_position: 51
         </p>
     </div>
     <div class="section">
-        ### 51.8.8.&nbsp;MVR file import
+        ### 51.8.8. MVR file import
         <p>
             MagicQ supports importing patch and fixture position information from My Virtual Rig (MVR) files. Currently, importing scene
             objects is not supported.
@@ -363,7 +363,7 @@ sidebar_position: 51
             To import an MVR file, open the file manager (see below), and select the MVR file to import. The heads in the file will be added
             to the current show’s patch. GDTF files contained within the MVR file may be imported; MagicQ will default to using it’s own
             head files for a fixture if they are available. See
-            <a class="link" href="head-editor.html#gdtf-import" title="27.15.&nbsp;Importing GDTF files">
+            <a class="link" href="head-editor.html#gdtf-import" title="27.15. Importing GDTF files">
                 the section on importing GDTF files
             </a>
             for more information.
@@ -371,7 +371,7 @@ sidebar_position: 51
     </div>
 </div>
 <div class="section">
-    ## 51.9.&nbsp;Saving and Loading Settings
+    ## 51.9. Saving and Loading Settings
     <p>
         You can save your favourite show settings to a file. Settings include the options from the Setup Window, the defaults from the Cue
         Stack Window, the Layouts you have recorded and keyboard macros.
@@ -382,7 +382,7 @@ sidebar_position: 51
     </p>
 </div>
 <div class="section">
-    ## 51.10.&nbsp;File Manager
+    ## 51.10. File Manager
     <p>
         You can organise you show files using File Manager in the Setup Window. File Manager supports renaming, moving, copying and deleting
         of files.
@@ -400,7 +400,7 @@ sidebar_position: 51
     <p>It is also possible to load shows, settings, icons and new software by clicking on items in the File Manager window.</p>
 </div>
 <div class="section">
-    ## 51.11.&nbsp;Transferring files over network
+    ## 51.11. Transferring files over network
     <p>
         The console supports remote file system access over the network. Files can be accessed whilst the console is running and outputting
         Art-Net thus allowing, for instance, users to set up automatic show back-ups to an external server.
@@ -424,7 +424,7 @@ sidebar_position: 51
     <p>If you have problems putting files onto the console then try pressing the Set Rem Access soft button in the File Manager window.</p>
 </div>
 <div class="section">
-    ## 51.12.&nbsp;Storage of MagicQ user files on PC/Mac
+    ## 51.12. Storage of MagicQ user files on PC/Mac
     <p>MagicQ now has an option to change where the user data files are stored.</p>
     <p>
         Older installations of MagicQ stored show, head, log and other user data files in the Application folder. Windows and OSX now make
@@ -437,7 +437,7 @@ sidebar_position: 51
     <p>From the top toolbar select Tools, Change Files Location.</p>
 </div>
 <div class="section">
-    ## 51.13.&nbsp;Reports
+    ## 51.13. Reports
     <p>
         MagicQ supports printing of the contents of any window to a printer or a pdf file. On PC/Mac select File, Print Window. For
         spreadsheet views, MagicQ defaults to selecting the most commonly used columns from the window in order that they fit easily on a
@@ -445,7 +445,7 @@ sidebar_position: 51
     </p>
 </div>
 <div class="section">
-    ## 51.14.&nbsp;Status Window
+    ## 51.14. Status Window
     <p>
         There is a status window in the Setup Window, View System. This shows data associated with the console and with the currently loaded
         show. This includes show size, data used, last saved times.
@@ -453,7 +453,7 @@ sidebar_position: 51
     <p>The status window also shows all the MagicQ consoles on the network, and all the Art-Net devices on the network.</p>
 </div>
 <div class="section">
-    ## 51.15.&nbsp;Backup Archives
+    ## 51.15. Backup Archives
     <p>
         By default the console stores an archive of the show files for every quarter of an hour of the day, and for every day of the week.
         This enables the user to revert to a previous copy of their show.
@@ -474,7 +474,7 @@ sidebar_position: 51
     </p>
 </div>
 <div class="section">
-    ## 51.16.&nbsp;Using shows on different MagicQ products and show versions
+    ## 51.16. Using shows on different MagicQ products and show versions
     <p>
         In general MagicQ show files are backwards and forwards compatible so you can load any show into any version of software. Loading
         shows created and modified on newer software versions into older software versions may result in some features not being supported
@@ -486,7 +486,7 @@ sidebar_position: 51
     </p>
     <p>From July 2020 MagicQ PC / Mac and Linux software supports up to 256 universes for previsualisation (only 64 for output).</p>
     <div class="section">
-        ### 51.16.1.&nbsp;Loading a show onto a smaller console
+        ### 51.16.1. Loading a show onto a smaller console
         <p>
             Note that the limit of number of universes/channels refers to both patched and unpatched channels - i.e. any heads that have
             programming within the console. Therefore unpatched heads in a show still take up channels from the total number of universes
@@ -515,7 +515,7 @@ sidebar_position: 51
         </p>
     </div>
     <div class="section">
-        ### 51.16.2.&nbsp;Configuring number of Universes
+        ### 51.16.2. Configuring number of Universes
         <p>
             To change the number of configured universes go to Setup Window and VIEW DMX I/O and select "SET NUM UNIVERSES" soft button. It
             is necessary to restart MagicQ before the changes take effect.
@@ -619,7 +619,7 @@ sidebar_position: 51
     </div>
 </div>
 <div class="section">
-    ## 51.17.&nbsp;MagicQ Profiles
+    ## 51.17. MagicQ Profiles
     <p>
         MagicQ supports different profiles – a profile is the entire set-up of the console including the console specific settings (like IP
         address, media settings etc…) and the show file.
@@ -645,7 +645,7 @@ sidebar_position: 51
     </p>
 </div>
 <div class="section">
-    ## 51.18.&nbsp;User management
+    ## 51.18. User management
     <p>
         MagicQ supports user management. This enables users to be set up with restricted access. Users can be set up to have full access to
         all the console channels, or to a group of channels only, or to all channels except a group of channels. Users can be set so that
@@ -674,7 +674,7 @@ sidebar_position: 51
         of all the channels that it is allowed to.
     </p>
     <div class="section">
-        ### 51.18.1.&nbsp;Passwords
+        ### 51.18.1. Passwords
         <p>When passwords are set then changing users requires entry of the password.</p>
         <p>To force user selection and password entry on startup, set up the Start User for one of the users to "Yes (locked)".</p>
         <p>
@@ -699,7 +699,7 @@ sidebar_position: 51
         <p>If passwords have been set on a show file and then forgotten please contact ChamSys support.</p>
     </div>
     <div class="section">
-        ### 51.18.2.&nbsp;User Types
+        ### 51.18.2. User Types
         <p>
             When at least one "Super User" is created then the Default User is no longer accessible and user management is in full
             operation. Users with type "Super User" have full access to all console features and settings without restriction.
@@ -710,7 +710,7 @@ sidebar_position: 51
         <p>Users that are "Disabled" are ignored.</p>
     </div>
     <div class="section">
-        ### 51.18.3.&nbsp;Start Options
+        ### 51.18.3. Start Options
         <p>One of the users in the list can be set to the Start User with the additional option of Locked or Unlocked.</p>
         <p>
             When a console starts, a show is loaded, or a Slave connects to a Net Session with a show that has users configured then this
@@ -738,7 +738,7 @@ sidebar_position: 51
         </p>
     </div>
     <div class="section">
-        ### 51.18.4.&nbsp;Access to console channels
+        ### 51.18.4. Access to console channels
         <p>Users can be configured to have type of "Group Only". This allows access to only the channels in the specified Group.</p>
         <p>
             Users can be configured to have type of "Exclude Group". This allows access to all channels except those in the specified Group.
@@ -759,14 +759,14 @@ sidebar_position: 51
     </div>
 </div>
 <div class="section">
-    ## 51.19.&nbsp;Restricting Remote App Access
+    ## 51.19. Restricting Remote App Access
     <p>
         If the option to "Enable Remote App" is set to "Yes" (the default) then the app user has full access from the iOS/Android MagicQ
         Remote App. "Yes (Exec Only)" will only allow access to the Execute Window, this option can be used in installs (formerly called
         Install Mode). "No" will disable MagicQ access from the MagicQ Remote app.
     </p>
     <div class="section">
-        ### 51.19.1.&nbsp;User Settings
+        ### 51.19.1. User Settings
         <p>
             Users can be configured so that they automatically load user settings for that user when switching users. For each user in
             Setup, View System, View Wings, View Users, set the "Load Settings" field to "Yes".
@@ -797,7 +797,7 @@ sidebar_position: 51
     </div>
 </div>
 <div class="section">
-    ## 51.20.&nbsp;Security
+    ## 51.20. Security
     <p>
         Lighting consoles are designed to be used on private networks which are assumed to be secured. Where consoles are used remotely over
         the internet we recommend the use of secure network tunnels to protect the lighting network from access from the internet.
@@ -812,7 +812,7 @@ sidebar_position: 51
         order to reduce the likelihood of unauthorised access. In particular the following options should be set:
     </p>
     <div class="section">
-        ### 51.20.1.&nbsp;Multi console settings
+        ### 51.20.1. Multi console settings
         <div class="itemizedlist">
             <ul class="itemizedlist">
                 <li class="listitem">Enable remote control = No</li>
@@ -825,7 +825,7 @@ sidebar_position: 51
         </div>
     </div>
     <div class="section">
-        ### 51.20.2.&nbsp;Network settings
+        ### 51.20.2. Network settings
         <div class="itemizedlist">
             <ul class="itemizedlist">
                 <li class="listitem">RDMNet IP address = 0.0.0.0</li>
@@ -841,7 +841,7 @@ sidebar_position: 51
         </div>
     </div>
     <div class="section">
-        ### 51.20.3.&nbsp;WIFI settings
+        ### 51.20.3. WIFI settings
         <div class="itemizedlist">
             <ul class="itemizedlist">
                 <li class="listitem">Wireless mode = Disabled</li>
@@ -850,7 +850,7 @@ sidebar_position: 51
         </div>
     </div>
     <div class="section">
-        ### 51.20.4.&nbsp;DMX I/O settings
+        ### 51.20.4. DMX I/O settings
         <div class="itemizedlist">
             <ul class="itemizedlist">
                 <li class="listitem">In Type should be set to None for all universes</li>
@@ -860,7 +860,7 @@ sidebar_position: 51
     </div>
 </div>
 <div class="section">
-    ## 51.21.&nbsp;Saving Support files
+    ## 51.21. Saving Support files
     <p>
         If you encounter a problem in the operation of the console then please report it on the ChamSys bugtracker at
         <a class="ulink" href="https://secure.chamsys.co.uk/bugtracker/bug_report_advanced_page.php" target="_top">
@@ -899,7 +899,7 @@ sidebar_position: 51
     <p>Log files are automatically deleted after 1 month to minimise disc usage.</p>
 </div>
 <div class="section">
-    ## 51.22.&nbsp;Commands and Logs
+    ## 51.22. Commands and Logs
     <p>
         The Help Window in addition to VIEW MANUALS also contains VIEW COMMANDS and VIEW LOGS. Press CTRL and HELP to open the Help Window
         directly in the VIEW COMMANDS / VIEW LOGS views.

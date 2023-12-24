@@ -4,7 +4,7 @@ title: Chapter 40. MIDI
 sidebar_position: 40
 ---
 
-# Chapter&nbsp;40.&nbsp;MIDI
+# Chapter 40. MIDI
 <p>
     Consoles can use MIDI via the rear input and output DIN sockets. MagicQ PC (Windows, Mac and Linux) can use 3rd party USB or virtual
     MIDI interfaces.
@@ -25,7 +25,7 @@ sidebar_position: 40
 </p>
 <div class="table">
     <a id="idm12165"></a>
-    <p class="title"><strong>Table&nbsp;40.1.&nbsp;Supported MIDI messages</strong></p>
+    <p class="title"><strong>Table 40.1. Supported MIDI messages</strong></p>
     <div class="table-contents">
         <table class="table" summary="Supported MIDI messages" cellpadding="4px">
             <colgroup>
@@ -114,7 +114,7 @@ sidebar_position: 40
     </span>
 </p>
 <div class="section">
-    ## 40.1.&nbsp;MIDI Notes and CC Receive
+    ## 40.1. MIDI Notes and CC Receive
     <p>
         To receive MIDI notes, set the MIDI In Type in the SETUP window. You can choose between "None", "Any chan" and "Requested Chan".
         When set to "Requested Chan" the requested channel is configured in the MIDI IN Chan field.
@@ -129,7 +129,7 @@ sidebar_position: 40
         </span>
     </p>
     <div class="section">
-        ### 40.1.1.&nbsp;MIDI Autom events
+        ### 40.1.1. MIDI Autom events
         <p>MagicQ supports triggering of automated events via MIDI in the Macro Window, View Autom.</p>
         <p>Autom events can be set to trigger Playbacks, Cue Stacks, Cues and other events when MIDI Notes and CC messages are received.</p>
         <p>
@@ -139,7 +139,7 @@ sidebar_position: 40
         </p>
     </div>
     <div class="section">
-        ### 40.1.2.&nbsp;MIDI Learn
+        ### 40.1.2. MIDI Learn
         <p>
             In the
             <span class="emphasis"><em>EXECUTE</em></span>
@@ -159,7 +159,7 @@ sidebar_position: 40
         </p>
     </div>
     <div class="section">
-        ### 40.1.3.&nbsp;MIDI mapping file
+        ### 40.1.3. MIDI mapping file
         <p>
             MagicQ supports a custom MIDI mapping file for use instead of the Autom events - this enables greater flexibility and control.
             If any Autom events are set to respond to MIDI then the MIDI mapping file is ignored.
@@ -200,7 +200,7 @@ sidebar_position: 40
         </p>
     </div>
     <div class="section">
-        ### 40.1.4.&nbsp;Advanced MIDI mapping
+        ### 40.1.4. Advanced MIDI mapping
         <p>It is possible to match all 3 MIDI message bytes including the velocity. So for example:</p>
         <p><code class="literal">144,36,100"1t"</code></p>
         <p><code class="literal">144,36,101"1u"</code></p>
@@ -232,7 +232,7 @@ sidebar_position: 40
         <p>For the latest list of remote commands check the section on ChamSys Remote Protocol Commands.</p>
     </div>
     <div class="section">
-        ### 40.1.5.&nbsp;Default miditable.txt file
+        ### 40.1.5. Default miditable.txt file
         <pre class="literallayout">
 144,36"1t"
 128,36"1u"
@@ -317,7 +317,7 @@ sidebar_position: 40
     </div>
 </div>
 <div class="section">
-    ## 40.2.&nbsp;MIDI Notes and CC Transmit
+    ## 40.2. MIDI Notes and CC Transmit
     <p>
         To transmit a MIDI Note command, first set the MIDI Out Type in the Setup Window. You can choose between "None", "Any chan" and
         "Requested Chan". When set to "Requested Chan" the requested channel is configured in the MIDI Out Chan field.
@@ -396,7 +396,7 @@ sidebar_position: 40
     </p>
     <p>So N144 is note on channel 1. N145 is note on channel 2. N128 is note off channel 1. N129 is note off channel 2.</p>
     <div class="section">
-        ### 40.2.1.&nbsp;Patching MIDI channels
+        ### 40.2.1. Patching MIDI channels
         <p>A special MIDI head can be patched that transmits MIDI data whenever the value of its channels change.</p>
         <p>
             You can find the personality the PATCH - CHOOSE HEAD window under
@@ -449,7 +449,7 @@ sidebar_position: 40
     </div>
 </div>
 <div class="section">
-    ## 40.3.&nbsp;MIDI problems
+    ## 40.3. MIDI problems
     <p>
         MIDI interfaces can be tested using the test show
         <span class="strong"><strong>midilooptest.shw</strong></span>
@@ -472,7 +472,7 @@ sidebar_position: 40
     </div>
 </div>
 <div class="section">
-    ## 40.4.&nbsp;MIDI Show Control (MSC)
+    ## 40.4. MIDI Show Control (MSC)
     <p>MagicQ responds to the GO, STOP, RESUME and TIMED GO commands.</p>
     <p>
         The effect of the MSC commands is determined by the MSC type. This is configured in
@@ -496,7 +496,7 @@ sidebar_position: 40
         show control messages. Please contact your dealer/distributor for more info.
     </p>
     <div class="section">
-        ### 40.4.1.&nbsp;MIDI Show Control Command Format
+        ### 40.4.1. MIDI Show Control Command Format
         <p>
             For more details on MSC protocols see
             <a class="ulink" href="http://en.wikipedia.org/wiki/MIDI_Show_Control" target="_top">
@@ -551,7 +551,7 @@ sidebar_position: 40
     </div>
 </div>
 <div class="section">
-    ## 40.5.&nbsp;MIDI Beat Clock
+    ## 40.5. MIDI Beat Clock
     <p>
         MagicQ Supports MIDI Beat clock messages in addition to supporting MIDI Notes &amp; Timecode. In order to use MIDI Beat clock, first
         Midi devices must be setup under SETUP_ Window,
@@ -577,7 +577,7 @@ sidebar_position: 40
     </p>
 </div>
 <div class="section">
-    ## 40.6.&nbsp;MagicQ USB MIDI/Timecode box firmware versions
+    ## 40.6. MagicQ USB MIDI/Timecode box firmware versions
     <div class="informaltable">
         <table class="informaltable" cellpadding="4px">
             <colgroup>

@@ -367,7 +367,7 @@ sidebar_position: 55
         similar to the following:
     </p>
     <pre class="literallayout">
-libGL error: MESA-LOADER: failed to open swrast (search paths /usr/lib/x86_64-linux-gnu/dri:\$${ORIGIN}/dri:/usr/lib/dri)
+libGL error: MESA-LOADER: failed to open swrast (search paths /usr/lib/x86_64-linux-gnu/dri:\&#36;&#36;&#123;ORIGIN&#125;/dri:/usr/lib/dri)
 libGL error: failed to load driver: swrast
 </pre>
     <p>

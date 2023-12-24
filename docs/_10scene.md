@@ -4,7 +4,7 @@ title: Chapter 43. 10Scene
 sidebar_position: 43
 ---
 
-# Chapter&nbsp;43.&nbsp;10Scene
+# Chapter 43. 10Scene
 <p>MagicQ supports 10Scene Wall Plates and 10Scene Gateways, enabling up to 50 different zones of 10Scene operation and trigger inputs.</p>
 <p>
     10Scene supports ten scenes (MagicQ Cues) programmed onto 10 buttons which can be activated and released by pressing the buttons. In
@@ -22,7 +22,7 @@ sidebar_position: 43
     , which is required to use 10Scene on PC systems.
 </p>
 <div class="section">
-    ## 43.1.&nbsp;10Scene Gateways
+    ## 43.1. 10Scene Gateways
     <p>
         10Scene Gateways are ChamNet enabled devices that are managed through the View ChamNet in Setup, View DMX I/O, Net Manager. The IP
         address and subnet mask of the Gateways can be configured, and new firmware can be uploaded to them.
@@ -70,7 +70,7 @@ sidebar_position: 43
     <p>To use the trigger input connect with a switch connect it between pins 2 and 5.</p>
 </div>
 <div class="section">
-    ## 43.2.&nbsp;10Scene Wall Plates
+    ## 43.2. 10Scene Wall Plates
     <p>10Scene Wall Plates have the following pin out when looking into the connector.</p>
     <div class="informaltable">
         <table class="informaltable" cellpadding="4px">
@@ -118,7 +118,7 @@ sidebar_position: 43
         then Zone IDs are not used.
     </p>
     <div class="section">
-        ### 43.2.1.&nbsp;Programming 10Scene Wall Plate IDs
+        ### 43.2.1. Programming 10Scene Wall Plate IDs
         <p>
             The ID is factory assigned in the range 32768 to 61439. Users can change the ID to anything in the range 1 to 10000. All other
             IDs are reserved.
@@ -176,7 +176,7 @@ sidebar_position: 43
     </div>
 </div>
 <div class="section">
-    ## 43.3.&nbsp;10Scene enable
+    ## 43.3. 10Scene enable
     <p>
         To enable 10Scene Wall Plates set the 10Scene enable in Setup, View Settings, Ports to Inbuilt and Gateway or Inbuilt, Gateway,
         Remote.
@@ -187,7 +187,7 @@ sidebar_position: 43
     </p>
 </div>
 <div class="section">
-    ## 43.4.&nbsp;10Scene action
+    ## 43.4. 10Scene action
     <p>The 10Scene action is configured in Setup, View Settings, Ports, 10Scene action.</p>
     <div class="informaltable">
         <table class="informaltable" cellpadding="4px">
@@ -242,7 +242,7 @@ sidebar_position: 43
         except when using Custom action.
     </p>
     <div class="section">
-        ### 43.4.1.&nbsp;PB1 to 10
+        ### 43.4.1. PB1 to 10
         <p>
             All 10Scene Wall Plates control PB1 to PB10. Pressing a 10Scene button activates the Playback at 100%. Pressing again releases
             the Playback.
@@ -253,7 +253,7 @@ sidebar_position: 43
         </p>
     </div>
     <div class="section">
-        ### 43.4.2.&nbsp;Exec 1
+        ### 43.4.2. Exec 1
         <p>
             All 10Scene Wall Plates control items 1 to 10 in Exec Grid 1. Pressing and releasing a 10Scene button has the same effect as
             pressing and releasing in the Execute Window. Items in the Execute window can be set to toggle (normal) or to flash.
@@ -264,7 +264,7 @@ sidebar_position: 43
         </p>
     </div>
     <div class="section">
-        ### 43.4.3.&nbsp;Exec 1 Multi
+        ### 43.4.3. Exec 1 Multi
         <p>
             All 10Scene Wall Plates control Exec Grid 1 with the Zone ID determining which items are controlled. Zone ID1 controls item 1 to
             10, Zone ID2 controls 11 to 20, etc…
@@ -283,7 +283,7 @@ sidebar_position: 43
         </p>
     </div>
     <div class="section">
-        ### 43.4.4.&nbsp;Exec 1 Groups
+        ### 43.4.4. Exec 1 Groups
         <p>
             MagicQ handles activation of the Cues in the Exec Grid 1 based on Groups. MagicQ handles converting the Cues to only affect the
             heads in the specific group for the zone. Cues are expanded to include all the heads in the Group to make it simple to program
@@ -329,7 +329,7 @@ sidebar_position: 43
         </p>
     </div>
     <div class="section">
-        ### 43.4.5.&nbsp;Exec Grids
+        ### 43.4.5. Exec Grids
         <p>
             The 10Scene Wall Plates work in zones with each Zone controlling items 1 to 10 of an Execute Grid. Zone 1 controls Grid 1, Zone
             2 controls Grid 2.
@@ -348,7 +348,7 @@ sidebar_position: 43
         </p>
     </div>
     <div class="section">
-        ### 43.4.6.&nbsp;Custom
+        ### 43.4.6. Custom
         <p>When 10Scene action is set to Custom the function of the Zone is determined by the Type field.</p>
         <p>When set to Playback, the Zone will control 10 playbacks starting from the playback specified by P1.</p>
         <p>When set to Exec Grid, the Zone will control items 1 to 10 of the Exec Grid with Grid ID set by P1.</p>
@@ -356,9 +356,9 @@ sidebar_position: 43
     </div>
 </div>
 <div class="section">
-    ## 43.5.&nbsp;Manual Zone Configuration
+    ## 43.5. Manual Zone Configuration
     <div class="section">
-        ### 43.5.1.&nbsp;Zone Mode
+        ### 43.5.1. Zone Mode
         <p>
             The Zone Status controls how the zone is configured. When set to Auto the Zone is entirely controlled in accordance with the
             action specified in the 10Scene Action option in Setup, View, Settings, Ports. No Zone specific data can be configured.
@@ -369,7 +369,7 @@ sidebar_position: 43
         </p>
     </div>
     <div class="section">
-        ### 43.5.2.&nbsp;Zone Status
+        ### 43.5.2. Zone Status
         <p>
             A Zone can be temporarily enabled and disabled. When disabled the buttons on all 10Scenes for that Zone will be deactivated and
             macro and automation commands for that Zone will have no effect.
@@ -377,7 +377,7 @@ sidebar_position: 43
         <p>When the Zone Status is set to Auto the Zone is always enabled.</p>
     </div>
     <div class="section">
-        ### 43.5.3.&nbsp;Zone Name
+        ### 43.5.3. Zone Name
         <p>Each Zone can have a name that will be displayed internally and on the remote app.</p>
         <p>
             If a Zone Name is not set then when the Zone Action is Exec 1 Groups or Exec 1 Multi, then if there is a Group named starting
@@ -385,7 +385,7 @@ sidebar_position: 43
         </p>
     </div>
     <div class="section">
-        ### 43.5.4.&nbsp;10Scene ID min and max
+        ### 43.5.4. 10Scene ID min and max
         <p>
             Each Zone can be controlled by a range of 10Scene Wall Plates with different 10Scene IDs - enter a minimum and a maximum range
             for the 10SCene ID. The minimum must be set to at least 1 to operate.
@@ -401,7 +401,7 @@ sidebar_position: 43
     </div>
 </div>
 <div class="section">
-    ## 43.6.&nbsp;Passwords
+    ## 43.6. Passwords
     <p>The password is used on the remote app to access the zone.</p>
     <p>In manual mode a password can be assigned to each Zone.</p>
     <p>
@@ -422,7 +422,7 @@ sidebar_position: 43
     </p>
 </div>
 <div class="section">
-    ## 43.7.&nbsp;Passcodes
+    ## 43.7. Passcodes
     <p>
         In manual mode a passcode can be assigned to a Zone. When a passcode is assigned then the 10Scene Wall Plates in that zone will have
         all buttons off until the passcode is entered. Once the passcode is entered for a zone, then the 10Scene Wall Plates in that zone
@@ -437,7 +437,7 @@ sidebar_position: 43
     <p>Passcodes are not available in the simple modes.</p>
 </div>
 <div class="section">
-    ## 43.8.&nbsp;Joining Zones
+    ## 43.8. Joining Zones
     <p>
         When 10Scene action is set to Exec 1 Groups, Exec 1 Multiple, Exec Grids or when zones are configured individually to control an
         Execute grid using a group then it is possible to join zones together. When two or more zones are joined together they operate as
@@ -471,14 +471,14 @@ sidebar_position: 43
     </p>
 </div>
 <div class="section">
-    ## 43.9.&nbsp;10Scene remote triggers
+    ## 43.9. 10Scene remote triggers
     <p>
         MagicQ supports the 10Scene remote triggers from the 10Scene gateways in the Autom window. Add a new Autom with type Remote and set
         the ChamNet ID of the Gateway in P1 and the remote trigger number (1 or 2) in P2.
     </p>
 </div>
 <div class="section">
-    ## 43.10.&nbsp;10Scene Remote app
+    ## 43.10. 10Scene Remote app
     <p>
         MagicQ includes a 10Scene remote app for use on Android, iOS, Windows and MacOS that provides a simple to use 10Scene interface
         designed for install and use by non-technical people without needing any knowledge of lighting or MagicQ.
@@ -503,7 +503,7 @@ sidebar_position: 43
     </p>
 </div>
 <div class="section">
-    ## 43.11.&nbsp;Testing an installation
+    ## 43.11. Testing an installation
     <p>
         In Macro, View Zone the rightmost columns Named B1 to B10 show the ten 10Scene buttons for each Zone together with names. The
         buttons can be tested from this view by clicking or pressing ENTER on the button - this causes the Execute item for the 10Scene

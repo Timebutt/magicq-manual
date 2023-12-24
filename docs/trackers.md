@@ -4,7 +4,7 @@ title: Chapter 49. Trackers
 sidebar_position: 49
 ---
 
-# Chapter&nbsp;49.&nbsp;Trackers
+# Chapter 49. Trackers
 <p>MagicQ supports many advanced 3D features related to 3D (XYZ) space using the inbuilt plotting and visualisation features.</p>
 <p>
     This enables shows to be built up around XYZ positions in the performance space with positions being easily updated when moving between
@@ -21,7 +21,7 @@ sidebar_position: 49
     cross will turn red, and then after 2 seconds of not receiving any tracker data for that tracker the cross will disappear altogether.
 </p>
 <div class="section">
-    ## 49.1.&nbsp;MQ Track protocol
+    ## 49.1. MQ Track protocol
     <p>MagicQ can transmit and receive tracker data over a simple UDP protocol on UDP port 6549. The format of the data received is:</p>
     <p>&lt;x&gt;,&lt;y&gt;,&lt;z&gt;,&lt;tracker id&gt;,&lt;tracker name&gt;</p>
     <p>Where &lt;tracker id&gt; is zero based - 0 for Tracker 1, 1 for Tracker 2.</p>
@@ -30,7 +30,7 @@ sidebar_position: 49
     <p>MQ Track protocol uses MagicQ XYZ space which has X and Z as horizontal on the stage / performance space and Y as vertical.</p>
 </div>
 <div class="section">
-    ## 49.2.&nbsp;Object Transform Protocol
+    ## 49.2. Object Transform Protocol
     <p>
         MagicQ supports E.159 Object Transform Protocol (OTP) for transmit and receive of tracker data and for transmitting and receiving
         MagicVis object position and rotation data.
@@ -85,7 +85,7 @@ sidebar_position: 49
     </p>
 </div>
 <div class="section">
-    ## 49.3.&nbsp;PSN/SpotMe
+    ## 49.3. PSN/SpotMe
     <p>
         When set to PSN/SpotMe, MagicQ receives tracker data from the PSN protocol / Robert Juliat tracking system. PSN is an open protocol
         for On-Stage, Live 3D Position data. www.posistage.net.
@@ -110,7 +110,7 @@ sidebar_position: 49
     </p>
 </div>
 <div class="section">
-    ## 49.4.&nbsp;Scaling, Offsets and Swaps
+    ## 49.4. Scaling, Offsets and Swaps
     <p>Scaling, offsets and swapping Y/Z can be set for individual Trackers in the Macro window, View Autom, View Trackers.</p>
     <p>
         The incoming Tracker data is received and shown in the Data column. Than any Y/Z Swap is applied, the scaling is applied (which can
@@ -127,7 +127,7 @@ sidebar_position: 49
     </p>
 </div>
 <div class="section">
-    ## 49.5.&nbsp;Tracker Palettes
+    ## 49.5. Tracker Palettes
     <p>Tracker Palettes are special palettes that use a Tracker rather than absolute values stored in the palette.</p>
     <p>
         By setting a Palette to be a Tracker Palette then wherever the Palette is used the channels follow the Tracker with an optional
@@ -157,7 +157,7 @@ sidebar_position: 49
     </p>
 </div>
 <div class="section">
-    ## 49.6.&nbsp;Using automations with Trackers
+    ## 49.6. Using automations with Trackers
     <p>
         MagicQ can trigger automation events based on a XYZ Tracker position related to a MagicVis object. This enables receiving XYZ
         position from an external system and using that position information to control other attributes - e.g. ramping up intensity of a
@@ -183,7 +183,7 @@ sidebar_position: 49
     </p>
 </div>
 <div class="section">
-    ## 49.7.&nbsp;Tracking a fixed XYZ when lighting trusses moving
+    ## 49.7. Tracking a fixed XYZ when lighting trusses moving
     <p>
         In situations where it is the lighting truss, and hence the position and rotation of the lights moving rather than an object moving
         it is possible to set up XYZ positions in the 3D space which are then tracked by the moving lights regardless of their actual
@@ -215,7 +215,7 @@ sidebar_position: 49
     </p>
 </div>
 <div class="section">
-    ## 49.8.&nbsp;Tracking a moving MagicVis object
+    ## 49.8. Tracking a moving MagicVis object
     <p>
         Where a MagicVis object is moving (under control of a Generic Movement head or using OTP Vis Object rx) then lights can be set up to
         track the XYZ position of the MagicVis object.
@@ -236,7 +236,7 @@ sidebar_position: 49
     </p>
 </div>
 <div class="section">
-    ## 49.9.&nbsp;Tracker Simulator
+    ## 49.9. Tracker Simulator
     <p>
         MagicQ supports an internal Tracker simulator that generates values for Tracker 1 and Tracker 2. Both trackers move within a
         rectangle from (-5,-5) to (5,5) metres. Tracker 1 is at 0.01m high and Tracker 2 at 0.05m high.
@@ -253,7 +253,7 @@ sidebar_position: 49
     <p>The simulator is activated by setting Setup, View Settings, Network, Remote Tracker Protocol to Simulator.</p>
 </div>
 <div class="section">
-    ## 49.10.&nbsp;Generic Tracker personality
+    ## 49.10. Generic Tracker personality
     <p>
         MagicQ supports a Generic Tracker personality that can be patched into a show. This enables a position to be tracked using control
         of the XYZ position from the Head within the MagicQ show or received as an input DMX from another system. It is possible to have
@@ -331,7 +331,7 @@ sidebar_position: 49
     </p>
 </div>
 <div class="section">
-    ## 49.11.&nbsp;Moving Vis Objects
+    ## 49.11. Moving Vis Objects
     <p>
         Objects in MagicVis can be moved under control of Heads within the MagicQ show using the Generic Movement personality to model
         trusses that are on motors or set pieces that move around the stage. The Generic Movement Head also has a Tracker mdoe that can
@@ -349,7 +349,7 @@ sidebar_position: 49
     <p>The Generic Movement head is a virtual head so it can be unpatched in the MagicQ Patch.</p>
 </div>
 <div class="section">
-    ## 49.12.&nbsp;Transmit Tracker 1 / Tracker 2 from Focus Hold
+    ## 49.12. Transmit Tracker 1 / Tracker 2 from Focus Hold
     <p>MagicQ can transmit the Focus Hold position to other consoles and devices using the MQ Track protocol.</p>
     <p>
         Set Setup,View Settings,Network,Tracker tx to Generate Track 1 or Generate Track 2. MagicQ updates the respective Tracker from the
@@ -362,7 +362,7 @@ sidebar_position: 49
     </p>
 </div>
 <div class="section">
-    ## 49.13.&nbsp;DMX Input tracking
+    ## 49.13. DMX Input tracking
     <p>
         Instead of tracking a single 3D position, MagicQ can receive tracker data for each Head directly on the DMX input corresponding to
         the output - for example if a Head is patched to Universe 1 channel 1 with pan and tilt on channels 10 and 12 respectively, then it
@@ -379,7 +379,7 @@ sidebar_position: 49
     </p>
 </div>
 <div class="section">
-    ## 49.14.&nbsp;Tracker Demo show
+    ## 49.14. Tracker Demo show
     <p>
         MagicQ includes a Tracker Demo show in the demo folder. The show has 6 Chauvet MK3 spots and playbacks programmed to demo tracking.
         Load the show and open the Visualiser Window.

@@ -4,7 +4,7 @@ title: Chapter 45. Open Sound Control (OSC)
 sidebar_position: 45
 ---
 
-# Chapter&nbsp;45.&nbsp;Open Sound Control (OSC)
+# Chapter 45. Open Sound Control (OSC)
 <p>MagicQ supports sending and receiving of Open Sound Control (OSC) messages.</p>
 <p>
     OSC is a network protocol commonly used to send messages between audio visual programs, such as show control, sound effect and tablet
@@ -22,11 +22,11 @@ sidebar_position: 45
         <li class="listitem">Receive messages controlling buttons, faders and encoders in the Execute Window</li>
         <li class="listitem">
             Convert messages to
-            <a class="link" href="rpc.html" title="Chapter&nbsp;35.&nbsp;ChamSys Remote Protocol Commands">
+            <a class="link" href="rpc.html" title="Chapter 35. ChamSys Remote Protocol Commands">
                 ChamSys Remote Ethernet Protocol commands
             </a>
             and
-            <a class="link" href="midi.html" title="Chapter&nbsp;40.&nbsp;MIDI">midi messages</a>
+            <a class="link" href="midi.html" title="Chapter 40. MIDI">midi messages</a>
         </li>
         <li class="listitem">Respond to message by using the Autom Window</li>
         <li class="listitem">Send messages using the macro field of cue stacks</li>
@@ -71,7 +71,7 @@ sidebar_position: 45
     </ul>
 </div>
 <div class="section">
-    ## 45.1.&nbsp;Setup
+    ## 45.1. Setup
     <p>To enable OSC on MagicQ you need to set the mode, and the transmit and/or receive port numbers in Setup, View Settings, Network.</p>
     <p>Setting a port to 0 disables transmitting/receiving of OSC.</p>
     <p>
@@ -101,9 +101,9 @@ sidebar_position: 45
     </div>
 </div>
 <div class="section">
-    ## 45.2.&nbsp;Receiving messages
+    ## 45.2. Receiving messages
     <div class="section">
-        ### 45.2.1.&nbsp;MagicQ OSC addresses
+        ### 45.2.1. MagicQ OSC addresses
         <p>
             The following table lists the built-in OSC messages that MagicQ will respond to. Only the first 10 playbacks and first 10
             execute grids can be controlled with the built-in addresses.
@@ -111,7 +111,7 @@ sidebar_position: 45
         <p>You can use the AUTOM window to extend control to other parts of the MagicQ system.</p>
         <div class="table">
             <a id="idm13062"></a>
-            <p class="title"><strong>Table&nbsp;45.1.&nbsp;OSC Addresses</strong></p>
+            <p class="title"><strong>Table 45.1. OSC Addresses</strong></p>
             <div class="table-contents">
                 <table class="table" summary="OSC Addresses" cellpadding="4px">
                     <colgroup>
@@ -292,7 +292,7 @@ sidebar_position: 45
                             <td rowspan="2" align="left" valign="middle">
                                 <p>
                                     Send
-                                    <a class="link" href="rpc.html" title="Chapter&nbsp;35.&nbsp;ChamSys Remote Protocol Commands">
+                                    <a class="link" href="rpc.html" title="Chapter 35. ChamSys Remote Protocol Commands">
                                         remote ethernet
                                     </a>
                                     command
@@ -326,7 +326,7 @@ sidebar_position: 45
                             <td align="left" valign="top">
                                 <p>
                                     Turns feedback on and transmits state of playbacks and executes (see
-                                    <a class="link" href="osc.html#_touchosc" title="45.4.&nbsp;TouchOSC">TouchOSC</a>
+                                    <a class="link" href="osc.html#_touchosc" title="45.4. TouchOSC">TouchOSC</a>
                                     )
                                 </p>
                             </td>
@@ -358,7 +358,7 @@ sidebar_position: 45
         <p>This is supported on MagicQ consoles and on MagicQ PC sytems unlocked with a MagicQ Wing or Interface.</p>
     </div>
     <div class="section">
-        ### 45.2.2.&nbsp;Automation
+        ### 45.2.2. Automation
         <p>
             MagicQ can respond to user-defined OSC messages by adding rows to the MACRO - VIEW AUTOM window. After seting the type to
             <span class="emphasis"><em>OSC Message</em></span>
@@ -378,9 +378,9 @@ sidebar_position: 45
     </div>
 </div>
 <div class="section">
-    ## 45.3.&nbsp;Sending messages
+    ## 45.3. Sending messages
     <div class="section">
-        ### 45.3.1.&nbsp;Cue stack macros
+        ### 45.3.1. Cue stack macros
         <p>OSC messages can be sent by using the macro field of a cues inside the Cue Stack window.</p>
         <p>
             OSC addresses should be entered into the macro field, preceeded by the letter K and must be the last macro command in a macro.
@@ -416,7 +416,7 @@ sidebar_position: 45
         </div>
     </div>
     <div class="section">
-        ### 45.3.2.&nbsp;Patching OSC heads
+        ### 45.3.2. Patching OSC heads
         <p>
             A generic 1-channel personality can be patched that will send OSC messages whenever the value of the channel changes. This
             personality can be found in the CHOOSE HEAD window under
@@ -433,7 +433,7 @@ sidebar_position: 45
     </div>
 </div>
 <div class="section">
-    ## 45.4.&nbsp;TouchOSC
+    ## 45.4. TouchOSC
     <p>
         TouchOSC is a free iOS and Android application that can be used to create custom layouts of buttons, faders and encoders, and attach
         these controls to OSC messages.
@@ -463,9 +463,9 @@ sidebar_position: 45
     </p>
 </div>
 <div class="section">
-    ## 45.5.&nbsp;Troubleshooting
+    ## 45.5. Troubleshooting
     <div class="section">
-        ### 45.5.1.&nbsp;Transmit or receive not working
+        ### 45.5.1. Transmit or receive not working
         <p>Make sure transmit and receive ports are set opposite to the device you are communicating with.</p>
         <p>
             If there are multiple networks cards on the PC, make sure the IP address in MagicQ setup is set to the IP address of the
@@ -485,13 +485,13 @@ sidebar_position: 45
         <p>Check for any firewalls (e.g. Windows firewall) that may stop messages from being received.</p>
     </div>
     <div class="section">
-        ### 45.5.2.&nbsp;Messages getting lost
+        ### 45.5.2. Messages getting lost
         <p>Be careful not to flood the network with large amounts of OSC traffic, particularly if using OSC heads.</p>
         <p>Large amount of broadcast Art-Net universes may case delayed or lost OSC messages.</p>
     </div>
 </div>
 <div class="section">
-    ## 45.6.&nbsp;Notes
+    ## 45.6. Notes
     <p>MagicQ only supports OSC over UDP. Receiving OSC bundles is supported, although MagicQ does not currently transmit bundles.</p>
     <p>OSC patched head names are restricted to 15 characters.</p>
     <p>

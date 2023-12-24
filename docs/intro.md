@@ -4,7 +4,7 @@ title: Chapter 1. Introduction
 sidebar_position: 1
 ---
 
-# Chapter&nbsp;1.&nbsp;Introduction
+# Chapter 1. Introduction
 <p>
     MagicQ supports an extensive array of features to enable lighting designers to quickly and easily realise their innovative and
     imaginative designs.
@@ -45,11 +45,11 @@ sidebar_position: 1
 <p>
     The first few chapters of this guide describe an overview of MagicQ including scenes, chases, fx and playbacks. If you wish to go
     straight into programming a show then turn to the
-    <a class="link" href="start.html" title="Chapter&nbsp;6.&nbsp;Quick Start">Quick Start</a>
+    <a class="link" href="start.html" title="Chapter 6. Quick Start">Quick Start</a>
     section.
 </p>
 <div class="section">
-    ## 1.1.&nbsp;MagicQ software and consoles
+    ## 1.1. MagicQ software and consoles
     <p>MagicQ software runs on PCs, Macs and MagicQ consoles and has the same features and user interface on all systems.</p>
     <p>
         MagicQ software enables shows to be pre-programmed on a PC (Windows, Mac or Linux) enabling Lighting Designers to design and program
@@ -85,7 +85,7 @@ sidebar_position: 1
     </p>
 </div>
 <div class="section">
-    ## 1.2.&nbsp;MagicQ MQ500 Stadium Console
+    ## 1.2. MagicQ MQ500 Stadium Console
     <p>
         <span class="inlinemediaobject">
             <img src="https://secure.chamsys.co.uk/help/documentation/magicq/images/mq500front.png" alt="image" />
@@ -128,7 +128,7 @@ sidebar_position: 1
     </p>
 </div>
 <div class="section">
-    ## 1.3.&nbsp;MagicQ Compact Series
+    ## 1.3. MagicQ Compact Series
     <p>
         In 2020 the MagicQ Compact series comprises the MagicQ MQ50, MagicQ MQ70, and MagicQ MQ80 consoles together with the MagicQ Extra
         Wing for more faders and buttons.
@@ -136,7 +136,7 @@ sidebar_position: 1
     <p>Previous models included the MQ40N, MQ60 and the original MQ70.</p>
 </div>
 <div class="section">
-    ## 1.4.&nbsp;MagicQ Wings for use with PC/Mac
+    ## 1.4. MagicQ Wings for use with PC/Mac
     <p>
         The MagicQ Mini Connect, MagicQ Compact Connect and MagicQ Stadium Connect products connect directly to a PC or Mac. The PC or Mac
         runs the MagicQ software and processes the Cues whilst the wing acts as a physical surface with faders, buttons and encoders and
@@ -145,7 +145,7 @@ sidebar_position: 1
     <p>Previous models included the MagicQ Mini Wing, MagicQ PC Wing and MagicQ Maxi Wing.</p>
 </div>
 <div class="section">
-    ## 1.5.&nbsp;Plugging Up
+    ## 1.5. Plugging Up
     <p>
         All MagicQ consoles and SnakeSys interfaces have auto ranging power supplies and can accept 110V to 240V AC on the powercon socket.
     </p>
@@ -166,7 +166,7 @@ sidebar_position: 1
     </p>
 </div>
 <div class="section">
-    ## 1.6.&nbsp;DMX Connections
+    ## 1.6. DMX Connections
     <p>MagicQ consoles have 4 direct DMX outputs on the rear of the panel so you can connect your DMX cables direct to the console.</p>
     <p>
         Alternatively you can connect to an Ethernet network using the Art-Net, Pathport or ACN Streaming DMX protocols and use external
@@ -183,7 +183,7 @@ sidebar_position: 1
     </p>
 </div>
 <div class="section">
-    ## 1.7.&nbsp;Powering Up
+    ## 1.7. Powering Up
     <p>
         To power up the console press the power switch on the rear panel. The blue LEDs on the ten S buttons will light up in turn. After a
         few seconds the screen will come to life and you will see the operating system quickly performing self tests. Once the self tests
@@ -191,7 +191,7 @@ sidebar_position: 1
     </p>
 </div>
 <div class="section">
-    ## 1.8.&nbsp;Powering Down
+    ## 1.8. Powering Down
     <p>
         To power down the console it is necessary to quit the MagicQ application. The console operating system then performs an automatic
         shutdown and turns itself off when complete. To quit the MagicQ application, press the SETUP button and then the QUIT soft button.
@@ -215,7 +215,7 @@ sidebar_position: 1
     <p>On MQ500 it is possible to press the rear power button to power off the console.</p>
 </div>
 <div class="section">
-    ## 1.9.&nbsp;Resetting the Console
+    ## 1.9. Resetting the Console
     <p>Under rare circumstance it may be necessary to reset the console.</p>
     <p>
         To reset the console, press SETUP to go to the Setup Window and press SHIFT and QUIT. This performs an immediate soft reset of the
@@ -227,7 +227,7 @@ sidebar_position: 1
     </p>
 </div>
 <div class="section">
-    ## 1.10.&nbsp;Hard Reset
+    ## 1.10. Hard Reset
     <p>
         If s software reset has no effect then a hard reset may be required. Hard resets should be avoided as they bypass the operating
         system shutdown procedures and may cause problems with the file system.
@@ -246,7 +246,7 @@ sidebar_position: 1
     </p>
 </div>
 <div class="section">
-    ## 1.11.&nbsp;Power Supply Protection
+    ## 1.11. Power Supply Protection
     <p>
         MagicQ MQ60, MQ70, MQ80, MQ250M, MQ500 and MQ500M consoles have an internal battery designed to protect the system against short
         term power losses on troublesome power supplies. The internal battery is not designed to support the running of the console for long
@@ -263,7 +263,7 @@ sidebar_position: 1
     </p>
 </div>
 <div class="section">
-    ## 1.12.&nbsp;Care of your MagicQ console
+    ## 1.12. Care of your MagicQ console
     <div class="itemizedlist">
         <ul class="itemizedlist">
             <li class="listitem">To keep your MagicQ console in best condition please observe the following recommendations:</li>
@@ -286,7 +286,7 @@ sidebar_position: 1
     </div>
 </div>
 <div class="section">
-    ## 1.13.&nbsp;Safety Information
+    ## 1.13. Safety Information
     <div class="itemizedlist">
         <ul class="itemizedlist">
             <li class="listitem">
@@ -307,7 +307,7 @@ sidebar_position: 1
     </div>
 </div>
 <div class="section">
-    ## 1.14.&nbsp;Security Information
+    ## 1.14. Security Information
     <p>
         Lighting consoles are designed to be used on private networks which are assumed to be secured. Where consoles are used remotely over
         the internet we recommend the use of secure network tunnels to protect the lighting network from access from the internet.
@@ -327,7 +327,7 @@ sidebar_position: 1
     </p>
 </div>
 <div class="section">
-    ## 1.15.&nbsp;Disposal Information
+    ## 1.15. Disposal Information
     <p>
         Please be aware that ChamSys products must be disposed of in accordance with the WEEE disposal and recycling regulations. ChamSys
         products must not be disposed of through normal household waste. For non UK customers please contact your local distributor. For UK

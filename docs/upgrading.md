@@ -4,10 +4,10 @@ title: Chapter 52. Software & Firmware Upgrade
 sidebar_position: 52
 ---
 
-# Chapter&nbsp;52.&nbsp;Software &amp; Firmware Upgrade
+# Chapter 52. Software &amp; Firmware Upgrade
 <p>MagicQ software versions are fully compatible and show files can be created and loaded into any software version.</p>
 <div class="section">
-    ## 52.1.&nbsp;Changing MagicQ Console Software
+    ## 52.1. Changing MagicQ Console Software
     <p>
         MagicQ consoles store all versions of software that have been loaded onto the console allowing easy changing between different
         versions. To change software version go to Setup, View System, View Status, Change Software. It is also possible to enter the
@@ -76,14 +76,14 @@ sidebar_position: 52
     </p>
 </div>
 <div class="section">
-    ## 52.2.&nbsp;Console Kernel Update
+    ## 52.2. Console Kernel Update
     <p>
         It is not normally necessary to update the kernel version on MagicQ consoles. Below contains Kernel update instructions for specific
         MagicQ consoles.
     </p>
 </div>
 <div class="section">
-    ## 52.3.&nbsp;MQ80 Kernel v2 upgrade
+    ## 52.3. MQ80 Kernel v2 upgrade
     <p>This is recommended if using USB ethernet or USB audio devices.</p>
     <p>Download this CDC file:</p>
     <p>
@@ -113,7 +113,7 @@ sidebar_position: 52
     </p>
 </div>
 <div class="section">
-    ## 52.4.&nbsp;Resetting a MagicQ console to factory defaults
+    ## 52.4. Resetting a MagicQ console to factory defaults
     <p>The console software upgrade utility has two other functions - reset to factory defaults and erase console.</p>
     <p>
         "Reset to factory defaults" changes settings back to factory settings but does not erase any user data. It is recommended that the
@@ -137,7 +137,7 @@ sidebar_position: 52
     </p>
 </div>
 <div class="section">
-    ## 52.5.&nbsp;Firmware
+    ## 52.5. Firmware
     <p>
         Each panel and interface on a MagicQ console and MagicQ wing runs separate firmware files, separate from the main MagicQ software.
     </p>
@@ -154,7 +154,7 @@ sidebar_position: 52
     <p>A listing of the latest firmware version for each product can also be found in the firmware change log in the section below.</p>
 </div>
 <div class="section">
-    ## 52.6.&nbsp;MQ50, MQ70 and MQ80 front panel firmware
+    ## 52.6. MQ50, MQ70 and MQ80 front panel firmware
     <p>
         MQ50, MQ70 and MQ80 Consoles all share the same front panel firmware. The firmware file name for these products starts CH346. The
         firmware is also used for the MQ250M display controller and MQ500 and MQ500M MIDI interfaces.
@@ -170,7 +170,7 @@ sidebar_position: 52
     </p>
     <p>To upgrade to latest firmware put the cursor on the Programmer panel row and press LATEST FIRMWARE.</p>
     <div class="section">
-        ### 52.6.1.&nbsp;Pre v1.9.5.3 software
+        ### 52.6.1. Pre v1.9.5.3 software
         <p>
             We recommend to upgrade the console software to the latest stable (which should be v1.8.9.0 or a higher version) before
             upgrading front panel firmware on these products.
@@ -201,7 +201,7 @@ sidebar_position: 52
     </div>
 </div>
 <div class="section">
-    ## 52.7.&nbsp;MQ250M Stadium firmware
+    ## 52.7. MQ250M Stadium firmware
     <p>The MQ250M Stadium console has four boards that firmware can be user updated.</p>
     <div class="informaltable">
         <table class="informaltable" cellpadding="4px">
@@ -255,7 +255,7 @@ sidebar_position: 52
     <p>The latest firmware versions for each board can be found in the firmware change log in the section below.</p>
 </div>
 <div class="section">
-    ## 52.8.&nbsp;MQ500 Stadium firmware
+    ## 52.8. MQ500 Stadium firmware
     <p>The MQ500 Stadium console has four boards where the firmware can be user updated.</p>
     <div class="informaltable">
         <table class="informaltable" cellpadding="4px">
@@ -313,7 +313,7 @@ sidebar_position: 52
     <p>The latest firmware versions for each board can be found in the firmware change log in the section below.</p>
 </div>
 <div class="section">
-    ## 52.9.&nbsp;MQ500M Stadium firmware
+    ## 52.9. MQ500M Stadium firmware
     <p>The MQ500M Stadium console has the following boards:</p>
     <div class="informaltable">
         <table class="informaltable" cellpadding="4px">
@@ -383,7 +383,7 @@ sidebar_position: 52
     <p>The latest firmware versions for each board can be found in the firmware change log in the section below.</p>
 </div>
 <div class="section">
-    ## 52.10.&nbsp;MQ500M Wing firmware
+    ## 52.10. MQ500M Wing firmware
     <p>The MQ500M Wing has the following boards:</p>
     <div class="informaltable">
         <table class="informaltable" cellpadding="4px">
@@ -414,7 +414,7 @@ sidebar_position: 52
     <p>The latest firmware versions for each board can be found in the firmware change log in the section below.</p>
 </div>
 <div class="section">
-    ## 52.11.&nbsp;Compact &amp; Mini Connect firmware
+    ## 52.11. Compact &amp; Mini Connect firmware
     <p>The Compact Connect used 310-028 Firmware and Mini Connect uses 310-033 firmware.</p>
     <p>
         Latest firmware for these products is included with MagicQ PC and firmware is updated via MagicQ in the same way as updating
@@ -422,9 +422,9 @@ sidebar_position: 52
     </p>
 </div>
 <div class="section">
-    ## 52.12.&nbsp;Firmware Change Log
+    ## 52.12. Firmware Change Log
     <div class="section">
-        ### 52.12.1.&nbsp;CH346 Firmware (MQ50, MQ70, MQ80, MQ500(M) Midi Card, MQ500(M) V2 Display Controller and MQ250M Display
+        ### 52.12.1. CH346 Firmware (MQ50, MQ70, MQ80, MQ500(M) Midi Card, MQ500(M) V2 Display Controller and MQ250M Display
         controller)
         <div class="informaltable">
             <table class="informaltable" cellpadding="4px">
@@ -566,7 +566,7 @@ sidebar_position: 52
         </div>
     </div>
     <div class="section">
-        ### 52.12.2.&nbsp;CH310-021 Firmware (MQ250M &amp; MQ500M Motor board)
+        ### 52.12.2. CH310-021 Firmware (MQ250M &amp; MQ500M Motor board)
         <div class="informaltable">
             <table class="informaltable" cellpadding="4px">
                 <colgroup>
@@ -605,7 +605,7 @@ sidebar_position: 52
         </div>
     </div>
     <div class="section">
-        ### 52.12.3.&nbsp;CH310-022 Firmware (MQ250M &amp; MQ500M Playback Panel)
+        ### 52.12.3. CH310-022 Firmware (MQ250M &amp; MQ500M Playback Panel)
         <div class="informaltable">
             <table class="informaltable" cellpadding="4px">
                 <colgroup>
@@ -663,7 +663,7 @@ sidebar_position: 52
         </div>
     </div>
     <div class="section">
-        ### 52.12.4.&nbsp;CH310-023 Firmware (MQ500M Programmer Panel)
+        ### 52.12.4. CH310-023 Firmware (MQ500M Programmer Panel)
         <div class="informaltable">
             <table class="informaltable" cellpadding="4px">
                 <colgroup>
@@ -704,7 +704,7 @@ sidebar_position: 52
         </div>
     </div>
     <div class="section">
-        ### 52.12.5.&nbsp;CH310-025 Firmware (MQ250M Programmer Panel)
+        ### 52.12.5. CH310-025 Firmware (MQ250M Programmer Panel)
         <div class="informaltable">
             <table class="informaltable" cellpadding="4px">
                 <colgroup>
@@ -729,7 +729,7 @@ sidebar_position: 52
         </div>
     </div>
     <div class="section">
-        ### 52.12.6.&nbsp;CH310-028 Firmware (Compact Connect)
+        ### 52.12.6. CH310-028 Firmware (Compact Connect)
         <div class="informaltable">
             <table class="informaltable" cellpadding="4px">
                 <colgroup>
@@ -760,7 +760,7 @@ sidebar_position: 52
         </div>
     </div>
     <div class="section">
-        ### 52.12.7.&nbsp;CH310-033 Firmware (Mini Connect)
+        ### 52.12.7. CH310-033 Firmware (Mini Connect)
         <div class="informaltable">
             <table class="informaltable" cellpadding="4px">
                 <colgroup>
@@ -792,9 +792,9 @@ sidebar_position: 52
     </div>
 </div>
 <div class="section">
-    ## 52.13.&nbsp;Updating Firmware
+    ## 52.13. Updating Firmware
     <div class="section">
-        ### 52.13.1.&nbsp;Upgrading to latest firmware
+        ### 52.13.1. Upgrading to latest firmware
         <p>The Hardware tab in Setup, View System, View Status shows available firmware versions and current update status.</p>
         <p>
             The LATEST FIRMWARE menu option enables a hardware item to be updated to the latest hardware version without manually selecting
@@ -814,7 +814,7 @@ sidebar_position: 52
         </p>
     </div>
     <div class="section">
-        ### 52.13.2.&nbsp;Manual firmware update
+        ### 52.13.2. Manual firmware update
         <p>Before updating firmware disconnect any Wings and USB interfaces &amp; drives from the console.</p>
         <p>Press Setup, View System, View Status and change to the USB Links tab.</p>
         <p>
@@ -838,9 +838,9 @@ sidebar_position: 52
     </div>
 </div>
 <div class="section">
-    ## 52.14.&nbsp;Upgrading Legacy product firmware
+    ## 52.14. Upgrading Legacy product firmware
     <div class="section">
-        ### 52.14.1.&nbsp;Original Compact series MQ40/MQ40N/MQ60/MQ70 firmware
+        ### 52.14.1. Original Compact series MQ40/MQ40N/MQ60/MQ70 firmware
         <p>
             To check the version of firmware in use go to Setup, View System, View Status and select the USB Links tab. The software version
             is shown as the 7th number in the list of parameters. The complete list of parameters is:

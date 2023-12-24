@@ -4,7 +4,7 @@ title: Chapter 57. Licensing
 sidebar_position: 57
 ---
 
-# Chapter&nbsp;57.&nbsp;Licensing
+# Chapter 57. Licensing
 <p>
     MagicQ consoles use the Debian and Ubuntu Operating Systems. Details and links to sources can be found at
     <a class="ulink" href="https://www.debian.org/" target="_top">https://www.debian.org/</a>
@@ -23,7 +23,7 @@ sidebar_position: 57
     other purpose except training.
 </p>
 <div class="section">
-    ## 57.1.&nbsp;Qt
+    ## 57.1. Qt
     <p><code class="literal">https://qt.io/</code></p>
     <pre class="literallayout">
 The Qt Company Qt LGPL Exception version 1.1
@@ -564,7 +564,7 @@ That's all there is to it!
 </pre>
 </div>
 <div class="section">
-    ## 57.2.&nbsp;LibPNG
+    ## 57.2. LibPNG
     <p><code class="literal">http://www.libpng.org/</code></p>
     <pre class="literallayout">
  This copy of the libpng notices is provided for your convenience.  In case of
@@ -699,7 +699,7 @@ December 29, 2016
 </pre>
 </div>
 <div class="section">
-    ## 57.3.&nbsp;LibJPEG
+    ## 57.3. LibJPEG
     <p><code class="literal">http://www.ijg.org/</code></p>
     <pre class="literallayout">
 This software is based in part on the work of the Independent JPEG Group.
@@ -760,7 +760,7 @@ We are required to state that
 </pre>
 </div>
 <div class="section">
-    ## 57.4.&nbsp;LibJPEG-Turbo
+    ## 57.4. LibJPEG-Turbo
     <p><code class="literal">https://github.com/libjpeg-turbo/libjpeg-turbo</code></p>
     <pre class="literallayout">
 Copyright (C)&lt;YEAR&gt; &lt;AUTHOR&gt;. All Rights Reserved.
@@ -791,7 +791,7 @@ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 </pre>
 </div>
 <div class="section">
-    ## 57.5.&nbsp;LibICU
+    ## 57.5. LibICU
     <p><code class="literal">http://site.icu-project.org/</code></p>
     <pre class="literallayout">
 ICU License - ICU 1.8.1 and later
@@ -1190,7 +1190,7 @@ Database section 7.
 </pre>
 </div>
 <div class="section">
-    ## 57.6.&nbsp;FFmpeg Binary
+    ## 57.6. FFmpeg Binary
     <p><code class="literal">https://ffmpeg.org/</code></p>
     <pre class="literallayout">
                     GNU GENERAL PUBLIC LICENSE
@@ -1535,7 +1535,7 @@ Public License instead of this License.
 </pre>
 </div>
 <div class="section">
-    ## 57.7.&nbsp;FFmpeg Library
+    ## 57.7. FFmpeg Library
     <p><code class="literal">https://ffmpeg.org/</code></p>
     <pre class="literallayout">
                   GNU LESSER GENERAL PUBLIC LICENSE
@@ -2043,7 +2043,7 @@ That's all there is to it!
 </pre>
 </div>
 <div class="section">
-    ## 57.8.&nbsp;LibArchive
+    ## 57.8. LibArchive
     <p><code class="literal">http://www.libarchive.org/</code></p>
     <pre class="literallayout">
   Copyright (c) 2003-2010 Tim Kientzle
@@ -2071,7 +2071,7 @@ That's all there is to it!
 </pre>
 </div>
 <div class="section">
-    ## 57.9.&nbsp;Zlib
+    ## 57.9. Zlib
     <p><code class="literal">http://www.zlib.net/</code></p>
     <pre class="literallayout">
   Copyright (C) 1995-2013 Jean-loup Gailly and Mark Adler
@@ -2102,7 +2102,7 @@ That's all there is to it!
 </pre>
 </div>
 <div class="section">
-    ## 57.10.&nbsp;PortAudio
+    ## 57.10. PortAudio
     <p><code class="literal">http://www.portaudio.com/</code></p>
     <pre class="literallayout">
 PortAudio Portable Real-Time Audio Library

@@ -4,9 +4,9 @@ title: Chapter 11. FX Engine
 sidebar_position: 11
 ---
 
-# Chapter&nbsp;11.&nbsp;FX Engine
+# Chapter 11. FX Engine
 <div class="section">
-    ## 11.1.&nbsp;Adding in FX
+    ## 11.1. Adding in FX
     <p>To apply a FX to some heads, select the heads then from the FX Window, Group Window, or Prog Window press the ADD FX soft button.</p>
     <p>
         MagicQ divides FX into the categories - Intensity, Position, Colour, Beam, Any Attribute, User and Old. Choose the Category and then
@@ -59,7 +59,7 @@ sidebar_position: 11
     </p>
     <p>FX can be added and removed from the Programmer window.</p>
     <div class="section">
-        ### 11.1.1.&nbsp;FX Speed &amp; Size
+        ### 11.1.1. FX Speed &amp; Size
         <p>The FX Speed can be modified on encoder X. The soft button stops/starts the FX allowing it to be temporarily stopped.</p>
         <p>
             The FX Crossfade can be set on encoder Y – 0% is snap whilst 100% is complete crossfade. The soft button can be used to tap to
@@ -81,7 +81,7 @@ sidebar_position: 11
         </p>
     </div>
     <div class="section">
-        ### 11.1.2.&nbsp;FX base values
+        ### 11.1.2. FX base values
         <p>
             By default FX are added to the current channel values - therefore it is important to ensure that the channel values are set
             correctly. For example, to run a circle in the centre of a MAC500s pan and tilt range, it is necessary to set both pan and tilt
@@ -103,7 +103,7 @@ sidebar_position: 11
         </p>
     </div>
     <div class="section">
-        ### 11.1.3.&nbsp;FX add modes
+        ### 11.1.3. FX add modes
         <p>
             It is possible to change the way that FX are added to the base values. In the FX View of the Prog Window and Cue Window there is
             an "add mode" field. Page right to see this option. This determines how the FX in a Cue is added to the base values. There are
@@ -124,7 +124,7 @@ sidebar_position: 11
         </div>
     </div>
     <div class="section">
-        ### 11.1.4.&nbsp;FX Spread (offsets over heads)
+        ### 11.1.4. FX Spread (offsets over heads)
         <p>
             When a FX is applied to a group of heads, the spread determines how the FX is played back over all the heads. By default the
             spread is even (100%) – i.e. the same FX is applied to each head but offset so that each of the heads is at a different point in
@@ -151,7 +151,7 @@ sidebar_position: 11
         <p>The default Spread comes from the FX File.</p>
     </div>
     <div class="section">
-        ### 11.1.5.&nbsp;FX Parts
+        ### 11.1.5. FX Parts
         <p>
             This enables the FX cycle to be repeated across a number of heads. When FX parts is 0 the FX is offset across the total umber of
             heads selected in the FX. Using Parts the FX can be offset so that, for example the FX can be offset (with FX parts = 3) such
@@ -165,7 +165,7 @@ sidebar_position: 11
         <p>The default for FX parts can be set in the Cue Stack window in View Options, View Defaults, FX.</p>
     </div>
     <div class="section">
-        ### 11.1.6.&nbsp;FX Segments
+        ### 11.1.6. FX Segments
         <p>
             FX segments work together with FX Parts to enable easy control of the relative offsets of different heads within a FX. FX
             Segments are the number of adjacent heads that have the same offset.
@@ -173,7 +173,7 @@ sidebar_position: 11
         <p>So for example consider 12 heads.</p>
         <div class="table">
             <a id="idm2982"></a>
-            <p class="title"><strong>Table&nbsp;11.1.&nbsp;100% FX spread (no FX Parts or FX Segments)</strong></p>
+            <p class="title"><strong>Table 11.1. 100% FX spread (no FX Parts or FX Segments)</strong></p>
             <div class="table-contents">
                 <table class="table" summary="100% FX spread (no FX Parts or FX Segments)" cellpadding="4px">
                     <colgroup>
@@ -236,7 +236,7 @@ sidebar_position: 11
         <br class="table-break" />
         <div class="table">
             <a id="idm3048"></a>
-            <p class="title"><strong>Table&nbsp;11.2.&nbsp;With FX Segments = 2’s</strong></p>
+            <p class="title"><strong>Table 11.2. With FX Segments = 2’s</strong></p>
             <div class="table-contents">
                 <table class="table" summary="With FX Segments = 2’s" cellpadding="4px">
                     <colgroup>
@@ -299,7 +299,7 @@ sidebar_position: 11
         <br class="table-break" />
         <div class="table">
             <a id="idm3114"></a>
-            <p class="title"><strong>Table&nbsp;11.3.&nbsp;With FX Segments = 3’s</strong></p>
+            <p class="title"><strong>Table 11.3. With FX Segments = 3’s</strong></p>
             <div class="table-contents">
                 <table class="table" summary="With FX Segments = 3’s" cellpadding="4px">
                     <colgroup>
@@ -362,7 +362,7 @@ sidebar_position: 11
         <br class="table-break" />
         <div class="table">
             <a id="idm3180"></a>
-            <p class="title"><strong>Table&nbsp;11.4.&nbsp;With FX Parts = 2’s</strong></p>
+            <p class="title"><strong>Table 11.4. With FX Parts = 2’s</strong></p>
             <div class="table-contents">
                 <table class="table" summary="With FX Parts = 2’s" cellpadding="4px">
                     <colgroup>
@@ -425,7 +425,7 @@ sidebar_position: 11
         <br class="table-break" />
         <div class="table">
             <a id="idm3246"></a>
-            <p class="title"><strong>Table&nbsp;11.5.&nbsp;With FX Parts = 2’s, Segments = 3’s</strong></p>
+            <p class="title"><strong>Table 11.5. With FX Parts = 2’s, Segments = 3’s</strong></p>
             <div class="table-contents">
                 <table class="table" summary="With FX Parts = 2’s, Segments = 3’s" cellpadding="4px">
                     <colgroup>
@@ -489,7 +489,7 @@ sidebar_position: 11
         <p>The default for FX segments can be set in the Cue Stack window in View Options, View Defaults, FX.</p>
     </div>
     <div class="section">
-        ### 11.1.7.&nbsp;FX Direction &amp; Inversion
+        ### 11.1.7. FX Direction &amp; Inversion
         <p>The FX direction can be set to the following options:</p>
         <div class="itemizedlist">
             <ul class="itemizedlist">
@@ -585,7 +585,7 @@ _^^^
         <p>The default for FX direction can be set in the Cue Stack window in View Options, View Defaults, FX.</p>
     </div>
     <div class="section">
-        ### 11.1.8.&nbsp;Width
+        ### 11.1.8. Width
         <p>
             Waveform FX with one or two steps can have a Width parameter on Encoder C. The pulse, ramp, rampup, rampdown, sineup, sinedown,
             dimmer chase and iris chase all have Width.
@@ -604,7 +604,7 @@ _^^^
         <p>The default Width comes from the FX File.</p>
     </div>
     <div class="section">
-        ### 11.1.9.&nbsp;Speed Type
+        ### 11.1.9. Speed Type
         <p>
             Speed Type can be set to Run, Stop and Double there are now the options Div 2, Div 3, Div 4, Div 5, Div 6, Div 7, Div 8. The
             default is Run.
@@ -616,7 +616,7 @@ _^^^
         </p>
     </div>
     <div class="section">
-        ### 11.1.10.&nbsp;Rnd
+        ### 11.1.10. Rnd
         <p>
             FX can be set to use Random from the Rnd field. The Rnd Step option causes the Heads to execute the FX in a constantly changing
             random order.
@@ -632,7 +632,7 @@ _^^^
         </p>
     </div>
     <div class="section">
-        ### 11.1.11.&nbsp;One Shot
+        ### 11.1.11. One Shot
         <p>
             FX can be set to One Shot from the One Shot field. The FX will cycle through all heads one time and then the FX will be removed.
             The FX will restart if a new Cue with the same FX is executed.
@@ -644,7 +644,7 @@ _^^^
         </p>
     </div>
     <div class="section">
-        ### 11.1.12.&nbsp;Timing
+        ### 11.1.12. Timing
         <p>The Timing field on the right side of VIEW FX in the Prog and Cue windows can be set to Per Head or Per Step.</p>
         <p>
             When set to Per Head, the FX bases its timing on the number of heads in the FX, or if Parts are selected the number of Parts.
@@ -665,7 +665,7 @@ _^^^
         </p>
     </div>
     <div class="section">
-        ### 11.1.13.&nbsp;FX fade times
+        ### 11.1.13. FX fade times
         <p>FX can be configured to fade in and out rather than snapping in and out.</p>
         <p>
             The fade times are configured in the View Times view of the Programmer Window and the Cue Window. In older versions of software
@@ -673,7 +673,7 @@ _^^^
         </p>
     </div>
     <div class="section">
-        ### 11.1.14.&nbsp;FX delay times
+        ### 11.1.14. FX delay times
         <p>
             MagicQ supports a FX Delay Type option for applying individual delay times to FX as well as base levels. When enabled, the
             individual delay times for the base level of an attribute in a head will also apply to any incoming FX on that attribute. This
@@ -708,7 +708,7 @@ _^^^
         </p>
     </div>
     <div class="section">
-        ### 11.1.15.&nbsp;Initial spreads
+        ### 11.1.15. Initial spreads
         <p>
             If you are running multiple FX from within a Cue then you may wish to select an initial spread between the different FX.
             Configure this from the Programmer Window and the Cue Window (use the PAGE RIGHT button to move to the appropriate columns).
@@ -716,7 +716,7 @@ _^^^
         </p>
     </div>
     <div class="section">
-        ### 11.1.16.&nbsp;FX on CMY and RGB heads
+        ### 11.1.16. FX on CMY and RGB heads
         <p>
             The inbuilt colour FX are designed to work on both CMY and RGB heads - these FX are set with the "Auto Invert RGB" option set in
             the Waveform FX. This means that, for example, adding the RGB FX to a group of CMY and RGB heads will cause all heads to change
@@ -724,7 +724,7 @@ _^^^
         </p>
     </div>
     <div class="section">
-        ### 11.1.17.&nbsp;Flicker FX
+        ### 11.1.17. Flicker FX
         <p>
             MagicQ includes a number of FX designed to simulate flickers – these can be used to simulate fires, candles and lightning. FX
             speed, size and spread can be used to generate different effects. The flicker FX available are:
@@ -736,7 +736,7 @@ _^^^
         <p>Flicker crossfade Random flicker with random levels and random crossfades</p>
     </div>
     <div class="section">
-        ### 11.1.18.&nbsp;Multiple FX
+        ### 11.1.18. Multiple FX
         <p>
             It is possible to have multiple different FX on a head – e.g. a circle on pan and tilt and a red green blue colour mix on the
             colour mix attributes.
@@ -757,7 +757,7 @@ _^^^
         </p>
     </div>
     <div class="section">
-        ### 11.1.19.&nbsp;Joining / Splitting multiple FX
+        ### 11.1.19. Joining / Splitting multiple FX
         <p>
             There is a function to split some heads out of a FX or to join similar FX together in the Programmer – use SHIFT and the JOIN FX
             and SPLIT FX soft buttons.
@@ -772,7 +772,7 @@ _^^^
         </p>
     </div>
     <div class="section">
-        ### 11.1.20.&nbsp;Modifying FX for selected Heads
+        ### 11.1.20. Modifying FX for selected Heads
         <p>
             It is possible to change FX for a specific set of heads by first selecting the heads and then modifying the parameters in the FX
             Window instead of in the Programmer Window. In the FX Window there are FX speed, size, crossfade and offset encoders. These
@@ -782,7 +782,7 @@ _^^^
         </p>
     </div>
     <div class="section">
-        ### 11.1.21.&nbsp;Changing FX
+        ### 11.1.21. Changing FX
         <p>
             It is possible to change the type of FX running on a selection of heads from within the Programmer Window using the CHANGE FX
             soft button. This enables a different FX to be selected, but with the speed, size and offsets remaining the same. The FX can
@@ -790,7 +790,7 @@ _^^^
         </p>
     </div>
     <div class="section">
-        ### 11.1.22.&nbsp;FX Reordering
+        ### 11.1.22. FX Reordering
         <p>
             It is possible to reorder the heads in a FX without having to recreate the FX. Press the REORDER FX button in the Programmer,
             View FX View. MagicQ prompts for the order, Normal, Reverse, Into Centre, Centre Out, Random. Normal will always return them to
@@ -806,7 +806,7 @@ _^^^
         </p>
     </div>
     <div class="section">
-        ### 11.1.23.&nbsp;Blocking FX
+        ### 11.1.23. Blocking FX
         <p>
             When the Setup option "Programmer overrides FX" is set then the Programmer automatically includes a "Block FX" option – this
             means that whenever a channel is in the programmer it has an implicit zero FX – so that any FX running on the channel on
@@ -815,7 +815,7 @@ _^^^
         </p>
     </div>
     <div class="section">
-        ### 11.1.24.&nbsp;One Shot FX
+        ### 11.1.24. One Shot FX
         <p>
             MagicQ has support for one shot FX – i.e. FX that play back only one cycle and then stop. There are two example one shot FX in
             the FX library - PulseOne and RampOne. Custom waveform FX can be created and set as one shot in the FX parameters.
@@ -823,7 +823,7 @@ _^^^
     </div>
 </div>
 <div class="section">
-    ## 11.2.&nbsp;Generating user FX
+    ## 11.2. Generating user FX
     <p>
         It is possible to generate user FX by programming a chase and then converting it into a FX. The FX can then be applied to any head
         with the required attributes.
@@ -854,10 +854,10 @@ _^^^
     <p>Use Record Remove to remove unwanted attributes from entire Cue Stack.</p>
 </div>
 <div class="section">
-    ## 11.3.&nbsp;Editing user FX
+    ## 11.3. Editing user FX
     <p>
         MagicQ includes a
-        <a class="link" href="fx-editor.html" title="Chapter&nbsp;29.&nbsp;FX Editor">FX Editor</a>
+        <a class="link" href="fx-editor.html" title="Chapter 29. FX Editor">FX Editor</a>
         which can be used to edit the Waveform FX. Note that changing the Waveform FX makes a permanent change to the FX on the MagicQ
         system including all FX of that type used in the current show and on any new shows made on that console. If users wish to edit the
         inbuilt Waveform FX then they should use "Save As" to save the FX as a different FX name before editing.
@@ -866,7 +866,7 @@ _^^^
     <p>All FX are stored in the FX folder as .wve files - MagicQ intelligently filters them into categories.</p>
 </div>
 <div class="section">
-    ## 11.4.&nbsp;Palette FX
+    ## 11.4. Palette FX
     <p>
         Some of the inbuilt FX use Palette values rather than absolute values. This enables FX to be built up quickly from existing
         Palettes. The FX are updated each time the Palette is changed.
@@ -892,7 +892,7 @@ _^^^
         that the FX stays the same.
     </p>
     <div class="section">
-        ### 11.4.1.&nbsp;Palette FX on heads with different attributes
+        ### 11.4.1. Palette FX on heads with different attributes
         <p>Palette FX can be applied to heads even if the heads do not have all the attributes in the Palette FX.</p>
         <p>
             The 2col, 3col and 4col inbuilt FX include all 8 colour attributes (Cyan, Magenta, Yellow, Col Mix, Col1, Col2, Col3 and Col4)
@@ -905,7 +905,7 @@ _^^^
         </p>
     </div>
     <div class="section">
-        ### 11.4.2.&nbsp;User created Palette FX
+        ### 11.4.2. User created Palette FX
         <p>
             Users can create their own waveform FX using the FX Editor. To make a waveform FX that has selected palettes, set both the "Use
             Palettes" and "Use FX Palettes" in the Edit FX, View General. The palettes in Edit FX, View Chans are then Palette indices
@@ -925,7 +925,7 @@ _^^^
     </div>
 </div>
 <div class="section">
-    ## 11.5.&nbsp;FX colour flicks
+    ## 11.5. FX colour flicks
     <p>
         MagicQ supports colour flicks - i.e. FX that apply a different colour over the base colour without mixing the colours - for example
         running a red flick over a green base without mixing the red and green to get yellow.
@@ -942,7 +942,7 @@ _^^^
     </p>
 </div>
 <div class="section">
-    ## 11.6.&nbsp;FX using base colour
+    ## 11.6. FX using base colour
     <p>
         It is possible to create FX that use any chosen colour rather than just primary colours – a new example Colpulse.wve is included as
         part of the standard FX library.
@@ -954,7 +954,7 @@ _^^^
     <p>To create a new FX based on base colour, in the FX Edit Window, View General, set Use Col Base = Yes.</p>
 </div>
 <div class="section">
-    ## 11.7.&nbsp;Group based FX
+    ## 11.7. Group based FX
     <p>
         MagicQ supports FX based on groups. Multiple groups can be selected and then an FX applied to each of those groups rather than to
         individual heads.
@@ -999,7 +999,7 @@ _^^^
         the cursor is on the top row all FX will be converted, otherwise the FX at the cursor position will be converted.
     </p>
     <div class="section">
-        ### 11.7.1.&nbsp;Group FX Spread
+        ### 11.7.1. Group FX Spread
         <p>
             The Spread of Group FX can be modified in the Prog Window, View FX and also once recorded in a Cue, in the Cue, View FX Window
             using the "Group Spread" column. The options are:
@@ -1044,7 +1044,7 @@ _^^^
     </div>
 </div>
 <div class="section">
-    ## 11.8.&nbsp;FX on Heads with Duplicated Elements
+    ## 11.8. FX on Heads with Duplicated Elements
     <p>When selecting FX for channels on Head with duplicated elements MagicQ prompts three options for applying the FX:</p>
     <div class="itemizedlist">
         <ul class="itemizedlist">
@@ -1074,7 +1074,7 @@ _^^^
     </p>
 </div>
 <div class="section">
-    ## 11.9.&nbsp;FX Window
+    ## 11.9. FX Window
     <p>
         FX can be recorded for re-use in multiple Cues when programming, or when busking live to quickly apply a complete FX over multiple
         heads.
@@ -1113,7 +1113,7 @@ _^^^
         in the programmed Cue.
     </p>
     <div class="section">
-        ### 11.9.1.&nbsp;FX Palettes
+        ### 11.9.1. FX Palettes
         <p>From v1.9.5.0 FX in the FX Window behave like palettes.</p>
         <p>
             Updating the FX in the FX window will update instances where the FX has been used in Cues. The overall FX speed, size,
@@ -1166,7 +1166,7 @@ _^^^
     </div>
 </div>
 <div class="section">
-    ## 11.10.&nbsp;Importing and Exporting the FX Library
+    ## 11.10. Importing and Exporting the FX Library
     <p>
         The FX in the FX Window can be stored to a FX library file so that the FX can be reloaded and reused in any MagicQ show. Use the
         SAVE FX LIB to make a FX library file – all the FX in the FX window are stored to the file. The FX are saved as generic FX – i.e.

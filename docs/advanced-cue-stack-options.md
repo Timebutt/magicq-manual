@@ -4,9 +4,9 @@ title: Chapter 18. Advanced Playback / Cue Stack Options
 sidebar_position: 18
 ---
 
-# Chapter&nbsp;18.&nbsp;Advanced Playback / Cue Stack Options
+# Chapter 18. Advanced Playback / Cue Stack Options
 <div class="section">
-    ## 18.1.&nbsp;Interaction of HTP and LTP channels between Playbacks
+    ## 18.1. Interaction of HTP and LTP channels between Playbacks
     <p>
         Channels are set as either HTP (Highest Takes Priority) or LTP (Latest Takes Priority) in their personality file – the property can
         be edited in the Head Editor.
@@ -19,7 +19,7 @@ sidebar_position: 18
     <p>This operation can be modified on a per Cue Stack basis.</p>
 </div>
 <div class="section">
-    ## 18.2.&nbsp;HTP handling
+    ## 18.2. HTP handling
     <p>
         MagicQ handles HTP (Highest Takes Precedence) channels in a very simple way - the highest value from all the playbacks, the
         programmer and the preset faders is the value that is output.
@@ -39,7 +39,7 @@ sidebar_position: 18
     </p>
 </div>
 <div class="section">
-    ## 18.3.&nbsp;LTP handling
+    ## 18.3. LTP handling
     <p>
         MagicQ provides powerful handling of LTP (Latest Takes Precedence) channels enabling new effects to be "bumped" onto intelligent
         heads for a period of time before reverting to the previous effect.
@@ -59,7 +59,7 @@ sidebar_position: 18
     </p>
 </div>
 <div class="section">
-    ## 18.4.&nbsp;All chans controlled LTP
+    ## 18.4. All chans controlled LTP
     <p>
         If a Cue Stack on a Playback is set to "All chans controlled LTP" then when that Playback is activated as the last touched playback
         then all channels controlled by that Playback are considered to be LTP.
@@ -77,7 +77,7 @@ sidebar_position: 18
     <p>Advanced, All Chans Controlled LTP = Yes Faders, Fader Controls HTP = No Faders, Fader Controls LTP = Yes</p>
 </div>
 <div class="section">
-    ## 18.5.&nbsp;HTP always active (Use HTP) option
+    ## 18.5. HTP always active (Use HTP) option
     <p>
         By default HTP channels programmed in a Playback only affect output when the Playback is active. It is possible to make a Playback
         so that the activation of the Playback is separated from the operation of the HTP channels using the "HTP always active (Use HTP)"
@@ -111,7 +111,7 @@ sidebar_position: 18
     </p>
 </div>
 <div class="section">
-    ## 18.6.&nbsp;Interaction of FX between Playbacks
+    ## 18.6. Interaction of FX between Playbacks
     <p>
         By default, the FX and levels on MagicQ operate independently so it is possible to have a FX running on one Playback and the level
         (base values that the FX is applying to) coming from a separate Playback.
@@ -140,7 +140,7 @@ sidebar_position: 18
     <p>An alternative way to block FX from other Playbacks is to use "Add FX Zero Size" in Cues where you wish to block other Playbacks.</p>
 </div>
 <div class="section">
-    ## 18.7.&nbsp;Playback Priority
+    ## 18.7. Playback Priority
     <p>
         By default all playbacks have the same priority. It is possible to set a playback to maximum priority using the Cue Stack option
         "Highest Playback priority". The options are:
@@ -159,7 +159,7 @@ sidebar_position: 18
     </p>
 </div>
 <div class="section">
-    ## 18.8.&nbsp;Playbacks ignore masters levels
+    ## 18.8. Playbacks ignore masters levels
     <p>
         Sometimes it is necessary to program playbacks that are not affected by the Grand Master or Sub Master. Use the "Ignore Masters"
         option to prevent the Cue Stack being affected by the master faders – this is useful for controlling channels that must stay up –
@@ -169,7 +169,7 @@ sidebar_position: 18
     <p>From 1.9.4.1 this option also causes Playbacks to ignore FX Speed Masters and FX Size Masters.</p>
 </div>
 <div class="section">
-    ## 18.9.&nbsp;Playback Stomping
+    ## 18.9. Playback Stomping
     <p>
         There is a Playback Stomping option in the Setup Window, View Settings, Playback. With this option enabled playbacks that have been
         fully overridden by other playbacks will be automatically released (stomped).
@@ -190,7 +190,7 @@ sidebar_position: 18
     </p>
 </div>
 <div class="section">
-    ## 18.10.&nbsp;Group Masters (Inhibit Masters)
+    ## 18.10. Group Masters (Inhibit Masters)
     <p>
         Playbacks can be used to control groups of channels – you can assign a playback to be a master for Intensities, FX size or FX speed
         for a specified set of heads. Using Intensity Masters you can make an "Inhibit Master" to give overall control for the levels of a
@@ -211,7 +211,7 @@ sidebar_position: 18
         affect the output in any way.
     </p>
     <div class="section">
-        ### 18.10.1.&nbsp;Intensity Masters
+        ### 18.10.1. Intensity Masters
         <div class="section">
             #### Group based Intensity Masters
             <p>
@@ -241,7 +241,7 @@ sidebar_position: 18
         </div>
     </div>
     <div class="section">
-        ### 18.10.2.&nbsp;FX Size and FX Speed Master
+        ### 18.10.2. FX Size and FX Speed Master
         <p>
             FX Size and FX Speed masters allow control of the FX size and speed on multiple heads, either based on a group or based on the
             channels recorded into a Cue.
@@ -271,19 +271,19 @@ sidebar_position: 18
     </div>
 </div>
 <div class="section">
-    ## 18.11.&nbsp;Speed Masters
+    ## 18.11. Speed Masters
     <p>
         Playbacks can be set with Cue Stacks that have their function set as a Speed Master. These Cue Stacks do not execute normal Cues -
         instead the control they global Speed Masters using the Playback buttons and fader.
     </p>
     <p>
         For more details see the
-        <a class="link" href="busking.html#busking-speed-masters" title="19.12.5.&nbsp;Speed Masters">Busking</a>
+        <a class="link" href="busking.html#busking-speed-masters" title="19.12.5. Speed Masters">Busking</a>
         ) section.
     </p>
 </div>
 <div class="section">
-    ## 18.12.&nbsp;Advanced activate and release options
+    ## 18.12. Advanced activate and release options
     <p>
         The FLASH button can be set to release the Cue Stack using the "Flash releases stack" option. This option works in a slightly
         different way depending on the "Fader releases stack".

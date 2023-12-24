@@ -4,7 +4,7 @@ title: Chapter 3. Using MagicQ on PCs and Macs
 sidebar_position: 3
 ---
 
-# Chapter&nbsp;3.&nbsp;Using MagicQ on PCs and Macs
+# Chapter 3. Using MagicQ on PCs and Macs
 <p>
     The MagicQ software for PCs and Macs has exactly the same features as the MagicQ console software with support for previsualisation of
     up to 256 universes, and full output of 64 Universes. Along with support for ChamSys low cost MagicDMX interface, for simple USB-DMX
@@ -21,7 +21,7 @@ sidebar_position: 3
     Setup, View Settings, Windows, Start Mode option to "Choose Demo show".
 </p>
 <div class="section">
-    ## 3.1.&nbsp;Simple Generic Console
+    ## 3.1. Simple Generic Console
     <p>Choosing Simple Generic Console opens MagicQ in Simple View and loads a Simple 48 Channel Generic Console show file.</p>
     <p>
         <span class="inlinemediaobject">
@@ -57,7 +57,7 @@ sidebar_position: 3
     </p>
 </div>
 <div class="section">
-    ## 3.2.&nbsp;Technician Test Head
+    ## 3.2. Technician Test Head
     <p>
         The Technician Test Head mode enables technicians to test a moving light or other head in a very simple way. Simply press the TEST
         SHOW soft button and select a head and a mode.
@@ -84,7 +84,7 @@ sidebar_position: 3
     <p>The preset faders can be used to change the values of individual attributes. Use SHIFT and the faders to make a fine adjustment.</p>
 </div>
 <div class="section">
-    ## 3.3.&nbsp;Demo Shows
+    ## 3.3. Demo Shows
     <p>The start up Window gives also gives a choice of a standard Lighting demo show or a PixelMapping demo show.</p>
     <p>
         Additional demo shows for other head types, media servers and visualisers can be found by going to Setup, View Settings, Load Show
@@ -97,14 +97,14 @@ sidebar_position: 3
     </p>
 </div>
 <div class="section">
-    ## 3.4.&nbsp;Touch View
+    ## 3.4. Touch View
     <p>
         The Touch View is designed for use with touch screens with buttons that are sized bigger so that it is easier to select functions.
         Select Touch View by pressing Touch or Touch2 in the top right corner of the Application.
     </p>
 </div>
 <div class="section">
-    ## 3.5.&nbsp;Playback mode
+    ## 3.5. Playback mode
     <p>
         MagicQ PC supports a Playback Mode which enables MagicQ to be run in a pure "Playback" mode. This mode is selected by clicking on
         the new Playback mode Icon on the desktop or in the Programs, ChamSys MagicQ PC menu.
@@ -124,7 +124,7 @@ sidebar_position: 3
     </p>
 </div>
 <div class="section">
-    ## 3.6.&nbsp;Copy and paste to external applications via the clipboard
+    ## 3.6. Copy and paste to external applications via the clipboard
     <p>MagicQ now supports copying and pasting to external applications such as Word, Excel and text editors.</p>
     <p>
         On the toolbar select Edit, Copy or press the short cut key CTRL C. The item at the cursor position in the focused window, or
@@ -144,7 +144,7 @@ sidebar_position: 3
     <p>Extreme care should be used when pasting into MagicQ.</p>
 </div>
 <div class="section">
-    ## 3.7.&nbsp;MagicQ PC / Mac Restrictions (Demo mode)
+    ## 3.7. MagicQ PC / Mac Restrictions (Demo mode)
     <p>
         When MagicQ PC (Windows, Linux or Mac) is not connected to a MagicQ USB interface, Connect, MagicQ USB Wing or SnakeSys network
         product, then a small number of remote and automation features are restricted and "Demo Mode" is shown in the title bar. This does
@@ -207,7 +207,7 @@ sidebar_position: 3
     </p>
 </div>
 <div class="section">
-    ## 3.8.&nbsp;MagicHD Stand Alone Restriction
+    ## 3.8. MagicHD Stand Alone Restriction
     <p>MagicHD when run as part of MagicQ supports 8 layers.</p>
     <p>
         MagicHD when run as a stand alone program (not as part of MagicQ) only supports 1 layer unless a MagicQ / MagicHD USB Dongle is

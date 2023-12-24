@@ -4,7 +4,7 @@ title: Chapter 20. Group Cues
 sidebar_position: 20
 ---
 
-# Chapter&nbsp;20.&nbsp;Group Cues
+# Chapter 20. Group Cues
 <p>
     Group Cues enables shows to be built up based on group programming rather than individual head programming. FX, fans and split times are
     programmed within the group rather than on an individual basis.
@@ -98,7 +98,7 @@ sidebar_position: 20
     (lowest down the list in Prog and Cue windows) takes priority.
 </p>
 <div class="section">
-    ## 20.1.&nbsp;Group Levels
+    ## 20.1. Group Levels
     <p>When a Group of heads is first activated they start from the current value of the first head in the Group.</p>
     <p>
         If the Heads are Located then MagicQ marks those attributes as Located in the Group Cue. MagicQ will always use the current Locate
@@ -127,7 +127,7 @@ sidebar_position: 20
     <p>Whenever Heads are added, removed or reordered from the Group the levels will be recalculated according to the new Head types.</p>
 </div>
 <div class="section">
-    ## 20.2.&nbsp;Fanning
+    ## 20.2. Fanning
     <p>
         Group Cues support fanning - simply select the Group and fan the heads as normal. The fan will be stored as part of the Cue
         including the fan type, fan parts and fan segments. The fan will be recalculated over all the Heads in the Group whenever the Group
@@ -144,14 +144,14 @@ sidebar_position: 20
     </p>
 </div>
 <div class="section">
-    ## 20.3.&nbsp;Group Elements
+    ## 20.3. Group Elements
     <p>For Groups without Elements set, the levels will be set for all Elements of a Head.</p>
     <p>For Groups with Elements set, the levels will be set for the Elements from that Group on each Head in the Group.</p>
     <p>For Groups with Head Elements set, the levels will be set for the Head Elements from that Group.</p>
     <p>Groups that are only Element Groups (i.e. have Type set to Elements) are not used in Group Cues.</p>
 </div>
 <div class="section">
-    ## 20.4.&nbsp;Fade Times
+    ## 20.4. Fade Times
     <p>
         Group levels use the same fade times as Head levels by default - i.e. the Int, Pos, Col, Beam times from Prog, View Times, Simple
         View and Cue, View Times, Simple View.
@@ -180,7 +180,7 @@ sidebar_position: 20
     <p>Whenever Heads are added, removed or reordered from the Group the times will be recalculated.</p>
 </div>
 <div class="section">
-    ## 20.5.&nbsp;Recording
+    ## 20.5. Recording
     <p>
         Cues are recorded in the normal way. It is possible to merge and to remove Group data from Cues just like for individual Head data.
         Recording of selected heads and record masking is supported.
@@ -199,7 +199,7 @@ sidebar_position: 20
     </p>
 </div>
 <div class="section">
-    ## 20.6.&nbsp;Including / Update
+    ## 20.6. Including / Update
     <p>
         Cues can be included in the normal way and both the Group and Head data from the Cue will be loaded into the programmer. Including
         of selected heads and masking is supported. When using selected heads only the Groups that are selected will be loaded into the
@@ -210,7 +210,7 @@ sidebar_position: 20
     <p>Patch Offset can be applied using Group Cues just like for individual Head Cues.</p>
 </div>
 <div class="section">
-    ## 20.7.&nbsp;Active / Snapshot
+    ## 20.7. Active / Snapshot
     <p>
         Attributes can be made active in the normal way. Attributes for the selected Groups that are active on Playbacks will be brought
         into the programmer, along with any individual head data for those selected heads.
@@ -221,7 +221,7 @@ sidebar_position: 20
     </p>
 </div>
 <div class="section">
-    ## 20.8.&nbsp;Copying Head values
+    ## 20.8. Copying Head values
     <p>
         Attribute data can be copied between Groups of Heads using the normal copy head syntax. If a Group is specified then Group
         attributes will be copied rather than individual Head attributes.
@@ -232,7 +232,7 @@ sidebar_position: 20
     </p>
 </div>
 <div class="section">
-    ## 20.9.&nbsp;File Saving / Exporting / Merging
+    ## 20.9. File Saving / Exporting / Merging
     <p>
         Group Cues are saved in show files in the normal way. As with all new MagicQ features, shows saved with Group Cues will load into
         previous versions of MagicQ, but any Group levels will be ignored by the old software. If you have a show file with Group Cues which
@@ -266,7 +266,7 @@ sidebar_position: 20
     </p>
 </div>
 <div class="section">
-    ## 20.10.&nbsp;Updating Groups
+    ## 20.10. Updating Groups
     <p>
         Groups can be updated at any time. Removing Heads from a Group will stop them from being part of Group Cues that use that Group.
         Adding Heads to a Group will put them into any Group Cues that use that Group.
@@ -278,7 +278,7 @@ sidebar_position: 20
     </p>
 </div>
 <div class="section">
-    ## 20.11.&nbsp;Updating Cues
+    ## 20.11. Updating Cues
     <p>Groups can be replaced, cloned or removed from one or more of the programmed Cues.</p>
     <p>Replacing Groups in Cues, enables modifying the programmed Cues to use a different Group.</p>
     <p>Cloning Groups in Cues enables expanding a show to use more Groups than originally programmmed.</p>

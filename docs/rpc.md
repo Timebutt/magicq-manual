@@ -4,14 +4,14 @@ title: Chapter 35. ChamSys Remote Protocol Commands
 sidebar_position: 35
 ---
 
-# Chapter&nbsp;35.&nbsp;ChamSys Remote Protocol Commands
+# Chapter 35. ChamSys Remote Protocol Commands
 <p>
     ChamSys remote protocol consists of simple commands consisting of a list parameter values separated by commas ‘,’ and ending in a
     character A to Z (or a to z). Commands can contain spaces, tabs, and carriage returns; they are all ignored.
 </p>
 <p>The remote protocol is split into remote playback commands and remote programming commands.</p>
 <div class="section">
-    ## 35.1.&nbsp;Remote playback commands
+    ## 35.1. Remote playback commands
     <p>The commands are:</p>
     <div class="informaltable">
         <table class="informaltable" cellpadding="4px">
@@ -146,7 +146,7 @@ sidebar_position: 35
     </p>
 </div>
 <div class="section">
-    ## 35.2.&nbsp;Remote programming commands
+    ## 35.2. Remote programming commands
     <p>
         Remote programming commands enable simple programming actions to be carried out from a remote terminal. Remote programming commands
         consist of the program command number followed by parameters and completed with an "H".
@@ -359,7 +359,7 @@ sidebar_position: 35
         </table>
     </div>
     <div class="section">
-        ### 35.2.1.&nbsp;Attribute numbers
+        ### 35.2.1. Attribute numbers
         <p>Intensity (0) Intensity Mode (1)</p>
         <p>Pan (4) Tilt (5) Pos1 (46) Pos2 (47) Pos3 (48) Pos4 (49) Pos5 (50) Pos6 (51)</p>
         <p>Cyan (16) Magenta (17) Yellow (18) Col mix (19) Col1 (6) Col3 (26) Col2 (7) Col4 (27)</p>

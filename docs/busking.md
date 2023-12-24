@@ -4,9 +4,9 @@ title: Chapter 19. Live Programming (Busking)
 sidebar_position: 19
 ---
 
-# Chapter&nbsp;19.&nbsp;Live Programming (Busking)
+# Chapter 19. Live Programming (Busking)
 <div class="section">
-    ## 19.1.&nbsp;Adding individual channels using preset faders
+    ## 19.1. Adding individual channels using preset faders
     <p>
         Individual channels can be added into the show as required using the Intensities Windows. Channels can be added using the faders in
         either the Programmer View or the Presets View.
@@ -18,7 +18,7 @@ sidebar_position: 19
     <p>Channels added in both views are affected by the Grand Master and by the pressing of SWAP buttons.</p>
 </div>
 <div class="section">
-    ## 19.2.&nbsp;Over-ride / take-over
+    ## 19.2. Over-ride / take-over
     <p>
         The MagicQ architecture supports the combined use of the programmer, playbacks and preset faders so that there is no need to
         constantly swap between modes, losing your overridden effects. This makes the console ideal for busking shows.
@@ -34,7 +34,7 @@ sidebar_position: 19
     </p>
 </div>
 <div class="section">
-    ## 19.3.&nbsp;Viewing Cues and Cue Stacks
+    ## 19.3. Viewing Cues and Cue Stacks
     <p>
         The Cue and Cue Stack Windows are used to monitor and adjust the execution of Cues and Cue Stacks respectively. Both windows monitor
         the currently selected playback.
@@ -50,7 +50,7 @@ sidebar_position: 19
     </p>
 </div>
 <div class="section">
-    ## 19.4.&nbsp;Modifying chase speed / crossfade
+    ## 19.4. Modifying chase speed / crossfade
     <p>
         To modify the speed or crossfade of a Cue Stack that is running with Chase Timing, press the SELECT button for the playback, and
         then adjust the encoders in the Cue Stack Window. The chase direction and chase type (Normal, Bounce, Random) can also be selected.
@@ -65,7 +65,7 @@ sidebar_position: 19
     <p>Modifications are retained even after the playback is released.</p>
 </div>
 <div class="section">
-    ## 19.5.&nbsp;Modifying FX parameters
+    ## 19.5. Modifying FX parameters
     <p>
         To modify the parameters of a FX that is programmed in a Cue, press the SELECT button for the playback, and then adjust the encoders
         in the Cue Window.
@@ -75,12 +75,12 @@ sidebar_position: 19
     <p>Modifications are retained even after the playback is released.</p>
 </div>
 <div class="section">
-    ## 19.6.&nbsp;Stop / Starting Cue Stacks
+    ## 19.6. Stop / Starting Cue Stacks
     <p>Cue Stacks can be started and stopped using the GO and STOP buttons associated with the playback.</p>
     <p>For wing playbacks, make the playback the current playback and then press the GO / STOP buttons in the manual control section.</p>
 </div>
 <div class="section">
-    ## 19.7.&nbsp;Jumping to a Cue in a Cue Stack
+    ## 19.7. Jumping to a Cue in a Cue Stack
     <p>There are several ways to jump to a specific Cue in a Cue Stack.</p>
     <p>Press the S button of the Playback, enter a Cue Id on the keypad and press the manual GO button.</p>
     <p>
@@ -95,7 +95,7 @@ sidebar_position: 19
     <p>Pressing ENTER in the first column of the Cue Stack also jumps to the specified Cue.</p>
 </div>
 <div class="section">
-    ## 19.8.&nbsp;Over-riding using the programmer
+    ## 19.8. Over-riding using the programmer
     <p>
         When playing back a show, you can over-ride the programmed effect in the playbacks by using the programmer. For instance, assume
         that you are running a yellow circle on your MAC500s. You wish to change the colour to Red.
@@ -118,7 +118,7 @@ sidebar_position: 19
     </p>
 </div>
 <div class="section">
-    ## 19.9.&nbsp;Adding in new FX
+    ## 19.9. Adding in new FX
     <p>
         MagicQ does not make a distinction between programming and run modes so it is always possible to busk new FX. For instance, assume
         that you have an active playback which has the MAC500s statically focused on the centre vocals position. You now wish to temporarily
@@ -142,7 +142,7 @@ sidebar_position: 19
     <p>Pressing and releasing BLIND will enable you to busk the FX in and out – e.g. in the chorus / verse transitions.</p>
 </div>
 <div class="section">
-    ## 19.10.&nbsp;Applying palettes with time
+    ## 19.10. Applying palettes with time
     <p>Palettes can be applied with a time by simple entering a time in seconds before selecting the palette entry to apply.</p>
     <p>
         For example, to apply a 4.5 second movement from the current position to your programmed centre vocals position, simply type 4.5 and
@@ -155,14 +155,14 @@ sidebar_position: 19
     <p>
         If you apply a palette with time whilst in FAN mode then the times will be fanned across the different heads in the order that the
         heads have been selected. See
-        <a class="link" href="palettes.html#using-palettes-with-times" title="10.11.&nbsp;Using Palettes with times">
+        <a class="link" href="palettes.html#using-palettes-with-times" title="10.11. Using Palettes with times">
             Using Palettes with time
         </a>
         .
     </p>
 </div>
 <div class="section">
-    ## 19.11.&nbsp;Releasing / Clearing with time
+    ## 19.11. Releasing / Clearing with time
     <p>
         Release times can be set on a per Cue Stack basis, in the Cue Stack Options. Default release times can be set up in the Cue Stack,
         Defaults view including times for Cue Stacks with single Cues and Cue Stacks with multiple Cues.
@@ -177,10 +177,10 @@ sidebar_position: 19
     </p>
 </div>
 <div class="section">
-    ## 19.12.&nbsp;Speed control
+    ## 19.12. Speed control
     <p>MagicQ provides multiple ways to control the speed of chases and FX.</p>
     <div class="section">
-        ### 19.12.1.&nbsp;Changing the Chase or FX data
+        ### 19.12.1. Changing the Chase or FX data
         <p>
             The most direct approach is to change the chase speed directly in the Cue Stack window or the FX speed directly in the Cue
             Window as described in the sections above.
@@ -188,7 +188,7 @@ sidebar_position: 19
         <p>This is a permanent change to the stored chase / FX on the selected playback.</p>
     </div>
     <div class="section">
-        ### 19.12.2.&nbsp;Global Rate or Playback Rate
+        ### 19.12.2. Global Rate or Playback Rate
         <p>
             An increase or decrease in speed can be applied to a Cue Stack on a Playback or to active Cue Stacks using the Global Rate and
             Playback Rate in the Playback window. This affects both Chase speed and FX Speed. The manual fader can also be set to control
@@ -206,7 +206,7 @@ sidebar_position: 19
         <p>The Global Rate applies to all playbacks and can not be inhibited.</p>
     </div>
     <div class="section">
-        ### 19.12.3.&nbsp;FX Speed on Playback Fader
+        ### 19.12.3. FX Speed on Playback Fader
         <p>
             Individual control of speed of FX in a Cue Stack on a Playback can be put under the control of the playback fader using the
             Fader controls FX Size option.
@@ -217,7 +217,7 @@ sidebar_position: 19
         </p>
     </div>
     <div class="section">
-        ### 19.12.4.&nbsp;FX Speed Masters
+        ### 19.12.4. FX Speed Masters
         <p>
             A dedicated FX Speed Master can be set up to control the speed of a number of channels or a group of channels. When activated
             the FX Speed Master is always applied to those channels regardless on which Playback they are running and also affects those
@@ -233,7 +233,7 @@ sidebar_position: 19
         </p>
     </div>
     <div class="section">
-        ### 19.12.5.&nbsp;Speed Masters
+        ### 19.12.5. Speed Masters
         <p>
             A Speed Master is a generic speed that when activated is applied to multiple Cue Stacks overriding the programmed speed. It is
             an absolute speed which is normally set by Tap to Time. Each Cue Stack specifies which Speed Master it responds to - the default
@@ -304,23 +304,23 @@ sidebar_position: 19
                 <li class="listitem">From automations</li>
                 <li class="listitem">
                     Through Cue Stacks set with the Cue Stack, Function option
-                    <a class="link" href="advanced-cue-stack-options.html#cue-stack-speed-masters" title="18.11.&nbsp;Speed Masters">
+                    <a class="link" href="advanced-cue-stack-options.html#cue-stack-speed-masters" title="18.11. Speed Masters">
                         "Cue Stack is a Speed Master"
                     </a>
                 </li>
                 <li class="listitem">
                     Through a new Speed Master motorised bank
-                    <a class="link" href="motor.html#fader-modes" title="23.2.&nbsp;Fader modes">Fader Mode</a>
+                    <a class="link" href="motor.html#fader-modes" title="23.2. Fader modes">Fader Mode</a>
                     on the Stadium consoles
                 </li>
                 <li class="listitem">
                     Through the Execute Windows using ASSIGN SPECIAL (see
-                    <a class="link" href="execute.html#execute-speed-masters" title="21.20.7.&nbsp;Speed Masters">Execute Speed Masters</a>
+                    <a class="link" href="execute.html#execute-speed-masters" title="21.20.7. Speed Masters">Execute Speed Masters</a>
                     )
                 </li>
                 <li class="listitem">
                     Through the Playbacks, VIEW SPD MASTER view (see
-                    <a class="link" href="playback.html#playback-speed-masters" title="16.5.8.&nbsp;Speed Masters">
+                    <a class="link" href="playback.html#playback-speed-masters" title="16.5.8. Speed Masters">
                         Playback Speed Masters
                     </a>
                     )
@@ -409,7 +409,7 @@ sidebar_position: 19
     </div>
 </div>
 <div class="section">
-    ## 19.13.&nbsp;Busking Master
+    ## 19.13. Busking Master
     <p>
         It is possible in the Setup Window to set the manual crossfade fader to be a "busking rate" sub-master from 0 seconds to 10 seconds.
         The rate is shown in the bottom right of the Status Display. The time is applied to selection of palettes and intensities. When FAN
@@ -417,7 +417,7 @@ sidebar_position: 19
     </p>
 </div>
 <div class="section">
-    ## 19.14.&nbsp;Programmer Master
+    ## 19.14. Programmer Master
     <p>
         It is possible to make a Playback into a Programmer Master. Record an empty Cue onto a Playback and then set the Cue Stack option,
         Function, Programmer Master.
@@ -437,7 +437,7 @@ sidebar_position: 19
     <p>Currently only one Programmer Master can be active at a time.</p>
 </div>
 <div class="section">
-    ## 19.15.&nbsp;Live Macro
+    ## 19.15. Live Macro
     <p>
         From v1.9.2.3 MagicQ supports a feature to enable a "Live Macro" which can be used to preload playback changes before excuting them
         all at once with the BIG GO button.
@@ -478,7 +478,7 @@ sidebar_position: 19
     </p>
 </div>
 <div class="section">
-    ## 19.16.&nbsp;Prog Store
+    ## 19.16. Prog Store
     <p>
         The MagicQ Programmer supports a Prog Store for live operation (busking). This is a store of 12 Programmer states that can be
         quickly stored and recalled with single button presses. The levels, times and FX in the Programmer are all stored. The stores can be

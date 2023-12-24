@@ -4,7 +4,7 @@ title: Chapter 4. MagicQ Concepts
 sidebar_position: 4
 ---
 
-# Chapter&nbsp;4.&nbsp;MagicQ Concepts
+# Chapter 4. MagicQ Concepts
 <p>A system diagram of the console is shown in the diagram below</p>
 <p>
     <span class="inlinemediaobject">
@@ -17,7 +17,7 @@ sidebar_position: 4
     </ul>
 </div>
 <div class="section">
-    ## 4.1.&nbsp;Show Storage
+    ## 4.1. Show Storage
     <p>
         MagicQ stores show data in a single show file stored on the hard drive of the MagicQ console, PC or Mac. The show file contains all
         the show settings, patch, palettes, cues and cue stack data. It also stores copies of all the personalities that are used within the
@@ -38,7 +38,7 @@ sidebar_position: 4
     </p>
 </div>
 <div class="section">
-    ## 4.2.&nbsp;Output channels
+    ## 4.2. Output channels
     <p>Depending on the console, MagicQ software supports up to 256 universes output over Ethernet.</p>
     <p>
         This allows up to 131,072 channels of lighting to be controlled. Ethernet to DMX Interfaces are used to convert from Ethernet to
@@ -58,7 +58,7 @@ sidebar_position: 4
         requested from ChamSys. Users also have the ability to create the personality themselves in the inbuilt Head Editor.
     </p>
     <div class="section">
-        ### 4.2.1.&nbsp;HTP / LTP channels
+        ### 4.2.1. HTP / LTP channels
         <p>
             The console supports two types of channels, highest takes precedence (HTP) and latest takes precedence (LTP). Generally HTP
             channels are used for channels controlling dimmers and for the dimmer channel of intelligent heads. LTP channels are used for
@@ -138,7 +138,7 @@ sidebar_position: 4
     </div>
 </div>
 <div class="section">
-    ## 4.3.&nbsp;Cues
+    ## 4.3. Cues
     <p>The console stores lighting states as Cues – each Cue stores</p>
     <div class="itemizedlist">
         <ul class="itemizedlist">
@@ -166,7 +166,7 @@ sidebar_position: 4
     <p>Each Cue has a number (e.g. Q1) and an optional name.</p>
 </div>
 <div class="section">
-    ## 4.4.&nbsp;Cue Stacks
+    ## 4.4. Cue Stacks
     <p>
         Cue Stacks are used to manage sequences of Cues. Cue Stacks keep track of the order of the Cues and the options for how they are
         played back. A Cue Stack can have a single Cue associated with it or may have a whole list of Cues.
@@ -183,7 +183,7 @@ sidebar_position: 4
     <p>Each Cue Stack has a number (e.g. CS1) and an optional name.</p>
 </div>
 <div class="section">
-    ## 4.5.&nbsp;Playbacks
+    ## 4.5. Playbacks
     <p>
         The console enables playing of recorded show data through Playbacks. Playbacks are associated with physical faders and buttons –
         each Playback can have one Cue Stack assigned to it.
@@ -198,7 +198,7 @@ sidebar_position: 4
     </p>
 </div>
 <div class="section">
-    ## 4.6.&nbsp;Pages
+    ## 4.6. Pages
     <p>
         The console supports multiple pages of Playbacks enabling Playback faders to have different functions depending on the current page.
         Typically one page is used for each song in a show.
@@ -218,7 +218,7 @@ sidebar_position: 4
     </p>
 </div>
 <div class="section">
-    ## 4.7.&nbsp;FX
+    ## 4.7. FX
     <p>
         The console contains a powerful engine for creating special effects (FX). FX can be applied to a group of heads at the touch of a
         button; there is no need to program lots of different Cues to create the effect. Special effects can be easily modified live,
@@ -232,7 +232,7 @@ sidebar_position: 4
     </p>
 </div>
 <div class="section">
-    ## 4.8.&nbsp;Window Layouts
+    ## 4.8. Window Layouts
     <p>
         The console provides a means of storing the positions and sizes of Windows as a Window layout to enable easy recall of useful
         Windows. This enables, for example, a Window configuration consisting of the Group, Position, Colour and Beam Windows to be stored
@@ -254,7 +254,7 @@ sidebar_position: 4
     </p>
 </div>
 <div class="section">
-    ## 4.9.&nbsp;Shift Functions
+    ## 4.9. Shift Functions
     <p>
         The MagicQ lighting console uses SHIFT and CTRL buttons to enable access to advanced features. There is a SHIFT button and a CTRL
         button adjacent to the top corners of the touch screen in addition to the keys on the keyboard.
@@ -266,7 +266,7 @@ sidebar_position: 4
     </p>
 </div>
 <div class="section">
-    ## 4.10.&nbsp;The Programmer
+    ## 4.10. The Programmer
     <p>
         All recording of show data is carried out using the Programmer. The Programmer takes priority over all playbacks, and channels. It
         can also be used during live running to override the outputs – for example, for changing the colour or gobo of intelligent heads.
@@ -291,7 +291,7 @@ sidebar_position: 4
     </p>
 </div>
 <div class="section">
-    ## 4.11.&nbsp;Help
+    ## 4.11. Help
     <p>
         The Help Window enables the operating manual to be viewed on-line. Press the HELP button at any time to open the Help Window. To
         close the window, press the CLOSE button.

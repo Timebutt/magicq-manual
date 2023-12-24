@@ -4,9 +4,9 @@ title: Chapter 5. MagicQ Layout
 sidebar_position: 5
 ---
 
-# Chapter&nbsp;5.&nbsp;MagicQ Layout
+# Chapter 5. MagicQ Layout
 <div class="section">
-    ## 5.1.&nbsp;Physical layout
+    ## 5.1. Physical layout
     <p>
         All MagicQ consoles are very similar - they differ mainly in the number of playback faders. The programming interface is consistent
         across the entire range of consoles. MagicQ software on PC and Mac mimics the layout of the physical buttons on the MagicQ Consoles
@@ -20,7 +20,7 @@ sidebar_position: 5
         </span>
     </p>
     <div class="section">
-        ### 5.1.1.&nbsp;Touch Screen, Encoders &amp; Soft Buttons
+        ### 5.1.1. Touch Screen, Encoders &amp; Soft Buttons
         <p>There are 8 rotary encoders placed around the main touch screen.</p>
         <p>
             The buttons around the top and sides of the display referred to as soft buttons since their function changes according to the
@@ -45,7 +45,7 @@ sidebar_position: 5
         </p>
     </div>
     <div class="section">
-        ### 5.1.2.&nbsp;Main Windows
+        ### 5.1.2. Main Windows
         <p>
             The area in the centre of the screen is the windows section in which the various control windows are displayed. There are three
             main types of windows – boxes style windows which have large boxes such as the Group Window, spreadsheet style editing windows
@@ -72,7 +72,7 @@ sidebar_position: 5
         </p>
     </div>
     <div class="section">
-        ### 5.1.3.&nbsp;Layouts
+        ### 5.1.3. Layouts
         <p>Layouts specify a complete configuration of windows across one or more monitors.</p>
         <p>
             Layouts can be selected using the Layout buttons - to select the Palettes layout (Groups, Positions, Colours and Beams) press
@@ -102,7 +102,7 @@ sidebar_position: 5
         </p>
     </div>
     <div class="section">
-        ### 5.1.4.&nbsp;Active Window
+        ### 5.1.4. Active Window
         <p>
             When a window button is pressed, that window becomes the active window. The active window is on the top of the screen and is
             easily identified as the window with the highlighted title bar at the top. It is also the window with the cursor in it.
@@ -130,7 +130,7 @@ sidebar_position: 5
         <p>On PC/Mac the contents of a Window can be printed to a printer or pdf file by selecting File, Print Window from the toolbar.</p>
     </div>
     <div class="section">
-        ### 5.1.5.&nbsp;Window Sizing
+        ### 5.1.5. Window Sizing
         <p>
             MagicQ supports a Window Size dialogue box to enable the window position and window size to be selected directly with one press
             directly rather than stepping through all the possible window sizes and positions.
@@ -151,7 +151,7 @@ sidebar_position: 5
         <p>The windows sizes are positions are stored/recalled in Layouts and also in the show file.</p>
     </div>
     <div class="section">
-        ### 5.1.6.&nbsp;Support for Find in MagicQ windows
+        ### 5.1.6. Support for Find in MagicQ windows
         <p>MagicQ supports a Find function which searches the text fields in the current focused Window.</p>
         <p>
             On the toolbar select Edit, Find or press the short cut key CTRL F. Alternatively on consoles press CTRL and CURSOR RIGHT. Then
@@ -165,7 +165,7 @@ sidebar_position: 5
         </p>
     </div>
     <div class="section">
-        ### 5.1.7.&nbsp;Support for Cut and Paste in MagicQ windows
+        ### 5.1.7. Support for Cut and Paste in MagicQ windows
         <p>
             Cut and paste is supported within MagicQ windows and between different MagicQ windows. It can also be used on PC and Macs to
             copy between MagicQ and other applications, making an easy way to transfer data in and out of MagicQ.
@@ -175,7 +175,7 @@ sidebar_position: 5
         <p>Multiple cells can be cut and pasted at a time.</p>
     </div>
     <div class="section">
-        ### 5.1.8.&nbsp;Status and Display Windows
+        ### 5.1.8. Status and Display Windows
         <p>
             <span class="inlinemediaobject">
                 <img src="https://secure.chamsys.co.uk/help/documentation/magicq/images/commandentry.png" alt="image" />
@@ -212,7 +212,7 @@ sidebar_position: 5
         </p>
     </div>
     <div class="section">
-        ### 5.1.9.&nbsp;Head Control
+        ### 5.1.9. Head Control
         <p>
             The area around the two large rotary encoders is referred to as the head control area. It is used to alter the parameters of
             individual heads and apply effects such as fans over groups of heads.
@@ -226,7 +226,7 @@ sidebar_position: 5
         <p>The other buttons control the selection mode; LOCATE, HIGHLIGHT, FAN, SINGLE, ODD/EVEN, and ALL.</p>
     </div>
     <div class="section">
-        ### 5.1.10.&nbsp;Editor Buttons
+        ### 5.1.10. Editor Buttons
         <p>
             <span class="inlinemediaobject">
                 <img src="https://secure.chamsys.co.uk/help/documentation/magicq/images/editor.png" alt="image" />
@@ -243,7 +243,7 @@ sidebar_position: 5
         <p>←- undoes keyboard input and clears actions</p>
     </div>
     <div class="section">
-        ### 5.1.11.&nbsp;Playback
+        ### 5.1.11. Playback
         <p>
             The Playback area is situated directly below the touch screen and consists of 10 playbacks each with a fader and four buttons
             (FLASH, GO, STOP, SELECT). The area above each of the playbacks on the touch screen is used to provide information about the
@@ -266,7 +266,7 @@ sidebar_position: 5
     </div>
 </div>
 <div class="section">
-    ## 5.2.&nbsp;Keyboard, Keypad, Select &amp; Confirm Windows
+    ## 5.2. Keyboard, Keypad, Select &amp; Confirm Windows
     <p>
         MagicQ has a set of additional on-screen Windows that can be used to enter text, select items and confirm actions. You can choose
         whether you use the physical keyboard/keypad to navigate around these items or whether you use the mouse/touch.
@@ -278,14 +278,14 @@ sidebar_position: 5
     </p>
 </div>
 <div class="section">
-    ## 5.3.&nbsp;Common Actions
+    ## 5.3. Common Actions
     <p>
         MagicQ utilises many common actions for carrying out programming functions. All the actions use similar button presses. Once you
         understand the action in one Window, you will understand how it is done in another Window.
     </p>
     <p>We strongly recommend you make yourself familiar with these actions – they will save you valuable programming time.</p>
     <div class="section">
-        ### 5.3.1.&nbsp;Items
+        ### 5.3.1. Items
         <p>
             Actions in a Window can be carried out on individual items or on multiple items. For actions on a single item, use the cursor
             keys to move around the Window so that the cursor is over the required item.
@@ -305,7 +305,7 @@ sidebar_position: 5
         </p>
     </div>
     <div class="section">
-        ### 5.3.2.&nbsp;Setting the value of items
+        ### 5.3.2. Setting the value of items
         <p>To set the value of one or more items in a spreadsheet style window:</p>
         <div class="itemizedlist">
             <ul class="itemizedlist">
@@ -328,7 +328,7 @@ sidebar_position: 5
         <p>Items that are coloured darker are read only and therefore cannot be set.</p>
     </div>
     <div class="section">
-        ### 5.3.3.&nbsp;Naming items
+        ### 5.3.3. Naming items
         <div class="itemizedlist">
             <ul class="itemizedlist">
                 <li class="listitem">Press the SET button</li>
@@ -347,7 +347,7 @@ sidebar_position: 5
         <p>You can also press SET instead of pressing ENTER in the above sequences.</p>
     </div>
     <div class="section">
-        ### 5.3.4.&nbsp;Moving items
+        ### 5.3.4. Moving items
         <div class="itemizedlist">
             <ul class="itemizedlist">
                 <li class="listitem">Press the MOVE button.</li>
@@ -368,7 +368,7 @@ sidebar_position: 5
         <p>The MOVE button flashes when in Drag Move mode.</p>
     </div>
     <div class="section">
-        ### 5.3.5.&nbsp;Copying items
+        ### 5.3.5. Copying items
         <div class="itemizedlist">
             <ul class="itemizedlist">
                 <li class="listitem">Press the COPY button.</li>
@@ -389,7 +389,7 @@ sidebar_position: 5
         </p>
     </div>
     <div class="section">
-        ### 5.3.6.&nbsp;Removing items
+        ### 5.3.6. Removing items
         <div class="itemizedlist">
             <ul class="itemizedlist">
                 <li class="listitem">Press the REMOVE button.</li>
@@ -403,7 +403,7 @@ sidebar_position: 5
         <p>You can also press REMOVE instead of pressing ENTER in the above sequence.</p>
     </div>
     <div class="section">
-        ### 5.3.7.&nbsp;Recording items
+        ### 5.3.7. Recording items
         <p>In boxes style windows it is possible to record an item (e.g. in the Group Window, to record a group):</p>
         <div class="itemizedlist">
             <ul class="itemizedlist">
@@ -415,7 +415,7 @@ sidebar_position: 5
     </div>
 </div>
 <div class="section">
-    ## 5.4.&nbsp;Icons
+    ## 5.4. Icons
     <p>MagicQ supports icons for all programmed items. The size of the icons can be set in the Window Settings in the Setup Window.</p>
     <p>Icons can be used on Groups, Colours, Beams, Positions, Cues, Cue Stacks and in the Execute Window.</p>
     <p>
@@ -425,7 +425,7 @@ sidebar_position: 5
     </p>
     <p>Select the icon from the icon library.</p>
     <div class="section">
-        ### 5.4.1.&nbsp;Actions on Playbacks
+        ### 5.4.1. Actions on Playbacks
         <p>Actions on playbacks are similar to window items except that the S buttons are used instead of window items.</p>
         <p>To select a Playback, press the S button for the appropriate Playback.</p>
         <p>To record a Playback, press RECORD, then press the S button for the appropriate Playback.</p>

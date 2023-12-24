@@ -4,9 +4,9 @@ title: Chapter 7. Patching
 sidebar_position: 7
 ---
 
-# Chapter&nbsp;7.&nbsp;Patching
+# Chapter 7. Patching
 <div class="section">
-    ## 7.1.&nbsp;Patching on MagicQ
+    ## 7.1. Patching on MagicQ
     <p>
         MagicQ considers DMX and console channels to be the same and therefore there is no need for complex patching to be carried out
         before the console can be used. MagicQ allows access to all DMX channels on all DMX universes supported on the console. Each channel
@@ -18,7 +18,7 @@ sidebar_position: 7
     </p>
 </div>
 <div class="section">
-    ## 7.2.&nbsp;Getting started with patching
+    ## 7.2. Getting started with patching
     <p>
         MagicQ supports comprehensive patching facilities for allocating dimmers and intelligent heads to DMX channels. Patching can be
         carried out at any time and has an immediate effect.
@@ -30,7 +30,7 @@ sidebar_position: 7
     <p>VIEW VIS is used for setting up and modifying visualiser heads in the MagicVis visualiser.</p>
 </div>
 <div class="section">
-    ## 7.3.&nbsp;Patching a Head or Dimmer
+    ## 7.3. Patching a Head or Dimmer
     <p>
         MagicQ supports a large library of heads. MagicQ treats dimmers just like any other head - they just happen to have a single
         channel. Dimmers use the "Generic Dimmer" personality.
@@ -80,7 +80,7 @@ sidebar_position: 7
     <p>In this way you can modify DMX address, head number, head name and gel for each of your patched heads.</p>
 </div>
 <div class="section">
-    ## 7.4.&nbsp;Head Names and Head Numbers
+    ## 7.4. Head Names and Head Numbers
     <p>
         Press the VIEW HEADS soft button to check the heads you have patched, and to name and number them as you wish. In the Patch Window
         all the light coloured fields can be configured. To modify a field, first move the cursor to the field, then input the new value
@@ -96,7 +96,7 @@ sidebar_position: 7
         affects the order in the Intensities Window, the Programmer Window and the Group Window.
     </p>
     <div class="section">
-        ### 7.4.1.&nbsp;Head Names
+        ### 7.4.1. Head Names
         <p>
             Head names are used to identify the Dimmer or Head. We recommend that you set the head name based on its location (e.g. front
             wash / back truss SL). It is not necessary to name intelligent heads according to their product name (e.g. Mac500) as this is
@@ -109,7 +109,7 @@ sidebar_position: 7
         </p>
     </div>
     <div class="section">
-        ### 7.4.2.&nbsp;Head Numbers
+        ### 7.4.2. Head Numbers
         <p>
             Head numbers are used in various displays to indicate which heads are being operated on. Head numbers can also be used for
             selecting heads and setting intensities directly from the keypad.
@@ -131,7 +131,7 @@ sidebar_position: 7
         </p>
     </div>
     <div class="section">
-        ### 7.4.3.&nbsp;Renumbering Head Numbers
+        ### 7.4.3. Renumbering Head Numbers
         <p>
             Pressing RENUM HEAD NOS and selecting BEST FIT causes MagicQ to use an intelligent algorithm to allocate heads starting with
             numbers that you can easily recall. For example, if you patch 4 MAC500s and 4 HPEs then when you renumber using BEST FIT it will
@@ -148,7 +148,7 @@ sidebar_position: 7
         </p>
     </div>
     <div class="section">
-        ### 7.4.4.&nbsp;Patching to specific Head numbers
+        ### 7.4.4. Patching to specific Head numbers
         <p>It is possible to patch direct to a specific head number using the * operator.</p>
         <p>For example:</p>
         <p>10 @ 7 – 2 * 201</p>
@@ -156,7 +156,7 @@ sidebar_position: 7
     </div>
 </div>
 <div class="section">
-    ## 7.5.&nbsp;Gel name and number
+    ## 7.5. Gel name and number
     <p>
         For dimmers you may wish to configure the gel name or number. This makes programming easier – enabling MagicQ to auto program cues
         for you.
@@ -168,14 +168,14 @@ sidebar_position: 7
     </p>
 </div>
 <div class="section">
-    ## 7.6.&nbsp;Col Tags
+    ## 7.6. Col Tags
     <p>
         It is possible to assign a Col Tag to each head. Col Tags from the Patch are used in other windows if Setup, View Settings, Windows,
         Col tags is set to "Patch".
     </p>
 </div>
 <div class="section">
-    ## 7.7.&nbsp;Generating auto groups
+    ## 7.7. Generating auto groups
     <p>MagicQ automatically generates groups for each of the different heads patched – e.g. "All Dimmers", "All Mac500".</p>
     <p>
         MagicQ is also capable of generating groups based on gel colours and head names. Press the AUTO GROUPS soft button in the VIEW HEADS
@@ -192,7 +192,7 @@ sidebar_position: 7
     </p>
 </div>
 <div class="section">
-    ## 7.8.&nbsp;Auto Palettes
+    ## 7.8. Auto Palettes
     <p>
         When patching heads, MagicQ creates Palettes based on the Palettes stored in the Personality - typically the 10 basic colours.
         MagicQ also creates Palettes based on the main Gobo ranges for any Ranges in the Personality that have Auto Pal set. If the
@@ -210,7 +210,7 @@ sidebar_position: 7
     </p>
 </div>
 <div class="section">
-    ## 7.9.&nbsp;Heads with multiple elements
+    ## 7.9. Heads with multiple elements
     <p>
         MagicQ supports heads that have multiple attributes of one type – e.g. more than one dimmer or more than one red, green or blue
         channel.
@@ -225,7 +225,7 @@ sidebar_position: 7
         "Duplicated Heads" whilst the older way uses "Multi Elements Heads".
     </p>
     <div class="section">
-        ### 7.9.1.&nbsp;Duplicated Heads
+        ### 7.9.1. Duplicated Heads
         <p>Duplicated Heads treats the head as a single head but with attributes that appear multiple times in the personality.</p>
         <p>
             When using the head, the duplicated elements by default are treated as one element - so the 2nd, 3rd and 4th elements just copy
@@ -262,7 +262,7 @@ sidebar_position: 7
         </p>
     </div>
     <div class="section">
-        ### 7.9.2.&nbsp;Multi Element Heads
+        ### 7.9.2. Multi Element Heads
         <p>Multi Element Heads treats the head as multiple different heads each patched automatically to adjacent addresses.</p>
         <p>
             Multi element heads are patched in exactly the same way as normal heads, but MagicQ shows a * next to the DMX address to
@@ -289,7 +289,7 @@ sidebar_position: 7
     </div>
 </div>
 <div class="section">
-    ## 7.10.&nbsp;Inverting and Swapping
+    ## 7.10. Inverting and Swapping
     <p>
         In VIEW HEADS you can invert the pan and tilt channels of moving heads and also swap the pan and tilt channels. Pressing ENTER in
         the appropriate field changes the field value.
@@ -297,14 +297,14 @@ sidebar_position: 7
     <p>Individual channels can also be inverted in VIEW CHANS if required.</p>
 </div>
 <div class="section">
-    ## 7.11.&nbsp;Pan and Tilt Offsets
+    ## 7.11. Pan and Tilt Offsets
     <p>
         To add a Pan or Tilt offset then enter the offset in degrees in the Pan offset or Tilt offset in the Patch Window. The offset
         affects all programmed values.
     </p>
 </div>
 <div class="section">
-    ## 7.12.&nbsp;Applying Offsets using Update
+    ## 7.12. Applying Offsets using Update
     <p>MagicQ supports a quick method of applying an offset to channels such as a pan or tilt offset, or an offset on a colour scroll.</p>
     <p>
         To apply an offset, playback the Cues and then override only the parameters you wish to offset in the programmer. Then press the
@@ -317,7 +317,7 @@ sidebar_position: 7
     <p>The Patch window shows offsets applied to Pan and Tilt in the Pan Offset and Tilt Offset field.</p>
 </div>
 <div class="section">
-    ## 7.13.&nbsp;Minimum and Maximum levels
+    ## 7.13. Minimum and Maximum levels
     <p>
         You can set minimum and maximum levels for each patched channel from the VIEW CHANS view. This is useful for setting pre-heat on
         dimmers or for limiting output values of certain lamps where power is tight.
@@ -328,7 +328,7 @@ sidebar_position: 7
     </p>
     <p>Minimum levels can be useful to force a minimum light level on a stage, for example during a changeover.</p>
     <div class="section">
-        ### 7.13.1.&nbsp;Limits and Offset.
+        ### 7.13.1. Limits and Offset.
         <p>It is possible to set limits and offsets on channels using the Limit and Offset dimmer curves.</p>
         <p>
             Limit enables a maximum level to be set for the channel whilst retaining the normal linear dimming curve. When dimmer curve is
@@ -343,7 +343,7 @@ sidebar_position: 7
     </div>
 </div>
 <div class="section">
-    ## 7.14.&nbsp;Dimmer curves
+    ## 7.14. Dimmer curves
     <p>MagicQ supports 10 user dimmer curves that can be selected in the Patch Window, View Chans view.</p>
     <p>
         User dimmer curves are specified in files of format csv (comma separated variable) with filename dimmercurveuser1.csv,
@@ -374,7 +374,7 @@ sidebar_position: 7
     <p>Dimmer curve files are read on startup of MagicQ – so you will need to reset MagicQ for new curves to be loaded.</p>
 </div>
 <div class="section">
-    ## 7.15.&nbsp;Testing channels
+    ## 7.15. Testing channels
     <p>
         To test channels in VIEW CHANS press the TEST CHANS soft button to enter test mode. In this mode the channel which the cursor is on
         is set to the level configured on the TEST CHANS encoder. Use the cursor keys to move through different channels. Test mode remains
@@ -402,7 +402,7 @@ sidebar_position: 7
     </p>
 </div>
 <div class="section">
-    ## 7.16.&nbsp;Changing the DMX address of heads
+    ## 7.16. Changing the DMX address of heads
     <p>
         Heads (including Dimmers) can be moved to different DMX addresses as required. When they are moved all the programming and palettes
         associated with them also moves to the new channels. In Patch, VIEW HEADS simply edit the DMX field with a new address.
@@ -421,7 +421,7 @@ sidebar_position: 7
     </p>
 </div>
 <div class="section">
-    ## 7.17.&nbsp;Patching a Head to multiple DMX addresses
+    ## 7.17. Patching a Head to multiple DMX addresses
     <p>
         The View DMX view in the Patch Window enables multiple DMX channels to be easily assigned to one head. Up to 5 additional DMX
         channels can be set up for each Head in addition to the main DMX address. Remove additional channels by pressing REMOVE and
@@ -434,7 +434,7 @@ sidebar_position: 7
     </p>
 </div>
 <div class="section">
-    ## 7.18.&nbsp;Unpatching a Head from a DMX address
+    ## 7.18. Unpatching a Head from a DMX address
     <p>
         It is possible to "unpatch" a head – i.e. to remove the association between the programmed data and a DMX address. The programmed
         data for the head is maintained and the head can subsequently be patched to a new DMX address. To unpatch a head move the cursor to
@@ -442,7 +442,7 @@ sidebar_position: 7
     </p>
 </div>
 <div class="section">
-    ## 7.19.&nbsp;Patching scrollers
+    ## 7.19. Patching scrollers
     <p>
         There are two ways to patch scrollers – the first method is to patch the dimmer and scroller separately – then the dimmer and
         scroller will operate independently. Use the "generic dimmer" personality for the dimmer and the "generic scroller" personality for
@@ -467,10 +467,10 @@ sidebar_position: 7
     </p>
 </div>
 <div class="section">
-    ## 7.20.&nbsp;Editing Heads
+    ## 7.20. Editing Heads
     <p>
         You can modify the Head or create a new head in the
-        <a class="link" href="head-editor.html" title="Chapter&nbsp;27.&nbsp;Head Editor">Head Editor</a>
+        <a class="link" href="head-editor.html" title="Chapter 27. Head Editor">Head Editor</a>
         . Choose the head you wish to edit and then press the EDIT HEAD soft button.
     </p>
     <p>
@@ -483,7 +483,7 @@ sidebar_position: 7
     </p>
 </div>
 <div class="section">
-    ## 7.21.&nbsp;Cloning (Adding extra heads / dimmers to a programmed show)
+    ## 7.21. Cloning (Adding extra heads / dimmers to a programmed show)
     <p>
         Cloning enables a show programmed with a certain number of heads to be expanded to use more of the same head type without having to
         reprogram all of the show.
@@ -514,7 +514,7 @@ sidebar_position: 7
         the original FX. This function should be used with care when cloning multiple heads in order to avoid fragmenting the F X too much.
     </p>
     <div class="section">
-        ### 7.21.1.&nbsp;Copy Head Programming
+        ### 7.21.1. Copy Head Programming
         <p>
             If you patch new heads into a show, without cloning it is still possible to then copy programming from other heads to the new
             heads. To copy programmed data from one head to another press the SHIFT + COPY HEAD PRG soft button in the HEAD VIEW, then
@@ -538,7 +538,7 @@ sidebar_position: 7
         <p>Alternatively select Groups from within the Group window.</p>
     </div>
     <div class="section">
-        ### 7.21.2.&nbsp;Patch Channel Copy
+        ### 7.21.2. Patch Channel Copy
         <p>
             Another way to expand existing shows is to patch the new heads and dimmers but then in the Patch window to set a real time
             channel copy from another already programmed channel. The value of the channel will always be that of the already programmed
@@ -549,7 +549,7 @@ sidebar_position: 7
     </div>
 </div>
 <div class="section">
-    ## 7.22.&nbsp;Morphing Heads (Changing Head type)
+    ## 7.22. Morphing Heads (Changing Head type)
     <p>
         It is possible to morph one head type into another head type. The system will copy the programming from the old head type to the new
         head type. The system takes into account the different pan and tilt ranges of the heads when copying pan and tilt data.
@@ -573,7 +573,7 @@ sidebar_position: 7
     </p>
     <p>After morphing heads your groups, palettes, and cues will be updated to reflect the new head types.</p>
     <div class="section">
-        ### 7.22.1.&nbsp;Morphing multi element heads
+        ### 7.22.1. Morphing multi element heads
         <p>
             MagicQ supports full morphing between multi element heads to single element heads and from single element heads to multi element
             heads.
@@ -589,7 +589,7 @@ sidebar_position: 7
         </p>
     </div>
     <div class="section">
-        ### 7.22.2.&nbsp;Morphing Heads with virtual dimmers
+        ### 7.22.2. Morphing Heads with virtual dimmers
         <p>
             It is possible to morph between heads with inbuilt dimmers and heads with virtual dimmers. For example it is possible to morph a
             RGB head with an inbuilt dimmer to a RGB head with a virtual dimmer. It is also possible to morph back from a head with a
@@ -597,7 +597,7 @@ sidebar_position: 7
         </p>
     </div>
     <div class="section">
-        ### 7.22.3.&nbsp;Morphing between CMY and colour wheel Heads
+        ### 7.22.3. Morphing between CMY and colour wheel Heads
         <p>
             When morphing between heads with CMY/RGB and Colour Wheel to heads with only Colour Wheels, MagicQ now converts the CMY/RGB data
             to Col Wheel rather than trying to map between the Colour Wheels. This ensures that shows programmed with Cues using RGB
@@ -611,7 +611,7 @@ sidebar_position: 7
     </div>
 </div>
 <div class="section">
-    ## 7.23.&nbsp;Importing Heads
+    ## 7.23. Importing Heads
     <p>
         A quick way of patching heads is to import the heads from a file. MagicQ supports comma separated variable files (.csv) which can be
         from Visualisers like WYSIWYG and VectorWorks or generated manually from spread sheets and text editors.
@@ -686,7 +686,7 @@ sidebar_position: 7
         mapped in the device manager.
     </p>
     <div class="section">
-        ### 7.23.1.&nbsp;Supported column headings
+        ### 7.23.1. Supported column headings
         <p>
             MagicQ supports a large number of column headings and will attempt to detect the contents of the file - e.g. whether it has come
             from a specific Visualiser such as Capture, WYSIWYG, VectorWorks, or whether it is just a head list.
@@ -815,7 +815,7 @@ sidebar_position: 7
         </p>
     </div>
     <div class="section">
-        ### 7.23.2.&nbsp;WYSIWYG
+        ### 7.23.2. WYSIWYG
         <p>WYSIWYG R38 can export the positions and rotations of fixtures so that they can be viewed in MagicVis.</p>
         <p>
             The columns "# of Data Channels" and "Fixture Options" or the columns "Hookup" and "Circuit Name" must be present for MagicQ to
@@ -848,7 +848,7 @@ sidebar_position: 7
         <p>MagicQ will automatically swap Y/Z positions and rotations when importing WYSIWYG files.</p>
     </div>
     <div class="section">
-        ### 7.23.3.&nbsp;VectorWorks
+        ### 7.23.3. VectorWorks
         <p>VectorWorks can output csv files with all the fixture parameters.</p>
         <p>
             The columns "Channel" and "Symbol Name" or "Vertical Focus Angle" must be present for MagicQ to detect it as a VectorWorks file
@@ -998,7 +998,7 @@ sidebar_position: 7
         </div>
     </div>
     <div class="section">
-        ### 7.23.4.&nbsp;Depence
+        ### 7.23.4. Depence
         <p>It is possible to export fixtrue patch and XYZ from Depence and import them into MagicQ via csv format file.</p>
         <p>
             The columns "Position on Stage" and "Fixture Library Revision" must be present for MagicQ to detect it as a Depence file and
@@ -1007,7 +1007,7 @@ sidebar_position: 7
         </p>
     </div>
     <div class="section">
-        ### 7.23.5.&nbsp;Creating a head list
+        ### 7.23.5. Creating a head list
         <p>To create a CSV file from Excel use Save As,Other Format, Comma Separated Variable (.csv).</p>
         <p>
             The first row of the file indicates which columns are present in the file. The next rows of the file contain the data for each
@@ -1023,7 +1023,7 @@ sidebar_position: 7
     </div>
 </div>
 <div class="section">
-    ## 7.24.&nbsp;Exporting Heads
+    ## 7.24. Exporting Heads
     <p>
         MagicQ can export the contents of any window to CSV format and includes options to select which fields are exported. To export the
         Patch this way open the Patch Window, View Heads and from the toolbar select File and Print Window, select the required fields and
@@ -1036,7 +1036,7 @@ sidebar_position: 7
     </p>
 </div>
 <div class="section">
-    ## 7.25.&nbsp;VL5 type channels (split personalities)
+    ## 7.25. VL5 type channels (split personalities)
     <p>
         MagicQ supports heads such as the Vari-lite VL5
         <sup>TM</sup>
@@ -1065,7 +1065,7 @@ sidebar_position: 7
     </p>
 </div>
 <div class="section">
-    ## 7.26.&nbsp;Merging with DMX input
+    ## 7.26. Merging with DMX input
     <p>
         MagicQ supports comprehensive merging of data from each of the input and output universes. Any output channel can be set to output
         data from any received input channel, or to merge the two.
@@ -1098,7 +1098,7 @@ sidebar_position: 7
     </p>
 </div>
 <div class="section">
-    ## 7.27.&nbsp;Customising Locate, Default, Highlight and Lowlight values
+    ## 7.27. Customising Locate, Default, Highlight and Lowlight values
     <p>MagicQ allows the user to define the Locate, Default, Highlight and Lowlight values for each attribute of each patched heads.</p>
     <p>
         The Locate values are the values that are used when the Locate button is pressed. The Default values are the values that are output
@@ -1139,7 +1139,7 @@ sidebar_position: 7
     </p>
 </div>
 <div class="section">
-    ## 7.28.&nbsp;Theatre Patch syntax
+    ## 7.28. Theatre Patch syntax
     <p>
         MagicQ supports a Theatre Patch option which changes the syntax used for patching to simplify patching (and re-patching) of large
         numbers of dimmers.
@@ -1151,7 +1151,7 @@ sidebar_position: 7
     <p>10 @ 2 – 5 will patch head number 10 to Universe 2 channel 5.</p>
 </div>
 <div class="section">
-    ## 7.29.&nbsp;Virtual Dimmers
+    ## 7.29. Virtual Dimmers
     <p>
         MagicQ enables LED and other heads with colour mixing but no dimmer channel to have an associated virtual dimmer. This allows the
         LED heads to be used as simple RGB heads with a dimmer. This development does not affect the internal pixel mapping (Bitmap FX)
@@ -1184,7 +1184,7 @@ sidebar_position: 7
     </p>
     <p>To always add virtual dimmers when patching set Auto VDIMs to on using Patch soft button E.</p>
     <div class="section">
-        ### 7.29.1.&nbsp;Quickly adding Virtual Dimmers to patched heads
+        ### 7.29.1. Quickly adding Virtual Dimmers to patched heads
         <p>
             It is possible to add virtual dimmers to a head in the Patch, View Heads view using a single action. Place the cursor on the
             head you wish to add a virtual dimmer for and then press SHIFT and ADD VDIM. You can use SHIFT or CTRL + the cursor keys to
@@ -1206,7 +1206,7 @@ sidebar_position: 7
         <p>Virtual dimmers can be removed from a head by pressing SHIFT and REMOVE VDIM.</p>
     </div>
     <div class="section">
-        ### 7.29.2.&nbsp;Heads always with virtual dimmers
+        ### 7.29.2. Heads always with virtual dimmers
         <p>
             It is possible to make heads that automatically patch a virtual dimmer. In the Head Editor, View General, Options there is an
             option "Virtual Dim". If this is set to "yes" and the head has no dimmer then a virtual dimmer is automatically patched for this
@@ -1217,7 +1217,7 @@ sidebar_position: 7
     </div>
 </div>
 <div class="section">
-    ## 7.30.&nbsp;Patch Head Filtering
+    ## 7.30. Patch Head Filtering
     <p>
         In Patch, Choose Head it is possible to filter personalities by type, making it easier to find the personalities required. Filter
         options include All, Patched, Live, Club, Film/TV and User.
@@ -1243,7 +1243,7 @@ sidebar_position: 7
     </p>
     <p>&lt;manufacturer&gt; , &lt;short name&gt; , &lt;mode&gt;</p>
     <div class="section">
-        ### 7.30.1.&nbsp;Duplicated elements operating independently
+        ### 7.30.1. Duplicated elements operating independently
         <p>
             Duplicated heads can operate in a Duplicated or Independent Mode in the Patch, View Heads view - scroll to the right to find the
             "Independent" column. This is useful when you wish to record different elements into different playbacks and mix them together -

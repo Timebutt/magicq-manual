@@ -4,7 +4,7 @@ title: Chapter 15. Cue Stacks
 sidebar_position: 15
 ---
 
-# Chapter&nbsp;15.&nbsp;Cue Stacks
+# Chapter 15. Cue Stacks
 <p>
     MagicQ stores sequence of Cues as Cue Stacks. Cue Stacks keep track of the order of the cues and the options for how they are played
     back. A Cue Stack may have only one Cue associated with it or may have a whole list of Cues.
@@ -23,7 +23,7 @@ sidebar_position: 15
     the SELECT button of the Playback.
 </p>
 <div class="section">
-    ## 15.1.&nbsp;Cue Stack Window
+    ## 15.1. Cue Stack Window
     <p>
         The Cue Stack Window shows details of all the Cues in the Cue Stack including their names, numbers and timing information. The
         fields can be edited in a similar way to the Prog Window and Patch Windows.
@@ -55,7 +55,7 @@ sidebar_position: 15
     </p>
 </div>
 <div class="section">
-    ## 15.2.&nbsp;Chase Timing
+    ## 15.2. Chase Timing
     <p>
         When you record more than one Cue onto a Cue Stack, the Cue Stack behaviour kicks in to control the transition from one Cue to
         another. By default the Cue Stack operates like a chase - i.e. each Cue is executed in turn, with timing being handled by a Chase
@@ -71,7 +71,7 @@ sidebar_position: 15
     </p>
 </div>
 <div class="section">
-    ## 15.3.&nbsp;Cue Timing
+    ## 15.3. Cue Timing
     <p>
         When using Cue Timing, the timing of each cue is determined by individual Wait, Delay and Fade times for each Cue in the Cue Stack.
         The MagicQ can execute multiple Cues at one time - for example a Cue Stack could have one Cue that fades in MAC500s in green whilst
@@ -88,7 +88,7 @@ sidebar_position: 15
     </p>
     <p>The Next Cue for the last Cue in the Cue Stack defaults to being the first Cue in the Cue Stack.</p>
     <div class="section">
-        ### 15.3.1.&nbsp;Cue Timing Example
+        ### 15.3.1. Cue Timing Example
         <p>
             To illustrate the above Cue Timing consider a Cue Stack with three Cues. When the Cue Stack starts executing it executes the
             first Cue using its Delay and Fade times.
@@ -127,7 +127,7 @@ sidebar_position: 15
         </p>
     </div>
     <div class="section">
-        ### 15.3.2.&nbsp;The Halt field
+        ### 15.3.2. The Halt field
         <p>
             This field determines whether MagicQ waits for the user to press GO before executing the next Cue. It can also be use to setup
             Cue triggers from the remote interface, Scheduled events or timecode.
@@ -142,7 +142,7 @@ sidebar_position: 15
         </p>
     </div>
     <div class="section">
-        ### 15.3.3.&nbsp;Cue Delay and Fade times
+        ### 15.3.3. Cue Delay and Fade times
         <p>
             The Delay and Fade times shown in the Cue Stack Window are properties of the Cue whilst the Wait time is a property of the Cue
             Stack. Modifying the Delay and Fade times of the Cue may affect other Cue Stacks that use the Cue.
@@ -181,7 +181,7 @@ sidebar_position: 15
     </div>
 </div>
 <div class="section">
-    ## 15.4.&nbsp;Tracking
+    ## 15.4. Tracking
     <p>
         By default, MagicQ works in a similar way to traditional lighting consoles, in that what is in the programmer is recorded into the
         Cue. This is a "no nonsense" mode where you get what you expect recorded into your Cues.
@@ -209,7 +209,7 @@ sidebar_position: 15
         unfamiliar with tracking use MagicQ in its default, "non tracking" mode.
     </p>
     <div class="section">
-        ### 15.4.1.&nbsp;Tracking on MagicQ
+        ### 15.4.1. Tracking on MagicQ
         <p>
             The easiest way to change between tracking and non tracking is to change the "Programming Mode" by pressing soft button B in the
             Setup Window and choosing one of the modes. For non tracking select Live (Chase) or Theatre Non Tracking. All other modes are
@@ -268,7 +268,7 @@ sidebar_position: 15
         </p>
     </div>
     <div class="section">
-        ### 15.4.2.&nbsp;Viewing Cue Data and Tracking Data
+        ### 15.4.2. Viewing Cue Data and Tracking Data
         <p>
             The Cue Window shows the Cue data for the current Cue on the selected Playback. The Cue Window, has three views, View Levels,
             View Times and View FX just like the Programmer Window.
@@ -295,7 +295,7 @@ sidebar_position: 15
         </p>
     </div>
     <div class="section">
-        ### 15.4.3.&nbsp;Tracking out FX
+        ### 15.4.3. Tracking out FX
         <p>All FX can be tracked out using the Cue Track field in the Cue Stack - remove the "F" from the Cue Track field.</p>
         <p>
             FX in Cues can be tracked out by setting them as "Track Out" - page right to the "Track Out" field in the Cue, View FX and
@@ -319,7 +319,7 @@ sidebar_position: 15
         <p>Track Out will work for both normal FX and Group FX.</p>
     </div>
     <div class="section">
-        ### 15.4.4.&nbsp;Copying Cues in tracking mode
+        ### 15.4.4. Copying Cues in tracking mode
         <p>
             When in tracking mode, performing an unlinked copy of a Cue in a Cue Stack now copies the entire state of the Cue, not just the
             specific cue values. When copying multiple Cues from one Cue Stack to another Cue Stack, the first Cue will be copied entire
@@ -332,7 +332,7 @@ sidebar_position: 15
         </p>
     </div>
     <div class="section">
-        ### 15.4.5.&nbsp;Blocking / Unblocking Cues
+        ### 15.4.5. Blocking / Unblocking Cues
         <p>It is possible to block and unblock Cues from the Cue Stack Window and from the Cue Window through soft buttons.</p>
         <p>
             Blocking a Cue has the effect of adding to that Cue all the state information that would track through into that Cue if the Cue
@@ -352,7 +352,7 @@ sidebar_position: 15
     </div>
 </div>
 <div class="section">
-    ## 15.5.&nbsp;Cue Only
+    ## 15.5. Cue Only
     <p>
         The "Cue Only" function in the Cue Stack Window can be used to mark a Cue as a temporary change to the lighting state before
         continuing the tracked state from the following Cue. The Cue Only field is on the right hand side of the Cue Stack Window (page
@@ -369,7 +369,7 @@ sidebar_position: 15
     </p>
 </div>
 <div class="section">
-    ## 15.6.&nbsp;Mark Cues
+    ## 15.6. Mark Cues
     <p>
         Mark Cues are special cues that are used to pre-load LTP values before the following Cue is executed thus ensuring that, for
         instance, moving heads are in the correct position before the Cue executes. Note that Mark Cues only take effect if the
@@ -397,7 +397,7 @@ sidebar_position: 15
     </p>
 </div>
 <div class="section">
-    ## 15.7.&nbsp;The Cue Store and Cue Stack Store
+    ## 15.7. The Cue Store and Cue Stack Store
     <p>
         MagicQ stores Cues and Cue Stacks in the Cue Store and Cue Stack Store respectively. Since you can program Cues and Cue Stacks
         directly onto playbacks, it is possible to program complete shows without referring to the Cue Store or the Cue Stack Store.
@@ -407,7 +407,7 @@ sidebar_position: 15
         assign them to playbacks later, e.g. during a technical rehearsal.
     </p>
     <div class="section">
-        ### 15.7.1.&nbsp;Cue Store
+        ### 15.7.1. Cue Store
         <p>
             To record a Cue into the Cue Store simply set up the required look in the programmer, open the Cue Store Window, press RECORD
             and press an empty Cue in the Cue Store Window.
@@ -431,7 +431,7 @@ sidebar_position: 15
         </p>
     </div>
     <div class="section">
-        ### 15.7.2.&nbsp;Stack Store
+        ### 15.7.2. Stack Store
         <p>
             To record a Cue into a Cue Stack in the Cue Stack Store Window set up the look as above, open the Cue Store Window, press RECORD
             and press the Cue Stack you wish to record the Cue into. If the Cue stack is empty then a new Cue Stack will be generated.
@@ -473,7 +473,7 @@ sidebar_position: 15
     </div>
 </div>
 <div class="section">
-    ## 15.8.&nbsp;Assigning Cues and Cue Stacks
+    ## 15.8. Assigning Cues and Cue Stacks
     <p>Cues and Cue Stacks can be assigned to Playbacks at any time.</p>
     <p>
         To assign a Cue, open the Cue Store Window, press the MOVE button, select a Cue, and then select a playback to assign the Cue to.
@@ -490,7 +490,7 @@ sidebar_position: 15
     </p>
 </div>
 <div class="section">
-    ## 15.9.&nbsp;Copying and Moving Cues
+    ## 15.9. Copying and Moving Cues
     <p>
         Cues can be copied and moved within a Cue Stack using the standard move and copy procedures. For example, to move a cue, press COPY,
         select the source, then select the destination. To copy multiple cues, press and hold COPY, select multiple entries, release COPY
@@ -519,7 +519,7 @@ sidebar_position: 15
     <p>A copy options toolbar can be enabled from Setup, View Settings, Windows, Always Show Record Options = Yes.</p>
 </div>
 <div class="section">
-    ## 15.10.&nbsp;Linked Cues
+    ## 15.10. Linked Cues
     <p>
         Cues that are used more than once in a Cue Stack or that are used in more than one Cue Stack are called Linked Cues. If you edit a
         linked cue it will affect all places where the Cue is used. The Cue Store Window shows where each cue is used.
@@ -547,7 +547,7 @@ sidebar_position: 15
     </p>
 </div>
 <div class="section">
-    ## 15.11.&nbsp;Copying Cue Stacks
+    ## 15.11. Copying Cue Stacks
     <p>When Copying Cue Stacks MagicQ will create a new Cue Stack, but will only create new Cues when COPY UNLINKED is used.</p>
     <p>When copying Cue Stacks unlinked MagicQ takes into account linked Cues in the source Cue Stack.</p>
     <p>
@@ -555,7 +555,7 @@ sidebar_position: 15
         linked within the Source Cue Stack are copied to a new Cue, but all of these Cues in the new Cue Stack are Linked together.
     </p>
     <div class="section">
-        ### 15.11.1.&nbsp;Selective copying of Cue Stacks
+        ### 15.11.1. Selective copying of Cue Stacks
         <p>
             MagicQ supports the SELECTED ONLY option when copying Cues and Cue Stacks. Only the selected heads from the source Cues and Cue
             Stacks will be copied. If none of the selected heads are in a source Cue then an empty Cue will be generated.
@@ -563,7 +563,7 @@ sidebar_position: 15
         <p>The Cues in Cue Stacks created using copying SELECTED ONLY will always be unlinked.</p>
     </div>
     <div class="section">
-        ### 15.11.2.&nbsp;Creating a new Cue Stack for different heads
+        ### 15.11.2. Creating a new Cue Stack for different heads
         <p>MagicQ can create a Cue Stack based on an old Cue Stack but using different heads.</p>
         <p>
             Press SHIFT + COPY and select the COPY TO SEL option. This creates a new Cue Stack with identical Cues to the original Cue Stack
@@ -584,7 +584,7 @@ sidebar_position: 15
     </div>
 </div>
 <div class="section">
-    ## 15.12.&nbsp;Removing Cues and Cue Stacks
+    ## 15.12. Removing Cues and Cue Stacks
     <p>
         Cues can be removed from a Cue Stack by opening the Cue Stack window, then pressing REMOVE and selecting the Cue you wish to remove
         by pressing in the "Status or Cue Id" field.
@@ -600,7 +600,7 @@ sidebar_position: 15
     </p>
 </div>
 <div class="section">
-    ## 15.13.&nbsp;Cue Stack Defaults
+    ## 15.13. Cue Stack Defaults
     <p>The default operation of Cue Stacks can be modified in the Defaults view of the Cue Stack Window.</p>
     <p>
         Defaults can be configured for all of the Cue Stack options including operation of the faders and buttons, chase defaults and the
@@ -617,7 +617,7 @@ sidebar_position: 15
     </p>
 </div>
 <div class="section">
-    ## 15.14.&nbsp;Col Tags
+    ## 15.14. Col Tags
     <p>
         MagicQ supports Col Tags on each of the Cue Stacks. Set Col Tags in the Cue Stack, Options, Function. When a Col Tag is set for a
         Cue Stack then that Col Tag is shown in the Playback legend above the Playback faders and buttons.
@@ -628,7 +628,7 @@ sidebar_position: 15
     </p>
 </div>
 <div class="section">
-    ## 15.15.&nbsp;Cue Stack Favourites
+    ## 15.15. Cue Stack Favourites
     <p>Cue Stack Favourites provide a way to quickly apply favourite settings to different types of Cue Stacks.</p>
     <p>Cue Stack Favourites include:</p>
     <div class="itemizedlist">
@@ -660,7 +660,7 @@ sidebar_position: 15
     </p>
 </div>
 <div class="section">
-    ## 15.16.&nbsp;Audio in Cue Stacks
+    ## 15.16. Audio in Cue Stacks
     <p>
         MagicQ supports two methods of playing back audio files from a Cue Stack. The first is allocating a single audio file to a Cue
         Stack, which is started when the Cue Stack is activated and stops when the Cue Stack is released. This is good for if you have a
@@ -679,7 +679,7 @@ sidebar_position: 15
         gives a visual timeline of the audio file and Cue Stack information to allow Cue Stacks to be programmed along a visual timeline.
     </p>
     <div class="section">
-        ### 15.16.1.&nbsp;Audio Cue Stack
+        ### 15.16.1. Audio Cue Stack
         <p>
             To specify an audio file to play when a Cue Stack is activated, goto the Cue Stack options, select the Audio tab, and then
             select your track in the "Audio file" setting.
@@ -696,7 +696,7 @@ sidebar_position: 15
         </p>
     </div>
     <div class="section">
-        ### 15.16.2.&nbsp;Audio FX Cues
+        ### 15.16.2. Audio FX Cues
         <p>MagicQ supports playback of audio files triggered from Cues within Cue Stacks.</p>
         <p>Use the "Audio" column in the Cue Stack window to specify the audio file to play when the corresponding Cue is triggered.</p>
         <p>
@@ -806,7 +806,7 @@ sidebar_position: 15
         </div>
     </div>
     <div class="section">
-        ### 15.16.3.&nbsp;Audio Formats
+        ### 15.16.3. Audio Formats
         <p>
             MagicQ will decode a variety of both lossy and lossless audio file formats. This includes .wav, .ogg, .flac, .alac, .mp3 and
             .aac. When using .wav files, only 8 and 16 bit formats are supported. It will accept both mono and stereo formats and sample
@@ -814,7 +814,7 @@ sidebar_position: 15
         </p>
     </div>
     <div class="section">
-        ### 15.16.4.&nbsp;Audio Volume
+        ### 15.16.4. Audio Volume
         <p>
             Audio files will initially play back at 100% volume from their files unless overridden by the audio field above. The master
             output volume from MagicQ can be configured in Setup, View Settings, Ports, Audio output volume.
@@ -827,7 +827,7 @@ sidebar_position: 15
     </div>
 </div>
 <div class="section">
-    ## 15.17.&nbsp;Cue Stack Macros
+    ## 15.17. Cue Stack Macros
     <p>
         Cue Stack macros enable control over other Cue Stacks from within Cue Stacks such as activation, release, go, stop, and setting
         level of other Cue Stacks. Macros are typed into the Macro field in the Cue Stack window (scroll to the right). Macros can affect
@@ -1100,7 +1100,7 @@ sidebar_position: 15
         the current selected playback when executed from the command line.
     </p>
     <div class="section">
-        ### 15.17.1.&nbsp;Controlling Speed Masters
+        ### 15.17.1. Controlling Speed Masters
         <p>Use the H10 Cue Stack macro to control the Speed Master.</p>
         <p>H10,&lt;Speed Master ID&gt;,&lt;Command&gt;,&lt;Parameter&gt;</p>
         <div class="informaltable">
@@ -1207,7 +1207,7 @@ sidebar_position: 15
     </div>
 </div>
 <div class="section">
-    ## 15.18.&nbsp;Timecode Cue Stacks
+    ## 15.18. Timecode Cue Stacks
     <p>
         MagicQ supports execution of the Cues in a Cue Stack according to timecode - either generated internally, or received externally
         from other devices.
@@ -1253,11 +1253,11 @@ sidebar_position: 15
     <p>If the Cue Stack has an audio file associated with it, then the audio playback will follow the timecode value for the Cue Stack.</p>
     <p>
         See
-        <a class="link" href="timecode.html" title="Chapter&nbsp;41.&nbsp;Timecode Support">Timecode Support</a>
+        <a class="link" href="timecode.html" title="Chapter 41. Timecode Support">Timecode Support</a>
         for how to set up external timecode on the console.
     </p>
     <div class="section">
-        ### 15.18.1.&nbsp;Editing timecode
+        ### 15.18.1. Editing timecode
         <p>
             Timecode values can be edited individually and can be set in the format 0/0/0.00. The + and – operators can be used to add or
             subtract times to the timecode times for one or more cues. This is useful for changing the absolute times of a Cue Stack whilst
@@ -1271,7 +1271,7 @@ sidebar_position: 15
         </p>
     </div>
     <div class="section">
-        ### 15.18.2.&nbsp;Learn Timing
+        ### 15.18.2. Learn Timing
         <p>
             It is possible for the console to learn the timing live. Set the steps in the Cue Stack to timecode. Then release the Cue Stack,
             and in the Cue Stack window, press SHIFT and RECORD TC.
@@ -1283,7 +1283,7 @@ sidebar_position: 15
         </p>
     </div>
     <div class="section">
-        ### 15.18.3.&nbsp;Testing timecode
+        ### 15.18.3. Testing timecode
         <p>
             When a Cue Stack has some steps set to timecode the Cue Stack Window shows the timecode simulator / internal timecode on soft
             buttons X and Y.
@@ -1307,7 +1307,7 @@ sidebar_position: 15
         </p>
     </div>
     <div class="section">
-        ### 15.18.4.&nbsp;External timecode
+        ### 15.18.4. External timecode
         <p>
             A Cue Stack on a Playback will only run external timecode steps when it is active - it will not activate by itself. Either
             manually activate the playback before the external timecode is started or use an Autom event to set a Playback to activate when
@@ -1330,7 +1330,7 @@ sidebar_position: 15
         </p>
     </div>
     <div class="section">
-        ### 15.18.5.&nbsp;Timecode offset
+        ### 15.18.5. Timecode offset
         <p>
             MagicQ supports a timecode offset field for each Cue Stack. This can be used to add a positive or negative timecode offset to
             all timecode values within a Cue Stack including all TC Tracks associated with that Cue Stack. For example if the Cues in the
@@ -1347,7 +1347,7 @@ sidebar_position: 15
         </p>
     </div>
     <div class="section">
-        ### 15.18.6.&nbsp;Automatic activation and release of Playbacks
+        ### 15.18.6. Automatic activation and release of Playbacks
         <p>
             MagicQ supports an option to automatically activate and release Playbacks according to the current received timecode. To use
             this feature set Setup, View Settings, MIDI &amp; Timecode, Timcode activate/release to either Act/Rel TC Playbacks or Act/Rel
@@ -1357,7 +1357,7 @@ sidebar_position: 15
         <p>Note that when this option is enabled, Playbacks that are in the range of the incoming timecode can not be released.</p>
     </div>
     <div class="section">
-        ### 15.18.7.&nbsp;Internal timecode
+        ### 15.18.7. Internal timecode
         <p>Cue Stacks set to Internal timecode start the internal timecode from 0 when the Cue Stack is activated.</p>
         <p>
             There is support for setting the internal timecode from within a Cue Stack using the macro command ‘I’. To reset the internal
@@ -1366,7 +1366,7 @@ sidebar_position: 15
         <p>Note when using internal timecode MagicQ uses seconds as the unit of measure rather than timecode frames.</p>
     </div>
     <div class="section">
-        ### 15.18.8.&nbsp;Enabling / Disabling Timecode
+        ### 15.18.8. Enabling / Disabling Timecode
         <p>
             It is possible to turn timecode decode on and off for a Cue Stack using soft button A in the Cue Stack Window. When timecode is
             turned off the Cue Stack will not execute timecode Cues.
@@ -1375,7 +1375,7 @@ sidebar_position: 15
     </div>
 </div>
 <div class="section">
-    ## 15.19.&nbsp;Cue Stack timecode tracks
+    ## 15.19. Cue Stack timecode tracks
     <p>
         MagicQ supports up to 10 timecode tracks (TC Tracks) linked to each Cue Stack. A timecode track allows a sequence of button
         presses/fader movement events to be associated with the playback of a Cue Stack. This is useful where a main Cue Stack is used to
@@ -1416,7 +1416,7 @@ sidebar_position: 15
     </p>
 </div>
 <div class="section">
-    ## 15.20.&nbsp;Importing timecode timings
+    ## 15.20. Importing timecode timings
     <p>
         MagicQ supports importing timecode values from .CSV files which can be exported from software such as InqScribe and Reaper. In Cue
         Stack, View TC View select the IMPORT TC TIMINGS soft button.
@@ -1460,7 +1460,7 @@ sidebar_position: 15
     </p>
 </div>
 <div class="section">
-    ## 15.21.&nbsp;Timeline
+    ## 15.21. Timeline
     <p>
         The Timeline Window provides alternative views into the Cue Stack and enables editing of Cues and TC Tracks events in a track sheet
         or visual timeline form. There are three views in Time line window; VIEW SHEET, VIEW CUELINE and VIEW EDITOR.
@@ -1497,7 +1497,7 @@ sidebar_position: 15
     </p>
     <p>To keep the playhead centred you can turn on the "Center Playhead" option found on the horizontal scroll encoder Y soft button.</p>
     <div class="section">
-        ### 15.21.1.&nbsp;View Sheet
+        ### 15.21.1. View Sheet
         <p>
             Press View Track Sheet to view the track sheet. The Track Sheet shows the data for the Cues for the Cue Stack on the currently
             selected Playback.
@@ -1537,7 +1537,7 @@ sidebar_position: 15
         <p>Use SHIFT and BLOCK CUE and SHIFT and UNBLOCK CUE to block and unblock Cues in the Track Sheet.</p>
     </div>
     <div class="section">
-        ### 15.21.2.&nbsp;View Cueline
+        ### 15.21.2. View Cueline
         <p>
             The Cueline is the original MagicQ timeline which enables viewing of a Cue Stack horizontally as a timeline. This view only
             shows Cues within the Cue Stack, not TC Track Events and there is only very limited editing supported.
@@ -1557,7 +1557,7 @@ sidebar_position: 15
     </div>
 </div>
 <div class="section">
-    ## 15.22.&nbsp;View Editor
+    ## 15.22. View Editor
     <p>
         The Timeline Editor is designed to allow you to lay out Cues in a Timecoded Cue Stack on a traditional timeline based view. It
         visualises audio tracks, timecode values, and both Cue and Timecode Track events in rows to allow you to visually see and modify the
@@ -1620,18 +1620,18 @@ sidebar_position: 15
     </p>
 </div>
 <div class="section">
-    ## 15.23.&nbsp;View Cue Stack
+    ## 15.23. View Cue Stack
     <p>
         Pressing "VIEW CUE STACK" will switch you over to the "CUE STACK" window, if you then press "VIEW TC" you see the "VIEW TIMELINE"
         button. You can switch back and forth between these views using these options with ease.
     </p>
 </div>
 <div class="section">
-    ## 15.24.&nbsp;View Marker Options
+    ## 15.24. View Marker Options
     <p>All the markers can be moved, copied and removed using COPY, MOVE and REMOVE buttons.</p>
     <p>Naming a marker set or marker (if applicable) can be done using SET.</p>
     <div class="section">
-        ### 15.24.1.&nbsp;Beat markers
+        ### 15.24.1. Beat markers
         <p>
             The generate a bpm grid option has been moved if you would like to generate a grid based off a bpm you need select the “VIEW
             MARKER OPTIONS”.
@@ -1648,7 +1648,7 @@ sidebar_position: 15
         </p>
     </div>
     <div class="section">
-        ### 15.24.2.&nbsp;Marker set layers
+        ### 15.24.2. Marker set layers
         <p>
             Marker set layers are used to label sections of a cue stack or song (if used), each layer can contain sections and unique
             markers. In order to add to an existing “marker layer” it first must be highlight/selected.
@@ -1676,10 +1676,10 @@ sidebar_position: 15
     </div>
 </div>
 <div class="section">
-    ## 15.25.&nbsp;Choose Cue Stack
+    ## 15.25. Choose Cue Stack
     <p>Using this option with lock/unlock the timeline window to a particular "Cue Stack".</p>
     <div class="section">
-        ### 15.25.1.&nbsp;Audio files
+        ### 15.25.1. Audio files
         <p>
             Audio files are shown in the timeline view as a waveform. If the input audio file is in stereo, then this is mixed down to mono
             before being displayed.
@@ -1718,7 +1718,7 @@ sidebar_position: 15
         </p>
     </div>
     <div class="section">
-        ### 15.25.2.&nbsp;Playhead
+        ### 15.25.2. Playhead
         <p>
             The current timecode value is shown in the timeline using the red playhead bar. This will follow the timecode value for the
             selected Cue Stack. If the Cue Stack is configured to use an external timecode input, and a timecode offset has been configured,
@@ -1738,7 +1738,7 @@ sidebar_position: 15
         </p>
     </div>
     <div class="section">
-        ### 15.25.3.&nbsp;Timecode Tracks
+        ### 15.25.3. Timecode Tracks
         <p>
             Timecode track items are shown on the timeline where each macro target is shown on it’s own row. This means that Playback
             actions for multiple Playbacks will appear on their own rows. An entire timecode track can be hidden using the arrow in the row
@@ -1750,7 +1750,7 @@ sidebar_position: 15
         </p>
     </div>
     <div class="section">
-        ### 15.25.4.&nbsp;Timecode Loop
+        ### 15.25.4. Timecode Loop
         <p>
             To enable the timecode loop function on a cue stack, you can use the ENABLE TC LOOP softbutton from within the Timeline Editor
             window. This will toggle the function on and off. The timecode loop functionality is only supported with a Cue Stacks' internal

@@ -4,7 +4,7 @@ title: Chapter 56. Button Functions
 sidebar_position: 56
 ---
 
-# Chapter&nbsp;56.&nbsp;Button Functions
+# Chapter 56. Button Functions
 <p>
     <a id="buttonshift"></a>
     <span class="strong"><strong>Shift</strong></span>
@@ -24,7 +24,7 @@ sidebar_position: 56
 </p>
 <p>
     Alternative functions include selecting views and making adjustments to the
-    <a class="link" href="settings.html#_displays_brightness_and_contrast" title="50.24.&nbsp;Displays brightness and contrast">
+    <a class="link" href="settings.html#_displays_brightness_and_contrast" title="50.24. Displays brightness and contrast">
         display and console light brightness
     </a>
     .
@@ -189,7 +189,7 @@ sidebar_position: 56
 </p>
 <p>
     Used to minimise a window. Windows appear in the
-    <a class="link" href="layout.html#windows" title="5.1.2.&nbsp;Main Windows">windows section</a>
+    <a class="link" href="layout.html#windows" title="5.1.2. Main Windows">windows section</a>
     of the screen.
 </p>
 <p>
@@ -198,7 +198,7 @@ sidebar_position: 56
 </p>
 <p>
     Used to maximise a window. Windows appear in the
-    <a class="link" href="layout.html#windows" title="5.1.2.&nbsp;Main Windows">windows section</a>
+    <a class="link" href="layout.html#windows" title="5.1.2. Main Windows">windows section</a>
     of the screen. A maximised window is sized to the complete main window area. The buttons around the edge of the screen and the status
     screen continue to be displayed.
 </p>
@@ -208,7 +208,7 @@ sidebar_position: 56
 </p>
 <p>
     Used to close a window. Windows appear in the
-    <a class="link" href="layout.html#windows" title="5.1.2.&nbsp;Main Windows">windows section</a>
+    <a class="link" href="layout.html#windows" title="5.1.2. Main Windows">windows section</a>
     of the screen. Pressing SHIFT and CLOSE causes all open windows to be closed.
 </p>
 <p>When using remote control then CTRL + CLOSE disconnects from the remote console.</p>
@@ -224,7 +224,7 @@ sidebar_position: 56
 </p>
 <p>
     Windows appear in the
-    <a class="link" href="layout.html#windows" title="5.1.2.&nbsp;Main Windows">windows section</a>
+    <a class="link" href="layout.html#windows" title="5.1.2. Main Windows">windows section</a>
     of the screen.
 </p>
 <p>
@@ -245,7 +245,7 @@ sidebar_position: 56
 </p>
 <p>
     Windows appear in the
-    <a class="link" href="layout.html#windows" title="5.1.2.&nbsp;Main Windows">windows section</a>
+    <a class="link" href="layout.html#windows" title="5.1.2. Main Windows">windows section</a>
     of the screen. The initial size is the maximised size – i.e. the window takes up the whole of the window display area.
 </p>
 <p>There are seventeen possible combinations of window size and position.</p>
@@ -264,7 +264,7 @@ sidebar_position: 56
 </p>
 <p>
     The Programmer Window is used to view and modify the contents of the
-    <a class="link" href="programmer.html" title="Chapter&nbsp;12.&nbsp;Programmer">programmer</a>
+    <a class="link" href="programmer.html" title="Chapter 12. Programmer">programmer</a>
     .
 </p>
 <p>
@@ -312,13 +312,13 @@ sidebar_position: 56
 </p>
 <p>
     The Setup Window is used to perform major operations on show data such as
-    <a class="link" href="system-management.html#_loading_shows" title="51.5.&nbsp;Loading Shows">loading</a>
+    <a class="link" href="system-management.html#_loading_shows" title="51.5. Loading Shows">loading</a>
     ,
-    <a class="link" href="system-management.html#_saving_shows" title="51.3.&nbsp;Saving Shows">saving</a>
+    <a class="link" href="system-management.html#_saving_shows" title="51.3. Saving Shows">saving</a>
     and
-    <a class="link" href="system-management.html#_erasing" title="51.6.&nbsp;Erasing">erasing</a>
+    <a class="link" href="system-management.html#_erasing" title="51.6. Erasing">erasing</a>
     shows. It is also used to configure console
-    <a class="link" href="settings.html" title="Chapter&nbsp;50.&nbsp;Settings">settings and preferences</a>
+    <a class="link" href="settings.html" title="Chapter 50. Settings">settings and preferences</a>
     .
 </p>
 <p>The Setup Window has three views, View Settings, View DMX I/O and View System.</p>
@@ -336,7 +336,7 @@ sidebar_position: 56
 <p>
     The Patch Window is used to patch dimmers and intelligent heads onto the console channels. It has four different views, HEADS for
     general patching, CHANS for examining individual DMX channels, DMX for configuring dimmers and VIS for visualiser items. See
-    <a class="link" href="start.html#_patching" title="6.7.&nbsp;Patching">Patching</a>
+    <a class="link" href="start.html#_patching" title="6.7. Patching">Patching</a>
     for more details.
 </p>
 <p>Pressing and holding the Patch button causes the Patch Window to be temporarily made the active window until the button is released.</p>
@@ -373,12 +373,12 @@ sidebar_position: 56
 </p>
 <p>
     The Macro Window allows the user to record and playback
-    <a class="link" href="automation.html#_keyboard_macros" title="22.4.&nbsp;Keyboard macros">keyboard macros</a>
+    <a class="link" href="automation.html#_keyboard_macros" title="22.4. Keyboard macros">keyboard macros</a>
     thus enabling them to customise buttons to perform actions unique to their own style of operation.
 </p>
 <p>
     The
-    <a class="link" href="osc.html#_automation" title="45.2.2.&nbsp;Automation">Autom</a>
+    <a class="link" href="osc.html#_automation" title="45.2.2. Automation">Autom</a>
     view supports automation of MagicQ events. Pressing and holding the Macro button causes the Macro Window to be temporarily made the
     active window until the button is released.
 </p>
@@ -409,11 +409,11 @@ sidebar_position: 56
 </p>
 <p>
     The Page Window is used to select which page of
-    <a class="link" href="playback.html" title="Chapter&nbsp;16.&nbsp;Playback">Playbacks</a>
+    <a class="link" href="playback.html" title="Chapter 16. Playback">Playbacks</a>
     is currently in use. Selecting of Pages can also be done using the
-    <a class="link" href="playback.html#page-select" title="16.4.5.&nbsp;Page Select">Page Select</a>
+    <a class="link" href="playback.html#page-select" title="16.4.5. Page Select">Page Select</a>
     buttons. The Page Window also provides a means for
-    <a class="link" href="layout.html#_naming_items" title="5.3.3.&nbsp;Naming items">naming</a>
+    <a class="link" href="layout.html#_naming_items" title="5.3.3. Naming items">naming</a>
     Pages.
 </p>
 <p>Pressing and holding the Page button causes the Page Window to be temporarily made the active window until the button is released.</p>
@@ -427,9 +427,9 @@ sidebar_position: 56
 </p>
 <p>
     The
-    <a class="link" href="playback.html#playbacks-window" title="16.5.&nbsp;Playbacks Window">Playbacks Window</a>
+    <a class="link" href="playback.html#playbacks-window" title="16.5. Playbacks Window">Playbacks Window</a>
     is used to manage the allocation of Cue Stacks to
-    <a class="link" href="playback.html" title="Chapter&nbsp;16.&nbsp;Playback">Playbacks</a>
+    <a class="link" href="playback.html" title="Chapter 16. Playback">Playbacks</a>
     . Cue Stacks can be recorded, named, removed, moved, and copied between Playbacks.
 </p>
 <p>
@@ -455,12 +455,12 @@ sidebar_position: 56
 </p>
 <p>
     The Cue Window is used to view and modify the contents of a
-    <a class="link" href="concepts.html#concepts-cues" title="4.3.&nbsp;Cues">Cue</a>
+    <a class="link" href="concepts.html#concepts-cues" title="4.3. Cues">Cue</a>
     .
 </p>
 <p>
     Also see
-    <a class="link" href="start.html#_recording_a_cue" title="6.16.&nbsp;Recording a Cue">Recording a Cue</a>
+    <a class="link" href="start.html#_recording_a_cue" title="6.16. Recording a Cue">Recording a Cue</a>
     .
 </p>
 <p>Pressing and holding the Cue button causes the Cue Window to be temporarily made the active window until the button is released.</p>
@@ -474,14 +474,14 @@ sidebar_position: 56
 </p>
 <p>
     The
-    <a class="link" href="cue-stacks.html#_cue_stack_window" title="15.1.&nbsp;Cue Stack Window">Cue Stack Window</a>
+    <a class="link" href="cue-stacks.html#_cue_stack_window" title="15.1. Cue Stack Window">Cue Stack Window</a>
     is used to manage the steps in a
-    <a class="link" href="concepts.html#concepts-cue-stacks" title="4.4.&nbsp;Cue Stacks">Cue Stack</a>
+    <a class="link" href="concepts.html#concepts-cue-stacks" title="4.4. Cue Stacks">Cue Stack</a>
     . Steps can be recorded, named and removed. Cue timings and settings can also be configured.
 </p>
 <p>
     Also see recording of
-    <a class="link" href="concepts.html#concepts-cue-stacks" title="4.4.&nbsp;Cue Stacks">Cue Stacks</a>
+    <a class="link" href="concepts.html#concepts-cue-stacks" title="4.4. Cue Stacks">Cue Stacks</a>
     .
 </p>
 <p>
@@ -498,9 +498,9 @@ sidebar_position: 56
 </p>
 <p>
     The
-    <a class="link" href="cue-stacks.html#cue-and-stack-stores" title="15.7.&nbsp;The Cue Store and Cue Stack Store">Stack Store Window</a>
+    <a class="link" href="cue-stacks.html#cue-and-stack-stores" title="15.7. The Cue Store and Cue Stack Store">Stack Store Window</a>
     is used to view all of the
-    <a class="link" href="concepts.html#concepts-cue-stacks" title="4.4.&nbsp;Cue Stacks">Cue Stacks</a>
+    <a class="link" href="concepts.html#concepts-cue-stacks" title="4.4. Cue Stacks">Cue Stacks</a>
     stored on the console. Cue Stacks can be recorded, named, removed, moved and copied.
 </p>
 <p>
@@ -517,9 +517,9 @@ sidebar_position: 56
 </p>
 <p>
     The
-    <a class="link" href="cue-stacks.html#cue-and-stack-stores" title="15.7.&nbsp;The Cue Store and Cue Stack Store">Cue Store Window</a>
+    <a class="link" href="cue-stacks.html#cue-and-stack-stores" title="15.7. The Cue Store and Cue Stack Store">Cue Store Window</a>
     is used to view all of the
-    <a class="link" href="concepts.html#concepts-cues" title="4.3.&nbsp;Cues">Cues</a>
+    <a class="link" href="concepts.html#concepts-cues" title="4.3. Cues">Cues</a>
     stored on the console. Cues can be recorded, named, removed, moved and copied.
 </p>
 <p>
@@ -536,9 +536,9 @@ sidebar_position: 56
 </p>
 <p>
     The Group Window is used to
-    <a class="link" href="start.html#_selecting_heads" title="6.8.1.&nbsp;Selecting Heads">select heads</a>
+    <a class="link" href="start.html#_selecting_heads" title="6.8.1. Selecting Heads">select heads</a>
     . Selected heads can then be
-    <a class="link" href="controlling-attributes.html#_modifying_attributes" title="9.7.&nbsp;Modifying Attributes">modified</a>
+    <a class="link" href="controlling-attributes.html#_modifying_attributes" title="9.7. Modifying Attributes">modified</a>
     in the Intensity, Position, Colour, and Beam Windows. The Window supports selecting of heads individually or by group.
 </p>
 <p>Pressing and holding the Group button causes the Group Window to be temporarily made the active window until the button is released.</p>
@@ -549,7 +549,7 @@ sidebar_position: 56
 </p>
 <p>
     This button is used to select one or more heads directly from the keypad. Selected heads can then be
-    <a class="link" href="controlling-attributes.html#_modifying_attributes" title="9.7.&nbsp;Modifying Attributes">modified</a>
+    <a class="link" href="controlling-attributes.html#_modifying_attributes" title="9.7. Modifying Attributes">modified</a>
     in the Intensity, Position, Colour, and Beam Windows.
 </p>
 <p>This button is available on the MQ500. On Compact consoles press ALT + GROUP.</p>
@@ -564,7 +564,7 @@ sidebar_position: 56
 </p>
 <p>
     The
-    <a class="link" href="intensity-levels.html" title="Chapter&nbsp;8.&nbsp;Setting Intensity levels">Intensity Window</a>
+    <a class="link" href="intensity-levels.html" title="Chapter 8. Setting Intensity levels">Intensity Window</a>
     is used to set the level of dimmer channels and the intensity attributes of intelligent heads. The Window supports two views, Programmer
     and Preset.
 </p>
@@ -582,12 +582,12 @@ sidebar_position: 56
 </p>
 <p>
     The
-    <a class="link" href="fx-engine.html#fx-window" title="11.9.&nbsp;FX Window">FX window</a>
+    <a class="link" href="fx-engine.html#fx-window" title="11.9. FX Window">FX window</a>
     enables users to store their favourite FX into a window for quick recall.
 </p>
 <p>
     FX can also be applied directly from the Group window using the Add FX button.
-    <a class="link" href="fx-engine.html" title="Chapter&nbsp;11.&nbsp;FX Engine">FX</a>
+    <a class="link" href="fx-engine.html" title="Chapter 11. FX Engine">FX</a>
     are applied to the currently selected heads. If no heads are currently selected then the Group Window is opened to enable selection of
     heads.
 </p>
@@ -602,13 +602,13 @@ sidebar_position: 56
 </p>
 <p>
     The Pos Window is used to set and
-    <a class="link" href="start.html#quick-modifying-attributes" title="6.13.&nbsp;Modifying Attributes">modify</a>
+    <a class="link" href="start.html#quick-modifying-attributes" title="6.13. Modifying Attributes">modify</a>
     the position attributes of intelligent heads. The Pos Window also displays and allows selection of Palette entries from the Position
     Palette.
 </p>
 <p>
     It also supports the
-    <a class="link" href="controlling-attributes.html#flip-mirror" title="9.9.&nbsp;Flip / Mirror">Flip</a>
+    <a class="link" href="controlling-attributes.html#flip-mirror" title="9.9. Flip / Mirror">Flip</a>
     function for moving heads.
 </p>
 <p>Pressing and holding the Pos button causes the Pos Window to be temporarily made the active window until the button is released.</p>
@@ -622,7 +622,7 @@ sidebar_position: 56
 </p>
 <p>
     The Colour Window is used to set and
-    <a class="link" href="start.html#quick-modifying-attributes" title="6.13.&nbsp;Modifying Attributes">modify</a>
+    <a class="link" href="start.html#quick-modifying-attributes" title="6.13. Modifying Attributes">modify</a>
     the colour attributes of intelligent heads. The Colour Window also displays and allows selection of Palette entries from the Colour
     Palette.
 </p>
@@ -640,9 +640,9 @@ sidebar_position: 56
 </p>
 <p>
     The Beam Window is used to set and
-    <a class="link" href="controlling-attributes.html#_modifying_attributes" title="9.7.&nbsp;Modifying Attributes">modify</a>
+    <a class="link" href="controlling-attributes.html#_modifying_attributes" title="9.7. Modifying Attributes">modify</a>
     the beam attributes of intelligent heads. The Beam Window also displays and allows selection of Palette entries from the
-    <a class="link" href="palettes.html" title="Chapter&nbsp;10.&nbsp;Palettes">Beam Palette</a>
+    <a class="link" href="palettes.html" title="Chapter 10. Palettes">Beam Palette</a>
     .
 </p>
 <p>Pressing and holding the Beam button causes the Beam Window to be temporarily made the active window until the button is released.</p>
@@ -653,7 +653,7 @@ sidebar_position: 56
 </p>
 <p>
     Used to select the next head from the currently selected heads. See
-    <a class="link" href="controlling-attributes.html#_selecting_individual_heads" title="9.14.&nbsp;Selecting individual Heads">
+    <a class="link" href="controlling-attributes.html#_selecting_individual_heads" title="9.14. Selecting individual Heads">
         selecting individual heads
     </a>
     .
@@ -664,7 +664,7 @@ sidebar_position: 56
 </p>
 <p>
     Used to select the previous head from the currently selected heads. See
-    <a class="link" href="controlling-attributes.html#_selecting_individual_heads" title="9.14.&nbsp;Selecting individual Heads">
+    <a class="link" href="controlling-attributes.html#_selecting_individual_heads" title="9.14. Selecting individual Heads">
         selecting individual heads
     </a>
     .
@@ -675,7 +675,7 @@ sidebar_position: 56
 </p>
 <p>
     Pressing LOCATE,
-    <a class="link" href="start.html#quick-locating-heads" title="6.12.&nbsp;Locating Heads">locates</a>
+    <a class="link" href="start.html#quick-locating-heads" title="6.12. Locating Heads">locates</a>
     all the selected heads.
 </p>
 <p>
@@ -684,7 +684,7 @@ sidebar_position: 56
 </p>
 <p>
     Used to enter
-    <a class="link" href="settings.html#_fan_mode" title="50.9.7.&nbsp;Fan Mode">Fan Mode</a>
+    <a class="link" href="settings.html#_fan_mode" title="50.9.7. Fan Mode">Fan Mode</a>
     . Fan mode enables adjustments to a number of selected heads to be applied in a non-linear fashion.
 </p>
 <p>Pressing and holding Fan enables Fan mode to be entered temporarily. Make your changes and then release the Fan button.</p>
@@ -694,7 +694,7 @@ sidebar_position: 56
 </p>
 <p>
     Used to enter
-    <a class="link" href="controlling-attributes.html#highlight-mode" title="9.18.&nbsp;Highlight Mode">Highlight Mode</a>
+    <a class="link" href="controlling-attributes.html#highlight-mode" title="9.18. Highlight Mode">Highlight Mode</a>
     . Highlight mode enables adjustments to individual heads from the currently selected heads. The individual head is highlighted whilst
     the others are made less bright.
 </p>
@@ -704,9 +704,9 @@ sidebar_position: 56
 </p>
 <p>
     Used to enter
-    <a class="link" href="controlling-attributes.html#single-mode" title="9.14.1.&nbsp;Single Mode">Single Mode</a>
+    <a class="link" href="controlling-attributes.html#single-mode" title="9.14.1. Single Mode">Single Mode</a>
     . Single mode enables adjustments to individual heads from the currently selected heads. Similar to
-    <a class="link" href="controlling-attributes.html#highlight-mode" title="9.18.&nbsp;Highlight Mode">Highlight Mode</a>
+    <a class="link" href="controlling-attributes.html#highlight-mode" title="9.18. Highlight Mode">Highlight Mode</a>
     but the head under adjustment is not highlighted.
 </p>
 <p>
@@ -715,16 +715,16 @@ sidebar_position: 56
 </p>
 <p>
     Used to return control to all selected heads. Pressing ALL in
-    <a class="link" href="controlling-attributes.html#single-mode" title="9.14.1.&nbsp;Single Mode">Single Mode</a>
+    <a class="link" href="controlling-attributes.html#single-mode" title="9.14.1. Single Mode">Single Mode</a>
     ,
-    <a class="link" href="controlling-attributes.html#highlight-mode" title="9.18.&nbsp;Highlight Mode">Highlight Mode</a>
+    <a class="link" href="controlling-attributes.html#highlight-mode" title="9.18. Highlight Mode">Highlight Mode</a>
     or
-    <a class="link" href="controlling-attributes.html#odd-even" title="9.14.3.&nbsp;Odd/Even">Odd/Even Mode</a>
+    <a class="link" href="controlling-attributes.html#odd-even" title="9.14.3. Odd/Even">Odd/Even Mode</a>
     exits the mode.
 </p>
 <p>
     See
-    <a class="link" href="controlling-attributes.html#all" title="9.14.5.&nbsp;All">All</a>
+    <a class="link" href="controlling-attributes.html#all" title="9.14.5. All">All</a>
     .
 </p>
 <p>
@@ -733,7 +733,7 @@ sidebar_position: 56
 </p>
 <p>
     Used to enter
-    <a class="link" href="controlling-attributes.html#odd-even" title="9.14.3.&nbsp;Odd/Even">Odd/Even Mode</a>
+    <a class="link" href="controlling-attributes.html#odd-even" title="9.14.3. Odd/Even">Odd/Even Mode</a>
     . Odd/Even mode gives control to the odd or even heads from the currently selected heads.
 </p>
 <p>
@@ -744,7 +744,7 @@ sidebar_position: 56
 <p>The MQ500 includes a dedicated Mirror button. On Compact consoles press ALT + FAN.</p>
 <p>
     See
-    <a class="link" href="controlling-attributes.html#flip-mirror" title="9.9.&nbsp;Flip / Mirror">Flip/Mirror</a>
+    <a class="link" href="controlling-attributes.html#flip-mirror" title="9.9. Flip / Mirror">Flip/Mirror</a>
 </p>
 <p>
     <a id="buttonpair"></a>
@@ -753,7 +753,7 @@ sidebar_position: 56
 <p>The MQ500 includes a dedicated Pair button. On Compact consoles press ALT + SINGLE.</p>
 <p>
     See
-    <a class="link" href="controlling-attributes.html#pair" title="9.14.2.&nbsp;Pair">Pair</a>
+    <a class="link" href="controlling-attributes.html#pair" title="9.14.2. Pair">Pair</a>
 </p>
 <p>
     <a id="buttonselect"></a>
@@ -761,7 +761,7 @@ sidebar_position: 56
 </p>
 <p>
     Used to select a playback as the
-    <a class="link" href="playback.html#_current_playback" title="16.4.7.&nbsp;Current Playback">current playback</a>
+    <a class="link" href="playback.html#_current_playback" title="16.4.7. Current Playback">current playback</a>
     . Provides a means of selecting playbacks when slaving other consoles to the MagicQ where the other console does not have separate flash
     and select buttons.
 </p>
@@ -773,7 +773,7 @@ sidebar_position: 56
 <p>
     The Release button is used to Release a playback – i.e. to make it inactive. By default Cue Stacks are configured so that they release
     automatically when the fader is brought back to zero. However Cue Stacks can be configured to require a manual release. See
-    <a class="link" href="playback.html#_activating_and_releasing_playbacks" title="16.2.&nbsp;Activating and Releasing Playbacks">
+    <a class="link" href="playback.html#_activating_and_releasing_playbacks" title="16.2. Activating and Releasing Playbacks">
         activating and releasing playbacks
     </a>
     .
@@ -784,7 +784,7 @@ sidebar_position: 56
 </p>
 <p>
     Used to enter
-    <a class="link" href="programmer.html#_blind_programming" title="12.13.&nbsp;Blind programming">Blind Mode</a>
+    <a class="link" href="programmer.html#_blind_programming" title="12.13. Blind programming">Blind Mode</a>
     . Blind mode stops the contents of the programmer from affecting the output channels of the console.
 </p>
 <p>
@@ -793,7 +793,7 @@ sidebar_position: 56
 </p>
 <p>
     Used to clear the
-    <a class="link" href="programmer.html" title="Chapter&nbsp;12.&nbsp;Programmer">programmer</a>
+    <a class="link" href="programmer.html" title="Chapter 12. Programmer">programmer</a>
     .
 </p>
 <p>Shift and Clear clears only the selected heads.</p>
@@ -811,16 +811,16 @@ sidebar_position: 56
 </p>
 <p>
     An
-    <a class="link" href="layout.html#_common_actions" title="5.3.&nbsp;Common Actions">action</a>
+    <a class="link" href="layout.html#_common_actions" title="5.3. Common Actions">action</a>
     button for setting show data.
 </p>
 <p>
     Used to
-    <a class="link" href="layout.html#_actions_on_playbacks" title="5.4.1.&nbsp;Actions on Playbacks">name playbacks</a>
+    <a class="link" href="layout.html#_actions_on_playbacks" title="5.4.1. Actions on Playbacks">name playbacks</a>
     and other
-    <a class="link" href="layout.html#_naming_items" title="5.3.3.&nbsp;Naming items">items</a>
+    <a class="link" href="layout.html#_naming_items" title="5.3.3. Naming items">items</a>
     . Also used to
-    <a class="link" href="layout.html#setting-the-value-of-items" title="5.3.2.&nbsp;Setting the value of items">set the values of items</a>
+    <a class="link" href="layout.html#setting-the-value-of-items" title="5.3.2. Setting the value of items">set the values of items</a>
     such as parameters.
 </p>
 <p>Shift and Set is used for selecting icons.</p>
@@ -830,20 +830,20 @@ sidebar_position: 56
 </p>
 <p>
     An
-    <a class="link" href="layout.html#_common_actions" title="5.3.&nbsp;Common Actions">action</a>
+    <a class="link" href="layout.html#_common_actions" title="5.3. Common Actions">action</a>
     button for recording show data.
 </p>
 <p>
     Used to
-    <a class="link" href="layout.html#_actions_on_playbacks" title="5.4.1.&nbsp;Actions on Playbacks">record Cues onto playbacks</a>
+    <a class="link" href="layout.html#_actions_on_playbacks" title="5.4.1. Actions on Playbacks">record Cues onto playbacks</a>
     and to
-    <a class="link" href="start.html#_recording_a_group" title="6.8.3.&nbsp;Recording a Group">record Groups</a>
+    <a class="link" href="start.html#_recording_a_group" title="6.8.3. Recording a Group">record Groups</a>
     , and to
-    <a class="link" href="start.html#_recording_a_palette" title="6.14.&nbsp;Recording a Palette">record Palettes</a>
+    <a class="link" href="start.html#_recording_a_palette" title="6.14. Recording a Palette">record Palettes</a>
 </p>
 <p>
     See also
-    <a class="link" href="start.html#_recording_a_cue" title="6.16.&nbsp;Recording a Cue">Recording a Cue</a>
+    <a class="link" href="start.html#_recording_a_cue" title="6.16. Recording a Cue">Recording a Cue</a>
     .
 </p>
 <p>Shift and Record is used to record but with additional record options.</p>
@@ -853,14 +853,14 @@ sidebar_position: 56
 </p>
 <p>
     An
-    <a class="link" href="layout.html#_common_actions" title="5.3.&nbsp;Common Actions">action button</a>
+    <a class="link" href="layout.html#_common_actions" title="5.3. Common Actions">action button</a>
     for removing show data.
 </p>
 <p>
     Used to
-    <a class="link" href="layout.html#_actions_on_playbacks" title="5.4.1.&nbsp;Actions on Playbacks">remove Cue Stacks from Playbacks</a>
+    <a class="link" href="layout.html#_actions_on_playbacks" title="5.4.1. Actions on Playbacks">remove Cue Stacks from Playbacks</a>
     , and to
-    <a class="link" href="layout.html#_removing_items" title="5.3.6.&nbsp;Removing items">remove other items</a>
+    <a class="link" href="layout.html#_removing_items" title="5.3.6. Removing items">remove other items</a>
     .
 </p>
 <p>
@@ -874,7 +874,7 @@ sidebar_position: 56
 <p>
     In versions before v1.8.2.1 MagicQ Undo does not undo patch, record, set, move, copy or any other actions. If a major mistake is made
     then you can restore to a previous version of the show file using the
-    <a class="link" href="system-management.html#backup-archives" title="51.15.&nbsp;Backup Archives">Backup Archives</a>
+    <a class="link" href="system-management.html#backup-archives" title="51.15. Backup Archives">Backup Archives</a>
     feature.
 </p>
 <p>
@@ -910,12 +910,12 @@ sidebar_position: 56
 </p>
 <p>
     An
-    <a class="link" href="layout.html#_common_actions" title="5.3.&nbsp;Common Actions">action button</a>
+    <a class="link" href="layout.html#_common_actions" title="5.3. Common Actions">action button</a>
     for including previously programmed show data back into the programmer.
 </p>
 <p>
     Used to edit Cues. See
-    <a class="link" href="editing-cues.html" title="Chapter&nbsp;14.&nbsp;Editing Cues">Editing Cues</a>
+    <a class="link" href="editing-cues.html" title="Chapter 14. Editing Cues">Editing Cues</a>
     .
 </p>
 <p>Shift and Include is used to include but with a additional options.</p>
@@ -925,7 +925,7 @@ sidebar_position: 56
 </p>
 <p>
     Used as part of the edit process to update a Cue that has been included into the programmer. See
-    <a class="link" href="editing-cues.html" title="Chapter&nbsp;14.&nbsp;Editing Cues">Editing Cues</a>
+    <a class="link" href="editing-cues.html" title="Chapter 14. Editing Cues">Editing Cues</a>
     .
 </p>
 <p>
@@ -934,14 +934,14 @@ sidebar_position: 56
 </p>
 <p>
     An
-    <a class="link" href="layout.html#_common_actions" title="5.3.&nbsp;Common Actions">action button</a>
+    <a class="link" href="layout.html#_common_actions" title="5.3. Common Actions">action button</a>
     for copying show data.
 </p>
 <p>
     Used to
-    <a class="link" href="layout.html#_actions_on_playbacks" title="5.4.1.&nbsp;Actions on Playbacks">copy Cue Stacks between Playbacks</a>
+    <a class="link" href="layout.html#_actions_on_playbacks" title="5.4.1. Actions on Playbacks">copy Cue Stacks between Playbacks</a>
     , and to
-    <a class="link" href="layout.html#_copying_items" title="5.3.5.&nbsp;Copying items">copy other items</a>
+    <a class="link" href="layout.html#_copying_items" title="5.3.5. Copying items">copy other items</a>
     .
 </p>
 <p>Shift and Copy is used to perform linked/unlinked copies - the default depends upon the option Setup, View Settings, Copy Unlinked.</p>
@@ -951,14 +951,14 @@ sidebar_position: 56
 </p>
 <p>
     An
-    <a class="link" href="layout.html#_common_actions" title="5.3.&nbsp;Common Actions">action button</a>
+    <a class="link" href="layout.html#_common_actions" title="5.3. Common Actions">action button</a>
     for moving show data.
 </p>
 <p>
     Used to
-    <a class="link" href="layout.html#_actions_on_playbacks" title="5.4.1.&nbsp;Actions on Playbacks">move Cue Stacks between Playbacks</a>
+    <a class="link" href="layout.html#_actions_on_playbacks" title="5.4.1. Actions on Playbacks">move Cue Stacks between Playbacks</a>
     , and to
-    <a class="link" href="layout.html#_moving_items" title="5.3.4.&nbsp;Moving items">move other items</a>
+    <a class="link" href="layout.html#_moving_items" title="5.3.4. Moving items">move other items</a>
     .
 </p>
 <p>
@@ -979,7 +979,7 @@ sidebar_position: 56
 </p>
 <p>
     See
-    <a class="link" href="playback.html#_playback_buttons" title="16.4.&nbsp;Playback Buttons">Playback Buttons</a>
+    <a class="link" href="playback.html#_playback_buttons" title="16.4. Playback Buttons">Playback Buttons</a>
     .
 </p>
 <p>
@@ -989,7 +989,7 @@ sidebar_position: 56
 <p>Used to pause the execution of a Cue Stack.</p>
 <p>
     See
-    <a class="link" href="playback.html#_playback_buttons" title="16.4.&nbsp;Playback Buttons">Playback Buttons</a>
+    <a class="link" href="playback.html#_playback_buttons" title="16.4. Playback Buttons">Playback Buttons</a>
     .
 </p>
 <p>
@@ -998,7 +998,7 @@ sidebar_position: 56
 </p>
 <p>
     Used to make the playback the
-    <a class="link" href="playback.html#_current_playback" title="16.4.7.&nbsp;Current Playback">current playback</a>
+    <a class="link" href="playback.html#_current_playback" title="16.4.7. Current Playback">current playback</a>
     . This enables the Cue Stack on the Playback to be viewed in the Cue Stack Window and the current Cue in that Cue Stack to be viewed in
     the Cue Window.
 </p>
@@ -1009,7 +1009,7 @@ sidebar_position: 56
 <p>This enables easy modifications of Cue and Cue Stack parameters such as FX size and chase speed.</p>
 <p>
     Also used when programming for determining which playback to
-    <a class="link" href="start.html#_recording_a_cue" title="6.16.&nbsp;Recording a Cue">record a Cue</a>
+    <a class="link" href="start.html#_recording_a_cue" title="6.16. Recording a Cue">record a Cue</a>
     onto.
 </p>
 <p>Pressing S two times quickly opens the Cue Stack window associated with the Playback.</p>
@@ -1020,7 +1020,7 @@ sidebar_position: 56
 </p>
 <p>
     Used to temporarily activate playbacks by
-    <a class="link" href="playback.html#add-swap" title="16.4.4.&nbsp;Add / Swap">adding or swapping</a>
+    <a class="link" href="playback.html#add-swap" title="16.4.4. Add / Swap">adding or swapping</a>
     in the Cue Stack from the playback to the outputs.
 </p>
 <p>
@@ -1039,7 +1039,7 @@ sidebar_position: 56
 </p>
 <p>
     Used to select the page of playbacks. See the
-    <a class="link" href="playback.html#page-select" title="16.4.5.&nbsp;Page Select">page select overview</a>
+    <a class="link" href="playback.html#page-select" title="16.4.5. Page Select">page select overview</a>
     for how pages work.
 </p>
 <p>
@@ -1048,7 +1048,7 @@ sidebar_position: 56
 </p>
 <p>
     Used to select the page of playbacks. See the
-    <a class="link" href="playback.html#page-select" title="16.4.5.&nbsp;Page Select">page select overview</a>
+    <a class="link" href="playback.html#page-select" title="16.4.5. Page Select">page select overview</a>
     for how pages work.
 </p>
 <p>
@@ -1057,9 +1057,9 @@ sidebar_position: 56
 </p>
 <p>
     This Go button is part of the
-    <a class="link" href="playback.html#_manual_control" title="16.4.11.&nbsp;Manual Control">manual control</a>
+    <a class="link" href="playback.html#_manual_control" title="16.4.11. Manual Control">manual control</a>
     section and controls the
-    <a class="link" href="playback.html#_current_playback" title="16.4.7.&nbsp;Current Playback">current playback</a>
+    <a class="link" href="playback.html#_current_playback" title="16.4.7. Current Playback">current playback</a>
     . It has the same functionality as the Go button associated with a playback. It provides Go functionality for playbacks that do not have
     Go buttons.
 </p>
@@ -1069,9 +1069,9 @@ sidebar_position: 56
 </p>
 <p>
     This Pause button is part of the
-    <a class="link" href="playback.html#_manual_control" title="16.4.11.&nbsp;Manual Control">manual control</a>
+    <a class="link" href="playback.html#_manual_control" title="16.4.11. Manual Control">manual control</a>
     section and controls the
-    <a class="link" href="playback.html#_current_playback" title="16.4.7.&nbsp;Current Playback">current playback</a>
+    <a class="link" href="playback.html#_current_playback" title="16.4.7. Current Playback">current playback</a>
     . It has the same functionality as the Pause button associated with a playback. It provides Pause functionality for playbacks that do
     not have Pause buttons.
 </p>
@@ -1081,9 +1081,9 @@ sidebar_position: 56
 </p>
 <p>
     This Go button is part of the
-    <a class="link" href="playback.html#_manual_control" title="16.4.11.&nbsp;Manual Control">manual control</a>
+    <a class="link" href="playback.html#_manual_control" title="16.4.11. Manual Control">manual control</a>
     section and controls the
-    <a class="link" href="playback.html#_current_playback" title="16.4.7.&nbsp;Current Playback">current playback</a>
+    <a class="link" href="playback.html#_current_playback" title="16.4.7. Current Playback">current playback</a>
     . It has the same functionality as the Go button associated with a playback.
 </p>
 <p>It is designed to be use for theatre style operation where one big GO button is important for cueing a show.</p>
@@ -1093,9 +1093,9 @@ sidebar_position: 56
 </p>
 <p>
     The Fast Forward button is part of the
-    <a class="link" href="playback.html#_manual_control" title="16.4.11.&nbsp;Manual Control">manual control</a>
+    <a class="link" href="playback.html#_manual_control" title="16.4.11. Manual Control">manual control</a>
     section and controls the
-    <a class="link" href="playback.html#_current_playback" title="16.4.7.&nbsp;Current Playback">current playback</a>
+    <a class="link" href="playback.html#_current_playback" title="16.4.7. Current Playback">current playback</a>
     . It is used to bump a Cue Stack to the next step immediately without fading. It is particularly useful when editing a Cue Stack to bump
     through Cues to find the one to edit.
 </p>
@@ -1105,9 +1105,9 @@ sidebar_position: 56
 </p>
 <p>
     The Fast Back button is part of the
-    <a class="link" href="playback.html#_manual_control" title="16.4.11.&nbsp;Manual Control">manual control</a>
+    <a class="link" href="playback.html#_manual_control" title="16.4.11. Manual Control">manual control</a>
     section and controls the
-    <a class="link" href="playback.html#_current_playback" title="16.4.7.&nbsp;Current Playback">current playback</a>
+    <a class="link" href="playback.html#_current_playback" title="16.4.7. Current Playback">current playback</a>
     . It is used to bump a Cue Stack to the previous step immediately without fading. It is particularly useful when editing a Cue Stack to
     bump through Cues to find the one to edit.
 </p>
@@ -1127,12 +1127,12 @@ sidebar_position: 56
 </p>
 <p>
     The Add / Swap buttons controls the function of flash buttons. See also the
-    <a class="link" href="playback.html#add-swap" title="16.4.4.&nbsp;Add / Swap">Add / Swap overview</a>
+    <a class="link" href="playback.html#add-swap" title="16.4.4. Add / Swap">Add / Swap overview</a>
     .
 </p>
 <p>
     See
-    <a class="link" href="playback.html#_playback_buttons" title="16.4.&nbsp;Playback Buttons">Playback Buttons</a>
+    <a class="link" href="playback.html#_playback_buttons" title="16.4. Playback Buttons">Playback Buttons</a>
     .
 </p>
 <p>
@@ -1150,14 +1150,14 @@ sidebar_position: 56
 </p>
 <p>
     Can also be used for
-    <a class="link" href="intensity-levels.html#_using_the_keypad" title="8.3.&nbsp;Using the keypad">selecting intensities</a>
+    <a class="link" href="intensity-levels.html#_using_the_keypad" title="8.3. Using the keypad">selecting intensities</a>
     and selecting
-    <a class="link" href="controlling-attributes.html#_using_groups" title="9.2.&nbsp;Using Groups">groups</a>
+    <a class="link" href="controlling-attributes.html#_using_groups" title="9.2. Using Groups">groups</a>
     .
 </p>
 <p>
     Used for entering
-    <a class="link" href="patching.html#_gel_name_and_number" title="7.5.&nbsp;Gel name and number">gel numbers</a>
+    <a class="link" href="patching.html#_gel_name_and_number" title="7.5. Gel name and number">gel numbers</a>
     . Numbers are assumed to be Lee gel numbers unless preceded by a dot in which case they are assumed to be rosco gel numbers.
 </p>
 <p>
@@ -1183,7 +1183,7 @@ sidebar_position: 56
 </p>
 <p>
     The Plus key is used to select ranges of dimmers when
-    <a class="link" href="intensity-levels.html#_using_the_keypad" title="8.3.&nbsp;Using the keypad">selecting dimmers</a>
+    <a class="link" href="intensity-levels.html#_using_the_keypad" title="8.3. Using the keypad">selecting dimmers</a>
     .
 </p>
 <p>
@@ -1192,7 +1192,7 @@ sidebar_position: 56
 </p>
 <p>
     The Minus key is used to select ranges of dimmers when
-    <a class="link" href="intensity-levels.html#_using_the_keypad" title="8.3.&nbsp;Using the keypad">selecting dimmers</a>
+    <a class="link" href="intensity-levels.html#_using_the_keypad" title="8.3. Using the keypad">selecting dimmers</a>
     .
 </p>
 <p>
@@ -1208,7 +1208,7 @@ sidebar_position: 56
 </p>
 <p>
     The Thru key is used to select ranges of dimmers when
-    <a class="link" href="intensity-levels.html#_using_the_keypad" title="8.3.&nbsp;Using the keypad">selecting dimmers</a>
+    <a class="link" href="intensity-levels.html#_using_the_keypad" title="8.3. Using the keypad">selecting dimmers</a>
     .
 </p>
 <p>
@@ -1217,7 +1217,7 @@ sidebar_position: 56
 </p>
 <p>
     The @ key is used to specify levels for
-    <a class="link" href="intensity-levels.html#_using_the_keypad" title="8.3.&nbsp;Using the keypad">dimmers</a>
+    <a class="link" href="intensity-levels.html#_using_the_keypad" title="8.3. Using the keypad">dimmers</a>
     .
 </p>
 <p>Also used as a shortcut to select heads - e.g. 1@@ selects head 1.</p>
@@ -1227,7 +1227,7 @@ sidebar_position: 56
 </p>
 <p>
     The full key is used to indicate 100% when setting levels for
-    <a class="link" href="intensity-levels.html#_using_the_keypad" title="8.3.&nbsp;Using the keypad">dimmers</a>
+    <a class="link" href="intensity-levels.html#_using_the_keypad" title="8.3. Using the keypad">dimmers</a>
     .
 </p>
 <p>
@@ -1236,7 +1236,7 @@ sidebar_position: 56
 </p>
 <p>
     This button is used to specify times for
-    <a class="link" href="intensity-levels.html#_using_the_keypad" title="8.3.&nbsp;Using the keypad">dimmers</a>
+    <a class="link" href="intensity-levels.html#_using_the_keypad" title="8.3. Using the keypad">dimmers</a>
     .
 </p>
 <p>This button is available on the MQ500. On Compact consoles press ALT + THRU.</p>
@@ -1246,7 +1246,7 @@ sidebar_position: 56
 </p>
 <p>
     This key scrolls the active Window to the left. See
-    <a class="link" href="layout.html#windows" title="5.1.2.&nbsp;Main Windows">Cursor Control</a>
+    <a class="link" href="layout.html#windows" title="5.1.2. Main Windows">Cursor Control</a>
     .
 </p>
 <p>
@@ -1255,7 +1255,7 @@ sidebar_position: 56
 </p>
 <p>
     This key scrolls the active Window to the right. See
-    <a class="link" href="layout.html#windows" title="5.1.2.&nbsp;Main Windows">Cursor Control</a>
+    <a class="link" href="layout.html#windows" title="5.1.2. Main Windows">Cursor Control</a>
     .
 </p>
 <p>
@@ -1264,7 +1264,7 @@ sidebar_position: 56
 </p>
 <p>
     Used to move the cursor around the active Window. See
-    <a class="link" href="layout.html#windows" title="5.1.2.&nbsp;Main Windows">Cursor Control</a>
+    <a class="link" href="layout.html#windows" title="5.1.2. Main Windows">Cursor Control</a>
     .
 </p>
 <p>
@@ -1273,7 +1273,7 @@ sidebar_position: 56
 </p>
 <p>
     The function of these buttons is soft – i.e. it changes according to the active Window and the current view in that window. The top
-    <a class="link" href="layout.html" title="Chapter&nbsp;5.&nbsp;MagicQ Layout">soft buttons</a>
+    <a class="link" href="layout.html" title="Chapter 5. MagicQ Layout">soft buttons</a>
     are generally used for menu items.
 </p>
 <p>
@@ -1283,7 +1283,7 @@ sidebar_position: 56
 <p>The function of these buttons is soft – i.e. it changes according to the active Window and the current view in that window.</p>
 <p>
     The side
-    <a class="link" href="layout.html" title="Chapter&nbsp;5.&nbsp;MagicQ Layout">soft buttons</a>
+    <a class="link" href="layout.html" title="Chapter 5. MagicQ Layout">soft buttons</a>
     are closely associated with the encoders adjacent to them. For example, in the Beam Window on of the encoder controls the gobo attribute
     of intelligent heads. Pressing the soft button bumps the gobo wheel onto the next gobo. Pressing SHIFT and the soft button bumps the
     gobo wheel back to the previous gobo.

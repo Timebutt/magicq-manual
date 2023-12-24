@@ -4,10 +4,10 @@ title: Chapter 54. MagicQ Shortcuts
 sidebar_position: 54
 ---
 
-# Chapter&nbsp;54.&nbsp;MagicQ Shortcuts
+# Chapter 54. MagicQ Shortcuts
 <div class="table">
     <a id="idm17748"></a>
-    <p class="title"><strong>Table&nbsp;54.1.&nbsp;Saving / Loading</strong></p>
+    <p class="title"><strong>Table 54.1. Saving / Loading</strong></p>
     <div class="table-contents">
         <table class="table" summary="Saving / Loading" cellpadding="4px">
             <colgroup>
@@ -74,7 +74,7 @@ sidebar_position: 54
 <br class="table-break" />
 <div class="table">
     <a id="idm17819"></a>
-    <p class="title"><strong>Table&nbsp;54.2.&nbsp;Patching</strong></p>
+    <p class="title"><strong>Table 54.2. Patching</strong></p>
     <div class="table-contents">
         <table class="table" summary="Patching" cellpadding="4px">
             <colgroup>
@@ -152,7 +152,7 @@ sidebar_position: 54
 <br class="table-break" />
 <div class="table">
     <a id="idm17888"></a>
-    <p class="title"><strong>Table&nbsp;54.3.&nbsp;Select Heads</strong></p>
+    <p class="title"><strong>Table 54.3. Select Heads</strong></p>
     <div class="table-contents">
         <table class="table" summary="Select Heads" cellpadding="4px">
             <colgroup>
@@ -259,7 +259,7 @@ sidebar_position: 54
 <br class="table-break" />
 <div class="table">
     <a id="idm18009"></a>
-    <p class="title"><strong>Table&nbsp;54.4.&nbsp;Lamp On / Lamp Off / Reset</strong></p>
+    <p class="title"><strong>Table 54.4. Lamp On / Lamp Off / Reset</strong></p>
     <div class="table-contents">
         <table class="table" summary="Lamp On / Lamp Off / Reset" cellpadding="4px">
             <colgroup>
@@ -306,7 +306,7 @@ sidebar_position: 54
 <br class="table-break" />
 <div class="table">
     <a id="idm18055"></a>
-    <p class="title"><strong>Table&nbsp;54.5.&nbsp;Setting Intensities</strong></p>
+    <p class="title"><strong>Table 54.5. Setting Intensities</strong></p>
     <div class="table-contents">
         <table class="table" summary="Setting Intensities" cellpadding="4px">
             <colgroup>
@@ -366,7 +366,7 @@ sidebar_position: 54
 <p>PC Keyboard THRU = ‘&gt;’ FULL = ‘#’</p>
 <div class="table">
     <a id="idm18117"></a>
-    <p class="title"><strong>Table&nbsp;54.6.&nbsp;FX</strong></p>
+    <p class="title"><strong>Table 54.6. FX</strong></p>
     <div class="table-contents">
         <table class="table" summary="FX" cellpadding="4px">
             <colgroup>
@@ -393,7 +393,7 @@ sidebar_position: 54
 <br class="table-break" />
 <div class="table">
     <a id="idm18138"></a>
-    <p class="title"><strong>Table&nbsp;54.7.&nbsp;Playback</strong></p>
+    <p class="title"><strong>Table 54.7. Playback</strong></p>
     <div class="table-contents">
         <table class="table" summary="Playback" cellpadding="4px">
             <colgroup>
@@ -468,7 +468,7 @@ sidebar_position: 54
 <br class="table-break" />
 <div class="table">
     <a id="idm18219"></a>
-    <p class="title"><strong>Table&nbsp;54.8.&nbsp;Loading Values into the Programmer</strong></p>
+    <p class="title"><strong>Table 54.8. Loading Values into the Programmer</strong></p>
     <div class="table-contents">
         <table class="table" summary="Loading Values into the Programmer" cellpadding="4px">
             <colgroup>
@@ -627,7 +627,7 @@ sidebar_position: 54
 <br class="table-break" />
 <div class="table">
     <a id="idm18405"></a>
-    <p class="title"><strong>Table&nbsp;54.9.&nbsp;Removing Values from the Programmer</strong></p>
+    <p class="title"><strong>Table 54.9. Removing Values from the Programmer</strong></p>
     <div class="table-contents">
         <table class="table" summary="Removing Values from the Programmer" cellpadding="4px">
             <colgroup>
@@ -690,7 +690,7 @@ sidebar_position: 54
 <br class="table-break" />
 <div class="table">
     <a id="idm18471"></a>
-    <p class="title"><strong>Table&nbsp;54.10.&nbsp;Recording Cues</strong></p>
+    <p class="title"><strong>Table 54.10. Recording Cues</strong></p>
     <div class="table-contents">
         <table class="table" summary="Recording Cues" cellpadding="4px">
             <colgroup>
@@ -753,7 +753,7 @@ sidebar_position: 54
 <br class="table-break" />
 <div class="table">
     <a id="idm18537"></a>
-    <p class="title"><strong>Table&nbsp;54.11.&nbsp;Record Merging / Removing</strong></p>
+    <p class="title"><strong>Table 54.11. Record Merging / Removing</strong></p>
     <div class="table-contents">
         <table class="table" summary="Record Merging / Removing" cellpadding="4px">
             <colgroup>
@@ -832,7 +832,7 @@ sidebar_position: 54
 <br class="table-break" />
 <div class="table">
     <a id="idm18623"></a>
-    <p class="title"><strong>Table&nbsp;54.12.&nbsp;Editing Cues</strong></p>
+    <p class="title"><strong>Table 54.12. Editing Cues</strong></p>
     <div class="table-contents">
         <table class="table" summary="Editing Cues" cellpadding="4px">
             <colgroup>
@@ -915,7 +915,7 @@ sidebar_position: 54
 <br class="table-break" />
 <div class="table">
     <a id="idm18714"></a>
-    <p class="title"><strong>Table&nbsp;54.13.&nbsp;Palettes</strong></p>
+    <p class="title"><strong>Table 54.13. Palettes</strong></p>
     <div class="table-contents">
         <table class="table" summary="Palettes" cellpadding="4px">
             <colgroup>
@@ -962,7 +962,7 @@ sidebar_position: 54
 <br class="table-break" />
 <div class="table">
     <a id="idm18760"></a>
-    <p class="title"><strong>Table&nbsp;54.14.&nbsp;Palette Times</strong></p>
+    <p class="title"><strong>Table 54.14. Palette Times</strong></p>
     <div class="table-contents">
         <table class="table" summary="Palette Times" cellpadding="4px">
             <colgroup>
@@ -1073,7 +1073,7 @@ sidebar_position: 54
 <br class="table-break" />
 <div class="table">
     <a id="idm18881"></a>
-    <p class="title"><strong>Table&nbsp;54.15.&nbsp;Information Windows</strong></p>
+    <p class="title"><strong>Table 54.15. Information Windows</strong></p>
     <div class="table-contents">
         <table class="table" summary="Information Windows" cellpadding="4px">
             <colgroup>
@@ -1120,7 +1120,7 @@ sidebar_position: 54
 <br class="table-break" />
 <div class="table">
     <a id="idm18927"></a>
-    <p class="title"><strong>Table&nbsp;54.16.&nbsp;Net Session</strong></p>
+    <p class="title"><strong>Table 54.16. Net Session</strong></p>
     <div class="table-contents">
         <table class="table" summary="Net Session" cellpadding="4px">
             <colgroup>
@@ -1139,7 +1139,7 @@ sidebar_position: 54
 <br class="table-break" />
 <div class="table">
     <a id="idm18938"></a>
-    <p class="title"><strong>Table&nbsp;54.17.&nbsp;Wing / Keypad short cuts</strong></p>
+    <p class="title"><strong>Table 54.17. Wing / Keypad short cuts</strong></p>
     <div class="table-contents">
         <table class="table" summary="Wing / Keypad short cuts" cellpadding="4px">
             <colgroup>
@@ -1194,7 +1194,7 @@ sidebar_position: 54
 <br class="table-break" />
 <div class="table">
     <a id="idm18994"></a>
-    <p class="title"><strong>Table&nbsp;54.18.&nbsp;Console</strong></p>
+    <p class="title"><strong>Table 54.18. Console</strong></p>
     <div class="table-contents">
         <table class="table" summary="Console" cellpadding="4px">
             <colgroup>
@@ -1293,7 +1293,7 @@ sidebar_position: 54
 <br class="table-break" />
 <div class="table">
     <a id="idm19105"></a>
-    <p class="title"><strong>Table&nbsp;54.19.&nbsp;Cue Stack Macros</strong></p>
+    <p class="title"><strong>Table 54.19. Cue Stack Macros</strong></p>
     <div class="table-contents">
         <table class="table" summary="Cue Stack Macros" cellpadding="4px">
             <colgroup>
@@ -1503,7 +1503,7 @@ sidebar_position: 54
 <br class="table-break" />
 <div class="table">
     <a id="idm19341"></a>
-    <p class="title"><strong>Table&nbsp;54.20.&nbsp;Window Control</strong></p>
+    <p class="title"><strong>Table 54.20. Window Control</strong></p>
     <div class="table-contents">
         <table class="table" summary="Window Control" cellpadding="4px">
             <colgroup>
@@ -1542,7 +1542,7 @@ sidebar_position: 54
 <br class="table-break" />
 <div class="table">
     <a id="idm19377"></a>
-    <p class="title"><strong>Table&nbsp;54.21.&nbsp;Stadium Shortcuts</strong></p>
+    <p class="title"><strong>Table 54.21. Stadium Shortcuts</strong></p>
     <div class="table-contents">
         <table class="table" summary="Stadium Shortcuts" cellpadding="4px">
             <colgroup>

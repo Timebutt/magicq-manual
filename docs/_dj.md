@@ -4,7 +4,7 @@ title: Chapter 39. DJ
 sidebar_position: 39
 ---
 
-# Chapter&nbsp;39.&nbsp;DJ
+# Chapter 39. DJ
 <p>
     From MagicQ version 1.9.2.2, we support the ability to connect to external DJ systems via a network connection. This allows MagicQ to
     both see what is currently playing on the connected DJ decks, as well as using the timecode information to be able to synchronise Cue
@@ -15,9 +15,9 @@ sidebar_position: 39
     screenshot of this window along with your query; if you are facing any issues when using any of these protocols.
 </p>
 <div class="section">
-    ## 39.1.&nbsp;Supported Systems
+    ## 39.1. Supported Systems
     <div class="section">
-        ### 39.1.1.&nbsp;VirtualDJ / OS2L
+        ### 39.1.1. VirtualDJ / OS2L
         <p>
             MagicQ uses the Open Sound 2 Light protocol to communicate with VirtualDJ. To enable this, set the "VirtualDJ OS2L" protocol to
             "Yes" within the MIDI / Timecode tab of the Setup window. Within VirtualDJ, to enable the connection to MagicQ, go into the
@@ -40,7 +40,7 @@ sidebar_position: 39
         </p>
     </div>
     <div class="section">
-        ### 39.1.2.&nbsp;StagelinQ / Engine Prime
+        ### 39.1.2. StagelinQ / Engine Prime
         <p>
             MagicQ uses the Engine Prime network architecture to communicate to Denon DJ equipment. To enable this set the "StagelinQ"
             protocol to "Yes" within the MIDI / Timecode tab of the Setup window. Any connected devices that are within the subnet will
@@ -53,7 +53,7 @@ sidebar_position: 39
         </p>
     </div>
     <div class="section">
-        ### 39.1.3.&nbsp;TCNet
+        ### 39.1.3. TCNet
         <p>
             To connect to a ProDJLink system, you will need to have either the ProDJLink Bridge application (Windows or macOS) application,
             or ShowKontrol application (macOS only) running on an external system. These applications form a bridge between the ProDJLink
@@ -69,7 +69,7 @@ sidebar_position: 39
     </div>
 </div>
 <div class="section">
-    ## 39.2.&nbsp;Deck Configuration
+    ## 39.2. Deck Configuration
     <p>
         MagicQ supports four DJ decks at once, but these can be mixed from different systems, rather than being limited to a single system.
         Once a protocol has been enabled, you should be able to select the decks from the "DJ Deck A-D" options within the MIDI / Timecode
@@ -77,7 +77,7 @@ sidebar_position: 39
     </p>
 </div>
 <div class="section">
-    ## 39.3.&nbsp;Audio Window
+    ## 39.3. Audio Window
     <p>
         The Audio window has two main modes to show either the status of the connected DJ systems, or the status of the audio input beat
         tracking.
@@ -110,7 +110,7 @@ sidebar_position: 39
     </p>
 </div>
 <div class="section">
-    ## 39.4.&nbsp;Timecode and Level Synchronisation
+    ## 39.4. Timecode and Level Synchronisation
     <p>
         To synchronise the playback of a track with a Cue Stack in MagicQ, you must associate the incoming track information together with
         the required Cue Stack. To do this, load the desired track so that it is showing in the Audio Window, then use the Copy function in
@@ -138,7 +138,7 @@ sidebar_position: 39
     </p>
 </div>
 <div class="section">
-    ## 39.5.&nbsp;Beat tracking
+    ## 39.5. Beat tracking
     <p>
         If a DJ System is connected, then the active deck will be the source of the global beat number within MagicQ which can be used with
         the "Audio beat step" functionality. When an audio input is configured instead, then the beats will be used to drive a beat count
@@ -146,7 +146,7 @@ sidebar_position: 39
     </p>
 </div>
 <div class="section">
-    ## 39.6.&nbsp;Diagnostics
+    ## 39.6. Diagnostics
     <p>
         The status of the underlying connections to the different DJ systems can be viewed within the Setup, View System, View Status,
         DJ/Timecode tab. This will detail connection status and IPs of connected systems to aid in setting up a new system.

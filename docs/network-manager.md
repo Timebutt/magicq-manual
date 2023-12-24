@@ -4,7 +4,7 @@ title: Chapter 30. Network Manager (SnakeSys)
 sidebar_position: 30
 ---
 
-# Chapter&nbsp;30.&nbsp;Network Manager (SnakeSys)
+# Chapter 30. Network Manager (SnakeSys)
 <p>
     MagicQ supports a Network Manager (Setup, View DMX I/O, Net Manager) for monitoring and configuring network devices, including Art-Net
     and sACN nodes, RDM devices, and SnakeSys products using the ChamNet protocol.
@@ -15,7 +15,7 @@ sidebar_position: 30
     </span>
 </p>
 <div class="section">
-    ## 30.1.&nbsp;VIEW CHAMNET
+    ## 30.1. VIEW CHAMNET
     <p>
         ChamNet devices include the SnakeSys B4, SnakeSys R4, SnakeSys R8, SnakeSys T2 (T6), older ChamSys 4 port Ethernet Interfaces and
         10Scene Gateways,
@@ -26,7 +26,7 @@ sidebar_position: 30
         configured from MagicQ.
     </p>
     <div class="section">
-        ### 30.1.1.&nbsp;Normal (non ChamNet mode)
+        ### 30.1.1. Normal (non ChamNet mode)
         <p>
             If the SnakeSys product is set in a mode other than ChamNet Mode (such as Art-Net, ACN or buffer) then it is not possible to
             configure the interface from Net Manager. However, the device will still appear in Net Manager and it is possible to view its
@@ -34,7 +34,7 @@ sidebar_position: 30
         </p>
     </div>
     <div class="section">
-        ### 30.1.2.&nbsp;ChamNet Mode
+        ### 30.1.2. ChamNet Mode
         <p>
             In ChamNet mode each SnakeSys product on the network has a different ID in the range 0 to 99. All interfaces should have
             different IDs.
@@ -70,7 +70,7 @@ sidebar_position: 30
         </p>
     </div>
     <div class="section">
-        ### 30.1.3.&nbsp;Upgrading SnakeSys firmware
+        ### 30.1.3. Upgrading SnakeSys firmware
         <p>
             SnakeSys product firmware can be firmware upgraded from MagicQ software - the latest MagicQ software contains the latest
             firmware for all SnakeSys products - this can be found in the firmware folder under on the installation.
@@ -129,7 +129,7 @@ sidebar_position: 30
         </div>
     </div>
     <div class="section">
-        ### 30.1.4.&nbsp;Older ChamSys 4 Port Ethernet interfaces
+        ### 30.1.4. Older ChamSys 4 Port Ethernet interfaces
         <p>
             Older ChamSys 4 Port Ethernet Interfaces and the SnakeSys B4 interfaces manufactured prior to 2013 (serial numbers with last 4
             digits less than 0268) have no storage for configuration data and so when in ChamNet mode they always get their configuration
@@ -155,7 +155,7 @@ sidebar_position: 30
         </p>
     </div>
     <div class="section">
-        ### 30.1.5.&nbsp;Output Setup
+        ### 30.1.5. Output Setup
         <p>
             In order to use a SnakeSys product with a MagicQ system the MagicQ system must be set up in Setup, View DMX I/O to output or
             input universes over the network
@@ -171,7 +171,7 @@ sidebar_position: 30
     </div>
 </div>
 <div class="section">
-    ## 30.2.&nbsp;VIEW ART-NET
+    ## 30.2. VIEW ART-NET
     <p>
         This view shows all Art-Net devices detected on the network. This includes all MagicQ console, QuickQ consoles and stand alone
         MagicVis and MagicHD applications as they all have Art-Net capability.
@@ -214,7 +214,7 @@ sidebar_position: 30
     </p>
 </div>
 <div class="section">
-    ## 30.3.&nbsp;VIEW SACN
+    ## 30.3. VIEW SACN
     <p>
         This view shows all sACN RDMNET devices detected on the network. In order to detect RDMNET devices the IP Address and port of the
         RDMNET gateway must be first configured in Setup, View Settings, Network.
@@ -222,7 +222,7 @@ sidebar_position: 30
     <p>Once a RDMNET gateway has been detected, use GET ENDPOINTS to get the Endpoint data.</p>
 </div>
 <div class="section">
-    ## 30.4.&nbsp;VIEW RDM
+    ## 30.4. VIEW RDM
     <p>This view shows RDM devices.</p>
     <p>
         MagicQ stores the list of RDM devices (to enable restoring of a lighting rig via RDM) in the show file, so the device list may
@@ -237,7 +237,7 @@ sidebar_position: 30
         individual entries.
     </p>
     <div class="section">
-        ### 30.4.1.&nbsp;Discovering and configuring devices
+        ### 30.4.1. Discovering and configuring devices
         <p>
             Press DISCOVER ALL to discover RDM devices. MagicQ will attempt to discover RDM compliant devices on its direct console ports
             (MQ50, MQ70, MQ80, MQ250M and Stadium Connect) and via connected Art-Net nodes that support RDM.
@@ -329,7 +329,7 @@ sidebar_position: 30
         </p>
     </div>
     <div class="section">
-        ### 30.4.2.&nbsp;Auto addressing
+        ### 30.4.2. Auto addressing
         <p>
             Press the AUTO ADDRESS soft button to automatically address all the fixtures in the list, starting at 1 and incrementing based
             on the channel count of each fixture.
@@ -342,7 +342,7 @@ sidebar_position: 30
         <p>Where there are devices from more than one universe the devices on each universe will be addressed starting at 1.</p>
     </div>
     <div class="section">
-        ### 30.4.3.&nbsp;Restore addressing
+        ### 30.4.3. Restore addressing
         <p>
             Once a DISCOVER ALL and GET INFO has been performed on a lighting rig, MagicQ stores the RDM address and mode for each fixture
             with its unique UUID in the show file. This is maintained in the show file through subsequent loads and saves of that show file.
@@ -364,7 +364,7 @@ sidebar_position: 30
         </p>
     </div>
     <div class="section">
-        ### 30.4.4.&nbsp;Identifying devices
+        ### 30.4.4. Identifying devices
         <p>
             The RDM identify command forces a fixture to identify itself. This is usually a flashing white light or continuous pan, tilt and
             colour scroll. This allows you to match up the devices you are seeing in the VIEW RDM window with physical devices on the
@@ -376,14 +376,14 @@ sidebar_position: 30
         </p>
     </div>
     <div class="section">
-        ### 30.4.5.&nbsp;Sensors
+        ### 30.4.5. Sensors
         <p>
             Sensor information for the RDM device at the cursor is displayed at the top of the window and is continually refreshed. If the
             device is able to report multiple sensors then they are all shown.
         </p>
     </div>
     <div class="section">
-        ### 30.4.6.&nbsp;Auto patching
+        ### 30.4.6. Auto patching
         <p>
             Pressing the PATCH RDM HEAD soft button will patch the RDM device at the cursor into the show, using its current DMX address and
             mode.
@@ -395,7 +395,7 @@ sidebar_position: 30
         </p>
         <p>
             To improve the accuracy of the auto patching feature, you can add in the RDM information into the head file using the
-            <a class="link" href="head-editor.html" title="Chapter&nbsp;27.&nbsp;Head Editor">head editor</a>
+            <a class="link" href="head-editor.html" title="Chapter 27. Head Editor">head editor</a>
             . In the General View there is
         </p>
         <div class="variablelist">
@@ -435,7 +435,7 @@ sidebar_position: 30
         </p>
     </div>
     <div class="section">
-        ### 30.4.7.&nbsp;Creating Heads from RDM data
+        ### 30.4.7. Creating Heads from RDM data
         <p>
             MagicQ has an extensive personality library which covers nearly all fixtures. MagicQ personality library has very detailed
             modelling of fixtures including gobo icons and physical dimensions.
@@ -451,7 +451,7 @@ sidebar_position: 30
         <p>Note that creating heads is only possible if the RDM device supports the RDM SLOT_INFO PID.</p>
     </div>
     <div class="section">
-        ### 30.4.8.&nbsp;Manual Repatch
+        ### 30.4.8. Manual Repatch
         <p>MagicQ provides shortcuts for repatching a lighting rig RDM compliant fixtures in it.</p>
         <p>There are two options - Readdress physical fixtures and Repatch show to fixtures.</p>
         <div class="section">
@@ -543,7 +543,7 @@ sidebar_position: 30
         </div>
     </div>
     <div class="section">
-        ### 30.4.9.&nbsp;Background Check
+        ### 30.4.9. Background Check
         <p>
             Use soft button F to enable background RDM checking. When Background Check is on, MagicQ performs a RDM discovery every 60
             seconds to detect RDM devices and get their info.
@@ -555,7 +555,7 @@ sidebar_position: 30
         </p>
     </div>
     <div class="section">
-        ### 30.4.10.&nbsp;Auto Patch
+        ### 30.4.10. Auto Patch
         <p>
             Auto Patch enables a lighting rig to be detected and patched automatically. It also enables the show to be updated if any
             devices have had their address or mode changed.
@@ -572,7 +572,7 @@ sidebar_position: 30
         </p>
     </div>
     <div class="section">
-        ### 30.4.11.&nbsp;Rig Lock
+        ### 30.4.11. Rig Lock
         <p>Rig Lock enables a lighting rig to be locked so that users cannot change the DMX address or modes of fixtures.</p>
         <p>Use soft button X to enable RDM Rig Lock. When Rig Lock is on, then Background Check is automatically turned on.</p>
         <p>
@@ -583,7 +583,7 @@ sidebar_position: 30
     </div>
 </div>
 <div class="section">
-    ## 30.5.&nbsp;VIEW PIDS
+    ## 30.5. VIEW PIDS
     <p>
         RDM fixtures support parameters referred to as PIDs. Parameters can be "Get" - i.e read only, "Set", i.e. set only, or "Get and
         Set".

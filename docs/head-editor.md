@@ -4,7 +4,7 @@ title: Chapter 27. Head Editor
 sidebar_position: 27
 ---
 
-# Chapter&nbsp;27.&nbsp;Head Editor
+# Chapter 27. Head Editor
 <p>
     The Head Editor is accessed from the Edit Head soft button in the Patch Window. Making changes modifies the head files stored on the
     MaqicQ hard drive and used for all new shows.
@@ -44,7 +44,7 @@ sidebar_position: 27
 </p>
 <p>Press the Patch button to leave the Head Editor and return to the Patch Window.</p>
 <div class="section">
-    ## 27.1.&nbsp;How Heads are stored in MagicQ
+    ## 27.1. How Heads are stored in MagicQ
     <p>MagicQ stores heads in the show/heads folder. When you choose a head to use in a show it loads the head and stores it in memory.</p>
     <p>
         When you save your show, MagicQ writes a copy of the head into the show file, ensuring that your show will work even if it is loaded
@@ -62,7 +62,7 @@ sidebar_position: 27
     </p>
 </div>
 <div class="section">
-    ## 27.2.&nbsp;Expanding Library head files
+    ## 27.2. Expanding Library head files
     <p>
         From v1.9.3.3 MagicQ by default no longer expands the personality library head files from the heads.all file into the Heads folder,
         instead it reads library Heads direct from the heads.all file. Only Heads created or edited by users are stored in the Heads folder.
@@ -81,7 +81,7 @@ sidebar_position: 27
     </p>
 </div>
 <div class="section">
-    ## 27.3.&nbsp;Loading new heads into MagicQ
+    ## 27.3. Loading new heads into MagicQ
     <p>
         To update MagicQ with all the latest heads, download the latest heads files (heads.all) from the ChamSys web site
         <a class="ulink" href="http://www.chamsys.co.uk/" target="_top">www.chamsys.co.uk</a>
@@ -105,7 +105,7 @@ sidebar_position: 27
     </p>
 </div>
 <div class="section">
-    ## 27.4.&nbsp;Copying head files created on PC/Macs to MagicQ consoles
+    ## 27.4. Copying head files created on PC/Macs to MagicQ consoles
     <div class="itemizedlist">
         <ul class="itemizedlist">
             <li class="listitem">Copy the .hed file to a USB drive.</li>
@@ -125,7 +125,7 @@ sidebar_position: 27
     </p>
 </div>
 <div class="section">
-    ## 27.5.&nbsp;Modifying existing heads
+    ## 27.5. Modifying existing heads
     <p>
         Existing heads can be modified by simply making changes and pressing SAVE. Note however that these changes may be overriden if you
         change software version as this loads the latest head libraries. If there are genuine errors in the head then please let us know so
@@ -147,7 +147,7 @@ sidebar_position: 27
     <p>Martin_Mac500_mymode</p>
 </div>
 <div class="section">
-    ## 27.6.&nbsp;Removing old heads
+    ## 27.6. Removing old heads
     <p>
         It is possible to remove all old heads (and all user created heads) by pressing SHIFT and REMOVE HEADS in the File Manager. This
         removes all old heads and extracts the heads again from heads.all. Make sure all your user created heads are backed up to USB or to
@@ -155,7 +155,7 @@ sidebar_position: 27
     </p>
 </div>
 <div class="section">
-    ## 27.7.&nbsp;General View
+    ## 27.7. General View
     <p>
         The General View contains a fixed number of parameters. Note that as these parameters fundamentally affect the programming of the
         head they cannot be modified once a head of the type has been patched.
@@ -166,7 +166,7 @@ sidebar_position: 27
         </span>
     </p>
     <div class="section">
-        ### 27.7.1.&nbsp;Names
+        ### 27.7.1. Names
         <p>
             The Manufacturer Name, Short Name and Mode are used to identify the head to the system. These fields should be unique to the
             moving light. If you make a new head based on one of the standard ones then you should make sure you change the mode to a name
@@ -185,7 +185,7 @@ sidebar_position: 27
         <p>
             The ESTA manufacturer ID, RDM device model ID and RDM personality number are used to match the head file to RDM-enabled
             fixtures. See the
-            <a class="link" href="rdm.html" title="Chapter&nbsp;31.&nbsp;Remote Device Management (RDM)">Remove Device Management</a>
+            <a class="link" href="rdm.html" title="Chapter 31. Remote Device Management (RDM)">Remove Device Management</a>
             chapter for more information.
         </p>
         <p>
@@ -194,7 +194,7 @@ sidebar_position: 27
         </p>
     </div>
     <div class="section">
-        ### 27.7.2.&nbsp;DMX
+        ### 27.7.2. DMX
         <p>Num Of Chans sets the number of channels for the head.</p>
         <p>
             DMX Min, DMX Max and DMX Offset specify constraints on where the Head can be patched within the 512 DMX channels. Changing the
@@ -202,7 +202,7 @@ sidebar_position: 27
         </p>
     </div>
     <div class="section">
-        ### 27.7.3.&nbsp;Params
+        ### 27.7.3. Params
         <p>Pan Range and Tilt Range are used in visualisation and by the FLIP function.</p>
         <p>Pan Invert and Tilt Invert. These are used by the visualiser to specify which direction the yoke/beam moves.</p>
         <p>Pan Speed, Tilt Speed</p>
@@ -213,7 +213,7 @@ sidebar_position: 27
         <p>Slowest Strobe, Fastest Strobe, Slowest Rot Speed, Fastest Rotate Speed are used by the visualiser.</p>
     </div>
     <div class="section">
-        ### 27.7.4.&nbsp;Options
+        ### 27.7.4. Options
         <p>Moving Head can be Mirror or Yoke - press ENTER to swap.</p>
         <p>Colour Mix identifies the colour mixing channels – the options are:</p>
         <div class="informaltable">
@@ -289,14 +289,14 @@ sidebar_position: 27
         </p>
     </div>
     <div class="section">
-        ### 27.7.5.&nbsp;Multi
+        ### 27.7.5. Multi
         <p>
             The Multiple Heads Type and subsequent fields refer to Heads with multiple elements – see the section Heads With Multiple
             Elements below.
         </p>
     </div>
     <div class="section">
-        ### 27.7.6.&nbsp;Media
+        ### 27.7.6. Media
         <p>
             This section is used to automatically set media server options when a media server layer is patched. When a heady with these
             settings is patched, MagicQ adds a new entry in Setup, View System, View Media based on these parameters.
@@ -304,7 +304,7 @@ sidebar_position: 27
     </div>
 </div>
 <div class="section">
-    ## 27.8.&nbsp;Channels View
+    ## 27.8. Channels View
     <p>
         This view allows the different channels of the head to be specified. Note that once a head of the type has been patched it is not
         possible to change the number of channels of the head.
@@ -315,7 +315,7 @@ sidebar_position: 27
         </span>
     </p>
     <div class="section">
-        ### 27.8.1.&nbsp;Name and Type
+        ### 27.8.1. Name and Type
         <p>Channels can be added using the Insert soft button and deleted using the Remove Button (press twice to Remove).</p>
         <p>
             The Name field is used to name the individual channel and distinguish it from other channels. If no name is specified then
@@ -328,7 +328,7 @@ sidebar_position: 27
         </p>
     </div>
     <div class="section">
-        ### 27.8.2.&nbsp;Attrib No
+        ### 27.8.2. Attrib No
         <p>
             The Attrib No field is used to identify the function of the channel to MagicQ. This is the most important field in the channel
             list - MagicQ uses it for determining how to control the Head, how to morph between different Heads, and to present information
@@ -341,7 +341,7 @@ sidebar_position: 27
         </p>
         <div class="table">
             <a id="idm9360"></a>
-            <p class="title"><strong>Table&nbsp;27.1.&nbsp;Attrib No field</strong></p>
+            <p class="title"><strong>Table 27.1. Attrib No field</strong></p>
             <div class="table-contents">
                 <table class="table" summary="Attrib No field" cellpadding="4px">
                     <colgroup>
@@ -684,7 +684,7 @@ sidebar_position: 27
         <br class="table-break" />
     </div>
     <div class="section">
-        ### 27.8.3.&nbsp;Enc
+        ### 27.8.3. Enc
         <p>
             The Enc field specifies which encoder position in the Intensity, Colour, Position, Beam windows the attribute appears on. The
             Enc field is defaulted based on the choice of Attrib No - this provides a common interface across all heads. In some
@@ -724,7 +724,7 @@ sidebar_position: 27
         <p>There is one page each for Intensity and Position, two pages for Colour and five pages for Beam.</p>
     </div>
     <div class="section">
-        ### 27.8.4.&nbsp;Size, Instant and Slow Encoder
+        ### 27.8.4. Size, Instant and Slow Encoder
         <p>
             The Size field is used to specify the size of the attribute. For channels that are only 8 bit the Size field is set to 8 Bit.
             For 16bit channels the coarse channel is set to 16 bit Hi and the fine channel to 16 bit Lo. For channels with 24 bit resolution
@@ -740,7 +740,7 @@ sidebar_position: 27
         </p>
     </div>
     <div class="section">
-        ### 27.8.5.&nbsp;Default and Locate
+        ### 27.8.5. Default and Locate
         <p>
             The Default field defines what value the channel is set to by default on start-up. When the Setup, Programming option "Unused
             chans return to default" is set then channels also return to these values when they are no longer controlled by Playbacks or the
@@ -756,7 +756,7 @@ sidebar_position: 27
         </p>
     </div>
     <div class="section">
-        ### 27.8.6.&nbsp;Highlight / Lowlight
+        ### 27.8.6. Highlight / Lowlight
         <p>
             The Highlight and Lowlight values are used when the Setup, Programming option Highlight mode is set to Advanced. This enables
             the user to configure custom highlight/lowlight settings for each type of head.
@@ -778,7 +778,7 @@ sidebar_position: 27
         </p>
     </div>
     <div class="section">
-        ### 27.8.7.&nbsp;Element
+        ### 27.8.7. Element
         <p>
             The Element field is used for Duplicated personalities - these personalities have more than one instance of an attribute type
             within the personality - for example a LED moving yoke with three LED rings.
@@ -802,7 +802,7 @@ sidebar_position: 27
         </p>
     </div>
     <div class="section">
-        ### 27.8.8.&nbsp;Independent
+        ### 27.8.8. Independent
         <p>Elements 2 and above of Duplicated Heads can be set as Independent.</p>
         <p>When set to "Ind" all elements act independently and are made active in the programmer and programmed into Cues.</p>
         <p>
@@ -813,7 +813,7 @@ sidebar_position: 27
         <p>When set to "Ind" then the "Select" field also becomes active and defaults to "yes".</p>
     </div>
     <div class="section">
-        ### 27.8.9.&nbsp;Select
+        ### 27.8.9. Select
         <p>
             Some heads have multiple elements that operate completely separately to each other - for example centre RGB cells, and then an
             outside eye candy RGB ring. For these heads it is possible to make it so that the additional, less important elements are not
@@ -829,7 +829,7 @@ sidebar_position: 27
         </p>
     </div>
     <div class="section">
-        ### 27.8.10.&nbsp;Function Type
+        ### 27.8.10. Function Type
         <p>
             This field is used to distinguish between different element functions within the Head. When the Heads is patched if there is
             more than one function type in the personality MagicQ automatically generates separate groups for each function using the
@@ -851,7 +851,7 @@ sidebar_position: 27
     </div>
 </div>
 <div class="section">
-    ## 27.9.&nbsp;Ranges View
+    ## 27.9. Ranges View
     <p>
         <span class="inlinemediaobject">
             <img src="https://secure.chamsys.co.uk/help/documentation/magicq/images/headeditranges.png" alt="image" />
@@ -894,7 +894,7 @@ sidebar_position: 27
         val).
     </p>
     <div class="section">
-        ### 27.9.1.&nbsp;Importing Ranges
+        ### 27.9.1. Importing Ranges
         <p>
             Ranges can be imported from a
             <code class="literal">.csv</code>
@@ -907,7 +907,7 @@ sidebar_position: 27
 </pre>
     </div>
     <div class="section">
-        ### 27.9.2.&nbsp;Capturing Ranges
+        ### 27.9.2. Capturing Ranges
         <p>
             To capture the minimum and maximum values from the programmer you must first insert a new range and select the channel number
             you are interested in. Then using the Group, Position, Colour, Beam, windows in the usual way set the minimum value for the
@@ -917,7 +917,7 @@ sidebar_position: 27
         </p>
     </div>
     <div class="section">
-        ### 27.9.3.&nbsp;Attribute Test
+        ### 27.9.3. Attribute Test
         <p>
             The "Attr test" mode enables the range to be tested on any patched heads of this type. In this mode moving up/down outputs the
             Range to all patched heads of this type. The value output is the middle point between the minimum and maximum – except when the
@@ -926,7 +926,7 @@ sidebar_position: 27
     </div>
 </div>
 <div class="section">
-    ## 27.10.&nbsp;Palettes View
+    ## 27.10. Palettes View
     <p>
         This view defines the default palettes that are loaded when the head is patched. Palettes can be set up at any time regardless of
         whether heads of the type have been patched. The palette data is immediately available for patching new heads. When you have changed
@@ -945,7 +945,7 @@ sidebar_position: 27
     <p>Palettes can be added using the Insert soft button and deleted using the Remove Button (press twice to Remove).</p>
     <p>The Icon field is the icon displayed in the relevant Windows and soft buttons.</p>
     <div class="section">
-        ### 27.10.1.&nbsp;Importing Palettes
+        ### 27.10.1. Importing Palettes
         <p>
             Palettes can be imported from a .csv format file using the Import Ranges button. The data should be organised in the .csv file
             in the same column order as the fields in MagicQ.
@@ -959,7 +959,7 @@ sidebar_position: 27
         </p>
     </div>
     <div class="section">
-        ### 27.10.2.&nbsp;Capturing Palettes
+        ### 27.10.2. Capturing Palettes
         <p>
             To capture the palette value fields from the programmer you must first insert a new palette and configure the channel numbers
             you are interested in. Then using the Group, Focus, Colour, Beam windows in the usual way set up the palette values. Back in the
@@ -967,7 +967,7 @@ sidebar_position: 27
         </p>
     </div>
     <div class="section">
-        ### 27.10.3.&nbsp;Attribute Test
+        ### 27.10.3. Attribute Test
         <p>
             The "Attr test" mode enables the palette to be tested on any patched heads of this type. In this mode moving up/down outputs the
             Palette to all patched heads of this type.
@@ -975,7 +975,7 @@ sidebar_position: 27
     </div>
 </div>
 <div class="section">
-    ## 27.11.&nbsp;Macros View
+    ## 27.11. Macros View
     <p>
         This view defines the macros that are available to control special features of the head such as turning the lamp on and off and
         resetting motor channels. Every head should have a macro named "Lamp On", "Reset" and "Lamp Off". MagicQ uses these macros in short
@@ -1001,7 +1001,7 @@ sidebar_position: 27
     </p>
 </div>
 <div class="section">
-    ## 27.12.&nbsp;User Icons
+    ## 27.12. User Icons
     <p>
         It is possible to load user icons from bitmap and jpeg files. In File Manager click on the .png or.bmp files you wish to make into
         icons. The icons will appear under the "User icons" icon class.
@@ -1012,7 +1012,7 @@ sidebar_position: 27
     </p>
 </div>
 <div class="section">
-    ## 27.13.&nbsp;Heads with multiple elements
+    ## 27.13. Heads with multiple elements
     <p>
         MagicQ supports two methods for controlling heads with multiple elements - the original multi element heads which involved multiple
         personality files and the newer single personality file Duplicated elements.
@@ -1029,7 +1029,7 @@ sidebar_position: 27
         mode before attempting the conversion. If you then wish to convert patched heads then perform a morph operation.
     </p>
     <div class="section">
-        ### 27.13.1.&nbsp;Creating Duplicated Heads
+        ### 27.13.1. Creating Duplicated Heads
         <p>The personality should be created in the same way as a personality with only single elements.</p>
         <p>Then in the Head Editor, View General, Multi set the option "Multiple Heads Type" to "Duplicate".</p>
         <p>
@@ -1052,7 +1052,7 @@ sidebar_position: 27
         <p>For elements that should not be selected by default (e.g. eye candy LED rings) set Select field to "No".</p>
     </div>
     <div class="section">
-        ### 27.13.2.&nbsp;Patching Heads with Duplicated attributes
+        ### 27.13.2. Patching Heads with Duplicated attributes
         <p>
             From versions 1.6.6.2 MagicQ has improved support for Heads with more than one element of an attribute - for example a LED Wash
             light with 5 RGB elements or a club light with 2 tilt channels. Heads set as "Duplicated" now allow access to the individual
@@ -1118,7 +1118,7 @@ sidebar_position: 27
         </p>
     </div>
     <div class="section">
-        ### 27.13.3.&nbsp;Custom Element layout
+        ### 27.13.3. Custom Element layout
         <p>
             It is possible to specify a custom element layout for a Head, which is used when inserting multi element heads into Grids and
             for Group based Grids. This is particularly useful for heads with multiple elements arranged in clusters or circles - each of
@@ -1136,7 +1136,7 @@ sidebar_position: 27
         </p>
     </div>
     <div class="section">
-        ### 27.13.4.&nbsp;Adding colourimetry data to a head
+        ### 27.13.4. Adding colourimetry data to a head
         <p>
             To edit a head’s colourimetry data, it is first necessary to check that the head has the correct number of emitters defined. On
             the "Lamp" tab, find "Number of emitters"; this will be set automatically to the number of colour-mixing attribute types used,
@@ -1156,12 +1156,12 @@ sidebar_position: 27
         </p>
         <p>
             For more on colourimetry, see the
-            <a class="link" href="colour-picker.html" title="Chapter&nbsp;25.&nbsp;Colour Picker">Colour Picker</a>
+            <a class="link" href="colour-picker.html" title="Chapter 25. Colour Picker">Colour Picker</a>
             chapter.
         </p>
     </div>
     <div class="section">
-        ### 27.13.5.&nbsp;Old MagicQ multi elements
+        ### 27.13.5. Old MagicQ multi elements
         <p>
             Older MagicQ supported multiple elements heads (e.g. RGB pixels), so that they can be patched in one action rather than patching
             the individual elements separately. When these heads were patched they continued to be controlled as separate heads.
@@ -1205,7 +1205,7 @@ sidebar_position: 27
     </div>
 </div>
 <div class="section">
-    ## 27.14.&nbsp;Custom gel libraries
+    ## 27.14. Custom gel libraries
     <p>
         MagicQ supports user custom gel libraries. User libraries are named
         <code class="literal">usergels1.csv</code>
@@ -1222,7 +1222,7 @@ sidebar_position: 27
     <p>
         The CIE X, Y, and transparency are optional fields used for colour matching; if absent, they will be approximated from the
         hexadecimal colour. They range from 0.0 to 1.0. For more on colourimetry, see the
-        <a class="link" href="colour-picker.html" title="Chapter&nbsp;25.&nbsp;Colour Picker">Colour Picker</a>
+        <a class="link" href="colour-picker.html" title="Chapter 25. Colour Picker">Colour Picker</a>
         chapter.
     </p>
     <p>For example, Lee 106 is represented as</p>
@@ -1234,10 +1234,10 @@ sidebar_position: 27
     </p>
 </div>
 <div class="section">
-    ## 27.15.&nbsp;Importing GDTF files
+    ## 27.15. Importing GDTF files
     <p>
         MagicQ supports the General Device Type Format (GDTF) for importing head files. To import a GDTF file, locate it in the
-        <a class="link" href="system-management.html#file-manager" title="51.10.&nbsp;File Manager">file manager</a>
+        <a class="link" href="system-management.html#file-manager" title="51.10. File Manager">file manager</a>
         and select it by clicking or tapping.
     </p>
     <p>If the GDTF file contains multiple modes, a dialog appears to ask which mode to import.</p>
@@ -1251,7 +1251,7 @@ sidebar_position: 27
         press "PATCH IT" to patch the imported head, or "EDIT HEAD" to inspect the imported file.
     </p>
     <div class="section">
-        ### 27.15.1.&nbsp;GDTF Troubleshooting
+        ### 27.15.1. GDTF Troubleshooting
         <p>
             Due to variance with the way that GDTF files are created, not all files may import correctly. MagicQ follows a "best-guess"
             approach when dealing with noncompliant GDTF files; this may lead to incorrect results in some cases.

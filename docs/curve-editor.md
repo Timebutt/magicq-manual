@@ -4,7 +4,7 @@ title: Chapter 28. Curve Editor
 sidebar_position: 28
 ---
 
-# Chapter&nbsp;28.&nbsp;Curve Editor
+# Chapter 28. Curve Editor
 <p>
     MagicQ includes a curve editor to allow users to create their own dimmer fade curves and effects curves. Curves are not specific to any
     head, they can be used on any head.
@@ -31,7 +31,7 @@ sidebar_position: 28
     deselecting all options except for "Import Curves".
 </p>
 <div class="section">
-    ## 28.1.&nbsp;Creating a curve
+    ## 28.1. Creating a curve
     <p>
         In the Curve Editor Window (FX Window, Curve Editor) use wheel A to find an empty curve, then press ADD POINT to add new points to
         the curve, at least 2 points will be required. The first 2 points are automatically placed at the start and the end of the curve.
@@ -47,7 +47,7 @@ sidebar_position: 28
     </p>
 </div>
 <div class="section">
-    ## 28.2.&nbsp;Editing a curve
+    ## 28.2. Editing a curve
     <p>
         Points can be moved around by either clicking on them and dragging them, or by clicking on them then using encoder wheel X and Y to
         move them around. By clicking and dragging it is possible to select more then one point at a time and move it around.
@@ -76,7 +76,7 @@ sidebar_position: 28
     <p>To name a curve first type type the required name then press Set, then encoder A.</p>
 </div>
 <div class="section">
-    ## 28.3.&nbsp;Setting a dimmer curve
+    ## 28.3. Setting a dimmer curve
     <p>
         To use a curve as a dimmer curve got to the Patch Channels Window (Patch Window, View Chans). There is a column in the table called
         <span class="emphasis"><em>Curve</em></span>

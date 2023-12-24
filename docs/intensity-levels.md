@@ -4,10 +4,10 @@ title: Chapter 8. Setting Intensity levels
 sidebar_position: 8
 ---
 
-# Chapter&nbsp;8.&nbsp;Setting Intensity levels
+# Chapter 8. Setting Intensity levels
 <p>The intensity level of heads (including dimmers) are controlled from the Intensity Window. Press the INT button to open the window.</p>
 <div class="section">
-    ## 8.1.&nbsp;Using the on screen faders
+    ## 8.1. Using the on screen faders
     <p>
         This window displays a fader for each head (including dimmers) patched onto the console. Pressing the slider part of the fader sets
         the appropriate level. When a fader is moved from 0 the channel in the programmer is activated – and the fader will turn red.
@@ -27,7 +27,7 @@ sidebar_position: 8
     <p>Press the CLEAR soft button to clear the programmer.</p>
 </div>
 <div class="section">
-    ## 8.2.&nbsp;Using the encoders
+    ## 8.2. Using the encoders
     <p>
         A single fader or multiple faders can be controlled using the top right rotary encoder in the Intensity Window. The encoder controls
         the fader, which the cursor is over. Selecting a block of faders by pressing the cursor keys whilst holding the SHIFT button down
@@ -35,13 +35,13 @@ sidebar_position: 8
     </p>
 </div>
 <div class="section">
-    ## 8.3.&nbsp;Using the keypad
+    ## 8.3. Using the keypad
     <p>The level of the intensity channel of heads can be set from the keypad. Head numbers are used to reference the required heads.</p>
     <p>
         If you intend to use this method for setting intensities then you should set up the head numbers when patching. It is easy to do -
         the console can automatically renumber them, or they can be set to be the same as the DMX start address of the dimmer / head. See
         the section on
-        <a class="link" href="patching.html" title="Chapter&nbsp;7.&nbsp;Patching">patching</a>
+        <a class="link" href="patching.html" title="Chapter 7. Patching">patching</a>
         .
     </p>
     <p>Keypad setting of intensities is supported regardless of which Window is currently active.</p>
@@ -61,7 +61,7 @@ sidebar_position: 8
     </p>
     <p>On MagicQ PC / Mac you can use &gt; to indicate THRU and # to indicate FULL.</p>
     <div class="section">
-        ### 8.3.1.&nbsp;Setting fade times from the keypad
+        ### 8.3.1. Setting fade times from the keypad
         <p>
             Fade times for intensity channels can be entered from the keypad. Ensure that "Auto Enter on Keypad Intensity Set" is set to
             "No" for this to function correctly.
@@ -82,7 +82,7 @@ sidebar_position: 8
     </div>
 </div>
 <div class="section">
-    ## 8.4.&nbsp;Setting intensity FX from the keypad
+    ## 8.4. Setting intensity FX from the keypad
     <p>
         IT is possible to set intensity FX "Dimmer chase" directly using the keypad. When setting an intensity level it is now possible to
         specify a range - for example, to set some channels to run an intensity FX between 10% and 20% this can be set from the keypad:
@@ -109,7 +109,7 @@ sidebar_position: 8
     </p>
 </div>
 <div class="section">
-    ## 8.5.&nbsp;Multi Element Heads
+    ## 8.5. Multi Element Heads
     <p>
         From software version 1.6.5.1 the "." operator is now universally used for selecting elements of multiple heads. The repeated
         element of a multiple head are indexed .1 .2 .3 etc.. whilst the main part of a multi element head in indexed as .0. Note that if a
@@ -140,14 +140,14 @@ sidebar_position: 8
     </p>
 </div>
 <div class="section">
-    ## 8.6.&nbsp;Setting intensity levels for DMX channels
+    ## 8.6. Setting intensity levels for DMX channels
     <p>
         To set a DMX channel intensity rather than a head number intensity precede the dmx number with a *. For example to set DMX channel
         1-50 to FULL, type * 1 . 50 @ FULL
     </p>
 </div>
 <div class="section">
-    ## 8.7.&nbsp;Using Selected Heads
+    ## 8.7. Using Selected Heads
     <p>
         When you use the keypad to modify heads, by default this does not modify which heads are selected. This ensures that you can be
         busking moving heads whilst modifying individual dimmer levels at the same time.
@@ -160,7 +160,7 @@ sidebar_position: 8
     <p>This method also supports standard key entry syntax such as + and – for relative changes.</p>
     <p>
         You can change which heads are selected at any time through the Group Window – see
-        <a class="link" href="start.html#_selecting_heads" title="6.8.1.&nbsp;Selecting Heads">Selecting Heads</a>
+        <a class="link" href="start.html#_selecting_heads" title="6.8.1. Selecting Heads">Selecting Heads</a>
         .
     </p>
     <p>
@@ -174,7 +174,7 @@ sidebar_position: 8
     </p>
 </div>
 <div class="section">
-    ## 8.8.&nbsp;Using gel colours in the Intensity Window
+    ## 8.8. Using gel colours in the Intensity Window
     <p>
         Programming time is significantly improved by making use of the gel colour facility built into the console. Assigning a colour to
         each dimmer is quick and easy and then enables the programming of scenes based on colours. In the Intensity Window the dimmers can
@@ -212,7 +212,7 @@ sidebar_position: 8
         the level for the fader which the cursor is over.
     </p>
     <div class="section">
-        ### 8.8.1.&nbsp;Programming of Dimmers using gel colours
+        ### 8.8.1. Programming of Dimmers using gel colours
         <p>
             In the Intensity Window you can filter out faders based on gel colour, head type and head name thus providing a view of only the
             data you are interested in at the time.
@@ -233,7 +233,7 @@ sidebar_position: 8
     </div>
 </div>
 <div class="section">
-    ## 8.9.&nbsp;Setting levels whilst running a show
+    ## 8.9. Setting levels whilst running a show
     <p>
         The Intensities Window supports two fader views - Programmer View and Presets View. The faders in each of these views behave
         differently. In the Programmer View the faders control values within the programmer whilst in the Presets View the faders act like
@@ -256,7 +256,7 @@ sidebar_position: 8
     </p>
 </div>
 <div class="section">
-    ## 8.10.&nbsp;Viewing Intensities in the Outputs Window
+    ## 8.10. Viewing Intensities in the Outputs Window
     <p>
         The Outputs Window includes a View for showing the intensities of all patched channels in a theatrical manner with channels and
         percentages. Open the Outputs Window by pressing the Out button and select the View Chans soft button.

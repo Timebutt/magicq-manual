@@ -4,7 +4,7 @@ title: Chapter 32. Networking of MagicQ systems
 sidebar_position: 32
 ---
 
-# Chapter&nbsp;32.&nbsp;Networking of MagicQ systems
+# Chapter 32. Networking of MagicQ systems
 <p>
     Multiple MagicQ consoles can be used together on a single network – either to allow control of many different heads, remote control or
     to provide master/slave configurations.
@@ -33,7 +33,7 @@ sidebar_position: 32
     main playbacks only. Other playback banks are not synced. For full show backup we recommend the use of two full consoles.
 </p>
 <div class="section">
-    ## 32.1.&nbsp;Network addresses and host names
+    ## 32.1. Network addresses and host names
     <p>
         All devices on the network, including MagicQ consoles and PCs, must have a unique IP address and host name. On MagicQ consoles the
         IP address and host name are configured in Setup, View Settings, Network. On PCs, a static IP address must be created in the control
@@ -56,7 +56,7 @@ sidebar_position: 32
         </span>
     </p>
     <div class="section">
-        ### 32.1.1.&nbsp;Setting IP addresses on a PC
+        ### 32.1.1. Setting IP addresses on a PC
         <p>The exact method will depend on the version of Windows.</p>
         <p>
             On Windows 10, open the
@@ -108,7 +108,7 @@ sidebar_position: 32
         </p>
     </div>
     <div class="section">
-        ### 32.1.2.&nbsp;Setting IP addresses on a Mac
+        ### 32.1.2. Setting IP addresses on a Mac
         <p>
             Click on the network/wifi symbol in the top right taskbar, and select
             <span class="strong"><strong>Network Preferences…</strong></span>
@@ -130,7 +130,7 @@ sidebar_position: 32
     </div>
 </div>
 <div class="section">
-    ## 32.2.&nbsp;Checking IP addresses - Ping Test
+    ## 32.2. Checking IP addresses - Ping Test
     <p>
         MagicQ includes a ping test for resolving network problems. At the command line type ping followed by the IP address, e.g. to test
         network connection to IP address 2.0.0.3
@@ -141,7 +141,7 @@ sidebar_position: 32
     <p>Entering just … will ping the last tried IP address.</p>
 </div>
 <div class="section">
-    ## 32.3.&nbsp;Checking consoles on the network
+    ## 32.3. Checking consoles on the network
     <p>To check which MagicQ consoles are on the network go to Setup, View System, View Status and select the Network tab.</p>
     <p>
         <span class="inlinemediaobject">
@@ -150,7 +150,7 @@ sidebar_position: 32
     </p>
 </div>
 <div class="section">
-    ## 32.4.&nbsp;Grabbing shows from other consoles
+    ## 32.4. Grabbing shows from other consoles
     <p>
         It is possible to grab a show that is running on another console onto the current console. Press the Grab Show soft button in the
         View DMX I/O view of the Setup Window. Choose which console you wish to grab a show from. The show is copied from the other console
@@ -162,7 +162,7 @@ sidebar_position: 32
     </p>
 </div>
 <div class="section">
-    ## 32.5.&nbsp;Setting up Network Sessions
+    ## 32.5. Setting up Network Sessions
     <p>Network Sessions allows easy configuration of multiple MagicQ consoles in a network:</p>
     <div class="itemizedlist">
         <ul class="itemizedlist">
@@ -218,7 +218,7 @@ sidebar_position: 32
         to be part of the session.
     </p>
     <div class="section">
-        ### 32.5.1.&nbsp;Manual Takeover
+        ### 32.5.1. Manual Takeover
         <p>This is the recommended mode for Net Sessions.</p>
         <p>
             <span class="inlinemediaobject">
@@ -237,7 +237,7 @@ sidebar_position: 32
         </p>
     </div>
     <div class="section">
-        ### 32.5.2.&nbsp;Auto Takeover
+        ### 32.5.2. Auto Takeover
         <p>
             Auto Takeover is useful in unmanaged systems where there are no operators. Where there are operators then we recommend using
             Manual Takeover to give the operators more control.
@@ -273,7 +273,7 @@ sidebar_position: 32
         <p>Since both options use the programmer, it is recommended that the programmer is kept clear on the standby console.</p>
     </div>
     <div class="section">
-        ### 32.5.3.&nbsp;Net Sessions Master clash
+        ### 32.5.3. Net Sessions Master clash
         <p>
             If there is a Master clash on the network then MagicQ keeps the Master that has been running the longest and demotes all other
             Master consoles to Slaves.
@@ -293,7 +293,7 @@ sidebar_position: 32
         <p>To make a "Disabled" console part of the network session, press "RELEASE CONTROL" on that console.</p>
     </div>
     <div class="section">
-        ### 32.5.4.&nbsp;Inhibit Outputs
+        ### 32.5.4. Inhibit Outputs
         <p>
             It is possible to inhibit all the outputs within the network session so that none of the consoles within the network session
             output onto the network – for example if a "guest" console is in use.
@@ -305,7 +305,7 @@ sidebar_position: 32
     </div>
 </div>
 <div class="section">
-    ## 32.6.&nbsp;Multi Console Programming
+    ## 32.6. Multi Console Programming
     <p>
         Within a network session MagicQ supports programming of one show from multiple MagicQ consoles / MagicQ PC systems on the network.
     </p>
@@ -328,7 +328,7 @@ sidebar_position: 32
         consoles.
     </p>
     <div class="section">
-        ### 32.6.1.&nbsp;Users in Net Sessions
+        ### 32.6.1. Users in Net Sessions
         <p>
             From v1.9.0.2 show settings are automatically synchronised between consoles in a Net Session whenever a setting is changed -
             previously the Slaves would only be updated on startup / resync.
@@ -354,7 +354,7 @@ sidebar_position: 32
         </div>
     </div>
     <div class="section">
-        ### 32.6.2.&nbsp;Checking Slave synchronisation
+        ### 32.6.2. Checking Slave synchronisation
         <p>
             The status of the slave synchronisation is shown in the status bar. Initially the status window will show "NoCon" with a red
             background.
@@ -383,7 +383,7 @@ sidebar_position: 32
     </div>
 </div>
 <div class="section">
-    ## 32.7.&nbsp;Selective Channel Control
+    ## 32.7. Selective Channel Control
     <p>
         Selective channel control enables Slave consoles to select and control different channels on the master consoles outputs. This
         allows any console on the network to take control of a set of channels in the lighting rig.
@@ -398,7 +398,7 @@ sidebar_position: 32
         </span>
     </p>
     <div class="section">
-        ### 32.7.1.&nbsp;Selecting which console controls which channels
+        ### 32.7.1. Selecting which console controls which channels
         <p>
             MagicQ allows different ways of selecting which of the output channels are controlled from which console on the network –
             selected channels, active channels, groups of channels, universes and universe zones. MagicQ defaults to the Master console
@@ -513,7 +513,7 @@ sidebar_position: 32
     </div>
 </div>
 <div class="section">
-    ## 32.8.&nbsp;Restricted Features on Slave consoles
+    ## 32.8. Restricted Features on Slave consoles
     <p>Most MagicQ functions can be accessed from both Master and Slave consoles.</p>
     <p>Load Show, New Show and Import Show are not supported on Slave consoles. Users can only be configured on the Master console.</p>
     <p>
@@ -532,7 +532,7 @@ sidebar_position: 32
     </div>
 </div>
 <div class="section">
-    ## 32.9.&nbsp;Playback Sync modes
+    ## 32.9. Playback Sync modes
     <p>There are four Playback Sync Slave options which control whether the playback state of the Slave is synchronised with the Master.</p>
     <p>
         In Setup, View Settings, Multi Console the options for "Playback Sync Slave mode" are "PB sync", "Inbibit, sync on swap", "Inhibit
@@ -563,7 +563,7 @@ sidebar_position: 32
     <p>There is no limit to the Playback sync between MagicQ consoles.</p>
 </div>
 <div class="section">
-    ## 32.10.&nbsp;Programmer Sync Modes
+    ## 32.10. Programmer Sync Modes
     <p>
         By default each console in Net Sessions has a separate Programmer. Any changes in the Programmer on the Master are completely
         independent to changes in the Programmer on the Slave. Each console can record, and update different Cues independently.
@@ -591,7 +591,7 @@ sidebar_position: 32
         direct to the output. For this reason selective channel control is generally not required when running in programmer sync.
     </p>
     <div class="section">
-        ### 32.10.1.&nbsp;Include from Other Console
+        ### 32.10.1. Include from Other Console
         <p>
             When in Net Sessions with separate programmers for each console (no programmer sync) it is possible to Include the Programmer
             from any of the consoles in the net session into any other console in the Net Session.
@@ -617,7 +617,7 @@ sidebar_position: 32
     </div>
 </div>
 <div class="section">
-    ## 32.11.&nbsp;Universe Zoning
+    ## 32.11. Universe Zoning
     <p>
         MagicQ supports Uni Zones for controlling multiple rooms / areas in a venue. In Setup, View DMX/IO each Universe can be allocated to
         a Uni Zone, and then all the Universes in a Uni Zone can be controlled together – e.g. for enabling / disabling of a Uni Zone.
@@ -629,7 +629,7 @@ sidebar_position: 32
     </p>
 </div>
 <div class="section">
-    ## 32.12.&nbsp;Inter Console Messaging
+    ## 32.12. Inter Console Messaging
     <p>
         It is possible to trigger message boxes from Cues in a Cue Stack. Simply add a comment field to the Cue in the Cue Stack starting
         with a !. When this Cue executes the message box will be shown.
@@ -654,14 +654,14 @@ sidebar_position: 32
     <p>Messages can be sent directly from the keyboard by entering text starting with a ! or a !!.</p>
 </div>
 <div class="section">
-    ## 32.13.&nbsp;Control network
+    ## 32.13. Control network
     <p>
         The control net is a secondary network interface. It must have a different, non-overlapping IP address and subnet mask to the
         primary network.
     </p>
     <p>
         The control net is more restricted; things such as Art-Net and sACN will not be useable, however it can be used with the
-        <a class="link" href="remote.html#remote-app" title="34.3.&nbsp;iOS / Android Remote App">remote app</a>
+        <a class="link" href="remote.html#remote-app" title="34.3. iOS / Android Remote App">remote app</a>
         , 10Scene app, remote control and SMB file access.
     </p>
     <p>
@@ -671,11 +671,11 @@ sidebar_position: 32
     <p>
         Although the control net is restricted, there are still unauthenticated protocols available through it. It must be connected to a
         trusted network with appropriate firewalls and security measures. See the
-        <a class="link" href="system-management.html#security" title="51.20.&nbsp;Security">network security</a>
+        <a class="link" href="system-management.html#security" title="51.20. Security">network security</a>
         section for more information.
     </p>
     <div class="section">
-        ### 32.13.1.&nbsp;Configuring
+        ### 32.13.1. Configuring
         <p>
             Control net is available on consoles through either a dedicated ethernet port (where available), or a USB to ethernet adaptor.
         </p>
@@ -736,7 +736,7 @@ sidebar_position: 32
         </p>
     </div>
     <div class="section">
-        ### 32.13.2.&nbsp;Compatibility
+        ### 32.13.2. Compatibility
         <div class="important">
             <table border="0" summary="Important">
                 <tbody>
@@ -788,7 +788,7 @@ sidebar_position: 32
         </div>
         <p>
             *The MQ80 will also need a Linux Kernel upgrade - follow
-            <a class="link" href="upgrading.html#mq80-kernel-v2" title="52.3.&nbsp;MQ80 Kernel v2 upgrade">these steps</a>
+            <a class="link" href="upgrading.html#mq80-kernel-v2" title="52.3. MQ80 Kernel v2 upgrade">these steps</a>
             .
         </p>
         <p>All other consoles do not support control net.</p>

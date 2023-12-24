@@ -4,7 +4,7 @@ title: Chapter 53. Handy Hints
 sidebar_position: 53
 ---
 
-# Chapter&nbsp;53.&nbsp;Handy Hints
+# Chapter 53. Handy Hints
 <div class="itemizedlist">
     <ul class="itemizedlist">
         <li class="listitem">

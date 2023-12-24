@@ -4,9 +4,9 @@ title: Chapter 14. Editing Cues
 sidebar_position: 14
 ---
 
-# Chapter&nbsp;14.&nbsp;Editing Cues
+# Chapter 14. Editing Cues
 <div class="section">
-    ## 14.1.&nbsp;Including Cues into the Programmer
+    ## 14.1. Including Cues into the Programmer
     <p>
         A programmed Cue can be included back into the Programmer so that the information can be used to program further Cues. When a Cue is
         included all the level, timing and FX information is loaded.
@@ -50,7 +50,7 @@ sidebar_position: 14
     </p>
     <p>Include from a playback uses the current Cue unless a Cue ID is specified.</p>
     <div class="section">
-        ### 14.1.1.&nbsp;Including Cues at a specified level
+        ### 14.1.1. Including Cues at a specified level
         <p>
             By default Include loads the Cue into the programmer at 100%. It is possible to modify this action using the keypad to use
             selected levels.
@@ -62,7 +62,7 @@ sidebar_position: 14
         <p>To include a playback at its current level press INCLUDE, type @ and press the Select button of the playback.</p>
     </div>
     <div class="section">
-        ### 14.1.2.&nbsp;Snapshot
+        ### 14.1.2. Snapshot
         <p>
             The Snapshot function enables the complete current output to be loaded into the programmer and hence recorded into a Cue. This
             function takes the Cues running on all active playbacks and includes them into the programmer based on the level of the fader.
@@ -73,7 +73,7 @@ sidebar_position: 14
     </div>
 </div>
 <div class="section">
-    ## 14.2.&nbsp;Editing using Include and Update method
+    ## 14.2. Editing using Include and Update method
     <p>
         Cues can be edited using INCLUDE and UPDATE. This includes the Cue data into the programmer where it can then be changed, before it
         is saved back to the Cue using Update.
@@ -88,7 +88,7 @@ sidebar_position: 14
     </p>
 </div>
 <div class="section">
-    ## 14.3.&nbsp;Record Merge (Updating a Cue with the contents of the programmer)
+    ## 14.3. Record Merge (Updating a Cue with the contents of the programmer)
     <p>
         You can quickly and easily merge the contents of the programmer into the current Cue on a Playback by holding the S button for the
         playback and pressing REC. The programmer is merged into the current Cue on the Playback.
@@ -99,7 +99,7 @@ sidebar_position: 14
     </p>
 </div>
 <div class="section">
-    ## 14.4.&nbsp;Making changes to multiple Cues
+    ## 14.4. Making changes to multiple Cues
     <p>
         Changes can be made to multiple Cues using the REC MERGE and REC REMOVE record options to specify a change in the programmer which
         is then merged with or removed from a number of Cues.
@@ -109,7 +109,7 @@ sidebar_position: 14
     <p>Hold ‘-‘ and press REC for REC REMOVE</p>
     <p>Then press a S button and MagicQ will ask whether to merge into the current Cue on the Cue Stack or the Entire Cue Stack.</p>
     <div class="section">
-        ### 14.4.1.&nbsp;Changes to multiple Cues using keypad
+        ### 14.4.1. Changes to multiple Cues using keypad
         <p>
             MagicQ supports record merging / record removing to a range of cues using the keypad – for example, to merge into Cue ids 2
             through 4:
@@ -119,7 +119,7 @@ sidebar_position: 14
         <p>Both the THRU and the + and – operators are supported.</p>
     </div>
     <div class="section">
-        ### 14.4.2.&nbsp;Changes to multiple Cues using Cue Stack window
+        ### 14.4.2. Changes to multiple Cues using Cue Stack window
         <p>To remove all the pan and tilt information for a group of heads from all the Cues in a Cue Stack on a particular playback.</p>
         <p>Clear the programmer.</p>
         <p>Select the heads and modify the pan and tilt attributes.</p>
@@ -130,7 +130,7 @@ sidebar_position: 14
     </div>
 </div>
 <div class="section">
-    ## 14.5.&nbsp;Editing using Update
+    ## 14.5. Editing using Update
     <p>
         MagicQ supports a function for easy updating of Cues and Palettes without first Including the Cues and Palettes. This is useful when
         making modifications to a pre-programmed show.
@@ -147,7 +147,7 @@ sidebar_position: 14
     <p>Pressing SHIFT + UPDATE forces an update using the above method even if a Cue was previously included.</p>
 </div>
 <div class="section">
-    ## 14.6.&nbsp;Direct Modification of Intensities in Cues
+    ## 14.6. Direct Modification of Intensities in Cues
     <p>
         To add or change the intensity of heads (or dimmer channels) recorded into a Cue on a Playback without using the programmer, press
         and hold the SELECT button of the Playback with the Cue to be modified. Then use the keypad to adjust the intensity channels – e.g.
@@ -175,7 +175,7 @@ sidebar_position: 14
     </p>
 </div>
 <div class="section">
-    ## 14.7.&nbsp;Copy heads in Cues
+    ## 14.7. Copy heads in Cues
     <p>
         Head information can be copied from heads within a Cue/Cue Stack to other heads within the Cue Stack. The destination heads do not
         have to have been in the Cue/Cue Stack prior to the copy.

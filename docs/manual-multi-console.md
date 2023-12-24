@@ -4,7 +4,7 @@ title: Chapter 33. Manual configuration of Multi Console operation
 sidebar_position: 33
 ---
 
-# Chapter&nbsp;33.&nbsp;Manual configuration of Multi Console operation
+# Chapter 33. Manual configuration of Multi Console operation
 <p>
     We recommend you use network sessions to control hot take-over, show synchronisation and playback synchronisation as this provides much
     simpler and automatic configuration.
@@ -14,7 +14,7 @@ sidebar_position: 33
     below.
 </p>
 <div class="section">
-    ## 33.1.&nbsp;Manual configuration of Hot take-over
+    ## 33.1. Manual configuration of Hot take-over
     <p>
         Hot take-over allows the use of multiple consoles in case a console stops working. Hot take-over can be used in two ways - depending
         on what you wish to happen when the main console becomes available again.
@@ -36,7 +36,7 @@ sidebar_position: 33
     </p>
     <p>The first console to start is the Master and outputs. The other console becomes the Slave.</p>
     <div class="section">
-        ### 33.1.1.&nbsp;Hot Takeover Mode
+        ### 33.1.1. Hot Takeover Mode
         <p>Hot Takeover Mode is set in Setup, View Settings, Multi Console. The options are:</p>
         <div class="informaltable">
             <table class="informaltable" cellpadding="4px">
@@ -138,7 +138,7 @@ sidebar_position: 33
         </p>
     </div>
     <div class="section">
-        ### 33.1.2.&nbsp;Hot take-over type
+        ### 33.1.2. Hot take-over type
         <p>
             <span class="inlinemediaobject">
                 <img src="https://secure.chamsys.co.uk/help/documentation/magicq/images/dmxiohottakeover.png" alt="image" />
@@ -162,7 +162,7 @@ sidebar_position: 33
         <p>Since both options use the programmer, it is recommended that the programmer is kept clear on the standby console.</p>
     </div>
     <div class="section">
-        ### 33.1.3.&nbsp;Swapping control between multiple consoles
+        ### 33.1.3. Swapping control between multiple consoles
         <p>
             In Equal Mode, a console that is set to "Hot take-over" can be forced to control all universes using the "TAKE CONTROL" soft
             button. This will force an immediate change of control from one console to the other.
@@ -183,7 +183,7 @@ sidebar_position: 33
         </p>
     </div>
     <div class="section">
-        ### 33.1.4.&nbsp;Emergency Hot Takeover
+        ### 33.1.4. Emergency Hot Takeover
         <p>
             MagicQ includes an Emergency Hot Takeover feature that forces all universes to output the data from itself rather than from
             received data from other consoles.
@@ -235,7 +235,7 @@ sidebar_position: 33
     </div>
 </div>
 <div class="section">
-    ## 33.2.&nbsp;Manual configuration of Playback synchronisation
+    ## 33.2. Manual configuration of Playback synchronisation
     <p>
         It is possible to carry out basic synchronisation of two or more consoles during playback by using the ChamSys Remote protocol –
         either via serial or Ethernet. Synchronisation can be set for individual playbacks, or for all 10 main playbacks. When the playbacks
@@ -244,7 +244,7 @@ sidebar_position: 33
     </p>
     <p>Synchronisation on MagicQ PC is only available when connected to a MagicQ Wing or MagicQ Interface.</p>
     <div class="section">
-        ### 33.2.1.&nbsp;Configuration
+        ### 33.2.1. Configuration
         <p>On all units that will be master units set the "Playback Sync type" option.</p>
         <p>The Setup option "Playback Sync Type" has the options:</p>
         <div class="itemizedlist">
@@ -271,7 +271,7 @@ sidebar_position: 33
         </p>
     </div>
     <div class="section">
-        ### 33.2.2.&nbsp;Configuring which consoles Playback sync to which consoles
+        ### 33.2.2. Configuring which consoles Playback sync to which consoles
         <p>
             When there are multiple consoles on a network, it may be that consoles are controlling different network universes and therefore
             there may be more than one master console sending synchronisation information on the network.
@@ -284,7 +284,7 @@ sidebar_position: 33
     </div>
 </div>
 <div class="section">
-    ## 33.3.&nbsp;Manual configuration of Show Data Synchronisation
+    ## 33.3. Manual configuration of Show Data Synchronisation
     <p>
         From software version 1.5.9.4 we recommend you use network sessions – all consoles in the network session are automatically
         configured for multi console programming. No further configuration is needed.
@@ -320,7 +320,7 @@ sidebar_position: 33
     <p>To turn off show synchronisation on the master console simply set the Show Data Sync Type to None.</p>
 </div>
 <div class="section">
-    ## 33.4.&nbsp;Manual configuration of Selective Channel Control
+    ## 33.4. Manual configuration of Selective Channel Control
     <p>
         We recommend you use network sessions to configure selective channel control. In a network session all slave consoles can access
         channels from the master console by View DMX I/O, Multi Prog Select described in the next section.
@@ -341,7 +341,7 @@ sidebar_position: 33
     </p>
 </div>
 <div class="section">
-    ## 33.5.&nbsp;Automatic backing up of shows from other consoles
+    ## 33.5. Automatic backing up of shows from other consoles
     <p>
         It is possible to set a MagicQ console or a MagicQ PC to automatically back up show files from one or more other consoles on the
         network. Optionally, this console can be made to automatically run one of the shows.

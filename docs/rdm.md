@@ -4,9 +4,9 @@ title: Chapter 31. Remote Device Management (RDM)
 sidebar_position: 31
 ---
 
-# Chapter&nbsp;31.&nbsp;Remote Device Management (RDM)
+# Chapter 31. Remote Device Management (RDM)
 <div class="section">
-    ## 31.1.&nbsp;Introduction
+    ## 31.1. Introduction
     <p>
         <a class="ulink" href="http://www.rdmprotocol.org/" target="_top">Remote Device Management (RDM)</a>
         is an extension to the DMX512 protocol that allows a lighting console to detect all the RDM-enabled lighting fixtures plugged into a
@@ -21,7 +21,7 @@ sidebar_position: 31
     <p>All MagicQ consoles support RDM over Art-Net with network nodes that support this function.</p>
     <p>
         In MagicQ RDM Fixtures are viewed, configured, and patched in the
-        <a class="link" href="network-manager.html" title="Chapter&nbsp;30.&nbsp;Network Manager (SnakeSys)">Net Manager</a>
+        <a class="link" href="network-manager.html" title="Chapter 30. Network Manager (SnakeSys)">Net Manager</a>
         - go to Setup, View DMX I/O, Net Manager.
     </p>
 </div>

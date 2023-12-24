@@ -4,9 +4,9 @@ title: Chapter 6. Quick Start
 sidebar_position: 6
 ---
 
-# Chapter&nbsp;6.&nbsp;Quick Start
+# Chapter 6. Quick Start
 <div class="section">
-    ## 6.1.&nbsp;Starting up MagicQ
+    ## 6.1. Starting up MagicQ
     <p>On MagicQ consoles hold the power button on the rear panel. On MagicQ PC and Mac click on the MagicQ application icon.</p>
     <p>
         On start up you are presented with an option to load demo shows or to continue the last show. Selecting last show will load and run
@@ -21,7 +21,7 @@ sidebar_position: 6
     </p>
 </div>
 <div class="section">
-    ## 6.2.&nbsp;Calibrating the Touch Screen
+    ## 6.2. Calibrating the Touch Screen
     <p>
         On MagicQ consoles if the touch screen does not seem to be responding to your touch correctly then you may need to calibrate the
         touch screen.
@@ -37,7 +37,7 @@ sidebar_position: 6
     <p>The shortcut CTRL + SET can be used to open the Calibrate window at any time.</p>
 </div>
 <div class="section">
-    ## 6.3.&nbsp;Starting a New Show
+    ## 6.3. Starting a New Show
     <p>
         <span class="inlinemediaobject">
             <img src="https://secure.chamsys.co.uk/help/documentation/magicq/images/newshowmode.png" alt="image" />
@@ -81,7 +81,7 @@ sidebar_position: 6
     <p>See &lt;_programming_mode,Programming Mode&gt; for more details.</p>
 </div>
 <div class="section">
-    ## 6.4.&nbsp;Enabling Outputs
+    ## 6.4. Enabling Outputs
     <p>
         <span class="inlinemediaobject">
             <img src="https://secure.chamsys.co.uk/help/documentation/magicq/images/setupdmxio.png" alt="image" />
@@ -93,7 +93,7 @@ sidebar_position: 6
         On MagicQ PC or Mac you can output via USB to DMX interfaces (such as MagicDMX) or via DMX outputs from the Wings.
     </p>
     <div class="section">
-        ### 6.4.1.&nbsp;Using Direct DMX Outputs
+        ### 6.4.1. Using Direct DMX Outputs
         <p>All current MagicQ consoles have DMX output ports directly on the rear panel.</p>
         <p>
             The four DMX outputs on the rear panel automatically output universes 1 to 4 unless they are configured otherwise. The DMX will
@@ -113,7 +113,7 @@ sidebar_position: 6
         </p>
     </div>
     <div class="section">
-        ### 6.4.2.&nbsp;Using Outputs via network
+        ### 6.4.2. Using Outputs via network
         <p>MagicQ supports output via the network ports using Art-Net, Pathport or ACN Streaming DMX.</p>
         <p>
             To output Art-Net on a Universe enable it and ensure that the output type is set to Art-Net. Choose which Art-Net Universe you
@@ -141,7 +141,7 @@ sidebar_position: 6
     </div>
 </div>
 <div class="section">
-    ## 6.5.&nbsp;Connecting a MagicQ Playback Wing
+    ## 6.5. Connecting a MagicQ Playback Wing
     <p>
         To connect a MagicQ Playback or Extra Wing simply connect the Wing to the MagicQ console via USB. In the Setup Window, View System,
         View Wings set the first Wing to be type USB Wing.
@@ -153,7 +153,7 @@ sidebar_position: 6
     </p>
     <p>To use multiple Playback Wings simply connect them and change the type to USB wing.</p>
     <div class="section">
-        ### 6.5.1.&nbsp;Setting Playback Wing IDs
+        ### 6.5.1. Setting Playback Wing IDs
         <p>
             When using MagicQ consoles with multiple Playback / Extra Wings (or multiple Execute Wings) a Wing ID can be set for each Wing.
             The required wing ID can then be set in Setup, View Wings to ensure that the Wings are identified correctly and control the
@@ -170,7 +170,7 @@ sidebar_position: 6
     </div>
 </div>
 <div class="section">
-    ## 6.6.&nbsp;Connecting External Monitors
+    ## 6.6. Connecting External Monitors
     <p>
         MagicQ consoles have DVI or HDMI connectors for connecting external monitors. The monitor should be plugged in before starting the
         console.
@@ -182,7 +182,7 @@ sidebar_position: 6
     </p>
 </div>
 <div class="section">
-    ## 6.7.&nbsp;Patching
+    ## 6.7. Patching
     <p>
         Open the Patch Window by pressing the PATCH button. The Patch Window has three views, VIEW HEADS, VIEW CHANS and VIEW DMX. In this
         section we describe patching in VIEW HEADS.
@@ -227,7 +227,7 @@ sidebar_position: 6
     </p>
     <p>In this way you can modify DMX address, head number, head name and gel for each of your patched heads.</p>
     <div class="section">
-        ### 6.7.1.&nbsp;Naming and Numbering Heads
+        ### 6.7.1. Naming and Numbering Heads
         <p>
             Once you have patched all the heads you can then name and number them as you wish. It is recommended that you name the dimmer or
             the head based on its location (e.g. front wash / back truss SL). For dimmers you may wish to configure the gel. This makes
@@ -251,9 +251,9 @@ sidebar_position: 6
     </div>
 </div>
 <div class="section">
-    ## 6.8.&nbsp;Controlling Heads
+    ## 6.8. Controlling Heads
     <div class="section">
-        ### 6.8.1.&nbsp;Selecting Heads
+        ### 6.8.1. Selecting Heads
         <p>
             In order to control intelligent heads it is necessary to be able to select which heads to use. The MagicQ console keeps track of
             the currently selected heads to enable it to determine which heads to apply changes to. The operator can select head
@@ -268,7 +268,7 @@ sidebar_position: 6
         <p>1 THRU 4 @@</p>
     </div>
     <div class="section">
-        ### 6.8.2.&nbsp;Selecting heads from the Group/Heads Window
+        ### 6.8.2. Selecting heads from the Group/Heads Window
         <p>
             The console automatically generates a group for all the heads of a particular head type. In addition new groups can easily be
             recorded.
@@ -287,7 +287,7 @@ sidebar_position: 6
         </p>
     </div>
     <div class="section">
-        ### 6.8.3.&nbsp;Recording a Group
+        ### 6.8.3. Recording a Group
         <p>Select the heads you want in a group using keypad selection or in the VIEW HEADS view of the Group Window.</p>
         <p>Change to the VIEW GROUPS view.</p>
         <p>
@@ -297,7 +297,7 @@ sidebar_position: 6
     </div>
 </div>
 <div class="section">
-    ## 6.9.&nbsp;Naming a Group
+    ## 6.9. Naming a Group
     <p>
         When recording a group, if you key in a name before pressing the touch screen (or pressing ENTER) then the group will be named at
         the same time as it is recorded.
@@ -309,7 +309,7 @@ sidebar_position: 6
     </p>
 </div>
 <div class="section">
-    ## 6.10.&nbsp;Recalling a Group
+    ## 6.10. Recalling a Group
     <p>
         Once a group has been recorded then pressing the touch screen for the group will make all the heads in the group selected. All other
         heads will be deselected. Use SHIFT to select multiple groups. There is a Setup option to allow the user to default to selecting
@@ -317,7 +317,7 @@ sidebar_position: 6
     </p>
 </div>
 <div class="section">
-    ## 6.11.&nbsp;Setting Levels for Dimmers
+    ## 6.11. Setting Levels for Dimmers
     <p>From the keypad you can enter commands such as</p>
     <p>1 @ 50 ENTER</p>
     <p>1 THRU 4 @ FULL ENTER</p>
@@ -346,7 +346,7 @@ sidebar_position: 6
     </p>
 </div>
 <div class="section">
-    ## 6.12.&nbsp;Locating Heads
+    ## 6.12. Locating Heads
     <p>
         The first action you are likely to want to do is to locate the heads – i.e. to put them into a starting position. Select the
         required heads and then press the LOCATE button. Locating a head brings all the attributes for that head into the programmer.
@@ -357,7 +357,7 @@ sidebar_position: 6
     </p>
 </div>
 <div class="section">
-    ## 6.13.&nbsp;Modifying Attributes
+    ## 6.13. Modifying Attributes
     <p>
         Intelligent heads have several different attributes typically including pan and tilt, colour, gobo and iris. When the MagicQ
         lighting console patches an intelligent head it maps the head parameters to standard attributes to enable easy access of the
@@ -417,7 +417,7 @@ sidebar_position: 6
     </p>
 </div>
 <div class="section">
-    ## 6.14.&nbsp;Recording a Palette
+    ## 6.14. Recording a Palette
     <p>
         To record a favourite combination of attributes into a palette (e.g. a rotating triangle with a prism on a MAC500), first modify the
         attributes to the values you wish to record. Then press RECORD and select the palette entry you wish to record. By default only
@@ -434,7 +434,7 @@ sidebar_position: 6
     </p>
 </div>
 <div class="section">
-    ## 6.15.&nbsp;Adding in FX
+    ## 6.15. Adding in FX
     <p>
         To add a FX to some heads, select the heads then from the Group Window or the Prog Window press the ADD FX soft button. Choose the
         FX to add.
@@ -446,7 +446,7 @@ sidebar_position: 6
     <p>You can add multiple FX to a head, provided that the FX uses different attributes - e.g. you can mix a Pan Sine with a Tilt Sine.</p>
 </div>
 <div class="section">
-    ## 6.16.&nbsp;Recording a Cue
+    ## 6.16. Recording a Cue
     <p>
         To record a look onto a Cue, first set up the look, then press RECORD and press the S button of the Playback to record the Cue onto.
     </p>
@@ -467,7 +467,7 @@ sidebar_position: 6
     </p>
 </div>
 <div class="section">
-    ## 6.17.&nbsp;Recording a Cue Stack (Chase or Theatre Stack)
+    ## 6.17. Recording a Cue Stack (Chase or Theatre Stack)
     <p>
         Recording a Cue Stack is the same as recording a Cue - you simply record multiple Cues onto a Playback and you end up with a Cue
         Stack.
@@ -512,7 +512,7 @@ sidebar_position: 6
     </p>
 </div>
 <div class="section">
-    ## 6.18.&nbsp;Selecting and recording complete window layouts
+    ## 6.18. Selecting and recording complete window layouts
     <p>
         The console enables complete window layouts to be recorded and selected. The console incorporates several standard window layouts
         including Palettes and Cue Stacks.
@@ -532,7 +532,7 @@ sidebar_position: 6
     </p>
 </div>
 <div class="section">
-    ## 6.19.&nbsp;Saving the Show
+    ## 6.19. Saving the Show
     <p>
         When programming a show the show is stored in memory. In order to store your show on the disk you need to press the SAVE SHOW soft
         button in the Setup Window.
@@ -558,7 +558,7 @@ sidebar_position: 6
     </p>
 </div>
 <div class="section">
-    ## 6.20.&nbsp;Playback
+    ## 6.20. Playback
     <p>
         Now you have Cues and Cue Stacks recorded you can play back your show using the Playback faders and buttons. You can control how
         each Cue Stack is played back using the Cue Stack options – for example you can set the fader to control LTP fades or FX size and

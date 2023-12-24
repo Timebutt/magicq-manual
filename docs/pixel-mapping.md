@@ -4,7 +4,7 @@ title: Chapter 24. LED & Pixel Mapping
 sidebar_position: 24
 ---
 
-# Chapter&nbsp;24.&nbsp;LED &amp; Pixel Mapping
+# Chapter 24. LED &amp; Pixel Mapping
 <p>
     MagicQ utilises a powerful Cue engine, which enables it to easily handle large numbers of LED heads in the form of panels, battens and
     moving lights. MagicQ’s ability to handle large numbers of heads independently ensures that Lighting Designers get to make the most of
@@ -41,7 +41,7 @@ sidebar_position: 24
     </span>
 </p>
 <div class="section">
-    ## 24.1.&nbsp;Patching LED on MagicQ
+    ## 24.1. Patching LED on MagicQ
     <p>
         We recommend that you patch LED heads in their highest resolution mode (maximum number of controllable RGB elements) and chose a
         mode without extra inbuilt FX channels if possible.
@@ -61,7 +61,7 @@ sidebar_position: 24
     </p>
 </div>
 <div class="section">
-    ## 24.2.&nbsp;Using the Grid view in the Outputs Window
+    ## 24.2. Using the Grid view in the Outputs Window
     <p>
         To make the most of your LED head you can create a grid containing the LED head and then each head becomes a "pixel" in the grid.
         The MagicQ Pixel Mapper can then be used to play back movies, bitmaps, text and FX on the grid.
@@ -79,7 +79,7 @@ sidebar_position: 24
     </p>
     <p>Use Encoder E to zoom the grid.</p>
     <div class="section">
-        ### 24.2.1.&nbsp;Inserting heads into the grid using head numbers
+        ### 24.2.1. Inserting heads into the grid using head numbers
         <p>
             You can enter the head numbers in the grid according to the layout of the LED heads within the matrix / stage. Put the cursor on
             the desired item and enter a head number on the keypad. To insert multiple head numbers in one go use SHIFT or CTRL and the
@@ -107,7 +107,7 @@ sidebar_position: 24
         </p>
     </div>
     <div class="section">
-        ### 24.2.2.&nbsp;Inserting using INSERT HEADS
+        ### 24.2.2. Inserting using INSERT HEADS
         <p>
             To insert the currently selected heads into the grid use the INSERT HEADS soft button. If no heads are currently selected then
             all patched heads will be inserted.
@@ -123,7 +123,7 @@ sidebar_position: 24
         <p>Col Web is for inserted Col Web only.</p>
     </div>
     <div class="section">
-        ### 24.2.3.&nbsp;Inserting using the spare heads below the grid
+        ### 24.2.3. Inserting using the spare heads below the grid
         <p>
             From 1.7.6.4 the Output, View Grid view shows spare heads that have not yet been inserted in the grid in a space below the grid.
         </p>
@@ -142,11 +142,11 @@ sidebar_position: 24
         </p>
     </div>
     <div class="section">
-        ### 24.2.4.&nbsp;Optimise Grid
+        ### 24.2.4. Optimise Grid
         <p>To remove unused rows and columns in the grid press SHIFT + OPTIMISE GRID.</p>
     </div>
     <div class="section">
-        ### 24.2.5.&nbsp;Using the Grid
+        ### 24.2.5. Using the Grid
         <p>
             Once the grid is configured you can then see the Output by pressing the View Colours soft button and the View Grid soft button.
             For instance, below you can see the Output when all 400 heads were selected from the Group window (using the All LED3chan group)
@@ -159,7 +159,7 @@ sidebar_position: 24
     </div>
 </div>
 <div class="section">
-    ## 24.3.&nbsp;Pixel Mapper
+    ## 24.3. Pixel Mapper
     <p>
         MagicQ software contains an in-built Pixel Mapper that appears as a media server just like an external media server. The Pixel
         Mapper can be used to play back images, movies, text and FX on a grid of LED, dimmers or moving lights.
@@ -200,7 +200,7 @@ sidebar_position: 24
         maps. For example 5 seperate pixel maps all with 4 layers each.
     </p>
     <div class="section">
-        ### 24.3.1.&nbsp;Using Bitmaps, Movies, Text and FX on Grids
+        ### 24.3.1. Using Bitmaps, Movies, Text and FX on Grids
         <p>
             The bitmaps and text are controlled using bitmap layers – each layer is controlled like a normal moving light – i.e. it is
             patched as a virtual personality - generic bitmapfx2.hed. The personality has channels to select the bitmap or text, channels
@@ -225,7 +225,7 @@ sidebar_position: 24
         </div>
     </div>
     <div class="section">
-        ### 24.3.2.&nbsp;Media Priority
+        ### 24.3.2. Media Priority
         <p>FX, Text and Media interact according to the following priorities, with FX having the highest priority and Media the lowest.</p>
         <p>FX Page If FX Type is greater than 0 then FX has highest Priority</p>
         <p>Text Page If Text 1 is greater than 0 or Text 2 is greater than 0 then Text has priority over media</p>
@@ -247,7 +247,7 @@ sidebar_position: 24
         </div>
     </div>
     <div class="section">
-        ### 24.3.3.&nbsp;Inbuilt Bitmaps
+        ### 24.3.3. Inbuilt Bitmaps
         <p>
             The Pixel Mapper contains a library of standard bitmap patterns on Bitmap Page 0. These patterns are automatically sized to the
             size of your grid.
@@ -264,7 +264,7 @@ sidebar_position: 24
         </p>
     </div>
     <div class="section">
-        ### 24.3.4.&nbsp;User Picture Support
+        ### 24.3.4. User Picture Support
         <p>
             MagicQ supports custom image files in .bmp, .jpg or .png format. These can be loaded using the LOAD PICTURE soft button in the
             Media window.
@@ -282,14 +282,14 @@ sidebar_position: 24
         </p>
     </div>
     <div class="section">
-        ### 24.3.5.&nbsp;Gobo / Colour Libraries
+        ### 24.3.5. Gobo / Colour Libraries
         <p>
             Media pages 128 to 255 select the icons from the gobo / colour library. The icons are all based on 32 by 32 pixels – but they
             can be sized in the Position Window to fill the required grid size.
         </p>
     </div>
     <div class="section">
-        ### 24.3.6.&nbsp;Movie support
+        ### 24.3.6. Movie support
         <p>MagicQ supports playback of movies as well as bitmaps. MagicQ supports up to 1024 different movie files.</p>
         <p>
             Movies are accessed through the Media Page – there are 4 ranges on the "Media Page" encoder – Movie 1, Movie 2, Movie 3, Movie
@@ -321,7 +321,7 @@ sidebar_position: 24
         </p>
     </div>
     <div class="section">
-        ### 24.3.7.&nbsp;Movie Mode
+        ### 24.3.7. Movie Mode
         <p>
             From v1.9.1.4 support for playing movie files has been improved with the implemention of the Movie Mode attribute. Previously
             this was marked as Movie Direction but was never implemented. The new modes are:
@@ -427,7 +427,7 @@ sidebar_position: 24
         </p>
     </div>
     <div class="section">
-        ### 24.3.8.&nbsp;Gif animations
+        ### 24.3.8. Gif animations
         <p>
             The Pixel Mapper has been enhanced to support playback of gif files. There are four folders under Media Page, Gif 1, Gif 2, Gif
             3 and Gif4.
@@ -449,7 +449,7 @@ sidebar_position: 24
         </p>
     </div>
     <div class="section">
-        ### 24.3.9.&nbsp;Live feed support
+        ### 24.3.9. Live feed support
         <p>
             The MagicQ Pixel Mapper includes a "Live feed" option for capturing live feed video signals from Media Servers and external live
             feed sources. MagicQ supports live feeds from all 50 connected Media Servers (including the inbuilt MagicHD) or CITP feed
@@ -497,7 +497,7 @@ sidebar_position: 24
         </div>
     </div>
     <div class="section">
-        ### 24.3.10.&nbsp;Using text strings
+        ### 24.3.10. Using text strings
         <p>
             Two text strings can be played back on each layer. The text strings can be positioned at the top, middle or bottom of the grid
             and can be made to scroll in either horizontal or vertical directions. Text strings can be edited live for real time message
@@ -532,7 +532,7 @@ sidebar_position: 24
         </p>
     </div>
     <div class="section">
-        ### 24.3.11.&nbsp;Text display modes
+        ### 24.3.11. Text display modes
         <p>
             It is also possible to use the single modes to display a single character, a single word or a single phrase from the text string
             at a time on the screen.
@@ -561,7 +561,7 @@ sidebar_position: 24
         </p>
     </div>
     <div class="section">
-        ### 24.3.12.&nbsp;Manipulating bitmaps and text
+        ### 24.3.12. Manipulating bitmaps and text
         <p>
             Use the Position attributes of the bitmap layer to make changes to the position of the bitmap / text – set the X or Y position,
             the X or Y size and the rotation.
@@ -578,7 +578,7 @@ sidebar_position: 24
         <p>It is also possible to use playbacks set as LTP faders in order to control individual parameters of the bitmap from faders.</p>
     </div>
     <div class="section">
-        ### 24.3.13.&nbsp;Pixel Map FX
+        ### 24.3.13. Pixel Map FX
         <p>
             The FX channels enable FX to be applied to the grid. The FX type selects the FX that is applied. Some of the FX are stand-alone,
             e.g. lines and rainbows. Others like move and audio FX are applied on top of the selected bitmap or text.
@@ -675,7 +675,7 @@ sidebar_position: 24
         </p>
     </div>
     <div class="section">
-        ### 24.3.14.&nbsp;Pixel Map Audio FX
+        ### 24.3.14. Pixel Map Audio FX
         <p>
             The Pixel Mapper supports Audio FX – it uncovers part of the selected bitmap, text or movie dependent on the level of the audio
             input.
@@ -797,7 +797,7 @@ sidebar_position: 24
         </p>
     </div>
     <div class="section">
-        ### 24.3.15.&nbsp;Mixing between Pixel Mapping layers
+        ### 24.3.15. Mixing between Pixel Mapping layers
         <p>
             The interaction of the different pixel mapping layers can be controlled using the Col Mix attribute in the colour page. The
             types are
@@ -838,7 +838,7 @@ sidebar_position: 24
         </p>
     </div>
     <div class="section">
-        ### 24.3.16.&nbsp;Colour Mixing
+        ### 24.3.16. Colour Mixing
         <p>
             The Colour Page of attributes allows the levels of the red, green and blue attributes to be set independently. The default
             values are 128, 128, 128. Each colour can be boosted or cut.
@@ -849,7 +849,7 @@ sidebar_position: 24
         </p>
     </div>
     <div class="section">
-        ### 24.3.17.&nbsp;Apply Type
+        ### 24.3.17. Apply Type
         <p>
             Added new apply type to the Pixel Mapper of "use int" and "fit use int". When these apply types are used the Pixel Mapper
             applies to the intensity channel of the heads in the grid instead of to the RGB channels. If the heads in the grid have no
@@ -859,9 +859,9 @@ sidebar_position: 24
     </div>
 </div>
 <div class="section">
-    ## 24.4.&nbsp;3D Pixel Mapping
+    ## 24.4. 3D Pixel Mapping
     <div class="section">
-        ### 24.4.1.&nbsp;Configuration
+        ### 24.4.1. Configuration
         <p>
             MagicQ supports 3D Pixel Mapping, enabling easy control of LED ceilings, chandeliers and other 3D LED objects. MagicQ supports
             3D grids and multiple heads can be inserted into the 3D grid in one go making it easy to create the grid mapping.
@@ -885,7 +885,7 @@ sidebar_position: 24
         </p>
     </div>
     <div class="section">
-        ### 24.4.2.&nbsp;Effects
+        ### 24.4.2. Effects
         <p>
             3D Pixel mapping effects are selected using the "3D FX Type" parameter under the "3D FX" page in the Media window. For each 3D
             FX there are a number of parameters (X,A1,A2,A3,B1,B2,B3).
@@ -964,7 +964,7 @@ sidebar_position: 24
         </div>
     </div>
     <div class="section">
-        ### 24.4.3.&nbsp;Full Up and Fill Down
+        ### 24.4.3. Full Up and Fill Down
         <p>
             The "Fill up" and "Fill down" modes fill the rest of the 3D space either above or below the media layer with the same pixel
             value.
@@ -997,13 +997,13 @@ sidebar_position: 24
     </div>
 </div>
 <div class="section">
-    ## 24.5.&nbsp;Simple Pixel Map FX
+    ## 24.5. Simple Pixel Map FX
     <p>
         MagicQ has the ability to run Pixel Map FX over a Group of heads, based on the grid associated with that group without the need to
         patch a more advanced pixel map.
     </p>
     <div class="section">
-        ### 24.5.1.&nbsp;Setting up Group grids
+        ### 24.5.1. Setting up Group grids
         <p>
             Each group has a grid associated with it by default. To edit the layout of the heads within the group grid select the "View
             Grid" soft button at the top of the group window.
@@ -1017,7 +1017,7 @@ sidebar_position: 24
         <p>Group grids can only contain heads that are within the Group.</p>
     </div>
     <div class="section">
-        ### 24.5.2.&nbsp;Adding Simple Pixel Map FX
+        ### 24.5.2. Adding Simple Pixel Map FX
         <p>To apply a Pixel Map FX simply select a group, press the ADD FX soft button and select from the Pixel map category.</p>
         <p>Pixel Map FX can be run over any attributes of the heads within the group.</p>
         <p>
@@ -1031,7 +1031,7 @@ sidebar_position: 24
         </p>
     </div>
     <div class="section">
-        ### 24.5.3.&nbsp;Palette based Simple Pixel Map FX
+        ### 24.5.3. Palette based Simple Pixel Map FX
         <p>
             The PixMap FX in the standard FX generator have now been enhanced with new apply type options. In addition to the existing RGB
             and individual attribute, it is now possible to select Pos Palette, Col Palette and Beam Palette.
@@ -1056,7 +1056,7 @@ sidebar_position: 24
         </p>
     </div>
     <div class="section">
-        ### 24.5.4.&nbsp;Using Simple Pixel Map FX on User Grids
+        ### 24.5.4. Using Simple Pixel Map FX on User Grids
         <p>The PixMap FX in the standard FX generator can now be applied to any Grid, not just to the Grid for the selected Group.</p>
         <p>
             This enables PixMap FX to be applied to multiple Groups. It also avoids the need to create multiple different Group Grids - a
@@ -1067,7 +1067,7 @@ sidebar_position: 24
     </div>
 </div>
 <div class="section">
-    ## 24.6.&nbsp;Multi Element Heads
+    ## 24.6. Multi Element Heads
     <p>
         It is possible to play back patterns specifically on multi element heads such as Chromlech Jarags (5x5 dimmers) or other LED tile
         squares. If the Pos FX is set to "Mult head" then any media, text or FX on that layer will apply to the individual multi element
@@ -1076,7 +1076,7 @@ sidebar_position: 24
     </p>
 </div>
 <div class="section">
-    ## 24.7.&nbsp;Making Grids of Groups
+    ## 24.7. Making Grids of Groups
     <p>
         Sometimes it is useful to make a grid of groups rather than a grid of individual heads – for example you may have a large amount of
         LED broken down into panels which you have then programmed as groups.
@@ -1087,7 +1087,7 @@ sidebar_position: 24
     </p>
     <p>Use Soft Button B "Grid Type" to select "Groups" instead of "Heads".</p>
     <div class="section">
-        ### 24.7.1.&nbsp;Auto Groups
+        ### 24.7.1. Auto Groups
         <p>
             The auto groups function in the Outputs Window, Plan View has an option to generate groups for each of the multi element heads
             in the chosen grid.
@@ -1100,7 +1100,7 @@ sidebar_position: 24
     </div>
 </div>
 <div class="section">
-    ## 24.8.&nbsp;Programming LED using standard FX
+    ## 24.8. Programming LED using standard FX
     <p>To program LED heads using standard FX rather then the bitmap layers, just select the heads and program them like moving lights.</p>
     <p>
         Select the group of LED heads, e.g. "All Pixeline", set the master intensities using the encoders or by pressing the DIM @ FULL soft
@@ -1113,7 +1113,7 @@ sidebar_position: 24
         are controlled as normal.
     </p>
     <div class="section">
-        ### 24.8.1.&nbsp;Using groups auto generated from the grid
+        ### 24.8.1. Using groups auto generated from the grid
         <p>
             Press the Auto Group button to automatically generate groups based on the grid size. This generates groups using the entire grid
             but with different orders of selection, e.g. from centre to outside, from the edges, and vice versa. This makes it easy to
@@ -1142,7 +1142,7 @@ sidebar_position: 24
     </div>
 </div>
 <div class="section">
-    ## 24.9.&nbsp;Making groups out of LED pixels
+    ## 24.9. Making groups out of LED pixels
     <p>
         To get the best out of a large array of pixel heads it is best to make groups. Select all the RGB pixels for a particular head and
         record it as a group. The order in which you select the heads determines the order that FX are played back on them. You can reverse
@@ -1162,7 +1162,7 @@ sidebar_position: 24
     </p>
 </div>
 <div class="section">
-    ## 24.10.&nbsp;Making new LED personalities on MagicQ
+    ## 24.10. Making new LED personalities on MagicQ
     <p>
         MagicQ has an in-built personality editor, so it is easy to create new personalities. New personalities can be based on other
         personalities or created from a blank personality.
@@ -1172,7 +1172,7 @@ sidebar_position: 24
     </p>
     <p>When creating a personality allocate the red, green and blue channels to the cyan, magenta and yellow attributes.</p>
     <div class="section">
-        ### 24.10.1.&nbsp;Output Grid to external monitors
+        ### 24.10.1. Output Grid to external monitors
         <p>
             From v1.9.4.2 Output grids can be output to external monitors as pure pixels for driving LED walls directly via HDMI/Display
             Port directly rather than via network protocols such as ArtNet and sACN. This provides an alternative to using MagicHD for lower

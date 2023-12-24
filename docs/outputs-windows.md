@@ -4,7 +4,7 @@ title: Chapter 13. Outputs Windows
 sidebar_position: 13
 ---
 
-# Chapter&nbsp;13.&nbsp;Outputs Windows
+# Chapter 13. Outputs Windows
 <p>
     On MagicQ you can view the Outputs in many different ways. MagicQ supports up to 4 different Output Windows. This allows four different
     output views to be viewed simultaneously.
@@ -22,7 +22,7 @@ sidebar_position: 13
 </p>
 <p>The Outputs Window has many different views – press the soft buttons on the top left hand side to change the views.</p>
 <div class="section">
-    ## 13.1.&nbsp;Heads View
+    ## 13.1. Heads View
     <p>The Heads View shows information for all of the heads patched in the show - press the VIEW HEADS soft button.</p>
     <p>
         The sort order of the heads is as chosen in the Patch Window, Sort Head. If the Setup option, View Settings, Windows, Auto Row
@@ -54,7 +54,7 @@ sidebar_position: 13
     <p>Grey: Attributes not under control of Playbacks or Programmer</p>
 </div>
 <div class="section">
-    ## 13.2.&nbsp;Intensity View
+    ## 13.2. Intensity View
     <p>
         The Intensity View shows just intensity information for the patched heads enabling a large number of heads to be shown within the
         window. Press the VIEW CHANS and VIEW INT soft buttons. Intensity level is shown as a percentage (%).
@@ -115,7 +115,7 @@ sidebar_position: 13
     </div>
 </div>
 <div class="section">
-    ## 13.3.&nbsp;DMX Channels View
+    ## 13.3. DMX Channels View
     <p>
         The DMX Channels View shows the actual values that are being output on the DMX or on the network. Press the VIEW CHANS, VIEW DMX and
         VIEW VALS soft buttons. Note that these values are the real output values – if the output is enabled then these values will be the
@@ -141,7 +141,7 @@ sidebar_position: 13
     </p>
 </div>
 <div class="section">
-    ## 13.4.&nbsp;Movement View
+    ## 13.4. Movement View
     <p>Press the VIEW CHANS, VIEW DMX and VIEW MOVE soft buttons for movement view.</p>
     <p>
         <span class="inlinemediaobject">
@@ -155,19 +155,19 @@ sidebar_position: 13
     </p>
 </div>
 <div class="section">
-    ## 13.5.&nbsp;Chart View
+    ## 13.5. Chart View
     <p>Press the VIEW CHANS, VIEW DMX and VIEW CHART soft buttons for chart view.</p>
     <p>In this view whole universes of DMX are shown in a graphical format. Use Encoder A to change the starting universe.</p>
     <p>Press VIEW INPUTS to view the DMX inputs to the console instead of the outputs.</p>
 </div>
 <div class="section">
-    ## 13.6.&nbsp;Plan View
+    ## 13.6. Plan View
     <p>
         Plan View enables 2D plans of the stage rig to be constructed and viewed. It also enables grids of LED or dimmers to be created for
         use with the in-built pixel mapping (Bitmap FX) engine. Press the VIEW PLAN soft button.
     </p>
     <div class="section">
-        ### 13.6.1.&nbsp;Creating rig plans
+        ### 13.6.1. Creating rig plans
         <p>
             It is possible to create a rig plan in the Outputs window, so that you can easily identify the levels and colours of your moving
             lights based on their position in the lighting rig. The model of the rig in MagicQ consists of a grid - each cell can be
@@ -195,7 +195,7 @@ sidebar_position: 13
         <p>Background images can be added via the Grid Action soft button.</p>
     </div>
     <div class="section">
-        ### 13.6.2.&nbsp;Inserting heads using heads numbers
+        ### 13.6.2. Inserting heads using heads numbers
         <p>
             You can use SHIFT or CTRL and the cursor keys to cursor select a number of items and set a sequence of head numbers starting
             from the entered head number. The order of the cursor selection determines how the items are ordered - for example, cursor
@@ -223,7 +223,7 @@ sidebar_position: 13
         </p>
     </div>
     <div class="section">
-        ### 13.6.3.&nbsp;Inserting Heads using Insert Heads
+        ### 13.6.3. Inserting Heads using Insert Heads
         <p>
             You can use the INSERT HEADS button to insert the currently selected heads into the grid. The heads are placed in order of head
             number. If no heads are selected then all heads from the patch are inserted.
@@ -248,7 +248,7 @@ sidebar_position: 13
         <p>Col Web is for inserted Colour Web only.</p>
     </div>
     <div class="section">
-        ### 13.6.4.&nbsp;Output Grid Multi Head Support
+        ### 13.6.4. Output Grid Multi Head Support
         <p>
             The Output Grids supports manipulation of multi element heads and duplicated heads as complete objects. When setting a grid size
             for the first time MagicQ prompts whether to use multi heads or not. The option can be changed at any time by pressing the GRID
@@ -264,7 +264,7 @@ sidebar_position: 13
         </p>
     </div>
     <div class="section">
-        ### 13.6.5.&nbsp;Output Grid display types
+        ### 13.6.5. Output Grid display types
         <p>Press VIEW TYPE to select the information that is displayed in each cell. The options are:</p>
         <div class="itemizedlist">
             <ul class="itemizedlist">
@@ -295,7 +295,7 @@ sidebar_position: 13
         </p>
     </div>
     <div class="section">
-        ### 13.6.6.&nbsp;Output Grid Repatching
+        ### 13.6.6. Output Grid Repatching
         <p>It is possible to repatch Heads from within the Output window, making it easier to modify a show to a festival or house rig.</p>
         <p>Open the Output Window in View Plan and View Grid. Choose Output Type of Patch.</p>
         <p>The REPATCH soft button can be used to repatch Heads.</p>
@@ -307,7 +307,7 @@ sidebar_position: 13
         </p>
     </div>
     <div class="section">
-        ### 13.6.7.&nbsp;Output Grid Options
+        ### 13.6.7. Output Grid Options
         <p>The options of the grid can be configured:</p>
         <div class="informaltable">
             <table class="informaltable" cellpadding="4px">
@@ -419,7 +419,7 @@ sidebar_position: 13
         </p>
     </div>
     <div class="section">
-        ### 13.6.8.&nbsp;Output Grid Actions
+        ### 13.6.8. Output Grid Actions
         <p>In View Grid mode, actions can be performed on the grid</p>
         <div class="informaltable">
             <table class="informaltable" cellpadding="4px">
@@ -467,7 +467,7 @@ sidebar_position: 13
         </div>
     </div>
     <div class="section">
-        ### 13.6.9.&nbsp;Importing and Exporting Grids
+        ### 13.6.9. Importing and Exporting Grids
         <p>
             There is a facility to Import and Export Grid data to CSV files for editing in Excel or other systems. In Output, View Plan
             choose View Grid and Grid Action.
@@ -490,7 +490,7 @@ sidebar_position: 13
         <p>1.1,1.2,1.3,1.4,1.5,1.6,1.7,1.8,1.9,1.10</p>
     </div>
     <div class="section">
-        ### 13.6.10.&nbsp;Selection of heads in Outputs Plan View
+        ### 13.6.10. Selection of heads in Outputs Plan View
         <p>
             Heads can be selected from the plan view and then their parameters changed by pressing and holding the Group, Position, Colour
             or Beam buttons. When the programmer setting "Highlight defaults beam and colour" is enabled, any heads selected will have their
@@ -527,7 +527,7 @@ sidebar_position: 13
         </p>
     </div>
     <div class="section">
-        ### 13.6.11.&nbsp;Groups within Grids
+        ### 13.6.11. Groups within Grids
         <p>It is possible to mix both individual heads and groups within a Grid.</p>
         <p>Create a Grid as normal and then copy any required Groups from the Group Window into the Grid.</p>
         <p>
@@ -540,7 +540,7 @@ sidebar_position: 13
         </p>
     </div>
     <div class="section">
-        ### 13.6.12.&nbsp;Key Macros in Grids
+        ### 13.6.12. Key Macros in Grids
         <p>
             Key Macros can be set in the Output Grid. For example, this could be used to put CLEAR, LOCATE or changes to intensity into the
             Grid.
@@ -551,7 +551,7 @@ sidebar_position: 13
         </p>
     </div>
     <div class="section">
-        ### 13.6.13.&nbsp;Exec Items and Text in Grids
+        ### 13.6.13. Exec Items and Text in Grids
         <p>
             Exec Grid items can now be copied to the Output Grids. This enables Palettes, Cues, Cue Stacks and Assign Special items to be
             shown and selected in the Output Grids.
