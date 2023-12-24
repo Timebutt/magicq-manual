@@ -67,3 +67,8 @@
 .dsla-search-wrapper {
     width: 160px;
 }
+
+.toc {
+    max-width: 1000px;
+    margin: 0 auto;
+}
