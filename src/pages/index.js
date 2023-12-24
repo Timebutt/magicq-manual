@@ -40,6 +40,16 @@ export default function Home() {
                     <p>
                         <strong>Table of Contents</strong>
                     </p>
+                    <dt>
+                        <span class="preface">
+                            <a href="docs/pr01.html"></a>
+                        </span>
+                    </dt>
+                    <dt>
+                        <span class="chapter">
+                            <a href="docs/intro.html">1. Introduction</a>
+                        </span>
+                    </dt>
                     <dl class="toc">
                         <dd>
                             <dl>
